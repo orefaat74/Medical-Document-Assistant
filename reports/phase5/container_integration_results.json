@@ -1,0 +1,52 @@
+{
+  "all_passed": true,
+  "api_url": "http://127.0.0.1:8001",
+  "frontend_url": "http://127.0.0.1:7860",
+  "checks": [
+    {
+      "name": "api_health",
+      "passed": true,
+      "details": "9.47 ms"
+    },
+    {
+      "name": "real_classifier",
+      "passed": true,
+      "details": "1370.16 ms; text_cnn"
+    },
+    {
+      "name": "source_section_extraction",
+      "passed": true,
+      "details": "5.64 ms"
+    },
+    {
+      "name": "paste_document",
+      "passed": true,
+      "details": "11.05 ms"
+    },
+    {
+      "name": "real_grounded_answer",
+      "passed": true,
+      "details": "4314.3 ms; verified_llm_span"
+    },
+    {
+      "name": "real_missing_answer",
+      "passed": true,
+      "details": "31.54 ms"
+    },
+    {
+      "name": "text_pdf_upload",
+      "passed": true,
+      "details": "17.49 ms"
+    },
+    {
+      "name": "docx_upload",
+      "passed": true,
+      "details": "23.09 ms"
+    },
+    {
+      "name": "cleared_document_isolation",
+      "passed": true,
+      "details": "Cleared IDs cannot query another stored document"
+    }
+  ]
+}

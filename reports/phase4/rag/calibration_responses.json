@@ -1,0 +1,1242 @@
+[
+  {
+    "case_id": "qa_0008",
+    "source_record_id": "4d3a76a9-7324-9988-e063-6394a90a2801",
+    "response": {
+      "question": "What does the document say about dosage and administration?",
+      "document_id": "211e5fd4f227df37138a1a600154e0989a74257883c9aee34a8846fe4aab7cfd",
+      "source_name": "[\"ERYTHROMYCIN\"]",
+      "retrieved_passages": [
+        {
+          "chunk_id": "section_dosage_and_administration",
+          "char_start": 739,
+          "char_end": 1278,
+          "text": "DOSAGE AND ADMINISTRATION In the treatment of superficial ocular infections, erythromycin ophthalmic ointment approximately 1 cm in length should be applied directly to the infected eye(s) up to six times daily, depending on the severity of the infection. For prophylaxis of neonatal gonococcal or chlamydial ophthalmia, a ribbon of ointment approximately 1 cm in length should be instilled into each lower conjunctival sac. The ointment should not be flushed from the eye following instillation. A new tube should be used for each infant.",
+          "retrieval_score": null,
+          "source_locator": "explicit_section_heading"
+        },
+        {
+          "chunk_id": "chunk_0001",
+          "char_start": 572,
+          "char_end": 1343,
+          "text": "of 50,000 units for term infants or 20,000 units for infants of low birth weight. Topical prophylaxis alone is inadequate for these infants.\nDosage And Administration\nDOSAGE AND ADMINISTRATION In the treatment of superficial ocular infections, erythromycin ophthalmic ointment approximately 1 cm in length should be applied directly to the infected eye(s) up to six times daily, depending on the severity of the infection. For prophylaxis of neonatal gonococcal or chlamydial ophthalmia, a ribbon of ointment approximately 1 cm in length should be instilled into each lower conjunctival sac. The ointment should not be flushed from the eye following instillation. A new tube should be used for each infant.\nContraindications\nCONTRAINDICATIONS This drug is contraindicated",
+          "token_start": 140,
+          "token_end": 320,
+          "retrieval_score": 0.3645622134208679
+        },
+        {
+          "chunk_id": "chunk_0000",
+          "char_start": 0,
+          "char_end": 764,
+          "text": "Indications And Usage\nINDICATIONS AND USAGE For the treatment of superficial ocular infections involving the conjunctiva and/or cornea caused by organisms susceptible to erythromycin. For prophylaxis of ophthalmia neonatorum due to N. gonorrhoeae or C. trachomatis. The effectiveness of erythromycin in the prevention of ophthalmia caused by penicillinase-producing N. gonorrhoeae is not established. For infants born to mothers with clinically apparent gonorrhea, intravenous or intramuscular injections of aqueous crystalline penicillin G should be given; a single dose of 50,000 units for term infants or 20,000 units for infants of low birth weight. Topical prophylaxis alone is inadequate for these infants.\nDosage And Administration\nDOSAGE AND ADMINISTRATION",
+          "token_start": 0,
+          "token_end": 180,
+          "retrieval_score": 0.3013887107372284
+        },
+        {
+          "chunk_id": "chunk_0006",
+          "char_start": 3517,
+          "char_end": 4050,
+          "text": "ethyl-7, 12, 13-trihydroxy-3, 5, 7, 9, 11, 13-hexamethyl-6-[[3,4,6-trideoxy-3-(dimethylamino)-β-D-xylo-hexopyranosyl]oxy]oxacyclotetradecane-2, 10-dione Each Gram Contains: ACTIVE: Erythromycin, USP 5 mg (0.5%); INACTIVES: Mineral Oil, White Petrolatum. image description\nClinical Pharmacology\nCLINICAL PHARMACOLOGY Microbiology Erythromycin inhibits protein synthesis without affecting nucleic acid synthesis. Erythromycin is usually active against the following organisms in vitro and in clinical infections: Streptococcus pyogenes",
+          "token_start": 836,
+          "token_end": 1016,
+          "retrieval_score": 0.23929651081562042
+        },
+        {
+          "chunk_id": "chunk_0002",
+          "char_start": 1164,
+          "char_end": 2029,
+          "text": "The ointment should not be flushed from the eye following instillation. A new tube should be used for each infant.\nContraindications\nCONTRAINDICATIONS This drug is contraindicated in patients with a history of hypersensitivity to erythromycin.\nPrecautions\nPRECAUTIONS General The use of antimicrobial agents may be associated with the overgrowth of non-susceptible organisms including fungi; in such a case, antibiotic administration should be stopped and appropriate measures taken. Information for Patients: Avoid contaminating the tip of container with material from the eye, fingers or other source. Carcinogenesis, Mutagenesis, Impairment of Fertility: Two year oral studies conducted in rats with erythromycin did not provide evidence of tumorigenicity. Mutagenicity studies have not been conducted. No evidence of impaired fertility or harm to the fetus that",
+          "token_start": 280,
+          "token_end": 460,
+          "retrieval_score": 0.23826536536216736
+        }
+      ],
+      "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+      "generation_model": "google/flan-t5-small",
+      "policy_version": 2,
+      "answer": "DOSAGE AND ADMINISTRATION In the treatment of superficial ocular infections, erythromycin ophthalmic ointment approximately 1 cm in length should be applied directly to the infected eye(s) up to six times daily, depending on the severity of the infection. For prophylaxis of neonatal gonococcal or chlamydial ophthalmia, a ribbon of ointment approximately 1 cm in length should be instilled into each lower conjunctival sac. The ointment should not be flushed from the eye following instillation. A new tube should be used for each infant.",
+      "status": "answered",
+      "answer_mode": "grounded_section_quote",
+      "extracted_span": "DOSAGE AND ADMINISTRATION In the treatment of superficial ocular infections, erythromycin ophthalmic ointment approximately 1 cm in length should be applied directly to the infected eye(s) up to six times daily, depending on the severity of the infection. For prophylaxis of neonatal gonococcal or chlamydial ophthalmia, a ribbon of ointment approximately 1 cm in length should be instilled into each lower conjunctival sac. The ointment should not be flushed from the eye following instillation. A new tube should be used for each infant.",
+      "generation_attempted": true,
+      "generation_verified": false,
+      "question_coverage": 1.0,
+      "citations": [
+        {
+          "chunk_id": "section_dosage_and_administration",
+          "char_start": 739,
+          "char_end": 1278,
+          "quote": "DOSAGE AND ADMINISTRATION In the treatment of superficial ocular infections, erythromycin ophthalmic ointment approximately 1 cm in length should be applied directly to the infected eye(s) up to six times daily, depending on the severity of the infection. For prophylaxis of neonatal gonococcal or chlamydial ophthalmia, a ribbon of ointment approximately 1 cm in length should be instilled into each lower conjunctival sac. The ointment should not be flushed from the eye following instillation. A new tube should be used for each infant.",
+          "passage": "DOSAGE AND ADMINISTRATION In the treatment of superficial ocular infections, erythromycin ophthalmic ointment approximately 1 cm in length should be applied directly to the infected eye(s) up to six times daily, depending on the severity of the infection. For prophylaxis of neonatal gonococcal or chlamydial ophthalmia, a ribbon of ointment approximately 1 cm in length should be instilled into each lower conjunctival sac. The ointment should not be flushed from the eye following instillation. A new tube should be used for each infant."
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "qa_0009",
+    "source_record_id": "4d3a76a9-7324-9988-e063-6394a90a2801",
+    "response": {
+      "question": "What does the document say about contraindications?",
+      "document_id": "211e5fd4f227df37138a1a600154e0989a74257883c9aee34a8846fe4aab7cfd",
+      "source_name": "[\"ERYTHROMYCIN\"]",
+      "retrieved_passages": [
+        {
+          "chunk_id": "section_contraindications",
+          "char_start": 1297,
+          "char_end": 1407,
+          "text": "CONTRAINDICATIONS This drug is contraindicated in patients with a history of hypersensitivity to erythromycin.",
+          "retrieval_score": null,
+          "source_locator": "explicit_section_heading"
+        },
+        {
+          "chunk_id": "chunk_0001",
+          "char_start": 572,
+          "char_end": 1343,
+          "text": "of 50,000 units for term infants or 20,000 units for infants of low birth weight. Topical prophylaxis alone is inadequate for these infants.\nDosage And Administration\nDOSAGE AND ADMINISTRATION In the treatment of superficial ocular infections, erythromycin ophthalmic ointment approximately 1 cm in length should be applied directly to the infected eye(s) up to six times daily, depending on the severity of the infection. For prophylaxis of neonatal gonococcal or chlamydial ophthalmia, a ribbon of ointment approximately 1 cm in length should be instilled into each lower conjunctival sac. The ointment should not be flushed from the eye following instillation. A new tube should be used for each infant.\nContraindications\nCONTRAINDICATIONS This drug is contraindicated",
+          "token_start": 140,
+          "token_end": 320,
+          "retrieval_score": 0.2886326313018799
+        },
+        {
+          "chunk_id": "chunk_0002",
+          "char_start": 1164,
+          "char_end": 2029,
+          "text": "The ointment should not be flushed from the eye following instillation. A new tube should be used for each infant.\nContraindications\nCONTRAINDICATIONS This drug is contraindicated in patients with a history of hypersensitivity to erythromycin.\nPrecautions\nPRECAUTIONS General The use of antimicrobial agents may be associated with the overgrowth of non-susceptible organisms including fungi; in such a case, antibiotic administration should be stopped and appropriate measures taken. Information for Patients: Avoid contaminating the tip of container with material from the eye, fingers or other source. Carcinogenesis, Mutagenesis, Impairment of Fertility: Two year oral studies conducted in rats with erythromycin did not provide evidence of tumorigenicity. Mutagenicity studies have not been conducted. No evidence of impaired fertility or harm to the fetus that",
+          "token_start": 280,
+          "token_end": 460,
+          "retrieval_score": 0.2806167006492615
+        },
+        {
+          "chunk_id": "chunk_0000",
+          "char_start": 0,
+          "char_end": 764,
+          "text": "Indications And Usage\nINDICATIONS AND USAGE For the treatment of superficial ocular infections involving the conjunctiva and/or cornea caused by organisms susceptible to erythromycin. For prophylaxis of ophthalmia neonatorum due to N. gonorrhoeae or C. trachomatis. The effectiveness of erythromycin in the prevention of ophthalmia caused by penicillinase-producing N. gonorrhoeae is not established. For infants born to mothers with clinically apparent gonorrhea, intravenous or intramuscular injections of aqueous crystalline penicillin G should be given; a single dose of 50,000 units for term infants or 20,000 units for infants of low birth weight. Topical prophylaxis alone is inadequate for these infants.\nDosage And Administration\nDOSAGE AND ADMINISTRATION",
+          "token_start": 0,
+          "token_end": 180,
+          "retrieval_score": 0.27146291732788086
+        },
+        {
+          "chunk_id": "chunk_0006",
+          "char_start": 3517,
+          "char_end": 4050,
+          "text": "ethyl-7, 12, 13-trihydroxy-3, 5, 7, 9, 11, 13-hexamethyl-6-[[3,4,6-trideoxy-3-(dimethylamino)-β-D-xylo-hexopyranosyl]oxy]oxacyclotetradecane-2, 10-dione Each Gram Contains: ACTIVE: Erythromycin, USP 5 mg (0.5%); INACTIVES: Mineral Oil, White Petrolatum. image description\nClinical Pharmacology\nCLINICAL PHARMACOLOGY Microbiology Erythromycin inhibits protein synthesis without affecting nucleic acid synthesis. Erythromycin is usually active against the following organisms in vitro and in clinical infections: Streptococcus pyogenes",
+          "token_start": 836,
+          "token_end": 1016,
+          "retrieval_score": 0.1916523277759552
+        }
+      ],
+      "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+      "generation_model": "google/flan-t5-small",
+      "policy_version": 2,
+      "answer": "CONTRAINDICATIONS This drug is contraindicated in patients with a history of hypersensitivity to erythromycin.",
+      "status": "answered",
+      "answer_mode": "grounded_section_quote",
+      "extracted_span": "CONTRAINDICATIONS This drug is contraindicated in patients with a history of hypersensitivity to erythromycin.",
+      "generation_attempted": true,
+      "generation_verified": false,
+      "question_coverage": 1.0,
+      "citations": [
+        {
+          "chunk_id": "section_contraindications",
+          "char_start": 1297,
+          "char_end": 1407,
+          "quote": "CONTRAINDICATIONS This drug is contraindicated in patients with a history of hypersensitivity to erythromycin.",
+          "passage": "CONTRAINDICATIONS This drug is contraindicated in patients with a history of hypersensitivity to erythromycin."
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "qa_0010",
+    "source_record_id": "4d3a76a9-7324-9988-e063-6394a90a2801",
+    "response": {
+      "question": "What does the document say about adverse reactions and side effects?",
+      "document_id": "211e5fd4f227df37138a1a600154e0989a74257883c9aee34a8846fe4aab7cfd",
+      "source_name": "[\"ERYTHROMYCIN\"]",
+      "retrieved_passages": [
+        {
+          "chunk_id": "section_adverse_reactions",
+          "char_start": 2734,
+          "char_end": 2868,
+          "text": "ADVERSE REACTIONS The most frequently reported adverse reactions are minor ocular irritations, redness and hypersensitivity reactions.",
+          "retrieval_score": null,
+          "source_locator": "explicit_section_heading"
+        },
+        {
+          "chunk_id": "chunk_0002",
+          "char_start": 1164,
+          "char_end": 2029,
+          "text": "The ointment should not be flushed from the eye following instillation. A new tube should be used for each infant.\nContraindications\nCONTRAINDICATIONS This drug is contraindicated in patients with a history of hypersensitivity to erythromycin.\nPrecautions\nPRECAUTIONS General The use of antimicrobial agents may be associated with the overgrowth of non-susceptible organisms including fungi; in such a case, antibiotic administration should be stopped and appropriate measures taken. Information for Patients: Avoid contaminating the tip of container with material from the eye, fingers or other source. Carcinogenesis, Mutagenesis, Impairment of Fertility: Two year oral studies conducted in rats with erythromycin did not provide evidence of tumorigenicity. Mutagenicity studies have not been conducted. No evidence of impaired fertility or harm to the fetus that",
+          "token_start": 280,
+          "token_end": 460,
+          "retrieval_score": 0.3541112542152405
+        },
+        {
+          "chunk_id": "chunk_0006",
+          "char_start": 3517,
+          "char_end": 4050,
+          "text": "ethyl-7, 12, 13-trihydroxy-3, 5, 7, 9, 11, 13-hexamethyl-6-[[3,4,6-trideoxy-3-(dimethylamino)-β-D-xylo-hexopyranosyl]oxy]oxacyclotetradecane-2, 10-dione Each Gram Contains: ACTIVE: Erythromycin, USP 5 mg (0.5%); INACTIVES: Mineral Oil, White Petrolatum. image description\nClinical Pharmacology\nCLINICAL PHARMACOLOGY Microbiology Erythromycin inhibits protein synthesis without affecting nucleic acid synthesis. Erythromycin is usually active against the following organisms in vitro and in clinical infections: Streptococcus pyogenes",
+          "token_start": 836,
+          "token_end": 1016,
+          "retrieval_score": 0.2988088130950928
+        },
+        {
+          "chunk_id": "chunk_0001",
+          "char_start": 572,
+          "char_end": 1343,
+          "text": "of 50,000 units for term infants or 20,000 units for infants of low birth weight. Topical prophylaxis alone is inadequate for these infants.\nDosage And Administration\nDOSAGE AND ADMINISTRATION In the treatment of superficial ocular infections, erythromycin ophthalmic ointment approximately 1 cm in length should be applied directly to the infected eye(s) up to six times daily, depending on the severity of the infection. For prophylaxis of neonatal gonococcal or chlamydial ophthalmia, a ribbon of ointment approximately 1 cm in length should be instilled into each lower conjunctival sac. The ointment should not be flushed from the eye following instillation. A new tube should be used for each infant.\nContraindications\nCONTRAINDICATIONS This drug is contraindicated",
+          "token_start": 140,
+          "token_end": 320,
+          "retrieval_score": 0.2773263454437256
+        },
+        {
+          "chunk_id": "chunk_0004",
+          "char_start": 2520,
+          "char_end": 3336,
+          "text": "only if clearly needed. Nursing Mothers: Caution should be exercised when erythromycin is administered to a nursing woman. Pediatric Use: See INDICATIONS AND USAGE and DOSAGE AND ADMINISTRATION .\nAdverse Reactions\nADVERSE REACTIONS The most frequently reported adverse reactions are minor ocular irritations, redness and hypersensitivity reactions.\nDescription\nDESCRIPTION Erythromycin Ophthalmic Ointment USP belongs to the macrolide group of antibiotics. The sterile ophthalmic ointment flows freely over the conjunctiva. Erythromycin base, as crystals or powder, is slightly soluble in water, moderately soluble in ether, and readily soluble in alcohol or chloroform. Erythromycin is an antibiotic produced from a strain of Streptomyces erythraeus. It is basic and readily forms a salt when combined with an acid.",
+          "token_start": 560,
+          "token_end": 740,
+          "retrieval_score": 0.2614589333534241
+        }
+      ],
+      "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+      "generation_model": "google/flan-t5-small",
+      "policy_version": 2,
+      "answer": "ADVERSE REACTIONS The most frequently reported adverse reactions are minor ocular irritations, redness and hypersensitivity reactions.",
+      "status": "answered",
+      "answer_mode": "grounded_section_quote",
+      "extracted_span": "ADVERSE REACTIONS The most frequently reported adverse reactions are minor ocular irritations, redness and hypersensitivity reactions.",
+      "generation_attempted": true,
+      "generation_verified": false,
+      "question_coverage": 1.0,
+      "citations": [
+        {
+          "chunk_id": "section_adverse_reactions",
+          "char_start": 2734,
+          "char_end": 2868,
+          "quote": "ADVERSE REACTIONS The most frequently reported adverse reactions are minor ocular irritations, redness and hypersensitivity reactions.",
+          "passage": "ADVERSE REACTIONS The most frequently reported adverse reactions are minor ocular irritations, redness and hypersensitivity reactions."
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "qa_0011",
+    "source_record_id": "4d3a76a9-7324-9988-e063-6394a90a2801",
+    "response": {
+      "question": "What is the retail price stated in this document?",
+      "document_id": "211e5fd4f227df37138a1a600154e0989a74257883c9aee34a8846fe4aab7cfd",
+      "source_name": "[\"ERYTHROMYCIN\"]",
+      "retrieved_passages": [
+        {
+          "chunk_id": "chunk_0005",
+          "char_start": 3179,
+          "char_end": 3583,
+          "text": "chloroform. Erythromycin is an antibiotic produced from a strain of Streptomyces erythraeus. It is basic and readily forms a salt when combined with an acid. It has the following structural formula: Chemical Name: (3R•, 4S•, 5S•, 6R•, 7R•, 9R•, 11R•, 12R•, 13S•, 14R•)-4-[(2,6-Dideoxy-3-C-methyl-3-0-methyl-α-L-ribo-hexopyranosyl)oxy]-14-ethyl-7, 12, 13-trihydroxy-3, 5, 7, 9, 11, 13-hexamethyl-6-[[3,4,6",
+          "token_start": 696,
+          "token_end": 876,
+          "retrieval_score": 0.06930269300937653
+        },
+        {
+          "chunk_id": "chunk_0001",
+          "char_start": 572,
+          "char_end": 1343,
+          "text": "of 50,000 units for term infants or 20,000 units for infants of low birth weight. Topical prophylaxis alone is inadequate for these infants.\nDosage And Administration\nDOSAGE AND ADMINISTRATION In the treatment of superficial ocular infections, erythromycin ophthalmic ointment approximately 1 cm in length should be applied directly to the infected eye(s) up to six times daily, depending on the severity of the infection. For prophylaxis of neonatal gonococcal or chlamydial ophthalmia, a ribbon of ointment approximately 1 cm in length should be instilled into each lower conjunctival sac. The ointment should not be flushed from the eye following instillation. A new tube should be used for each infant.\nContraindications\nCONTRAINDICATIONS This drug is contraindicated",
+          "token_start": 140,
+          "token_end": 320,
+          "retrieval_score": 0.04926002398133278
+        },
+        {
+          "chunk_id": "chunk_0000",
+          "char_start": 0,
+          "char_end": 764,
+          "text": "Indications And Usage\nINDICATIONS AND USAGE For the treatment of superficial ocular infections involving the conjunctiva and/or cornea caused by organisms susceptible to erythromycin. For prophylaxis of ophthalmia neonatorum due to N. gonorrhoeae or C. trachomatis. The effectiveness of erythromycin in the prevention of ophthalmia caused by penicillinase-producing N. gonorrhoeae is not established. For infants born to mothers with clinically apparent gonorrhea, intravenous or intramuscular injections of aqueous crystalline penicillin G should be given; a single dose of 50,000 units for term infants or 20,000 units for infants of low birth weight. Topical prophylaxis alone is inadequate for these infants.\nDosage And Administration\nDOSAGE AND ADMINISTRATION",
+          "token_start": 0,
+          "token_end": 180,
+          "retrieval_score": 0.01955176517367363
+        },
+        {
+          "chunk_id": "chunk_0006",
+          "char_start": 3517,
+          "char_end": 4050,
+          "text": "ethyl-7, 12, 13-trihydroxy-3, 5, 7, 9, 11, 13-hexamethyl-6-[[3,4,6-trideoxy-3-(dimethylamino)-β-D-xylo-hexopyranosyl]oxy]oxacyclotetradecane-2, 10-dione Each Gram Contains: ACTIVE: Erythromycin, USP 5 mg (0.5%); INACTIVES: Mineral Oil, White Petrolatum. image description\nClinical Pharmacology\nCLINICAL PHARMACOLOGY Microbiology Erythromycin inhibits protein synthesis without affecting nucleic acid synthesis. Erythromycin is usually active against the following organisms in vitro and in clinical infections: Streptococcus pyogenes",
+          "token_start": 836,
+          "token_end": 1016,
+          "retrieval_score": 0.01791406236588955
+        }
+      ],
+      "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+      "generation_model": "google/flan-t5-small",
+      "policy_version": 2,
+      "answer": "I cannot find that in the document.",
+      "status": "not_found",
+      "answer_mode": "not_found",
+      "citations": [],
+      "question_coverage": 0.0
+    }
+  },
+  {
+    "case_id": "qa_0012",
+    "source_record_id": "4d3a76a9-7324-9988-e063-6394a90a2801",
+    "response": {
+      "question": "What is my prescribing doctor's telephone number?",
+      "document_id": "211e5fd4f227df37138a1a600154e0989a74257883c9aee34a8846fe4aab7cfd",
+      "source_name": "[\"ERYTHROMYCIN\"]",
+      "retrieved_passages": [
+        {
+          "chunk_id": "chunk_0001",
+          "char_start": 572,
+          "char_end": 1343,
+          "text": "of 50,000 units for term infants or 20,000 units for infants of low birth weight. Topical prophylaxis alone is inadequate for these infants.\nDosage And Administration\nDOSAGE AND ADMINISTRATION In the treatment of superficial ocular infections, erythromycin ophthalmic ointment approximately 1 cm in length should be applied directly to the infected eye(s) up to six times daily, depending on the severity of the infection. For prophylaxis of neonatal gonococcal or chlamydial ophthalmia, a ribbon of ointment approximately 1 cm in length should be instilled into each lower conjunctival sac. The ointment should not be flushed from the eye following instillation. A new tube should be used for each infant.\nContraindications\nCONTRAINDICATIONS This drug is contraindicated",
+          "token_start": 140,
+          "token_end": 320,
+          "retrieval_score": 0.303966224193573
+        },
+        {
+          "chunk_id": "chunk_0006",
+          "char_start": 3517,
+          "char_end": 4050,
+          "text": "ethyl-7, 12, 13-trihydroxy-3, 5, 7, 9, 11, 13-hexamethyl-6-[[3,4,6-trideoxy-3-(dimethylamino)-β-D-xylo-hexopyranosyl]oxy]oxacyclotetradecane-2, 10-dione Each Gram Contains: ACTIVE: Erythromycin, USP 5 mg (0.5%); INACTIVES: Mineral Oil, White Petrolatum. image description\nClinical Pharmacology\nCLINICAL PHARMACOLOGY Microbiology Erythromycin inhibits protein synthesis without affecting nucleic acid synthesis. Erythromycin is usually active against the following organisms in vitro and in clinical infections: Streptococcus pyogenes",
+          "token_start": 836,
+          "token_end": 1016,
+          "retrieval_score": 0.27860888838768005
+        },
+        {
+          "chunk_id": "chunk_0000",
+          "char_start": 0,
+          "char_end": 764,
+          "text": "Indications And Usage\nINDICATIONS AND USAGE For the treatment of superficial ocular infections involving the conjunctiva and/or cornea caused by organisms susceptible to erythromycin. For prophylaxis of ophthalmia neonatorum due to N. gonorrhoeae or C. trachomatis. The effectiveness of erythromycin in the prevention of ophthalmia caused by penicillinase-producing N. gonorrhoeae is not established. For infants born to mothers with clinically apparent gonorrhea, intravenous or intramuscular injections of aqueous crystalline penicillin G should be given; a single dose of 50,000 units for term infants or 20,000 units for infants of low birth weight. Topical prophylaxis alone is inadequate for these infants.\nDosage And Administration\nDOSAGE AND ADMINISTRATION",
+          "token_start": 0,
+          "token_end": 180,
+          "retrieval_score": 0.2616961598396301
+        },
+        {
+          "chunk_id": "chunk_0005",
+          "char_start": 3179,
+          "char_end": 3583,
+          "text": "chloroform. Erythromycin is an antibiotic produced from a strain of Streptomyces erythraeus. It is basic and readily forms a salt when combined with an acid. It has the following structural formula: Chemical Name: (3R•, 4S•, 5S•, 6R•, 7R•, 9R•, 11R•, 12R•, 13S•, 14R•)-4-[(2,6-Dideoxy-3-C-methyl-3-0-methyl-α-L-ribo-hexopyranosyl)oxy]-14-ethyl-7, 12, 13-trihydroxy-3, 5, 7, 9, 11, 13-hexamethyl-6-[[3,4,6",
+          "token_start": 696,
+          "token_end": 876,
+          "retrieval_score": 0.21994835138320923
+        }
+      ],
+      "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+      "generation_model": "google/flan-t5-small",
+      "policy_version": 2,
+      "answer": "I cannot find that in the document.",
+      "status": "not_found",
+      "answer_mode": "not_found",
+      "citations": [],
+      "question_coverage": 0.0
+    }
+  },
+  {
+    "case_id": "qa_0013",
+    "source_record_id": "4d3a76a9-7324-9988-e063-6394a90a2801",
+    "response": {
+      "question": "What is my insurance policy number?",
+      "document_id": "211e5fd4f227df37138a1a600154e0989a74257883c9aee34a8846fe4aab7cfd",
+      "source_name": "[\"ERYTHROMYCIN\"]",
+      "retrieved_passages": [
+        {
+          "chunk_id": "chunk_0001",
+          "char_start": 572,
+          "char_end": 1343,
+          "text": "of 50,000 units for term infants or 20,000 units for infants of low birth weight. Topical prophylaxis alone is inadequate for these infants.\nDosage And Administration\nDOSAGE AND ADMINISTRATION In the treatment of superficial ocular infections, erythromycin ophthalmic ointment approximately 1 cm in length should be applied directly to the infected eye(s) up to six times daily, depending on the severity of the infection. For prophylaxis of neonatal gonococcal or chlamydial ophthalmia, a ribbon of ointment approximately 1 cm in length should be instilled into each lower conjunctival sac. The ointment should not be flushed from the eye following instillation. A new tube should be used for each infant.\nContraindications\nCONTRAINDICATIONS This drug is contraindicated",
+          "token_start": 140,
+          "token_end": 320,
+          "retrieval_score": 0.1525830626487732
+        },
+        {
+          "chunk_id": "chunk_0005",
+          "char_start": 3179,
+          "char_end": 3583,
+          "text": "chloroform. Erythromycin is an antibiotic produced from a strain of Streptomyces erythraeus. It is basic and readily forms a salt when combined with an acid. It has the following structural formula: Chemical Name: (3R•, 4S•, 5S•, 6R•, 7R•, 9R•, 11R•, 12R•, 13S•, 14R•)-4-[(2,6-Dideoxy-3-C-methyl-3-0-methyl-α-L-ribo-hexopyranosyl)oxy]-14-ethyl-7, 12, 13-trihydroxy-3, 5, 7, 9, 11, 13-hexamethyl-6-[[3,4,6",
+          "token_start": 696,
+          "token_end": 876,
+          "retrieval_score": 0.1236809641122818
+        },
+        {
+          "chunk_id": "chunk_0000",
+          "char_start": 0,
+          "char_end": 764,
+          "text": "Indications And Usage\nINDICATIONS AND USAGE For the treatment of superficial ocular infections involving the conjunctiva and/or cornea caused by organisms susceptible to erythromycin. For prophylaxis of ophthalmia neonatorum due to N. gonorrhoeae or C. trachomatis. The effectiveness of erythromycin in the prevention of ophthalmia caused by penicillinase-producing N. gonorrhoeae is not established. For infants born to mothers with clinically apparent gonorrhea, intravenous or intramuscular injections of aqueous crystalline penicillin G should be given; a single dose of 50,000 units for term infants or 20,000 units for infants of low birth weight. Topical prophylaxis alone is inadequate for these infants.\nDosage And Administration\nDOSAGE AND ADMINISTRATION",
+          "token_start": 0,
+          "token_end": 180,
+          "retrieval_score": 0.09097933769226074
+        },
+        {
+          "chunk_id": "chunk_0006",
+          "char_start": 3517,
+          "char_end": 4050,
+          "text": "ethyl-7, 12, 13-trihydroxy-3, 5, 7, 9, 11, 13-hexamethyl-6-[[3,4,6-trideoxy-3-(dimethylamino)-β-D-xylo-hexopyranosyl]oxy]oxacyclotetradecane-2, 10-dione Each Gram Contains: ACTIVE: Erythromycin, USP 5 mg (0.5%); INACTIVES: Mineral Oil, White Petrolatum. image description\nClinical Pharmacology\nCLINICAL PHARMACOLOGY Microbiology Erythromycin inhibits protein synthesis without affecting nucleic acid synthesis. Erythromycin is usually active against the following organisms in vitro and in clinical infections: Streptococcus pyogenes",
+          "token_start": 836,
+          "token_end": 1016,
+          "retrieval_score": 0.07075607031583786
+        }
+      ],
+      "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+      "generation_model": "google/flan-t5-small",
+      "policy_version": 2,
+      "answer": "I cannot find that in the document.",
+      "status": "not_found",
+      "answer_mode": "not_found",
+      "citations": [],
+      "question_coverage": 0.0
+    }
+  },
+  {
+    "case_id": "qa_0021",
+    "source_record_id": "513a7c3c-05ee-9414-e063-6394a90a3500",
+    "response": {
+      "question": "What does the document say about dosage and administration?",
+      "document_id": "186b512fb72609b45bdf077e4b41227f8404173107ba8129fd93826c844ef108",
+      "source_name": "[\"DESOXIMETASONE\"]",
+      "retrieved_passages": [
+        {
+          "chunk_id": "section_dosage_and_administration",
+          "char_start": 219,
+          "char_end": 352,
+          "text": "DOSAGE AND ADMINISTRATION Apply a thin film of desoximetasone cream, USP 0.25% to the affected skin areas twice daily. Rub in gently.",
+          "retrieval_score": null,
+          "source_locator": "explicit_section_heading"
+        },
+        {
+          "chunk_id": "chunk_0005",
+          "char_start": 2712,
+          "char_end": 2958,
+          "text": "assays, are used to compare and predict potencies and/or clinical efficacies of the topical corticosteroids. There is some evidence to suggest that a recognizable correlation exists between vasoconstrictor potency and therapeutic efficacy in man.",
+          "token_start": 694,
+          "token_end": 748,
+          "retrieval_score": 0.3398783802986145
+        },
+        {
+          "chunk_id": "chunk_0002",
+          "char_start": 1221,
+          "char_end": 1901,
+          "text": "desoximetasone cream, USP 0.25% and included burning, folliculitis, and folliculo-pustular lesions. To report SUSPECTED ADVERSE REACTIONS, contact Saptalis Pharmaceuticals, LLC at 1-833-727-8254 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.\nOverdosage\nOVERDOSAGE Topically applied corticosteroids can be absorbed in sufficient amounts to produce systemic effects (see PRECAUTIONS).\nDescription\nFor topical use only. Not for oral, ophthalmic, or intravaginal use. DESCRIPTION Desoximetasone cream, USP 0.25% contains the active synthetic corticosteroid desoximetasone. The topical corticosteroids constitute a class of primarily synthetic steroids used as anti-inflammatory and",
+          "token_start": 279,
+          "token_end": 458,
+          "retrieval_score": 0.3180949091911316
+        },
+        {
+          "chunk_id": "chunk_0000",
+          "char_start": 0,
+          "char_end": 818,
+          "text": "Indications And Usage\nINDICATIONS AND USAGE Desoximetasone cream, USP 0.25% is indicated for the relief of the inflammatory and pruritic manifestations of corticosteroid-responsive dermatoses.\nDosage And Administration\nDOSAGE AND ADMINISTRATION Apply a thin film of desoximetasone cream, USP 0.25% to the affected skin areas twice daily. Rub in gently.\nContraindications\nCONTRAINDICATIONS Desoximetasone cream, USP 0.25% is contraindicated in those patients with a history of hypersensitivity to any of the components of the preparation\nWarnings And Cautions\nWARNINGS Keep out of reach of children.\nPrecautions\nPRECAUTIONS\nAdverse Reactions\nADVERSE REACTIONS The following local adverse reactions are reported infrequently with topical corticosteroids, but may occur more frequently with the use of occlusive dressings",
+          "token_start": 0,
+          "token_end": 180,
+          "retrieval_score": 0.29904234409332275
+        },
+        {
+          "chunk_id": "chunk_0001",
+          "char_start": 611,
+          "char_end": 1367,
+          "text": "PRECAUTIONS\nAdverse Reactions\nADVERSE REACTIONS The following local adverse reactions are reported infrequently with topical corticosteroids, but may occur more frequently with the use of occlusive dressings. These reactions are listed in an approximate decreasing order of occurrence: Burning, itching, irritation, dryness, folliculitis, hypertrichosis, acneiform eruptions, hypopigmentation, perioral dermatitis, allergic contact dermatitis, maceration of the skin, secondary infection, skin atrophy, striae, and miliaria. In controlled clinical studies the incidence of adverse reactions was low (0.8%) for desoximetasone cream, USP 0.25% and included burning, folliculitis, and folliculo-pustular lesions. To report SUSPECTED ADVERSE REACTIONS, contact",
+          "token_start": 140,
+          "token_end": 320,
+          "retrieval_score": 0.28456324338912964
+        }
+      ],
+      "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+      "generation_model": "google/flan-t5-small",
+      "policy_version": 2,
+      "answer": "DOSAGE AND ADMINISTRATION Apply a thin film of desoximetasone cream, USP 0.25% to the affected skin areas twice daily. Rub in gently.",
+      "status": "answered",
+      "answer_mode": "grounded_section_quote",
+      "extracted_span": "DOSAGE AND ADMINISTRATION Apply a thin film of desoximetasone cream, USP 0.25% to the affected skin areas twice daily. Rub in gently.",
+      "generation_attempted": true,
+      "generation_verified": false,
+      "question_coverage": 1.0,
+      "citations": [
+        {
+          "chunk_id": "section_dosage_and_administration",
+          "char_start": 219,
+          "char_end": 352,
+          "quote": "DOSAGE AND ADMINISTRATION Apply a thin film of desoximetasone cream, USP 0.25% to the affected skin areas twice daily. Rub in gently.",
+          "passage": "DOSAGE AND ADMINISTRATION Apply a thin film of desoximetasone cream, USP 0.25% to the affected skin areas twice daily. Rub in gently."
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "qa_0022",
+    "source_record_id": "513a7c3c-05ee-9414-e063-6394a90a3500",
+    "response": {
+      "question": "What does the document say about contraindications?",
+      "document_id": "186b512fb72609b45bdf077e4b41227f8404173107ba8129fd93826c844ef108",
+      "source_name": "[\"DESOXIMETASONE\"]",
+      "retrieved_passages": [
+        {
+          "chunk_id": "section_contraindications",
+          "char_start": 371,
+          "char_end": 536,
+          "text": "CONTRAINDICATIONS Desoximetasone cream, USP 0.25% is contraindicated in those patients with a history of hypersensitivity to any of the components of the preparation",
+          "retrieval_score": null,
+          "source_locator": "explicit_section_heading"
+        },
+        {
+          "chunk_id": "chunk_0000",
+          "char_start": 0,
+          "char_end": 818,
+          "text": "Indications And Usage\nINDICATIONS AND USAGE Desoximetasone cream, USP 0.25% is indicated for the relief of the inflammatory and pruritic manifestations of corticosteroid-responsive dermatoses.\nDosage And Administration\nDOSAGE AND ADMINISTRATION Apply a thin film of desoximetasone cream, USP 0.25% to the affected skin areas twice daily. Rub in gently.\nContraindications\nCONTRAINDICATIONS Desoximetasone cream, USP 0.25% is contraindicated in those patients with a history of hypersensitivity to any of the components of the preparation\nWarnings And Cautions\nWARNINGS Keep out of reach of children.\nPrecautions\nPRECAUTIONS\nAdverse Reactions\nADVERSE REACTIONS The following local adverse reactions are reported infrequently with topical corticosteroids, but may occur more frequently with the use of occlusive dressings",
+          "token_start": 0,
+          "token_end": 180,
+          "retrieval_score": 0.31846946477890015
+        },
+        {
+          "chunk_id": "chunk_0001",
+          "char_start": 611,
+          "char_end": 1367,
+          "text": "PRECAUTIONS\nAdverse Reactions\nADVERSE REACTIONS The following local adverse reactions are reported infrequently with topical corticosteroids, but may occur more frequently with the use of occlusive dressings. These reactions are listed in an approximate decreasing order of occurrence: Burning, itching, irritation, dryness, folliculitis, hypertrichosis, acneiform eruptions, hypopigmentation, perioral dermatitis, allergic contact dermatitis, maceration of the skin, secondary infection, skin atrophy, striae, and miliaria. In controlled clinical studies the incidence of adverse reactions was low (0.8%) for desoximetasone cream, USP 0.25% and included burning, folliculitis, and folliculo-pustular lesions. To report SUSPECTED ADVERSE REACTIONS, contact",
+          "token_start": 140,
+          "token_end": 320,
+          "retrieval_score": 0.26946231722831726
+        },
+        {
+          "chunk_id": "chunk_0005",
+          "char_start": 2712,
+          "char_end": 2958,
+          "text": "assays, are used to compare and predict potencies and/or clinical efficacies of the topical corticosteroids. There is some evidence to suggest that a recognizable correlation exists between vasoconstrictor potency and therapeutic efficacy in man.",
+          "token_start": 694,
+          "token_end": 748,
+          "retrieval_score": 0.2642097473144531
+        },
+        {
+          "chunk_id": "chunk_0002",
+          "char_start": 1221,
+          "char_end": 1901,
+          "text": "desoximetasone cream, USP 0.25% and included burning, folliculitis, and folliculo-pustular lesions. To report SUSPECTED ADVERSE REACTIONS, contact Saptalis Pharmaceuticals, LLC at 1-833-727-8254 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.\nOverdosage\nOVERDOSAGE Topically applied corticosteroids can be absorbed in sufficient amounts to produce systemic effects (see PRECAUTIONS).\nDescription\nFor topical use only. Not for oral, ophthalmic, or intravaginal use. DESCRIPTION Desoximetasone cream, USP 0.25% contains the active synthetic corticosteroid desoximetasone. The topical corticosteroids constitute a class of primarily synthetic steroids used as anti-inflammatory and",
+          "token_start": 279,
+          "token_end": 458,
+          "retrieval_score": 0.23351645469665527
+        }
+      ],
+      "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+      "generation_model": "google/flan-t5-small",
+      "policy_version": 2,
+      "answer": "CONTRAINDICATIONS Desoximetasone cream, USP 0.25% is contraindicated in those patients with a history of hypersensitivity to any of the components of the preparation",
+      "status": "answered",
+      "answer_mode": "grounded_section_quote",
+      "extracted_span": "CONTRAINDICATIONS Desoximetasone cream, USP 0.25% is contraindicated in those patients with a history of hypersensitivity to any of the components of the preparation",
+      "generation_attempted": true,
+      "generation_verified": true,
+      "question_coverage": 1.0,
+      "citations": [
+        {
+          "chunk_id": "section_contraindications",
+          "char_start": 371,
+          "char_end": 536,
+          "quote": "CONTRAINDICATIONS Desoximetasone cream, USP 0.25% is contraindicated in those patients with a history of hypersensitivity to any of the components of the preparation",
+          "passage": "CONTRAINDICATIONS Desoximetasone cream, USP 0.25% is contraindicated in those patients with a history of hypersensitivity to any of the components of the preparation"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "qa_0023",
+    "source_record_id": "513a7c3c-05ee-9414-e063-6394a90a3500",
+    "response": {
+      "question": "What does the document say about adverse reactions and side effects?",
+      "document_id": "186b512fb72609b45bdf077e4b41227f8404173107ba8129fd93826c844ef108",
+      "source_name": "[\"DESOXIMETASONE\"]",
+      "retrieved_passages": [
+        {
+          "chunk_id": "section_adverse_reactions",
+          "char_start": 641,
+          "char_end": 1465,
+          "text": "ADVERSE REACTIONS The following local adverse reactions are reported infrequently with topical corticosteroids, but may occur more frequently with the use of occlusive dressings. These reactions are listed in an approximate decreasing order of occurrence: Burning, itching, irritation, dryness, folliculitis, hypertrichosis, acneiform eruptions, hypopigmentation, perioral dermatitis, allergic contact dermatitis, maceration of the skin, secondary infection, skin atrophy, striae, and miliaria. In controlled clinical studies the incidence of adverse reactions was low (0.8%) for desoximetasone cream, USP 0.25% and included burning, folliculitis, and folliculo-pustular lesions. To report SUSPECTED ADVERSE REACTIONS, contact Saptalis Pharmaceuticals, LLC at 1-833-727-8254 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.",
+          "retrieval_score": null,
+          "source_locator": "explicit_section_heading"
+        },
+        {
+          "chunk_id": "chunk_0001",
+          "char_start": 611,
+          "char_end": 1367,
+          "text": "PRECAUTIONS\nAdverse Reactions\nADVERSE REACTIONS The following local adverse reactions are reported infrequently with topical corticosteroids, but may occur more frequently with the use of occlusive dressings. These reactions are listed in an approximate decreasing order of occurrence: Burning, itching, irritation, dryness, folliculitis, hypertrichosis, acneiform eruptions, hypopigmentation, perioral dermatitis, allergic contact dermatitis, maceration of the skin, secondary infection, skin atrophy, striae, and miliaria. In controlled clinical studies the incidence of adverse reactions was low (0.8%) for desoximetasone cream, USP 0.25% and included burning, folliculitis, and folliculo-pustular lesions. To report SUSPECTED ADVERSE REACTIONS, contact",
+          "token_start": 140,
+          "token_end": 320,
+          "retrieval_score": 0.45822033286094666
+        },
+        {
+          "chunk_id": "chunk_0000",
+          "char_start": 0,
+          "char_end": 818,
+          "text": "Indications And Usage\nINDICATIONS AND USAGE Desoximetasone cream, USP 0.25% is indicated for the relief of the inflammatory and pruritic manifestations of corticosteroid-responsive dermatoses.\nDosage And Administration\nDOSAGE AND ADMINISTRATION Apply a thin film of desoximetasone cream, USP 0.25% to the affected skin areas twice daily. Rub in gently.\nContraindications\nCONTRAINDICATIONS Desoximetasone cream, USP 0.25% is contraindicated in those patients with a history of hypersensitivity to any of the components of the preparation\nWarnings And Cautions\nWARNINGS Keep out of reach of children.\nPrecautions\nPRECAUTIONS\nAdverse Reactions\nADVERSE REACTIONS The following local adverse reactions are reported infrequently with topical corticosteroids, but may occur more frequently with the use of occlusive dressings",
+          "token_start": 0,
+          "token_end": 180,
+          "retrieval_score": 0.36156976222991943
+        },
+        {
+          "chunk_id": "chunk_0002",
+          "char_start": 1221,
+          "char_end": 1901,
+          "text": "desoximetasone cream, USP 0.25% and included burning, folliculitis, and folliculo-pustular lesions. To report SUSPECTED ADVERSE REACTIONS, contact Saptalis Pharmaceuticals, LLC at 1-833-727-8254 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.\nOverdosage\nOVERDOSAGE Topically applied corticosteroids can be absorbed in sufficient amounts to produce systemic effects (see PRECAUTIONS).\nDescription\nFor topical use only. Not for oral, ophthalmic, or intravaginal use. DESCRIPTION Desoximetasone cream, USP 0.25% contains the active synthetic corticosteroid desoximetasone. The topical corticosteroids constitute a class of primarily synthetic steroids used as anti-inflammatory and",
+          "token_start": 279,
+          "token_end": 458,
+          "retrieval_score": 0.34409067034721375
+        },
+        {
+          "chunk_id": "chunk_0004",
+          "char_start": 2216,
+          "char_end": 2901,
+          "text": "dione, 9-fluoro-11, 21-dihydroxy-16-methyl-, (11β, 16α)-. Desoximetasone has the molecular formula C22H29FO4 and a molecular weight of 376.47. The CAS Registry Number is 382-67-2. The structural formula is: structure-2\nClinical Pharmacology\nCLINICAL PHARMACOLOGY Topical corticosteroids share anti-inflammatory, antipruritic and vasoconstrictive actions. The mechanism of anti-inflammatory activity of the topical corticosteroids is unclear. Various laboratory methods, including vasoconstrictor assays, are used to compare and predict potencies and/or clinical efficacies of the topical corticosteroids. There is some evidence to suggest that a recognizable correlation exists between",
+          "token_start": 555,
+          "token_end": 734,
+          "retrieval_score": 0.29350411891937256
+        }
+      ],
+      "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+      "generation_model": "google/flan-t5-small",
+      "policy_version": 2,
+      "answer": "ADVERSE REACTIONS The following local adverse reactions are reported infrequently with topical corticosteroids, but may occur more frequently with the use of occlusive dressings. These reactions are listed in an approximate decreasing order of occurrence: Burning, itching, irritation, dryness, folliculitis, hypertrichosis, acneiform eruptions, hypopigmentation, perioral dermatitis, allergic contact dermatitis, maceration of the skin, secondary infection, skin atrophy, striae, and miliaria. In controlled clinical studies the incidence of adverse reactions was low (0.8%) for desoximetasone cream, USP 0.25% and included burning, folliculitis, and folliculo-pustular lesions. To report SUSPECTED ADVERSE REACTIONS, contact Saptalis Pharmaceuticals, LLC at 1-833-727-8254 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.",
+      "status": "answered",
+      "answer_mode": "grounded_section_quote",
+      "extracted_span": "ADVERSE REACTIONS The following local adverse reactions are reported infrequently with topical corticosteroids, but may occur more frequently with the use of occlusive dressings. These reactions are listed in an approximate decreasing order of occurrence: Burning, itching, irritation, dryness, folliculitis, hypertrichosis, acneiform eruptions, hypopigmentation, perioral dermatitis, allergic contact dermatitis, maceration of the skin, secondary infection, skin atrophy, striae, and miliaria. In controlled clinical studies the incidence of adverse reactions was low (0.8%) for desoximetasone cream, USP 0.25% and included burning, folliculitis, and folliculo-pustular lesions. To report SUSPECTED ADVERSE REACTIONS, contact Saptalis Pharmaceuticals, LLC at 1-833-727-8254 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.",
+      "generation_attempted": true,
+      "generation_verified": false,
+      "question_coverage": 1.0,
+      "citations": [
+        {
+          "chunk_id": "section_adverse_reactions",
+          "char_start": 641,
+          "char_end": 1465,
+          "quote": "ADVERSE REACTIONS The following local adverse reactions are reported infrequently with topical corticosteroids, but may occur more frequently with the use of occlusive dressings. These reactions are listed in an approximate decreasing order of occurrence: Burning, itching, irritation, dryness, folliculitis, hypertrichosis, acneiform eruptions, hypopigmentation, perioral dermatitis, allergic contact dermatitis, maceration of the skin, secondary infection, skin atrophy, striae, and miliaria. In controlled clinical studies the incidence of adverse reactions was low (0.8%) for desoximetasone cream, USP 0.25% and included burning, folliculitis, and folliculo-pustular lesions. To report SUSPECTED ADVERSE REACTIONS, contact Saptalis Pharmaceuticals, LLC at 1-833-727-8254 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.",
+          "passage": "ADVERSE REACTIONS The following local adverse reactions are reported infrequently with topical corticosteroids, but may occur more frequently with the use of occlusive dressings. These reactions are listed in an approximate decreasing order of occurrence: Burning, itching, irritation, dryness, folliculitis, hypertrichosis, acneiform eruptions, hypopigmentation, perioral dermatitis, allergic contact dermatitis, maceration of the skin, secondary infection, skin atrophy, striae, and miliaria. In controlled clinical studies the incidence of adverse reactions was low (0.8%) for desoximetasone cream, USP 0.25% and included burning, folliculitis, and folliculo-pustular lesions. To report SUSPECTED ADVERSE REACTIONS, contact Saptalis Pharmaceuticals, LLC at 1-833-727-8254 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch."
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "qa_0024",
+    "source_record_id": "513a7c3c-05ee-9414-e063-6394a90a3500",
+    "response": {
+      "question": "According to the dosage directions, how often is this product used?",
+      "document_id": "186b512fb72609b45bdf077e4b41227f8404173107ba8129fd93826c844ef108",
+      "source_name": "[\"DESOXIMETASONE\"]",
+      "retrieved_passages": [
+        {
+          "chunk_id": "chunk_0000",
+          "char_start": 0,
+          "char_end": 818,
+          "text": "Indications And Usage\nINDICATIONS AND USAGE Desoximetasone cream, USP 0.25% is indicated for the relief of the inflammatory and pruritic manifestations of corticosteroid-responsive dermatoses.\nDosage And Administration\nDOSAGE AND ADMINISTRATION Apply a thin film of desoximetasone cream, USP 0.25% to the affected skin areas twice daily. Rub in gently.\nContraindications\nCONTRAINDICATIONS Desoximetasone cream, USP 0.25% is contraindicated in those patients with a history of hypersensitivity to any of the components of the preparation\nWarnings And Cautions\nWARNINGS Keep out of reach of children.\nPrecautions\nPRECAUTIONS\nAdverse Reactions\nADVERSE REACTIONS The following local adverse reactions are reported infrequently with topical corticosteroids, but may occur more frequently with the use of occlusive dressings",
+          "token_start": 0,
+          "token_end": 180,
+          "retrieval_score": 0.32536768913269043
+        },
+        {
+          "chunk_id": "chunk_0001",
+          "char_start": 611,
+          "char_end": 1367,
+          "text": "PRECAUTIONS\nAdverse Reactions\nADVERSE REACTIONS The following local adverse reactions are reported infrequently with topical corticosteroids, but may occur more frequently with the use of occlusive dressings. These reactions are listed in an approximate decreasing order of occurrence: Burning, itching, irritation, dryness, folliculitis, hypertrichosis, acneiform eruptions, hypopigmentation, perioral dermatitis, allergic contact dermatitis, maceration of the skin, secondary infection, skin atrophy, striae, and miliaria. In controlled clinical studies the incidence of adverse reactions was low (0.8%) for desoximetasone cream, USP 0.25% and included burning, folliculitis, and folliculo-pustular lesions. To report SUSPECTED ADVERSE REACTIONS, contact",
+          "token_start": 140,
+          "token_end": 320,
+          "retrieval_score": 0.32089364528656006
+        },
+        {
+          "chunk_id": "chunk_0005",
+          "char_start": 2712,
+          "char_end": 2958,
+          "text": "assays, are used to compare and predict potencies and/or clinical efficacies of the topical corticosteroids. There is some evidence to suggest that a recognizable correlation exists between vasoconstrictor potency and therapeutic efficacy in man.",
+          "token_start": 694,
+          "token_end": 748,
+          "retrieval_score": 0.3057186007499695
+        },
+        {
+          "chunk_id": "chunk_0004",
+          "char_start": 2216,
+          "char_end": 2901,
+          "text": "dione, 9-fluoro-11, 21-dihydroxy-16-methyl-, (11β, 16α)-. Desoximetasone has the molecular formula C22H29FO4 and a molecular weight of 376.47. The CAS Registry Number is 382-67-2. The structural formula is: structure-2\nClinical Pharmacology\nCLINICAL PHARMACOLOGY Topical corticosteroids share anti-inflammatory, antipruritic and vasoconstrictive actions. The mechanism of anti-inflammatory activity of the topical corticosteroids is unclear. Various laboratory methods, including vasoconstrictor assays, are used to compare and predict potencies and/or clinical efficacies of the topical corticosteroids. There is some evidence to suggest that a recognizable correlation exists between",
+          "token_start": 555,
+          "token_end": 734,
+          "retrieval_score": 0.2644701600074768
+        }
+      ],
+      "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+      "generation_model": "google/flan-t5-small",
+      "policy_version": 2,
+      "answer": "DOSAGE AND ADMINISTRATION Apply a thin film of desoximetasone cream, USP 0.25% to the affected skin areas twice daily.",
+      "status": "answered",
+      "answer_mode": "grounded_extractive_quote",
+      "extracted_span": "twice daily",
+      "generation_verified": false,
+      "generation_attempted": true,
+      "question_coverage": 1.0,
+      "span_score": 0.926706850528717,
+      "answer_margin": 12.387085914611816,
+      "citations": [
+        {
+          "chunk_id": "chunk_0000",
+          "char_start": 219,
+          "char_end": 337,
+          "quote": "DOSAGE AND ADMINISTRATION Apply a thin film of desoximetasone cream, USP 0.25% to the affected skin areas twice daily.",
+          "passage": "Indications And Usage\nINDICATIONS AND USAGE Desoximetasone cream, USP 0.25% is indicated for the relief of the inflammatory and pruritic manifestations of corticosteroid-responsive dermatoses.\nDosage And Administration\nDOSAGE AND ADMINISTRATION Apply a thin film of desoximetasone cream, USP 0.25% to the affected skin areas twice daily. Rub in gently.\nContraindications\nCONTRAINDICATIONS Desoximetasone cream, USP 0.25% is contraindicated in those patients with a history of hypersensitivity to any of the components of the preparation\nWarnings And Cautions\nWARNINGS Keep out of reach of children.\nPrecautions\nPRECAUTIONS\nAdverse Reactions\nADVERSE REACTIONS The following local adverse reactions are reported infrequently with topical corticosteroids, but may occur more frequently with the use of occlusive dressings"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "qa_0025",
+    "source_record_id": "513a7c3c-05ee-9414-e063-6394a90a3500",
+    "response": {
+      "question": "What is the retail price stated in this document?",
+      "document_id": "186b512fb72609b45bdf077e4b41227f8404173107ba8129fd93826c844ef108",
+      "source_name": "[\"DESOXIMETASONE\"]",
+      "retrieved_passages": [
+        {
+          "chunk_id": "chunk_0000",
+          "char_start": 0,
+          "char_end": 818,
+          "text": "Indications And Usage\nINDICATIONS AND USAGE Desoximetasone cream, USP 0.25% is indicated for the relief of the inflammatory and pruritic manifestations of corticosteroid-responsive dermatoses.\nDosage And Administration\nDOSAGE AND ADMINISTRATION Apply a thin film of desoximetasone cream, USP 0.25% to the affected skin areas twice daily. Rub in gently.\nContraindications\nCONTRAINDICATIONS Desoximetasone cream, USP 0.25% is contraindicated in those patients with a history of hypersensitivity to any of the components of the preparation\nWarnings And Cautions\nWARNINGS Keep out of reach of children.\nPrecautions\nPRECAUTIONS\nAdverse Reactions\nADVERSE REACTIONS The following local adverse reactions are reported infrequently with topical corticosteroids, but may occur more frequently with the use of occlusive dressings",
+          "token_start": 0,
+          "token_end": 180,
+          "retrieval_score": 0.09355004876852036
+        },
+        {
+          "chunk_id": "chunk_0003",
+          "char_start": 1726,
+          "char_end": 2314,
+          "text": "0.25% contains the active synthetic corticosteroid desoximetasone. The topical corticosteroids constitute a class of primarily synthetic steroids used as anti-inflammatory and antipruritic agents. Each gram of desoximetasone cream, USP 0.25% contains 2.5 mg of desoximetasone in an emollient cream base consisting of cetostearyl alcohol, isopropyl myristate, lanolin alcohols, mineral oil, purified water and white petrolatum. The chemical name of desoximetasone is Pregna-1, 4-diene-3, 20-dione, 9-fluoro-11, 21-dihydroxy-16-methyl-, (11β, 16α)-. Desoximetasone has the molecular formula",
+          "token_start": 418,
+          "token_end": 595,
+          "retrieval_score": 0.08556090295314789
+        },
+        {
+          "chunk_id": "chunk_0001",
+          "char_start": 611,
+          "char_end": 1367,
+          "text": "PRECAUTIONS\nAdverse Reactions\nADVERSE REACTIONS The following local adverse reactions are reported infrequently with topical corticosteroids, but may occur more frequently with the use of occlusive dressings. These reactions are listed in an approximate decreasing order of occurrence: Burning, itching, irritation, dryness, folliculitis, hypertrichosis, acneiform eruptions, hypopigmentation, perioral dermatitis, allergic contact dermatitis, maceration of the skin, secondary infection, skin atrophy, striae, and miliaria. In controlled clinical studies the incidence of adverse reactions was low (0.8%) for desoximetasone cream, USP 0.25% and included burning, folliculitis, and folliculo-pustular lesions. To report SUSPECTED ADVERSE REACTIONS, contact",
+          "token_start": 140,
+          "token_end": 320,
+          "retrieval_score": 0.0834711417555809
+        },
+        {
+          "chunk_id": "chunk_0004",
+          "char_start": 2216,
+          "char_end": 2901,
+          "text": "dione, 9-fluoro-11, 21-dihydroxy-16-methyl-, (11β, 16α)-. Desoximetasone has the molecular formula C22H29FO4 and a molecular weight of 376.47. The CAS Registry Number is 382-67-2. The structural formula is: structure-2\nClinical Pharmacology\nCLINICAL PHARMACOLOGY Topical corticosteroids share anti-inflammatory, antipruritic and vasoconstrictive actions. The mechanism of anti-inflammatory activity of the topical corticosteroids is unclear. Various laboratory methods, including vasoconstrictor assays, are used to compare and predict potencies and/or clinical efficacies of the topical corticosteroids. There is some evidence to suggest that a recognizable correlation exists between",
+          "token_start": 555,
+          "token_end": 734,
+          "retrieval_score": 0.08091535419225693
+        }
+      ],
+      "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+      "generation_model": "google/flan-t5-small",
+      "policy_version": 2,
+      "answer": "I cannot find that in the document.",
+      "status": "not_found",
+      "answer_mode": "not_found",
+      "citations": [],
+      "question_coverage": 0.0
+    }
+  },
+  {
+    "case_id": "qa_0026",
+    "source_record_id": "513a7c3c-05ee-9414-e063-6394a90a3500",
+    "response": {
+      "question": "What is my prescribing doctor's telephone number?",
+      "document_id": "186b512fb72609b45bdf077e4b41227f8404173107ba8129fd93826c844ef108",
+      "source_name": "[\"DESOXIMETASONE\"]",
+      "retrieved_passages": [
+        {
+          "chunk_id": "chunk_0002",
+          "char_start": 1221,
+          "char_end": 1901,
+          "text": "desoximetasone cream, USP 0.25% and included burning, folliculitis, and folliculo-pustular lesions. To report SUSPECTED ADVERSE REACTIONS, contact Saptalis Pharmaceuticals, LLC at 1-833-727-8254 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.\nOverdosage\nOVERDOSAGE Topically applied corticosteroids can be absorbed in sufficient amounts to produce systemic effects (see PRECAUTIONS).\nDescription\nFor topical use only. Not for oral, ophthalmic, or intravaginal use. DESCRIPTION Desoximetasone cream, USP 0.25% contains the active synthetic corticosteroid desoximetasone. The topical corticosteroids constitute a class of primarily synthetic steroids used as anti-inflammatory and",
+          "token_start": 279,
+          "token_end": 458,
+          "retrieval_score": 0.2528337240219116
+        },
+        {
+          "chunk_id": "chunk_0004",
+          "char_start": 2216,
+          "char_end": 2901,
+          "text": "dione, 9-fluoro-11, 21-dihydroxy-16-methyl-, (11β, 16α)-. Desoximetasone has the molecular formula C22H29FO4 and a molecular weight of 376.47. The CAS Registry Number is 382-67-2. The structural formula is: structure-2\nClinical Pharmacology\nCLINICAL PHARMACOLOGY Topical corticosteroids share anti-inflammatory, antipruritic and vasoconstrictive actions. The mechanism of anti-inflammatory activity of the topical corticosteroids is unclear. Various laboratory methods, including vasoconstrictor assays, are used to compare and predict potencies and/or clinical efficacies of the topical corticosteroids. There is some evidence to suggest that a recognizable correlation exists between",
+          "token_start": 555,
+          "token_end": 734,
+          "retrieval_score": 0.23593133687973022
+        },
+        {
+          "chunk_id": "chunk_0000",
+          "char_start": 0,
+          "char_end": 818,
+          "text": "Indications And Usage\nINDICATIONS AND USAGE Desoximetasone cream, USP 0.25% is indicated for the relief of the inflammatory and pruritic manifestations of corticosteroid-responsive dermatoses.\nDosage And Administration\nDOSAGE AND ADMINISTRATION Apply a thin film of desoximetasone cream, USP 0.25% to the affected skin areas twice daily. Rub in gently.\nContraindications\nCONTRAINDICATIONS Desoximetasone cream, USP 0.25% is contraindicated in those patients with a history of hypersensitivity to any of the components of the preparation\nWarnings And Cautions\nWARNINGS Keep out of reach of children.\nPrecautions\nPRECAUTIONS\nAdverse Reactions\nADVERSE REACTIONS The following local adverse reactions are reported infrequently with topical corticosteroids, but may occur more frequently with the use of occlusive dressings",
+          "token_start": 0,
+          "token_end": 180,
+          "retrieval_score": 0.21900925040245056
+        },
+        {
+          "chunk_id": "chunk_0001",
+          "char_start": 611,
+          "char_end": 1367,
+          "text": "PRECAUTIONS\nAdverse Reactions\nADVERSE REACTIONS The following local adverse reactions are reported infrequently with topical corticosteroids, but may occur more frequently with the use of occlusive dressings. These reactions are listed in an approximate decreasing order of occurrence: Burning, itching, irritation, dryness, folliculitis, hypertrichosis, acneiform eruptions, hypopigmentation, perioral dermatitis, allergic contact dermatitis, maceration of the skin, secondary infection, skin atrophy, striae, and miliaria. In controlled clinical studies the incidence of adverse reactions was low (0.8%) for desoximetasone cream, USP 0.25% and included burning, folliculitis, and folliculo-pustular lesions. To report SUSPECTED ADVERSE REACTIONS, contact",
+          "token_start": 140,
+          "token_end": 320,
+          "retrieval_score": 0.21471254527568817
+        }
+      ],
+      "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+      "generation_model": "google/flan-t5-small",
+      "policy_version": 2,
+      "answer": "I cannot find that in the document.",
+      "status": "not_found",
+      "answer_mode": "not_found",
+      "citations": [],
+      "question_coverage": 0.25
+    }
+  },
+  {
+    "case_id": "qa_0027",
+    "source_record_id": "513a7c3c-05ee-9414-e063-6394a90a3500",
+    "response": {
+      "question": "What is my insurance policy number?",
+      "document_id": "186b512fb72609b45bdf077e4b41227f8404173107ba8129fd93826c844ef108",
+      "source_name": "[\"DESOXIMETASONE\"]",
+      "retrieved_passages": [
+        {
+          "chunk_id": "chunk_0002",
+          "char_start": 1221,
+          "char_end": 1901,
+          "text": "desoximetasone cream, USP 0.25% and included burning, folliculitis, and folliculo-pustular lesions. To report SUSPECTED ADVERSE REACTIONS, contact Saptalis Pharmaceuticals, LLC at 1-833-727-8254 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.\nOverdosage\nOVERDOSAGE Topically applied corticosteroids can be absorbed in sufficient amounts to produce systemic effects (see PRECAUTIONS).\nDescription\nFor topical use only. Not for oral, ophthalmic, or intravaginal use. DESCRIPTION Desoximetasone cream, USP 0.25% contains the active synthetic corticosteroid desoximetasone. The topical corticosteroids constitute a class of primarily synthetic steroids used as anti-inflammatory and",
+          "token_start": 279,
+          "token_end": 458,
+          "retrieval_score": 0.12644292414188385
+        },
+        {
+          "chunk_id": "chunk_0000",
+          "char_start": 0,
+          "char_end": 818,
+          "text": "Indications And Usage\nINDICATIONS AND USAGE Desoximetasone cream, USP 0.25% is indicated for the relief of the inflammatory and pruritic manifestations of corticosteroid-responsive dermatoses.\nDosage And Administration\nDOSAGE AND ADMINISTRATION Apply a thin film of desoximetasone cream, USP 0.25% to the affected skin areas twice daily. Rub in gently.\nContraindications\nCONTRAINDICATIONS Desoximetasone cream, USP 0.25% is contraindicated in those patients with a history of hypersensitivity to any of the components of the preparation\nWarnings And Cautions\nWARNINGS Keep out of reach of children.\nPrecautions\nPRECAUTIONS\nAdverse Reactions\nADVERSE REACTIONS The following local adverse reactions are reported infrequently with topical corticosteroids, but may occur more frequently with the use of occlusive dressings",
+          "token_start": 0,
+          "token_end": 180,
+          "retrieval_score": 0.09045813977718353
+        },
+        {
+          "chunk_id": "chunk_0001",
+          "char_start": 611,
+          "char_end": 1367,
+          "text": "PRECAUTIONS\nAdverse Reactions\nADVERSE REACTIONS The following local adverse reactions are reported infrequently with topical corticosteroids, but may occur more frequently with the use of occlusive dressings. These reactions are listed in an approximate decreasing order of occurrence: Burning, itching, irritation, dryness, folliculitis, hypertrichosis, acneiform eruptions, hypopigmentation, perioral dermatitis, allergic contact dermatitis, maceration of the skin, secondary infection, skin atrophy, striae, and miliaria. In controlled clinical studies the incidence of adverse reactions was low (0.8%) for desoximetasone cream, USP 0.25% and included burning, folliculitis, and folliculo-pustular lesions. To report SUSPECTED ADVERSE REACTIONS, contact",
+          "token_start": 140,
+          "token_end": 320,
+          "retrieval_score": 0.086545929312706
+        },
+        {
+          "chunk_id": "chunk_0004",
+          "char_start": 2216,
+          "char_end": 2901,
+          "text": "dione, 9-fluoro-11, 21-dihydroxy-16-methyl-, (11β, 16α)-. Desoximetasone has the molecular formula C22H29FO4 and a molecular weight of 376.47. The CAS Registry Number is 382-67-2. The structural formula is: structure-2\nClinical Pharmacology\nCLINICAL PHARMACOLOGY Topical corticosteroids share anti-inflammatory, antipruritic and vasoconstrictive actions. The mechanism of anti-inflammatory activity of the topical corticosteroids is unclear. Various laboratory methods, including vasoconstrictor assays, are used to compare and predict potencies and/or clinical efficacies of the topical corticosteroids. There is some evidence to suggest that a recognizable correlation exists between",
+          "token_start": 555,
+          "token_end": 734,
+          "retrieval_score": 0.06721753627061844
+        }
+      ],
+      "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+      "generation_model": "google/flan-t5-small",
+      "policy_version": 2,
+      "answer": "I cannot find that in the document.",
+      "status": "not_found",
+      "answer_mode": "not_found",
+      "citations": [],
+      "question_coverage": 0.3333333333333333
+    }
+  },
+  {
+    "case_id": "qa_0035",
+    "source_record_id": "987a1083-d606-4ebf-bf83-2742128915d8",
+    "response": {
+      "question": "What does the document say about dosage and administration?",
+      "document_id": "19f8d5a74c1a15a2c834df2224303f523d68b5dbdcb1d9e7dcd9cb9e58344f60",
+      "source_name": "[\"FAMOTIDINE\"]",
+      "retrieved_passages": [
+        {
+          "chunk_id": "section_dosage_and_administration",
+          "char_start": 280,
+          "char_end": 640,
+          "text": "Directions adults and children 12 years and over: to relieve symptoms, swallow 1 tablet with a glass of water. Do not chew. to prevent symptoms, swallow 1 tablet with a glass of water at any time from 15 to 60 minutes before eating food or drinking beverages that cause heartburn do not use more than 2 tablets in 24 hours children under 12 years: ask a doctor",
+          "retrieval_score": null,
+          "source_locator": "explicit_section_heading"
+        },
+        {
+          "chunk_id": "chunk_0000",
+          "char_start": 0,
+          "char_end": 895,
+          "text": "Indications And Usage\nUses relieves heartburn associated with acid indigestion and sour stomach prevents heartburn associated with acid indigestion and sour stomach brought on by eating or drinking certain food and beverages\nPurpose\nPurpose Acid reducer\nDosage And Administration\nDirections adults and children 12 years and over: to relieve symptoms, swallow 1 tablet with a glass of water. Do not chew. to prevent symptoms, swallow 1 tablet with a glass of water at any time from 15 to 60 minutes before eating food or drinking beverages that cause heartburn do not use more than 2 tablets in 24 hours children under 12 years: ask a doctor\nDo Not Use\nDo not use if you have trouble or pain swallowing food, vomiting with blood, or bloody or black stools. These may be signs of a serious condition. See your doctor. with other acid reducers\nWarnings\nWarnings Allergy alert: Do not use if you are",
+          "token_start": 0,
+          "token_end": 180,
+          "retrieval_score": 0.3196621537208557
+        },
+        {
+          "chunk_id": "chunk_0002",
+          "char_start": 1348,
+          "char_end": 1754,
+          "text": "vomiting stomach pain\nStop Use\nStop use and ask a doctor if your heartburn continues or worsens you need to take this product for more than 14 days\nPregnancy Or Breast Feeding\nIf pregnant or breast-feeding, ask a health professional before use.\nKeep Out Of Reach Of Children\nKeep out of reach of children In case of overdose, get medical help or contact a Poison Control Center (1-800-222-1222) right away.",
+          "token_start": 280,
+          "token_end": 367,
+          "retrieval_score": 0.1905892789363861
+        },
+        {
+          "chunk_id": "chunk_0001",
+          "char_start": 717,
+          "char_end": 1553,
+          "text": "with blood, or bloody or black stools. These may be signs of a serious condition. See your doctor. with other acid reducers\nWarnings\nWarnings Allergy alert: Do not use if you are allergic to famotidine or other acid reducers\nAsk Doctor\nAsk a doctor before use if you have had heartburn over 3 months. This may be a sign of a more serious condition. heartburn with lightheadedness, sweating, or dizziness chest pain or shoulder pain with shortness of breath; sweating; pain spreading to arms, neck or shoulders; or lightheadedness frequent chest pain frequent wheezing, particularly with heartburn unexplained weight loss nausea or vomiting stomach pain\nStop Use\nStop use and ask a doctor if your heartburn continues or worsens you need to take this product for more than 14 days\nPregnancy Or Breast Feeding\nIf pregnant or breast-feeding",
+          "token_start": 140,
+          "token_end": 320,
+          "retrieval_score": 0.12653329968452454
+        }
+      ],
+      "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+      "generation_model": "google/flan-t5-small",
+      "policy_version": 2,
+      "answer": "Directions adults and children 12 years and over: to relieve symptoms, swallow 1 tablet with a glass of water. Do not chew. to prevent symptoms, swallow 1 tablet with a glass of water at any time from 15 to 60 minutes before eating food or drinking beverages that cause heartburn do not use more than 2 tablets in 24 hours children under 12 years: ask a doctor",
+      "status": "answered",
+      "answer_mode": "grounded_section_quote",
+      "extracted_span": "Directions adults and children 12 years and over: to relieve symptoms, swallow 1 tablet with a glass of water. Do not chew. to prevent symptoms, swallow 1 tablet with a glass of water at any time from 15 to 60 minutes before eating food or drinking beverages that cause heartburn do not use more than 2 tablets in 24 hours children under 12 years: ask a doctor",
+      "generation_attempted": true,
+      "generation_verified": false,
+      "question_coverage": 1.0,
+      "citations": [
+        {
+          "chunk_id": "section_dosage_and_administration",
+          "char_start": 280,
+          "char_end": 640,
+          "quote": "Directions adults and children 12 years and over: to relieve symptoms, swallow 1 tablet with a glass of water. Do not chew. to prevent symptoms, swallow 1 tablet with a glass of water at any time from 15 to 60 minutes before eating food or drinking beverages that cause heartburn do not use more than 2 tablets in 24 hours children under 12 years: ask a doctor",
+          "passage": "Directions adults and children 12 years and over: to relieve symptoms, swallow 1 tablet with a glass of water. Do not chew. to prevent symptoms, swallow 1 tablet with a glass of water at any time from 15 to 60 minutes before eating food or drinking beverages that cause heartburn do not use more than 2 tablets in 24 hours children under 12 years: ask a doctor"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "qa_0036",
+    "source_record_id": "987a1083-d606-4ebf-bf83-2742128915d8",
+    "response": {
+      "question": "What does the document say about when not to use this product?",
+      "document_id": "19f8d5a74c1a15a2c834df2224303f523d68b5dbdcb1d9e7dcd9cb9e58344f60",
+      "source_name": "[\"FAMOTIDINE\"]",
+      "retrieved_passages": [
+        {
+          "chunk_id": "section_do_not_use",
+          "char_start": 652,
+          "char_end": 840,
+          "text": "Do not use if you have trouble or pain swallowing food, vomiting with blood, or bloody or black stools. These may be signs of a serious condition. See your doctor. with other acid reducers",
+          "retrieval_score": null,
+          "source_locator": "explicit_section_heading"
+        },
+        {
+          "chunk_id": "chunk_0000",
+          "char_start": 0,
+          "char_end": 895,
+          "text": "Indications And Usage\nUses relieves heartburn associated with acid indigestion and sour stomach prevents heartburn associated with acid indigestion and sour stomach brought on by eating or drinking certain food and beverages\nPurpose\nPurpose Acid reducer\nDosage And Administration\nDirections adults and children 12 years and over: to relieve symptoms, swallow 1 tablet with a glass of water. Do not chew. to prevent symptoms, swallow 1 tablet with a glass of water at any time from 15 to 60 minutes before eating food or drinking beverages that cause heartburn do not use more than 2 tablets in 24 hours children under 12 years: ask a doctor\nDo Not Use\nDo not use if you have trouble or pain swallowing food, vomiting with blood, or bloody or black stools. These may be signs of a serious condition. See your doctor. with other acid reducers\nWarnings\nWarnings Allergy alert: Do not use if you are",
+          "token_start": 0,
+          "token_end": 180,
+          "retrieval_score": 0.2864682078361511
+        },
+        {
+          "chunk_id": "chunk_0002",
+          "char_start": 1348,
+          "char_end": 1754,
+          "text": "vomiting stomach pain\nStop Use\nStop use and ask a doctor if your heartburn continues or worsens you need to take this product for more than 14 days\nPregnancy Or Breast Feeding\nIf pregnant or breast-feeding, ask a health professional before use.\nKeep Out Of Reach Of Children\nKeep out of reach of children In case of overdose, get medical help or contact a Poison Control Center (1-800-222-1222) right away.",
+          "token_start": 280,
+          "token_end": 367,
+          "retrieval_score": 0.1325490027666092
+        },
+        {
+          "chunk_id": "chunk_0001",
+          "char_start": 717,
+          "char_end": 1553,
+          "text": "with blood, or bloody or black stools. These may be signs of a serious condition. See your doctor. with other acid reducers\nWarnings\nWarnings Allergy alert: Do not use if you are allergic to famotidine or other acid reducers\nAsk Doctor\nAsk a doctor before use if you have had heartburn over 3 months. This may be a sign of a more serious condition. heartburn with lightheadedness, sweating, or dizziness chest pain or shoulder pain with shortness of breath; sweating; pain spreading to arms, neck or shoulders; or lightheadedness frequent chest pain frequent wheezing, particularly with heartburn unexplained weight loss nausea or vomiting stomach pain\nStop Use\nStop use and ask a doctor if your heartburn continues or worsens you need to take this product for more than 14 days\nPregnancy Or Breast Feeding\nIf pregnant or breast-feeding",
+          "token_start": 140,
+          "token_end": 320,
+          "retrieval_score": 0.12609410285949707
+        }
+      ],
+      "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+      "generation_model": "google/flan-t5-small",
+      "policy_version": 2,
+      "answer": "Do not use if you have trouble or pain swallowing food, vomiting with blood, or bloody or black stools. These may be signs of a serious condition. See your doctor. with other acid reducers",
+      "status": "answered",
+      "answer_mode": "grounded_section_quote",
+      "extracted_span": "Do not use if you have trouble or pain swallowing food, vomiting with blood, or bloody or black stools. These may be signs of a serious condition. See your doctor. with other acid reducers",
+      "generation_attempted": true,
+      "generation_verified": true,
+      "question_coverage": 1.0,
+      "citations": [
+        {
+          "chunk_id": "section_do_not_use",
+          "char_start": 652,
+          "char_end": 840,
+          "quote": "Do not use if you have trouble or pain swallowing food, vomiting with blood, or bloody or black stools. These may be signs of a serious condition. See your doctor. with other acid reducers",
+          "passage": "Do not use if you have trouble or pain swallowing food, vomiting with blood, or bloody or black stools. These may be signs of a serious condition. See your doctor. with other acid reducers"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "qa_0037",
+    "source_record_id": "987a1083-d606-4ebf-bf83-2742128915d8",
+    "response": {
+      "question": "What does the document say about pregnancy or breast-feeding?",
+      "document_id": "19f8d5a74c1a15a2c834df2224303f523d68b5dbdcb1d9e7dcd9cb9e58344f60",
+      "source_name": "[\"FAMOTIDINE\"]",
+      "retrieved_passages": [
+        {
+          "chunk_id": "section_pregnancy_or_breast_feeding",
+          "char_start": 1524,
+          "char_end": 1592,
+          "text": "If pregnant or breast-feeding, ask a health professional before use.",
+          "retrieval_score": null,
+          "source_locator": "explicit_section_heading"
+        },
+        {
+          "chunk_id": "chunk_0002",
+          "char_start": 1348,
+          "char_end": 1754,
+          "text": "vomiting stomach pain\nStop Use\nStop use and ask a doctor if your heartburn continues or worsens you need to take this product for more than 14 days\nPregnancy Or Breast Feeding\nIf pregnant or breast-feeding, ask a health professional before use.\nKeep Out Of Reach Of Children\nKeep out of reach of children In case of overdose, get medical help or contact a Poison Control Center (1-800-222-1222) right away.",
+          "token_start": 280,
+          "token_end": 367,
+          "retrieval_score": 0.197713702917099
+        },
+        {
+          "chunk_id": "chunk_0001",
+          "char_start": 717,
+          "char_end": 1553,
+          "text": "with blood, or bloody or black stools. These may be signs of a serious condition. See your doctor. with other acid reducers\nWarnings\nWarnings Allergy alert: Do not use if you are allergic to famotidine or other acid reducers\nAsk Doctor\nAsk a doctor before use if you have had heartburn over 3 months. This may be a sign of a more serious condition. heartburn with lightheadedness, sweating, or dizziness chest pain or shoulder pain with shortness of breath; sweating; pain spreading to arms, neck or shoulders; or lightheadedness frequent chest pain frequent wheezing, particularly with heartburn unexplained weight loss nausea or vomiting stomach pain\nStop Use\nStop use and ask a doctor if your heartburn continues or worsens you need to take this product for more than 14 days\nPregnancy Or Breast Feeding\nIf pregnant or breast-feeding",
+          "token_start": 140,
+          "token_end": 320,
+          "retrieval_score": 0.0742313414812088
+        },
+        {
+          "chunk_id": "chunk_0000",
+          "char_start": 0,
+          "char_end": 895,
+          "text": "Indications And Usage\nUses relieves heartburn associated with acid indigestion and sour stomach prevents heartburn associated with acid indigestion and sour stomach brought on by eating or drinking certain food and beverages\nPurpose\nPurpose Acid reducer\nDosage And Administration\nDirections adults and children 12 years and over: to relieve symptoms, swallow 1 tablet with a glass of water. Do not chew. to prevent symptoms, swallow 1 tablet with a glass of water at any time from 15 to 60 minutes before eating food or drinking beverages that cause heartburn do not use more than 2 tablets in 24 hours children under 12 years: ask a doctor\nDo Not Use\nDo not use if you have trouble or pain swallowing food, vomiting with blood, or bloody or black stools. These may be signs of a serious condition. See your doctor. with other acid reducers\nWarnings\nWarnings Allergy alert: Do not use if you are",
+          "token_start": 0,
+          "token_end": 180,
+          "retrieval_score": 0.062013037502765656
+        }
+      ],
+      "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+      "generation_model": "google/flan-t5-small",
+      "policy_version": 2,
+      "answer": "If pregnant or breast-feeding, ask a health professional before use.",
+      "status": "answered",
+      "answer_mode": "grounded_section_quote",
+      "extracted_span": "If pregnant or breast-feeding, ask a health professional before use.",
+      "generation_attempted": true,
+      "generation_verified": false,
+      "question_coverage": 1.0,
+      "citations": [
+        {
+          "chunk_id": "section_pregnancy_or_breast_feeding",
+          "char_start": 1524,
+          "char_end": 1592,
+          "quote": "If pregnant or breast-feeding, ask a health professional before use.",
+          "passage": "If pregnant or breast-feeding, ask a health professional before use."
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "qa_0038",
+    "source_record_id": "987a1083-d606-4ebf-bf83-2742128915d8",
+    "response": {
+      "question": "What does the document say about warnings?",
+      "document_id": "19f8d5a74c1a15a2c834df2224303f523d68b5dbdcb1d9e7dcd9cb9e58344f60",
+      "source_name": "[\"FAMOTIDINE\"]",
+      "retrieved_passages": [
+        {
+          "chunk_id": "section_warnings",
+          "char_start": 850,
+          "char_end": 941,
+          "text": "Warnings Allergy alert: Do not use if you are allergic to famotidine or other acid reducers",
+          "retrieval_score": null,
+          "source_locator": "explicit_section_heading"
+        },
+        {
+          "chunk_id": "chunk_0000",
+          "char_start": 0,
+          "char_end": 895,
+          "text": "Indications And Usage\nUses relieves heartburn associated with acid indigestion and sour stomach prevents heartburn associated with acid indigestion and sour stomach brought on by eating or drinking certain food and beverages\nPurpose\nPurpose Acid reducer\nDosage And Administration\nDirections adults and children 12 years and over: to relieve symptoms, swallow 1 tablet with a glass of water. Do not chew. to prevent symptoms, swallow 1 tablet with a glass of water at any time from 15 to 60 minutes before eating food or drinking beverages that cause heartburn do not use more than 2 tablets in 24 hours children under 12 years: ask a doctor\nDo Not Use\nDo not use if you have trouble or pain swallowing food, vomiting with blood, or bloody or black stools. These may be signs of a serious condition. See your doctor. with other acid reducers\nWarnings\nWarnings Allergy alert: Do not use if you are",
+          "token_start": 0,
+          "token_end": 180,
+          "retrieval_score": 0.059035591781139374
+        },
+        {
+          "chunk_id": "chunk_0002",
+          "char_start": 1348,
+          "char_end": 1754,
+          "text": "vomiting stomach pain\nStop Use\nStop use and ask a doctor if your heartburn continues or worsens you need to take this product for more than 14 days\nPregnancy Or Breast Feeding\nIf pregnant or breast-feeding, ask a health professional before use.\nKeep Out Of Reach Of Children\nKeep out of reach of children In case of overdose, get medical help or contact a Poison Control Center (1-800-222-1222) right away.",
+          "token_start": 280,
+          "token_end": 367,
+          "retrieval_score": 0.05699264630675316
+        },
+        {
+          "chunk_id": "chunk_0001",
+          "char_start": 717,
+          "char_end": 1553,
+          "text": "with blood, or bloody or black stools. These may be signs of a serious condition. See your doctor. with other acid reducers\nWarnings\nWarnings Allergy alert: Do not use if you are allergic to famotidine or other acid reducers\nAsk Doctor\nAsk a doctor before use if you have had heartburn over 3 months. This may be a sign of a more serious condition. heartburn with lightheadedness, sweating, or dizziness chest pain or shoulder pain with shortness of breath; sweating; pain spreading to arms, neck or shoulders; or lightheadedness frequent chest pain frequent wheezing, particularly with heartburn unexplained weight loss nausea or vomiting stomach pain\nStop Use\nStop use and ask a doctor if your heartburn continues or worsens you need to take this product for more than 14 days\nPregnancy Or Breast Feeding\nIf pregnant or breast-feeding",
+          "token_start": 140,
+          "token_end": 320,
+          "retrieval_score": 0.012143699452280998
+        }
+      ],
+      "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+      "generation_model": "google/flan-t5-small",
+      "policy_version": 2,
+      "answer": "Warnings Allergy alert: Do not use if you are allergic to famotidine or other acid reducers",
+      "status": "answered",
+      "answer_mode": "grounded_section_quote",
+      "extracted_span": "Warnings Allergy alert: Do not use if you are allergic to famotidine or other acid reducers",
+      "generation_attempted": true,
+      "generation_verified": true,
+      "question_coverage": 1.0,
+      "citations": [
+        {
+          "chunk_id": "section_warnings",
+          "char_start": 850,
+          "char_end": 941,
+          "quote": "Warnings Allergy alert: Do not use if you are allergic to famotidine or other acid reducers",
+          "passage": "Warnings Allergy alert: Do not use if you are allergic to famotidine or other acid reducers"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "qa_0039",
+    "source_record_id": "987a1083-d606-4ebf-bf83-2742128915d8",
+    "response": {
+      "question": "What is the retail price stated in this document?",
+      "document_id": "19f8d5a74c1a15a2c834df2224303f523d68b5dbdcb1d9e7dcd9cb9e58344f60",
+      "source_name": "[\"FAMOTIDINE\"]",
+      "retrieved_passages": [
+        {
+          "chunk_id": "chunk_0001",
+          "char_start": 717,
+          "char_end": 1553,
+          "text": "with blood, or bloody or black stools. These may be signs of a serious condition. See your doctor. with other acid reducers\nWarnings\nWarnings Allergy alert: Do not use if you are allergic to famotidine or other acid reducers\nAsk Doctor\nAsk a doctor before use if you have had heartburn over 3 months. This may be a sign of a more serious condition. heartburn with lightheadedness, sweating, or dizziness chest pain or shoulder pain with shortness of breath; sweating; pain spreading to arms, neck or shoulders; or lightheadedness frequent chest pain frequent wheezing, particularly with heartburn unexplained weight loss nausea or vomiting stomach pain\nStop Use\nStop use and ask a doctor if your heartburn continues or worsens you need to take this product for more than 14 days\nPregnancy Or Breast Feeding\nIf pregnant or breast-feeding",
+          "token_start": 140,
+          "token_end": 320,
+          "retrieval_score": 0.0012188879773020744
+        },
+        {
+          "chunk_id": "chunk_0000",
+          "char_start": 0,
+          "char_end": 895,
+          "text": "Indications And Usage\nUses relieves heartburn associated with acid indigestion and sour stomach prevents heartburn associated with acid indigestion and sour stomach brought on by eating or drinking certain food and beverages\nPurpose\nPurpose Acid reducer\nDosage And Administration\nDirections adults and children 12 years and over: to relieve symptoms, swallow 1 tablet with a glass of water. Do not chew. to prevent symptoms, swallow 1 tablet with a glass of water at any time from 15 to 60 minutes before eating food or drinking beverages that cause heartburn do not use more than 2 tablets in 24 hours children under 12 years: ask a doctor\nDo Not Use\nDo not use if you have trouble or pain swallowing food, vomiting with blood, or bloody or black stools. These may be signs of a serious condition. See your doctor. with other acid reducers\nWarnings\nWarnings Allergy alert: Do not use if you are",
+          "token_start": 0,
+          "token_end": 180,
+          "retrieval_score": 0.0007953941822052002
+        },
+        {
+          "chunk_id": "chunk_0002",
+          "char_start": 1348,
+          "char_end": 1754,
+          "text": "vomiting stomach pain\nStop Use\nStop use and ask a doctor if your heartburn continues or worsens you need to take this product for more than 14 days\nPregnancy Or Breast Feeding\nIf pregnant or breast-feeding, ask a health professional before use.\nKeep Out Of Reach Of Children\nKeep out of reach of children In case of overdose, get medical help or contact a Poison Control Center (1-800-222-1222) right away.",
+          "token_start": 280,
+          "token_end": 367,
+          "retrieval_score": -0.07573217153549194
+        }
+      ],
+      "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+      "generation_model": "google/flan-t5-small",
+      "policy_version": 2,
+      "answer": "I cannot find that in the document.",
+      "status": "not_found",
+      "answer_mode": "not_found",
+      "citations": [],
+      "question_coverage": 0.0
+    }
+  },
+  {
+    "case_id": "qa_0040",
+    "source_record_id": "987a1083-d606-4ebf-bf83-2742128915d8",
+    "response": {
+      "question": "What is my prescribing doctor's telephone number?",
+      "document_id": "19f8d5a74c1a15a2c834df2224303f523d68b5dbdcb1d9e7dcd9cb9e58344f60",
+      "source_name": "[\"FAMOTIDINE\"]",
+      "retrieved_passages": [
+        {
+          "chunk_id": "chunk_0002",
+          "char_start": 1348,
+          "char_end": 1754,
+          "text": "vomiting stomach pain\nStop Use\nStop use and ask a doctor if your heartburn continues or worsens you need to take this product for more than 14 days\nPregnancy Or Breast Feeding\nIf pregnant or breast-feeding, ask a health professional before use.\nKeep Out Of Reach Of Children\nKeep out of reach of children In case of overdose, get medical help or contact a Poison Control Center (1-800-222-1222) right away.",
+          "token_start": 280,
+          "token_end": 367,
+          "retrieval_score": 0.20159167051315308
+        },
+        {
+          "chunk_id": "chunk_0001",
+          "char_start": 717,
+          "char_end": 1553,
+          "text": "with blood, or bloody or black stools. These may be signs of a serious condition. See your doctor. with other acid reducers\nWarnings\nWarnings Allergy alert: Do not use if you are allergic to famotidine or other acid reducers\nAsk Doctor\nAsk a doctor before use if you have had heartburn over 3 months. This may be a sign of a more serious condition. heartburn with lightheadedness, sweating, or dizziness chest pain or shoulder pain with shortness of breath; sweating; pain spreading to arms, neck or shoulders; or lightheadedness frequent chest pain frequent wheezing, particularly with heartburn unexplained weight loss nausea or vomiting stomach pain\nStop Use\nStop use and ask a doctor if your heartburn continues or worsens you need to take this product for more than 14 days\nPregnancy Or Breast Feeding\nIf pregnant or breast-feeding",
+          "token_start": 140,
+          "token_end": 320,
+          "retrieval_score": 0.15727806091308594
+        },
+        {
+          "chunk_id": "chunk_0000",
+          "char_start": 0,
+          "char_end": 895,
+          "text": "Indications And Usage\nUses relieves heartburn associated with acid indigestion and sour stomach prevents heartburn associated with acid indigestion and sour stomach brought on by eating or drinking certain food and beverages\nPurpose\nPurpose Acid reducer\nDosage And Administration\nDirections adults and children 12 years and over: to relieve symptoms, swallow 1 tablet with a glass of water. Do not chew. to prevent symptoms, swallow 1 tablet with a glass of water at any time from 15 to 60 minutes before eating food or drinking beverages that cause heartburn do not use more than 2 tablets in 24 hours children under 12 years: ask a doctor\nDo Not Use\nDo not use if you have trouble or pain swallowing food, vomiting with blood, or bloody or black stools. These may be signs of a serious condition. See your doctor. with other acid reducers\nWarnings\nWarnings Allergy alert: Do not use if you are",
+          "token_start": 0,
+          "token_end": 180,
+          "retrieval_score": 0.15406185388565063
+        }
+      ],
+      "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+      "generation_model": "google/flan-t5-small",
+      "policy_version": 2,
+      "answer": "I cannot find that in the document.",
+      "status": "not_found",
+      "answer_mode": "not_found",
+      "citations": [],
+      "question_coverage": 0.0
+    }
+  },
+  {
+    "case_id": "qa_0041",
+    "source_record_id": "987a1083-d606-4ebf-bf83-2742128915d8",
+    "response": {
+      "question": "What is my insurance policy number?",
+      "document_id": "19f8d5a74c1a15a2c834df2224303f523d68b5dbdcb1d9e7dcd9cb9e58344f60",
+      "source_name": "[\"FAMOTIDINE\"]",
+      "retrieved_passages": [
+        {
+          "chunk_id": "chunk_0002",
+          "char_start": 1348,
+          "char_end": 1754,
+          "text": "vomiting stomach pain\nStop Use\nStop use and ask a doctor if your heartburn continues or worsens you need to take this product for more than 14 days\nPregnancy Or Breast Feeding\nIf pregnant or breast-feeding, ask a health professional before use.\nKeep Out Of Reach Of Children\nKeep out of reach of children In case of overdose, get medical help or contact a Poison Control Center (1-800-222-1222) right away.",
+          "token_start": 280,
+          "token_end": 367,
+          "retrieval_score": 0.03418897092342377
+        },
+        {
+          "chunk_id": "chunk_0000",
+          "char_start": 0,
+          "char_end": 895,
+          "text": "Indications And Usage\nUses relieves heartburn associated with acid indigestion and sour stomach prevents heartburn associated with acid indigestion and sour stomach brought on by eating or drinking certain food and beverages\nPurpose\nPurpose Acid reducer\nDosage And Administration\nDirections adults and children 12 years and over: to relieve symptoms, swallow 1 tablet with a glass of water. Do not chew. to prevent symptoms, swallow 1 tablet with a glass of water at any time from 15 to 60 minutes before eating food or drinking beverages that cause heartburn do not use more than 2 tablets in 24 hours children under 12 years: ask a doctor\nDo Not Use\nDo not use if you have trouble or pain swallowing food, vomiting with blood, or bloody or black stools. These may be signs of a serious condition. See your doctor. with other acid reducers\nWarnings\nWarnings Allergy alert: Do not use if you are",
+          "token_start": 0,
+          "token_end": 180,
+          "retrieval_score": 0.011204537004232407
+        },
+        {
+          "chunk_id": "chunk_0001",
+          "char_start": 717,
+          "char_end": 1553,
+          "text": "with blood, or bloody or black stools. These may be signs of a serious condition. See your doctor. with other acid reducers\nWarnings\nWarnings Allergy alert: Do not use if you are allergic to famotidine or other acid reducers\nAsk Doctor\nAsk a doctor before use if you have had heartburn over 3 months. This may be a sign of a more serious condition. heartburn with lightheadedness, sweating, or dizziness chest pain or shoulder pain with shortness of breath; sweating; pain spreading to arms, neck or shoulders; or lightheadedness frequent chest pain frequent wheezing, particularly with heartburn unexplained weight loss nausea or vomiting stomach pain\nStop Use\nStop use and ask a doctor if your heartburn continues or worsens you need to take this product for more than 14 days\nPregnancy Or Breast Feeding\nIf pregnant or breast-feeding",
+          "token_start": 140,
+          "token_end": 320,
+          "retrieval_score": -0.004809175617992878
+        }
+      ],
+      "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+      "generation_model": "google/flan-t5-small",
+      "policy_version": 2,
+      "answer": "I cannot find that in the document.",
+      "status": "not_found",
+      "answer_mode": "not_found",
+      "citations": [],
+      "question_coverage": 0.0
+    }
+  }
+]

@@ -1,0 +1,122 @@
+{
+  "created_at_utc": "2026-10-28T11:18:01+00:00",
+  "record_count": 2471,
+  "all_passed": true,
+  "checks": [
+    {
+      "name": "nonempty_dataset",
+      "passed": true,
+      "detail": "2,471 documents"
+    },
+    {
+      "name": "required_columns",
+      "passed": true,
+      "detail": "Schema present"
+    },
+    {
+      "name": "configured_classes_present",
+      "passed": true,
+      "detail": "acid_reducer, anti_inflammatory_nsaid, antibacterial, antifungal, antihypertensive, corticosteroid"
+    },
+    {
+      "name": "unique_record_id",
+      "passed": true,
+      "detail": "0 duplicate values"
+    },
+    {
+      "name": "unique_set_id",
+      "passed": true,
+      "detail": "0 duplicate values"
+    },
+    {
+      "name": "unique_document_hash",
+      "passed": true,
+      "detail": "0 duplicate values"
+    },
+    {
+      "name": "minimum_document_length",
+      "passed": true,
+      "detail": "Minimum 91 words"
+    },
+    {
+      "name": "stored_word_counts",
+      "passed": true,
+      "detail": "Word counts recomputed from exported text"
+    },
+    {
+      "name": "stored_character_counts",
+      "passed": true,
+      "detail": "Character counts recomputed from exported text"
+    },
+    {
+      "name": "stored_document_hashes",
+      "passed": true,
+      "detail": "SHA-256 of whitespace/case-normalized text"
+    },
+    {
+      "name": "no_html_tags_in_document",
+      "passed": true,
+      "detail": "Literal numeric inequalities are permitted"
+    },
+    {
+      "name": "real_source_provenance",
+      "passed": true,
+      "detail": "All rows identify openFDA and is_synthetic=False"
+    },
+    {
+      "name": "english_scope_metadata",
+      "passed": true,
+      "detail": "Corpus scope annotation; this is not automatic language detection"
+    },
+    {
+      "name": "source_links",
+      "passed": true,
+      "detail": "DailyMed URLs correspond to SPL set IDs"
+    },
+    {
+      "name": "labels_match_epc_metadata",
+      "passed": true,
+      "detail": "Exactly one selected target class per document"
+    },
+    {
+      "name": "valid_source_sections",
+      "passed": true,
+      "detail": "Section JSON has nonempty, readable strings"
+    },
+    {
+      "name": "shared_ingredients_stay_grouped",
+      "passed": true,
+      "detail": "Shared source ingredient names/UNIIs do not cross leakage groups"
+    },
+    {
+      "name": "csv_parquet_round_trip",
+      "passed": true,
+      "detail": "Compared identifiers, class, full document text, hashes, counts, and flags for 2,471 CSV rows"
+    },
+    {
+      "name": "checksum_medicine_labels.parquet",
+      "passed": true,
+      "detail": "Export matches the cleaning manifest"
+    },
+    {
+      "name": "checksum_medicine_labels.csv.gz",
+      "passed": true,
+      "detail": "Export matches the cleaning manifest"
+    },
+    {
+      "name": "exclusion_audit_totals",
+      "passed": true,
+      "detail": "Every raw record is retained or has an exclusion reason"
+    }
+  ],
+  "environment": {
+    "python": "3.10.6",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "requests": "2.34.2",
+    "ftfy": "6.3.1",
+    "matplotlib": "3.10.9",
+    "seaborn": "0.13.2",
+    "pyarrow": "23.0.1"
+  }
+}

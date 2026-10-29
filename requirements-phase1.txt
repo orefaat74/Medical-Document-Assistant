@@ -1,0 +1,13 @@
+# Optional constraints matching the verified Phase 1 environment.
+# Install with: python -m pip install -e ".[notebooks]" -c requirements-phase1.txt
+numpy==2.2.6
+pandas==2.3.3
+requests==2.34.2
+ftfy==6.3.1
+matplotlib==3.10.9
+seaborn==0.13.2
+pyarrow==23.0.1
+jupyterlab==4.6.4
+nbformat==5.11.1
+nbclient==0.10.4
+ipykernel==7.3.0

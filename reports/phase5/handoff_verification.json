@@ -1,0 +1,38 @@
+{
+  "all_passed": true,
+  "checks": [
+    {
+      "name": "source_archive",
+      "passed": true,
+      "files": 90
+    },
+    {
+      "name": "presentation",
+      "passed": true,
+      "slides": 8
+    },
+    {
+      "name": "integration_results.json",
+      "passed": true,
+      "checks": 14
+    },
+    {
+      "name": "container_integration_results.json",
+      "passed": true,
+      "checks": 9
+    },
+    {
+      "name": "public_demo_verification.json",
+      "passed": true,
+      "checks": 5
+    }
+  ],
+  "deliverable_sha256": {
+    "Final_Presentation.pdf": "26c26d58bba37ee1f2de74f9fb7acce317c00a51799ec9bfcb27fc5e32e4bce0",
+    "Final_Presentation.pptx": "3ca7c4b456a8b85ba1475f4ddc959b2a45280ab64de643ff57f6b12a8b5d75d4",
+    "manifest.json": "1b598d57b6738a17d3fe39d648bd3528c467928f584f3cdce55d11bdad69fd2a",
+    "README.md": "7b850e69a146dcd506eb68db34a9d0d3d6d47b9320fdca7068e71419fffa4ac8",
+    "Source_Code_Handoff.zip": "b7308021022f52f84a311a71c24d777d375afc3f1cef33a3571d033311227e8a",
+    "Speaker_Notes.md": "94357b2a72ee9aa3b284a89bef3679b54428e80dc15e16cac11b92697da77c4c"
+  }
+}

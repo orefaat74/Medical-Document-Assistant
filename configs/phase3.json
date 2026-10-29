@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "random_state": 42,
+  "device": "cpu",
+  "cpu_threads": 4,
+  "vocabulary": {"max_size": 20000, "min_frequency": 2},
+  "encoding": {"chunk_size": 256, "max_chunks": 8},
+  "model": {
+    "architecture": "text_cnn",
+    "embedding_dim": 64,
+    "filters": 32,
+    "kernel_sizes": [3, 4, 5]
+  },
+  "training": {
+    "max_epochs": 24,
+    "patience": 5,
+    "minimum_f1_improvement": 0.0001,
+    "weight_decay": 0.0001,
+    "gradient_clip_norm": 1.0,
+    "evaluation_batch_size": 32,
+    "num_workers": 0
+  },
+  "parameter_grid": {
+    "learning_rate": [0.001, 0.003],
+    "batch_size": [16, 32],
+    "dropout": [0.2, 0.5]
+  }
+}

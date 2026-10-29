@@ -1,0 +1,210 @@
+{
+  "schema_version": 1,
+  "started_at_utc": "2026-10-28T15:38:45+00:00",
+  "test_evaluation_started_at_utc": "2026-10-28T16:25:36+00:00",
+  "completed_at_utc": "2026-10-28T16:25:59+00:00",
+  "config_sha256": "836f33773a8422834379a00d6dc18fed24f5e98dc5b5d99caa06e6b88e224096",
+  "config": {
+    "schema_version": 1,
+    "random_state": 42,
+    "device": "cpu",
+    "cpu_threads": 4,
+    "models": {
+      "bert": {
+        "repo": "google/bert_uncased_L-4_H-256_A-4",
+        "revision": "387825ce42dbb39b87911cdf8e383ee3b25184f8",
+        "license": "apache-2.0"
+      },
+      "embedding": {
+        "repo": "sentence-transformers/all-MiniLM-L6-v2",
+        "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+        "license": "apache-2.0"
+      },
+      "qa": {
+        "repo": "deepset/minilm-uncased-squad2",
+        "revision": "934656cdda79824eabf503ed56e15c01ddbdbe3f",
+        "license": "cc-by-4.0"
+      },
+      "generation": {
+        "repo": "google/flan-t5-small",
+        "revision": "0fc9ddf78a1e988dac52e2dac162b0ede4fd74ab",
+        "license": "apache-2.0"
+      }
+    },
+    "bert": {
+      "max_length": 256,
+      "max_windows": 2,
+      "dropout": 0.1,
+      "learning_rates": [
+        5e-05,
+        0.0001
+      ],
+      "batch_size": 8,
+      "evaluation_batch_size": 16,
+      "max_epochs": 6,
+      "patience": 2,
+      "minimum_f1_improvement": 0.0001,
+      "weight_decay": 0.01,
+      "gradient_clip_norm": 1.0
+    },
+    "rag": {
+      "chunk_tokens": 180,
+      "overlap_tokens": 40,
+      "top_k": 4,
+      "embedding_batch_size": 16,
+      "qa_max_length": 384,
+      "maximum_answer_tokens": 48,
+      "minimum_retrieval_score": 0.2,
+      "minimum_span_score": 0.03,
+      "minimum_answer_margin": 2.0,
+      "minimum_question_coverage": 0.6,
+      "generator_max_input_tokens": 512,
+      "generator_max_new_tokens": 64
+    }
+  },
+  "dataset_sha256": "3eadaed552f771aae883df674eed9efc38f0cebf86c355041e3bda350e85f23c",
+  "split_sha256": "9b41f3cf3e5539efa8905b0db37f45ff0abd03b62bd1adf65d05e54630fb389c",
+  "neural_manifest_sha256": "e48b38cc2d6f06b712327b6c04780c62803f8ea34f95a63e558377a1275185fb",
+  "class_labels": [
+    "antibacterial",
+    "anti_inflammatory_nsaid",
+    "corticosteroid",
+    "antifungal",
+    "acid_reducer",
+    "antihypertensive"
+  ],
+  "selection": {
+    "selected_at_utc": "2026-10-28T16:14:29+00:00",
+    "selected_trial": "bert_01",
+    "results": [
+      {
+        "trial_id": "bert_01",
+        "learning_rate": 5e-05,
+        "batch_size": 8,
+        "dropout": 0.1,
+        "selection_partition": "validation",
+        "validation_metrics": {
+          "accuracy": 0.9945504087193461,
+          "macro_precision": 0.9947109778444111,
+          "macro_recall": 0.9942528735632185,
+          "macro_f1": 0.9944102030173285,
+          "group_balanced_accuracy": 0.9938746438746437,
+          "group_balanced_macro_precision": 0.9956432456432456,
+          "group_balanced_macro_recall": 0.9938746438746439,
+          "group_balanced_macro_f1": 0.9946869134465356,
+          "weighted_f1": 0.9945243967342624,
+          "loss": 0.04460114985704422
+        },
+        "best_epoch": 3,
+        "epochs_run": 5,
+        "training_seconds": 832.4838999000203,
+        "checkpoint_path": "models/phase4/bert/bert_01.pt",
+        "checkpoint_sha256": "28a7d84136ae3a1d21458b3e63cd76bbc40ece13dabd8d2cbcfb01241abd3a30",
+        "history_sha256": "d7efd8df4800ac9108d1dd7ed85e89bc33a385d012955882f794b27b3757fb7e",
+        "provenance": {
+          "dataset_sha256": "3eadaed552f771aae883df674eed9efc38f0cebf86c355041e3bda350e85f23c",
+          "split_sha256": "9b41f3cf3e5539efa8905b0db37f45ff0abd03b62bd1adf65d05e54630fb389c",
+          "config_sha256": "836f33773a8422834379a00d6dc18fed24f5e98dc5b5d99caa06e6b88e224096",
+          "pretrained": {
+            "repo": "google/bert_uncased_L-4_H-256_A-4",
+            "revision": "387825ce42dbb39b87911cdf8e383ee3b25184f8",
+            "license": "apache-2.0"
+          }
+        }
+      },
+      {
+        "trial_id": "bert_02",
+        "learning_rate": 0.0001,
+        "batch_size": 8,
+        "dropout": 0.1,
+        "selection_partition": "validation",
+        "validation_metrics": {
+          "accuracy": 0.9945504087193461,
+          "macro_precision": 0.9945222701149424,
+          "macro_recall": 0.994202460173422,
+          "macro_f1": 0.9943391745699165,
+          "group_balanced_accuracy": 0.9968253968253968,
+          "group_balanced_macro_precision": 0.9959407956562597,
+          "group_balanced_macro_recall": 0.9968253968253968,
+          "group_balanced_macro_f1": 0.9963687537882736,
+          "weighted_f1": 0.9945490796433596,
+          "loss": 0.029756983742117882
+        },
+        "best_epoch": 5,
+        "epochs_run": 6,
+        "training_seconds": 1310.5438608000113,
+        "checkpoint_path": "models/phase4/bert/bert_02.pt",
+        "checkpoint_sha256": "1ed0dea908cc9fb2093adc14904d67d162bc45a8d45eeea7657c273ec56fdbba",
+        "history_sha256": "db166049d72c4620d5bb4d03217e04b4cc379cfd14b9d12f02ce2bc9a1352133",
+        "provenance": {
+          "dataset_sha256": "3eadaed552f771aae883df674eed9efc38f0cebf86c355041e3bda350e85f23c",
+          "split_sha256": "9b41f3cf3e5539efa8905b0db37f45ff0abd03b62bd1adf65d05e54630fb389c",
+          "config_sha256": "836f33773a8422834379a00d6dc18fed24f5e98dc5b5d99caa06e6b88e224096",
+          "pretrained": {
+            "repo": "google/bert_uncased_L-4_H-256_A-4",
+            "revision": "387825ce42dbb39b87911cdf8e383ee3b25184f8",
+            "license": "apache-2.0"
+          }
+        }
+      }
+    ],
+    "test_used_for_selection": false,
+    "refit_epochs": 3
+  },
+  "validation_metrics": {
+    "accuracy": 0.9945504087193461,
+    "macro_precision": 0.9947109778444111,
+    "macro_recall": 0.9942528735632185,
+    "macro_f1": 0.9944102030173285,
+    "group_balanced_accuracy": 0.9938746438746437,
+    "group_balanced_macro_precision": 0.9956432456432456,
+    "group_balanced_macro_recall": 0.9938746438746439,
+    "group_balanced_macro_f1": 0.9946869134465356,
+    "weighted_f1": 0.9945243967342624,
+    "loss": 0.044601138681173325
+  },
+  "test_metrics": {
+    "accuracy": 0.9532163742690059,
+    "macro_precision": 0.9642942942942944,
+    "macro_recall": 0.959900600686499,
+    "macro_f1": 0.959712218393549,
+    "group_balanced_accuracy": 0.8904545454545455,
+    "group_balanced_macro_precision": 0.9176322464497142,
+    "group_balanced_macro_recall": 0.9362253487253488,
+    "group_balanced_macro_f1": 0.9123725414336884,
+    "weighted_f1": 0.9532923643010308,
+    "loss": 0.11904048919677734
+  },
+  "refit_epochs": 3,
+  "fitted_documents": 2129,
+  "checkpoint": {
+    "path": "models/phase4/bert/model.pt",
+    "sha256": "de10aac672aa4a824b9e660d2be8a2fd22c134ea8cb95c9eb1a070fd45f368d3"
+  },
+  "pretrained_model": {
+    "repo": "google/bert_uncased_L-4_H-256_A-4",
+    "revision": "387825ce42dbb39b87911cdf8e383ee3b25184f8",
+    "license": "apache-2.0"
+  },
+  "encoder_layers": 4,
+  "hidden_size": 256,
+  "parameters": 11107846,
+  "environment": {
+    "torch": "2.8.0+cpu",
+    "device": "cpu",
+    "cpu_threads": 4
+  },
+  "output_checksums": {
+    "bert_01_history.csv": "d7efd8df4800ac9108d1dd7ed85e89bc33a385d012955882f794b27b3757fb7e",
+    "bert_02_history.csv": "db166049d72c4620d5bb4d03217e04b4cc379cfd14b9d12f02ce2bc9a1352133",
+    "confusion_matrix.csv": "b3c8605dbfeed006a3a01e2ca94f82b3c79ae8f534997e301e0b8fe57ffb03f2",
+    "model_comparison.csv": "49a37646905da573e1323820be8facf15d9e1e9c59b278961f978fdd94c52629",
+    "per_class_test_metrics.csv": "ae9f00bb8ca18450ae950c34fcbf0890043fdb818c12effef4cad6fb89aebbdd",
+    "predictions_test.csv": "e59d134ee3a3326f44a8767c481390550c353b1cbd82480a777709591494308c",
+    "predictions_validation.csv": "87b706de4d577789745c0b8657496e0f3003823d472350e84d658bd36cc9c1a8",
+    "refit_history.csv": "ec914c2a729c1069e7b1bd312c9793bbc6ecdcafb2cada81b62405d977a10bd6",
+    "test_errors.csv": "94491b7c0d6cc97739d50831197fa46ee8bef46b00ff4e8d709f3619ffd61748",
+    "token_coverage.csv": "089f9dd075475989d9fb0f5213d0422bf416dc455a6c4b92494a1ac997e84c12",
+    "trial_comparison.csv": "910f2d9f4058ad1a6215cf60ea4ab2feb050c7fd7f1924988335beb223090c65"
+  }
+}

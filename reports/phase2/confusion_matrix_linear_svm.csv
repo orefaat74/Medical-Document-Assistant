@@ -1,0 +1,7 @@
+true_class,antibacterial,anti_inflammatory_nsaid,corticosteroid,antifungal,acid_reducer,antihypertensive
+antibacterial,54,0,15,0,0,0
+anti_inflammatory_nsaid,0,64,0,0,0,0
+corticosteroid,0,0,64,0,0,0
+antifungal,0,0,0,69,0,0
+acid_reducer,0,0,0,0,19,0
+antihypertensive,0,0,0,0,0,57

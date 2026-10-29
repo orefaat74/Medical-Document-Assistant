@@ -1,0 +1,41 @@
+{
+  "selected_trial": "trial_08",
+  "parameters": {
+    "learning_rate": 0.003,
+    "batch_size": 32,
+    "dropout": 0.5
+  },
+  "validation_macro_f1": 0.997238388679676,
+  "test_accuracy": 0.9853801169590644,
+  "test_macro_f1": 0.9875949076634992,
+  "test_group_balanced_macro_f1": 0.9858689576758372,
+  "test_macro_f1_difference_from_classical_benchmark": 0.012478511901456657,
+  "refit_epochs": 23,
+  "verification_checks_passed": 95,
+  "coverage": [
+    {
+      "split": "train",
+      "documents": 1762,
+      "mean_tokens": 4372.1759,
+      "mean_seen": 1419.7015,
+      "mean_retention": 0.6574,
+      "mean_unknown": 0.0014
+    },
+    {
+      "split": "validation",
+      "documents": 367,
+      "mean_tokens": 7995.1689,
+      "mean_seen": 1924.5341,
+      "mean_retention": 0.4147,
+      "mean_unknown": 0.0003
+    },
+    {
+      "split": "test",
+      "documents": 342,
+      "mean_tokens": 9564.4211,
+      "mean_seen": 1978.1199,
+      "mean_retention": 0.3417,
+      "mean_unknown": 0.0143
+    }
+  ]
+}

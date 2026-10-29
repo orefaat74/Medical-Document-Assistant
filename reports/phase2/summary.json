@@ -1,0 +1,23 @@
+{
+  "selected_model": "random_forest",
+  "selected_display_name": "Random Forest",
+  "documents": 2471,
+  "benchmark_groups": 100,
+  "partition_documents": {
+    "train": 1762,
+    "validation": 367,
+    "test": 342
+  },
+  "partition_groups": {
+    "test": 15,
+    "train": 67,
+    "validation": 18
+  },
+  "selected_validation_macro_f1": 0.8671357819613633,
+  "selected_test_accuracy": 0.9707602339181286,
+  "selected_test_macro_f1": 0.9751163957620426,
+  "selected_test_group_balanced_macro_f1": 0.9687614792752544,
+  "selected_test_errors": 10,
+  "verification_checks_passed": 75,
+  "test_used_for_selection": false
+}

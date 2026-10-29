@@ -1,0 +1,1305 @@
+[
+  {
+    "case_id": "qa_0014",
+    "source_record_id": "5a14c6a7-a60c-f811-e063-6294a90a1213",
+    "response": {
+      "question": "What does the document say about dosage and administration?",
+      "document_id": "e21cc8cf568216846886750372e623d844a9c5ccb30aa3a3465fe3cc2362395c",
+      "source_name": "[\"ASPIRIN\"]",
+      "retrieved_passages": [
+        {
+          "chunk_id": "section_dosage_and_administration",
+          "char_start": 322,
+          "char_end": 561,
+          "text": "Directions - Drink a full glass of water with each dose - adults and children 12 years and over: take 4 to 8 tablets every 4 hours not to exceed 48 tablets in 24 hours unless directed by a doctor - children under 12 years: consult a doctor",
+          "retrieval_score": null,
+          "source_locator": "explicit_section_heading"
+        },
+        {
+          "chunk_id": "chunk_0000",
+          "char_start": 0,
+          "char_end": 858,
+          "text": "Indications And Usage\nUses temporarily relieves minor aches and pains Because of its delayed action, this product will not prodice fast relief of headaches or other symptoms needing immediate relief. ask your doctor about other uses for enteric-coated 81 mg Aspirin\nPurpose\nPurpose Pain reliever\nDosage And Administration\nDirections - Drink a full glass of water with each dose - adults and children 12 years and over: take 4 to 8 tablets every 4 hours not to exceed 48 tablets in 24 hours unless directed by a doctor - children under 12 years: consult a doctor\nDo Not Use\nDo not use: if you are allergic to aspirin or any other pain reliver/fever reducer\nWarnings\nWarnings Reye's syndrome: Children and teenagers who have or are recoving from chicken pox or flu-like symptoms should not use this product. When using this product, if changes in behavior with",
+          "token_start": 0,
+          "token_end": 180,
+          "retrieval_score": 0.39857614040374756
+        },
+        {
+          "chunk_id": "chunk_0001",
+          "char_start": 674,
+          "char_end": 1502,
+          "text": "Reye's syndrome: Children and teenagers who have or are recoving from chicken pox or flu-like symptoms should not use this product. When using this product, if changes in behavior with nausea and vomiting occur, consult a doctor because these symptoms could be early sign of Reye's syndrome, a rare but serious illness.\nAsk Doctor\nAsk a doctor before use if stomach bleeding warning applies to you you have a history of stomach problems, such as heartburn you have high blood pressure, heart disease, liver cirrhosis, or kidney disease you are taking a diuretic you have asthma you have not been drinking fluids you have lost a lot of fluid due to vomiting or diarrhea\nAsk Doctor Or Pharmacist\nAsk a doctor or pharmacist before use if you are - taking a prescription drug for diabetes, gout, or arthritis - taking any other drug",
+          "token_start": 139,
+          "token_end": 319,
+          "retrieval_score": 0.2243746817111969
+        },
+        {
+          "chunk_id": "chunk_0003",
+          "char_start": 1954,
+          "char_end": 2474,
+          "text": "hearing occurs. these could be signs of a serious condition.\nPregnancy Or Breast Feeding\nIf pregnant or breast-feeding, ask a health professional before use. It is especially important not to use aspirin during the last 3 months of pregnancy unless definitely directed to do so by a doctor becwause it may cause problems in the unborn child or complications during delivery.\nKeep Out Of Reach Of Children\nKeep out of reach of children. In case of overdose, get medical help or contact a Poison Control Center right away.",
+          "token_start": 418,
+          "token_end": 522,
+          "retrieval_score": 0.1509406566619873
+        },
+        {
+          "chunk_id": "chunk_0002",
+          "char_start": 1334,
+          "char_end": 2157,
+          "text": "diarrhea\nAsk Doctor Or Pharmacist\nAsk a doctor or pharmacist before use if you are - taking a prescription drug for diabetes, gout, or arthritis - taking any other drug - under a doctor's care for any serious condition\nStop Use\nStop use and ask a doctor if - an allergic reaction occurs. Seek medical help right away. - you are experierance any of the following signs of stomach bleeding: feel faint, have bloody or black stools, vomit blood, have stomach pain that does not get better - pain gets worse or lasts more than 10 days - redness or swelling is present - new symptoms occur - ringing in the ears or a loss of hearing occurs. these could be signs of a serious condition.\nPregnancy Or Breast Feeding\nIf pregnant or breast-feeding, ask a health professional before use. It is especially important not to use aspirin",
+          "token_start": 278,
+          "token_end": 458,
+          "retrieval_score": 0.07200425863265991
+        }
+      ],
+      "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+      "generation_model": "google/flan-t5-small",
+      "policy_version": 2,
+      "answer": "Directions - Drink a full glass of water with each dose - adults and children 12 years and over: take 4 to 8 tablets every 4 hours not to exceed 48 tablets in 24 hours unless directed by a doctor - children under 12 years: consult a doctor",
+      "status": "answered",
+      "answer_mode": "grounded_section_quote",
+      "extracted_span": "Directions - Drink a full glass of water with each dose - adults and children 12 years and over: take 4 to 8 tablets every 4 hours not to exceed 48 tablets in 24 hours unless directed by a doctor - children under 12 years: consult a doctor",
+      "generation_attempted": true,
+      "generation_verified": false,
+      "question_coverage": 1.0,
+      "citations": [
+        {
+          "chunk_id": "section_dosage_and_administration",
+          "char_start": 322,
+          "char_end": 561,
+          "quote": "Directions - Drink a full glass of water with each dose - adults and children 12 years and over: take 4 to 8 tablets every 4 hours not to exceed 48 tablets in 24 hours unless directed by a doctor - children under 12 years: consult a doctor",
+          "passage": "Directions - Drink a full glass of water with each dose - adults and children 12 years and over: take 4 to 8 tablets every 4 hours not to exceed 48 tablets in 24 hours unless directed by a doctor - children under 12 years: consult a doctor"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "qa_0015",
+    "source_record_id": "5a14c6a7-a60c-f811-e063-6294a90a1213",
+    "response": {
+      "question": "What does the document say about when not to use this product?",
+      "document_id": "e21cc8cf568216846886750372e623d844a9c5ccb30aa3a3465fe3cc2362395c",
+      "source_name": "[\"ASPIRIN\"]",
+      "retrieved_passages": [
+        {
+          "chunk_id": "section_do_not_use",
+          "char_start": 573,
+          "char_end": 655,
+          "text": "Do not use: if you are allergic to aspirin or any other pain reliver/fever reducer",
+          "retrieval_score": null,
+          "source_locator": "explicit_section_heading"
+        },
+        {
+          "chunk_id": "chunk_0000",
+          "char_start": 0,
+          "char_end": 858,
+          "text": "Indications And Usage\nUses temporarily relieves minor aches and pains Because of its delayed action, this product will not prodice fast relief of headaches or other symptoms needing immediate relief. ask your doctor about other uses for enteric-coated 81 mg Aspirin\nPurpose\nPurpose Pain reliever\nDosage And Administration\nDirections - Drink a full glass of water with each dose - adults and children 12 years and over: take 4 to 8 tablets every 4 hours not to exceed 48 tablets in 24 hours unless directed by a doctor - children under 12 years: consult a doctor\nDo Not Use\nDo not use: if you are allergic to aspirin or any other pain reliver/fever reducer\nWarnings\nWarnings Reye's syndrome: Children and teenagers who have or are recoving from chicken pox or flu-like symptoms should not use this product. When using this product, if changes in behavior with",
+          "token_start": 0,
+          "token_end": 180,
+          "retrieval_score": 0.2914681136608124
+        },
+        {
+          "chunk_id": "chunk_0001",
+          "char_start": 674,
+          "char_end": 1502,
+          "text": "Reye's syndrome: Children and teenagers who have or are recoving from chicken pox or flu-like symptoms should not use this product. When using this product, if changes in behavior with nausea and vomiting occur, consult a doctor because these symptoms could be early sign of Reye's syndrome, a rare but serious illness.\nAsk Doctor\nAsk a doctor before use if stomach bleeding warning applies to you you have a history of stomach problems, such as heartburn you have high blood pressure, heart disease, liver cirrhosis, or kidney disease you are taking a diuretic you have asthma you have not been drinking fluids you have lost a lot of fluid due to vomiting or diarrhea\nAsk Doctor Or Pharmacist\nAsk a doctor or pharmacist before use if you are - taking a prescription drug for diabetes, gout, or arthritis - taking any other drug",
+          "token_start": 139,
+          "token_end": 319,
+          "retrieval_score": 0.24552886188030243
+        },
+        {
+          "chunk_id": "chunk_0003",
+          "char_start": 1954,
+          "char_end": 2474,
+          "text": "hearing occurs. these could be signs of a serious condition.\nPregnancy Or Breast Feeding\nIf pregnant or breast-feeding, ask a health professional before use. It is especially important not to use aspirin during the last 3 months of pregnancy unless definitely directed to do so by a doctor becwause it may cause problems in the unborn child or complications during delivery.\nKeep Out Of Reach Of Children\nKeep out of reach of children. In case of overdose, get medical help or contact a Poison Control Center right away.",
+          "token_start": 418,
+          "token_end": 522,
+          "retrieval_score": 0.10512631386518478
+        },
+        {
+          "chunk_id": "chunk_0002",
+          "char_start": 1334,
+          "char_end": 2157,
+          "text": "diarrhea\nAsk Doctor Or Pharmacist\nAsk a doctor or pharmacist before use if you are - taking a prescription drug for diabetes, gout, or arthritis - taking any other drug - under a doctor's care for any serious condition\nStop Use\nStop use and ask a doctor if - an allergic reaction occurs. Seek medical help right away. - you are experierance any of the following signs of stomach bleeding: feel faint, have bloody or black stools, vomit blood, have stomach pain that does not get better - pain gets worse or lasts more than 10 days - redness or swelling is present - new symptoms occur - ringing in the ears or a loss of hearing occurs. these could be signs of a serious condition.\nPregnancy Or Breast Feeding\nIf pregnant or breast-feeding, ask a health professional before use. It is especially important not to use aspirin",
+          "token_start": 278,
+          "token_end": 458,
+          "retrieval_score": 0.00402248278260231
+        }
+      ],
+      "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+      "generation_model": "google/flan-t5-small",
+      "policy_version": 2,
+      "answer": "Do not use: if you are allergic to aspirin or any other pain reliver/fever reducer",
+      "status": "answered",
+      "answer_mode": "grounded_section_quote",
+      "extracted_span": "Do not use: if you are allergic to aspirin or any other pain reliver/fever reducer",
+      "generation_attempted": true,
+      "generation_verified": false,
+      "question_coverage": 1.0,
+      "citations": [
+        {
+          "chunk_id": "section_do_not_use",
+          "char_start": 573,
+          "char_end": 655,
+          "quote": "Do not use: if you are allergic to aspirin or any other pain reliver/fever reducer",
+          "passage": "Do not use: if you are allergic to aspirin or any other pain reliver/fever reducer"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "qa_0016",
+    "source_record_id": "5a14c6a7-a60c-f811-e063-6294a90a1213",
+    "response": {
+      "question": "What does the document say about pregnancy or breast-feeding?",
+      "document_id": "e21cc8cf568216846886750372e623d844a9c5ccb30aa3a3465fe3cc2362395c",
+      "source_name": "[\"ASPIRIN\"]",
+      "retrieved_passages": [
+        {
+          "chunk_id": "section_pregnancy_or_breast_feeding",
+          "char_start": 2043,
+          "char_end": 2328,
+          "text": "If pregnant or breast-feeding, ask a health professional before use. It is especially important not to use aspirin during the last 3 months of pregnancy unless definitely directed to do so by a doctor becwause it may cause problems in the unborn child or complications during delivery.",
+          "retrieval_score": null,
+          "source_locator": "explicit_section_heading"
+        },
+        {
+          "chunk_id": "chunk_0003",
+          "char_start": 1954,
+          "char_end": 2474,
+          "text": "hearing occurs. these could be signs of a serious condition.\nPregnancy Or Breast Feeding\nIf pregnant or breast-feeding, ask a health professional before use. It is especially important not to use aspirin during the last 3 months of pregnancy unless definitely directed to do so by a doctor becwause it may cause problems in the unborn child or complications during delivery.\nKeep Out Of Reach Of Children\nKeep out of reach of children. In case of overdose, get medical help or contact a Poison Control Center right away.",
+          "token_start": 418,
+          "token_end": 522,
+          "retrieval_score": 0.34108781814575195
+        },
+        {
+          "chunk_id": "chunk_0001",
+          "char_start": 674,
+          "char_end": 1502,
+          "text": "Reye's syndrome: Children and teenagers who have or are recoving from chicken pox or flu-like symptoms should not use this product. When using this product, if changes in behavior with nausea and vomiting occur, consult a doctor because these symptoms could be early sign of Reye's syndrome, a rare but serious illness.\nAsk Doctor\nAsk a doctor before use if stomach bleeding warning applies to you you have a history of stomach problems, such as heartburn you have high blood pressure, heart disease, liver cirrhosis, or kidney disease you are taking a diuretic you have asthma you have not been drinking fluids you have lost a lot of fluid due to vomiting or diarrhea\nAsk Doctor Or Pharmacist\nAsk a doctor or pharmacist before use if you are - taking a prescription drug for diabetes, gout, or arthritis - taking any other drug",
+          "token_start": 139,
+          "token_end": 319,
+          "retrieval_score": 0.07781030237674713
+        },
+        {
+          "chunk_id": "chunk_0000",
+          "char_start": 0,
+          "char_end": 858,
+          "text": "Indications And Usage\nUses temporarily relieves minor aches and pains Because of its delayed action, this product will not prodice fast relief of headaches or other symptoms needing immediate relief. ask your doctor about other uses for enteric-coated 81 mg Aspirin\nPurpose\nPurpose Pain reliever\nDosage And Administration\nDirections - Drink a full glass of water with each dose - adults and children 12 years and over: take 4 to 8 tablets every 4 hours not to exceed 48 tablets in 24 hours unless directed by a doctor - children under 12 years: consult a doctor\nDo Not Use\nDo not use: if you are allergic to aspirin or any other pain reliver/fever reducer\nWarnings\nWarnings Reye's syndrome: Children and teenagers who have or are recoving from chicken pox or flu-like symptoms should not use this product. When using this product, if changes in behavior with",
+          "token_start": 0,
+          "token_end": 180,
+          "retrieval_score": 0.06968893855810165
+        },
+        {
+          "chunk_id": "chunk_0002",
+          "char_start": 1334,
+          "char_end": 2157,
+          "text": "diarrhea\nAsk Doctor Or Pharmacist\nAsk a doctor or pharmacist before use if you are - taking a prescription drug for diabetes, gout, or arthritis - taking any other drug - under a doctor's care for any serious condition\nStop Use\nStop use and ask a doctor if - an allergic reaction occurs. Seek medical help right away. - you are experierance any of the following signs of stomach bleeding: feel faint, have bloody or black stools, vomit blood, have stomach pain that does not get better - pain gets worse or lasts more than 10 days - redness or swelling is present - new symptoms occur - ringing in the ears or a loss of hearing occurs. these could be signs of a serious condition.\nPregnancy Or Breast Feeding\nIf pregnant or breast-feeding, ask a health professional before use. It is especially important not to use aspirin",
+          "token_start": 278,
+          "token_end": 458,
+          "retrieval_score": 0.061001263558864594
+        }
+      ],
+      "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+      "generation_model": "google/flan-t5-small",
+      "policy_version": 2,
+      "answer": "If pregnant or breast-feeding, ask a health professional before use. It is especially important not to use aspirin during the last 3 months of pregnancy unless definitely directed to do so by a doctor becwause it may cause problems in the unborn child or complications during delivery.",
+      "status": "answered",
+      "answer_mode": "grounded_section_quote",
+      "extracted_span": "If pregnant or breast-feeding, ask a health professional before use. It is especially important not to use aspirin during the last 3 months of pregnancy unless definitely directed to do so by a doctor becwause it may cause problems in the unborn child or complications during delivery.",
+      "generation_attempted": true,
+      "generation_verified": false,
+      "question_coverage": 1.0,
+      "citations": [
+        {
+          "chunk_id": "section_pregnancy_or_breast_feeding",
+          "char_start": 2043,
+          "char_end": 2328,
+          "quote": "If pregnant or breast-feeding, ask a health professional before use. It is especially important not to use aspirin during the last 3 months of pregnancy unless definitely directed to do so by a doctor becwause it may cause problems in the unborn child or complications during delivery.",
+          "passage": "If pregnant or breast-feeding, ask a health professional before use. It is especially important not to use aspirin during the last 3 months of pregnancy unless definitely directed to do so by a doctor becwause it may cause problems in the unborn child or complications during delivery."
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "qa_0017",
+    "source_record_id": "5a14c6a7-a60c-f811-e063-6294a90a1213",
+    "response": {
+      "question": "What does the document say about warnings?",
+      "document_id": "e21cc8cf568216846886750372e623d844a9c5ccb30aa3a3465fe3cc2362395c",
+      "source_name": "[\"ASPIRIN\"]",
+      "retrieved_passages": [
+        {
+          "chunk_id": "section_warnings",
+          "char_start": 665,
+          "char_end": 993,
+          "text": "Warnings Reye's syndrome: Children and teenagers who have or are recoving from chicken pox or flu-like symptoms should not use this product. When using this product, if changes in behavior with nausea and vomiting occur, consult a doctor because these symptoms could be early sign of Reye's syndrome, a rare but serious illness.",
+          "retrieval_score": null,
+          "source_locator": "explicit_section_heading"
+        },
+        {
+          "chunk_id": "chunk_0001",
+          "char_start": 674,
+          "char_end": 1502,
+          "text": "Reye's syndrome: Children and teenagers who have or are recoving from chicken pox or flu-like symptoms should not use this product. When using this product, if changes in behavior with nausea and vomiting occur, consult a doctor because these symptoms could be early sign of Reye's syndrome, a rare but serious illness.\nAsk Doctor\nAsk a doctor before use if stomach bleeding warning applies to you you have a history of stomach problems, such as heartburn you have high blood pressure, heart disease, liver cirrhosis, or kidney disease you are taking a diuretic you have asthma you have not been drinking fluids you have lost a lot of fluid due to vomiting or diarrhea\nAsk Doctor Or Pharmacist\nAsk a doctor or pharmacist before use if you are - taking a prescription drug for diabetes, gout, or arthritis - taking any other drug",
+          "token_start": 139,
+          "token_end": 319,
+          "retrieval_score": 0.15106920897960663
+        },
+        {
+          "chunk_id": "chunk_0000",
+          "char_start": 0,
+          "char_end": 858,
+          "text": "Indications And Usage\nUses temporarily relieves minor aches and pains Because of its delayed action, this product will not prodice fast relief of headaches or other symptoms needing immediate relief. ask your doctor about other uses for enteric-coated 81 mg Aspirin\nPurpose\nPurpose Pain reliever\nDosage And Administration\nDirections - Drink a full glass of water with each dose - adults and children 12 years and over: take 4 to 8 tablets every 4 hours not to exceed 48 tablets in 24 hours unless directed by a doctor - children under 12 years: consult a doctor\nDo Not Use\nDo not use: if you are allergic to aspirin or any other pain reliver/fever reducer\nWarnings\nWarnings Reye's syndrome: Children and teenagers who have or are recoving from chicken pox or flu-like symptoms should not use this product. When using this product, if changes in behavior with",
+          "token_start": 0,
+          "token_end": 180,
+          "retrieval_score": 0.13417614996433258
+        },
+        {
+          "chunk_id": "chunk_0003",
+          "char_start": 1954,
+          "char_end": 2474,
+          "text": "hearing occurs. these could be signs of a serious condition.\nPregnancy Or Breast Feeding\nIf pregnant or breast-feeding, ask a health professional before use. It is especially important not to use aspirin during the last 3 months of pregnancy unless definitely directed to do so by a doctor becwause it may cause problems in the unborn child or complications during delivery.\nKeep Out Of Reach Of Children\nKeep out of reach of children. In case of overdose, get medical help or contact a Poison Control Center right away.",
+          "token_start": 418,
+          "token_end": 522,
+          "retrieval_score": 0.08640456199645996
+        },
+        {
+          "chunk_id": "chunk_0002",
+          "char_start": 1334,
+          "char_end": 2157,
+          "text": "diarrhea\nAsk Doctor Or Pharmacist\nAsk a doctor or pharmacist before use if you are - taking a prescription drug for diabetes, gout, or arthritis - taking any other drug - under a doctor's care for any serious condition\nStop Use\nStop use and ask a doctor if - an allergic reaction occurs. Seek medical help right away. - you are experierance any of the following signs of stomach bleeding: feel faint, have bloody or black stools, vomit blood, have stomach pain that does not get better - pain gets worse or lasts more than 10 days - redness or swelling is present - new symptoms occur - ringing in the ears or a loss of hearing occurs. these could be signs of a serious condition.\nPregnancy Or Breast Feeding\nIf pregnant or breast-feeding, ask a health professional before use. It is especially important not to use aspirin",
+          "token_start": 278,
+          "token_end": 458,
+          "retrieval_score": -0.004463495686650276
+        }
+      ],
+      "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+      "generation_model": "google/flan-t5-small",
+      "policy_version": 2,
+      "answer": "Warnings Reye's syndrome: Children and teenagers who have or are recoving from chicken pox or flu-like symptoms should not use this product. When using this product, if changes in behavior with nausea and vomiting occur, consult a doctor because these symptoms could be early sign of Reye's syndrome, a rare but serious illness.",
+      "status": "answered",
+      "answer_mode": "grounded_section_quote",
+      "extracted_span": "Warnings Reye's syndrome: Children and teenagers who have or are recoving from chicken pox or flu-like symptoms should not use this product. When using this product, if changes in behavior with nausea and vomiting occur, consult a doctor because these symptoms could be early sign of Reye's syndrome, a rare but serious illness.",
+      "generation_attempted": true,
+      "generation_verified": false,
+      "question_coverage": 1.0,
+      "citations": [
+        {
+          "chunk_id": "section_warnings",
+          "char_start": 665,
+          "char_end": 993,
+          "quote": "Warnings Reye's syndrome: Children and teenagers who have or are recoving from chicken pox or flu-like symptoms should not use this product. When using this product, if changes in behavior with nausea and vomiting occur, consult a doctor because these symptoms could be early sign of Reye's syndrome, a rare but serious illness.",
+          "passage": "Warnings Reye's syndrome: Children and teenagers who have or are recoving from chicken pox or flu-like symptoms should not use this product. When using this product, if changes in behavior with nausea and vomiting occur, consult a doctor because these symptoms could be early sign of Reye's syndrome, a rare but serious illness."
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "qa_0018",
+    "source_record_id": "5a14c6a7-a60c-f811-e063-6294a90a1213",
+    "response": {
+      "question": "What is the retail price stated in this document?",
+      "document_id": "e21cc8cf568216846886750372e623d844a9c5ccb30aa3a3465fe3cc2362395c",
+      "source_name": "[\"ASPIRIN\"]",
+      "retrieved_passages": [
+        {
+          "chunk_id": "chunk_0000",
+          "char_start": 0,
+          "char_end": 858,
+          "text": "Indications And Usage\nUses temporarily relieves minor aches and pains Because of its delayed action, this product will not prodice fast relief of headaches or other symptoms needing immediate relief. ask your doctor about other uses for enteric-coated 81 mg Aspirin\nPurpose\nPurpose Pain reliever\nDosage And Administration\nDirections - Drink a full glass of water with each dose - adults and children 12 years and over: take 4 to 8 tablets every 4 hours not to exceed 48 tablets in 24 hours unless directed by a doctor - children under 12 years: consult a doctor\nDo Not Use\nDo not use: if you are allergic to aspirin or any other pain reliver/fever reducer\nWarnings\nWarnings Reye's syndrome: Children and teenagers who have or are recoving from chicken pox or flu-like symptoms should not use this product. When using this product, if changes in behavior with",
+          "token_start": 0,
+          "token_end": 180,
+          "retrieval_score": 0.06473401188850403
+        },
+        {
+          "chunk_id": "chunk_0003",
+          "char_start": 1954,
+          "char_end": 2474,
+          "text": "hearing occurs. these could be signs of a serious condition.\nPregnancy Or Breast Feeding\nIf pregnant or breast-feeding, ask a health professional before use. It is especially important not to use aspirin during the last 3 months of pregnancy unless definitely directed to do so by a doctor becwause it may cause problems in the unborn child or complications during delivery.\nKeep Out Of Reach Of Children\nKeep out of reach of children. In case of overdose, get medical help or contact a Poison Control Center right away.",
+          "token_start": 418,
+          "token_end": 522,
+          "retrieval_score": -0.046842873096466064
+        },
+        {
+          "chunk_id": "chunk_0002",
+          "char_start": 1334,
+          "char_end": 2157,
+          "text": "diarrhea\nAsk Doctor Or Pharmacist\nAsk a doctor or pharmacist before use if you are - taking a prescription drug for diabetes, gout, or arthritis - taking any other drug - under a doctor's care for any serious condition\nStop Use\nStop use and ask a doctor if - an allergic reaction occurs. Seek medical help right away. - you are experierance any of the following signs of stomach bleeding: feel faint, have bloody or black stools, vomit blood, have stomach pain that does not get better - pain gets worse or lasts more than 10 days - redness or swelling is present - new symptoms occur - ringing in the ears or a loss of hearing occurs. these could be signs of a serious condition.\nPregnancy Or Breast Feeding\nIf pregnant or breast-feeding, ask a health professional before use. It is especially important not to use aspirin",
+          "token_start": 278,
+          "token_end": 458,
+          "retrieval_score": -0.048351529985666275
+        },
+        {
+          "chunk_id": "chunk_0001",
+          "char_start": 674,
+          "char_end": 1502,
+          "text": "Reye's syndrome: Children and teenagers who have or are recoving from chicken pox or flu-like symptoms should not use this product. When using this product, if changes in behavior with nausea and vomiting occur, consult a doctor because these symptoms could be early sign of Reye's syndrome, a rare but serious illness.\nAsk Doctor\nAsk a doctor before use if stomach bleeding warning applies to you you have a history of stomach problems, such as heartburn you have high blood pressure, heart disease, liver cirrhosis, or kidney disease you are taking a diuretic you have asthma you have not been drinking fluids you have lost a lot of fluid due to vomiting or diarrhea\nAsk Doctor Or Pharmacist\nAsk a doctor or pharmacist before use if you are - taking a prescription drug for diabetes, gout, or arthritis - taking any other drug",
+          "token_start": 139,
+          "token_end": 319,
+          "retrieval_score": -0.056179583072662354
+        }
+      ],
+      "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+      "generation_model": "google/flan-t5-small",
+      "policy_version": 2,
+      "answer": "I cannot find that in the document.",
+      "status": "not_found",
+      "answer_mode": "not_found",
+      "citations": [],
+      "question_coverage": 0.0
+    }
+  },
+  {
+    "case_id": "qa_0019",
+    "source_record_id": "5a14c6a7-a60c-f811-e063-6294a90a1213",
+    "response": {
+      "question": "What is my prescribing doctor's telephone number?",
+      "document_id": "e21cc8cf568216846886750372e623d844a9c5ccb30aa3a3465fe3cc2362395c",
+      "source_name": "[\"ASPIRIN\"]",
+      "retrieved_passages": [
+        {
+          "chunk_id": "chunk_0000",
+          "char_start": 0,
+          "char_end": 858,
+          "text": "Indications And Usage\nUses temporarily relieves minor aches and pains Because of its delayed action, this product will not prodice fast relief of headaches or other symptoms needing immediate relief. ask your doctor about other uses for enteric-coated 81 mg Aspirin\nPurpose\nPurpose Pain reliever\nDosage And Administration\nDirections - Drink a full glass of water with each dose - adults and children 12 years and over: take 4 to 8 tablets every 4 hours not to exceed 48 tablets in 24 hours unless directed by a doctor - children under 12 years: consult a doctor\nDo Not Use\nDo not use: if you are allergic to aspirin or any other pain reliver/fever reducer\nWarnings\nWarnings Reye's syndrome: Children and teenagers who have or are recoving from chicken pox or flu-like symptoms should not use this product. When using this product, if changes in behavior with",
+          "token_start": 0,
+          "token_end": 180,
+          "retrieval_score": 0.24068857729434967
+        },
+        {
+          "chunk_id": "chunk_0001",
+          "char_start": 674,
+          "char_end": 1502,
+          "text": "Reye's syndrome: Children and teenagers who have or are recoving from chicken pox or flu-like symptoms should not use this product. When using this product, if changes in behavior with nausea and vomiting occur, consult a doctor because these symptoms could be early sign of Reye's syndrome, a rare but serious illness.\nAsk Doctor\nAsk a doctor before use if stomach bleeding warning applies to you you have a history of stomach problems, such as heartburn you have high blood pressure, heart disease, liver cirrhosis, or kidney disease you are taking a diuretic you have asthma you have not been drinking fluids you have lost a lot of fluid due to vomiting or diarrhea\nAsk Doctor Or Pharmacist\nAsk a doctor or pharmacist before use if you are - taking a prescription drug for diabetes, gout, or arthritis - taking any other drug",
+          "token_start": 139,
+          "token_end": 319,
+          "retrieval_score": 0.18299433588981628
+        },
+        {
+          "chunk_id": "chunk_0002",
+          "char_start": 1334,
+          "char_end": 2157,
+          "text": "diarrhea\nAsk Doctor Or Pharmacist\nAsk a doctor or pharmacist before use if you are - taking a prescription drug for diabetes, gout, or arthritis - taking any other drug - under a doctor's care for any serious condition\nStop Use\nStop use and ask a doctor if - an allergic reaction occurs. Seek medical help right away. - you are experierance any of the following signs of stomach bleeding: feel faint, have bloody or black stools, vomit blood, have stomach pain that does not get better - pain gets worse or lasts more than 10 days - redness or swelling is present - new symptoms occur - ringing in the ears or a loss of hearing occurs. these could be signs of a serious condition.\nPregnancy Or Breast Feeding\nIf pregnant or breast-feeding, ask a health professional before use. It is especially important not to use aspirin",
+          "token_start": 278,
+          "token_end": 458,
+          "retrieval_score": 0.1732163429260254
+        },
+        {
+          "chunk_id": "chunk_0003",
+          "char_start": 1954,
+          "char_end": 2474,
+          "text": "hearing occurs. these could be signs of a serious condition.\nPregnancy Or Breast Feeding\nIf pregnant or breast-feeding, ask a health professional before use. It is especially important not to use aspirin during the last 3 months of pregnancy unless definitely directed to do so by a doctor becwause it may cause problems in the unborn child or complications during delivery.\nKeep Out Of Reach Of Children\nKeep out of reach of children. In case of overdose, get medical help or contact a Poison Control Center right away.",
+          "token_start": 418,
+          "token_end": 522,
+          "retrieval_score": 0.11451335996389389
+        }
+      ],
+      "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+      "generation_model": "google/flan-t5-small",
+      "policy_version": 2,
+      "answer": "I cannot find that in the document.",
+      "status": "not_found",
+      "answer_mode": "not_found",
+      "citations": [],
+      "question_coverage": 0.25
+    }
+  },
+  {
+    "case_id": "qa_0020",
+    "source_record_id": "5a14c6a7-a60c-f811-e063-6294a90a1213",
+    "response": {
+      "question": "What is my insurance policy number?",
+      "document_id": "e21cc8cf568216846886750372e623d844a9c5ccb30aa3a3465fe3cc2362395c",
+      "source_name": "[\"ASPIRIN\"]",
+      "retrieved_passages": [
+        {
+          "chunk_id": "chunk_0000",
+          "char_start": 0,
+          "char_end": 858,
+          "text": "Indications And Usage\nUses temporarily relieves minor aches and pains Because of its delayed action, this product will not prodice fast relief of headaches or other symptoms needing immediate relief. ask your doctor about other uses for enteric-coated 81 mg Aspirin\nPurpose\nPurpose Pain reliever\nDosage And Administration\nDirections - Drink a full glass of water with each dose - adults and children 12 years and over: take 4 to 8 tablets every 4 hours not to exceed 48 tablets in 24 hours unless directed by a doctor - children under 12 years: consult a doctor\nDo Not Use\nDo not use: if you are allergic to aspirin or any other pain reliver/fever reducer\nWarnings\nWarnings Reye's syndrome: Children and teenagers who have or are recoving from chicken pox or flu-like symptoms should not use this product. When using this product, if changes in behavior with",
+          "token_start": 0,
+          "token_end": 180,
+          "retrieval_score": 0.04708574339747429
+        },
+        {
+          "chunk_id": "chunk_0003",
+          "char_start": 1954,
+          "char_end": 2474,
+          "text": "hearing occurs. these could be signs of a serious condition.\nPregnancy Or Breast Feeding\nIf pregnant or breast-feeding, ask a health professional before use. It is especially important not to use aspirin during the last 3 months of pregnancy unless definitely directed to do so by a doctor becwause it may cause problems in the unborn child or complications during delivery.\nKeep Out Of Reach Of Children\nKeep out of reach of children. In case of overdose, get medical help or contact a Poison Control Center right away.",
+          "token_start": 418,
+          "token_end": 522,
+          "retrieval_score": -0.027781285345554352
+        },
+        {
+          "chunk_id": "chunk_0002",
+          "char_start": 1334,
+          "char_end": 2157,
+          "text": "diarrhea\nAsk Doctor Or Pharmacist\nAsk a doctor or pharmacist before use if you are - taking a prescription drug for diabetes, gout, or arthritis - taking any other drug - under a doctor's care for any serious condition\nStop Use\nStop use and ask a doctor if - an allergic reaction occurs. Seek medical help right away. - you are experierance any of the following signs of stomach bleeding: feel faint, have bloody or black stools, vomit blood, have stomach pain that does not get better - pain gets worse or lasts more than 10 days - redness or swelling is present - new symptoms occur - ringing in the ears or a loss of hearing occurs. these could be signs of a serious condition.\nPregnancy Or Breast Feeding\nIf pregnant or breast-feeding, ask a health professional before use. It is especially important not to use aspirin",
+          "token_start": 278,
+          "token_end": 458,
+          "retrieval_score": -0.03294994309544563
+        },
+        {
+          "chunk_id": "chunk_0001",
+          "char_start": 674,
+          "char_end": 1502,
+          "text": "Reye's syndrome: Children and teenagers who have or are recoving from chicken pox or flu-like symptoms should not use this product. When using this product, if changes in behavior with nausea and vomiting occur, consult a doctor because these symptoms could be early sign of Reye's syndrome, a rare but serious illness.\nAsk Doctor\nAsk a doctor before use if stomach bleeding warning applies to you you have a history of stomach problems, such as heartburn you have high blood pressure, heart disease, liver cirrhosis, or kidney disease you are taking a diuretic you have asthma you have not been drinking fluids you have lost a lot of fluid due to vomiting or diarrhea\nAsk Doctor Or Pharmacist\nAsk a doctor or pharmacist before use if you are - taking a prescription drug for diabetes, gout, or arthritis - taking any other drug",
+          "token_start": 139,
+          "token_end": 319,
+          "retrieval_score": -0.05493105202913284
+        }
+      ],
+      "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+      "generation_model": "google/flan-t5-small",
+      "policy_version": 2,
+      "answer": "I cannot find that in the document.",
+      "status": "not_found",
+      "answer_mode": "not_found",
+      "citations": [],
+      "question_coverage": 0.0
+    }
+  },
+  {
+    "case_id": "qa_0028",
+    "source_record_id": "c4299118-f831-4982-a864-b8cb9d4c363d",
+    "response": {
+      "question": "What does the document say about dosage and administration?",
+      "document_id": "a5d63d5991d0d3c0908fd36705c2df4ccc7f98cb942897c89bdda88a3a36e7f5",
+      "source_name": "[\"NYSTATIN\"]",
+      "retrieved_passages": [
+        {
+          "chunk_id": "section_dosage_and_administration",
+          "char_start": 235,
+          "char_end": 674,
+          "text": "DOSAGE AND ADMINISTRATION Nystatin Ointment USP should be applied liberally to affected areas twice a day or as indicated until healing is complete. Nystatin cream is usually preferred to nystatin ointment in candidiasis involving intertriginous areas; very moist lesions, however, are best treated with nystatin topical powder. This preparation does not stain skin or mucous membranes and provides a simple, convenient means of treatment.",
+          "retrieval_score": null,
+          "source_locator": "explicit_section_heading"
+        },
+        {
+          "chunk_id": "chunk_0001",
+          "char_start": 655,
+          "char_end": 1505,
+          "text": "means of treatment.\nContraindications\nCONTRAINDICATIONS Nystatin Ointment USP is contraindicated in patients with a history of hypersensitivity to any of its components.\nPrecautions\nPRECAUTIONS Should a reaction of hypersensitivity occur, the drug should be immediately withdrawn and appropriate measures taken. This preparation is not for ophthalmic use.\nAdverse Reactions\nADVERSE REACTIONS Nystatin Ointment USP is virtually non-toxic and nonsensitizing and is well tolerated by all age groups including debilitated infants, even on prolonged administration. If irritation on topical application should occur, discontinue medication.\nDescription\nDESCRIPTION Nystatin Ointment USP for topical use only, contains 100,000 USP Nystatin units per gram, in an ointment base of light mineral oil and white petrolatum. The structural formula is as follows:",
+          "token_start": 140,
+          "token_end": 320,
+          "retrieval_score": 0.3212524950504303
+        },
+        {
+          "chunk_id": "chunk_0000",
+          "char_start": 0,
+          "char_end": 824,
+          "text": "Indications And Usage\nINDICATIONS AND USAGE Nystatin Ointment USP is indicated in the treatment of cutaneous or mucocutaneous mycotic infections caused by Candida [Monilia] albicans and other Candida species.\nDosage And Administration\nDOSAGE AND ADMINISTRATION Nystatin Ointment USP should be applied liberally to affected areas twice a day or as indicated until healing is complete. Nystatin cream is usually preferred to nystatin ointment in candidiasis involving intertriginous areas; very moist lesions, however, are best treated with nystatin topical powder. This preparation does not stain skin or mucous membranes and provides a simple, convenient means of treatment.\nContraindications\nCONTRAINDICATIONS Nystatin Ointment USP is contraindicated in patients with a history of hypersensitivity to any of its components.",
+          "token_start": 0,
+          "token_end": 180,
+          "retrieval_score": 0.29979240894317627
+        },
+        {
+          "chunk_id": "chunk_0002",
+          "char_start": 1341,
+          "char_end": 2114,
+          "text": "topical use only, contains 100,000 USP Nystatin units per gram, in an ointment base of light mineral oil and white petrolatum. The structural formula is as follows: Molecular Weight 926.13 Molecular Formula C 47 H 75 NO 17\nClinical Pharmacology\nCLINICAL PHARMACOLOGY Nystatin is an antifungal antibiotic which is both fungistatic and fungicidal in vitro against a wide variety of yeasts and yeast-like fungi. It probably acts by binding to sterols in the cell membrane of the fungus with a resultant change in membrane permeability allowing leakage of intracellular components. Nystatin is a polyene antibiotic that is obtained from Streptomyces noursei , and is the first well tolerated antifungal antibiotic of dependable efficacy for the treatment of cutaneous, oral and",
+          "token_start": 280,
+          "token_end": 459,
+          "retrieval_score": 0.2788969874382019
+        },
+        {
+          "chunk_id": "chunk_0003",
+          "char_start": 1941,
+          "char_end": 2535,
+          "text": "antibiotic that is obtained from Streptomyces noursei , and is the first well tolerated antifungal antibiotic of dependable efficacy for the treatment of cutaneous, oral and intestinal infections caused by Candida [Monilia] albicans and other Candida species. It exhibits no appreciable activity against bacteria. Nystatin Ointment USP provides specific therapy for all localized forms of candidiasis. Symptomatic relief is rapid, often occurring within 24 to 72 hours after the initiation of treatment. Cure is effected both clinically and mycologically in most cases of localized candidiasis.",
+          "token_start": 419,
+          "token_end": 552,
+          "retrieval_score": 0.21602442860603333
+        }
+      ],
+      "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+      "generation_model": "google/flan-t5-small",
+      "policy_version": 2,
+      "answer": "DOSAGE AND ADMINISTRATION Nystatin Ointment USP should be applied liberally to affected areas twice a day or as indicated until healing is complete. Nystatin cream is usually preferred to nystatin ointment in candidiasis involving intertriginous areas; very moist lesions, however, are best treated with nystatin topical powder. This preparation does not stain skin or mucous membranes and provides a simple, convenient means of treatment.",
+      "status": "answered",
+      "answer_mode": "grounded_section_quote",
+      "extracted_span": "DOSAGE AND ADMINISTRATION Nystatin Ointment USP should be applied liberally to affected areas twice a day or as indicated until healing is complete. Nystatin cream is usually preferred to nystatin ointment in candidiasis involving intertriginous areas; very moist lesions, however, are best treated with nystatin topical powder. This preparation does not stain skin or mucous membranes and provides a simple, convenient means of treatment.",
+      "generation_attempted": true,
+      "generation_verified": false,
+      "question_coverage": 1.0,
+      "citations": [
+        {
+          "chunk_id": "section_dosage_and_administration",
+          "char_start": 235,
+          "char_end": 674,
+          "quote": "DOSAGE AND ADMINISTRATION Nystatin Ointment USP should be applied liberally to affected areas twice a day or as indicated until healing is complete. Nystatin cream is usually preferred to nystatin ointment in candidiasis involving intertriginous areas; very moist lesions, however, are best treated with nystatin topical powder. This preparation does not stain skin or mucous membranes and provides a simple, convenient means of treatment.",
+          "passage": "DOSAGE AND ADMINISTRATION Nystatin Ointment USP should be applied liberally to affected areas twice a day or as indicated until healing is complete. Nystatin cream is usually preferred to nystatin ointment in candidiasis involving intertriginous areas; very moist lesions, however, are best treated with nystatin topical powder. This preparation does not stain skin or mucous membranes and provides a simple, convenient means of treatment."
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "qa_0029",
+    "source_record_id": "c4299118-f831-4982-a864-b8cb9d4c363d",
+    "response": {
+      "question": "What does the document say about contraindications?",
+      "document_id": "a5d63d5991d0d3c0908fd36705c2df4ccc7f98cb942897c89bdda88a3a36e7f5",
+      "source_name": "[\"NYSTATIN\"]",
+      "retrieved_passages": [
+        {
+          "chunk_id": "section_contraindications",
+          "char_start": 693,
+          "char_end": 824,
+          "text": "CONTRAINDICATIONS Nystatin Ointment USP is contraindicated in patients with a history of hypersensitivity to any of its components.",
+          "retrieval_score": null,
+          "source_locator": "explicit_section_heading"
+        },
+        {
+          "chunk_id": "chunk_0001",
+          "char_start": 655,
+          "char_end": 1505,
+          "text": "means of treatment.\nContraindications\nCONTRAINDICATIONS Nystatin Ointment USP is contraindicated in patients with a history of hypersensitivity to any of its components.\nPrecautions\nPRECAUTIONS Should a reaction of hypersensitivity occur, the drug should be immediately withdrawn and appropriate measures taken. This preparation is not for ophthalmic use.\nAdverse Reactions\nADVERSE REACTIONS Nystatin Ointment USP is virtually non-toxic and nonsensitizing and is well tolerated by all age groups including debilitated infants, even on prolonged administration. If irritation on topical application should occur, discontinue medication.\nDescription\nDESCRIPTION Nystatin Ointment USP for topical use only, contains 100,000 USP Nystatin units per gram, in an ointment base of light mineral oil and white petrolatum. The structural formula is as follows:",
+          "token_start": 140,
+          "token_end": 320,
+          "retrieval_score": 0.4762280583381653
+        },
+        {
+          "chunk_id": "chunk_0000",
+          "char_start": 0,
+          "char_end": 824,
+          "text": "Indications And Usage\nINDICATIONS AND USAGE Nystatin Ointment USP is indicated in the treatment of cutaneous or mucocutaneous mycotic infections caused by Candida [Monilia] albicans and other Candida species.\nDosage And Administration\nDOSAGE AND ADMINISTRATION Nystatin Ointment USP should be applied liberally to affected areas twice a day or as indicated until healing is complete. Nystatin cream is usually preferred to nystatin ointment in candidiasis involving intertriginous areas; very moist lesions, however, are best treated with nystatin topical powder. This preparation does not stain skin or mucous membranes and provides a simple, convenient means of treatment.\nContraindications\nCONTRAINDICATIONS Nystatin Ointment USP is contraindicated in patients with a history of hypersensitivity to any of its components.",
+          "token_start": 0,
+          "token_end": 180,
+          "retrieval_score": 0.31148719787597656
+        },
+        {
+          "chunk_id": "chunk_0002",
+          "char_start": 1341,
+          "char_end": 2114,
+          "text": "topical use only, contains 100,000 USP Nystatin units per gram, in an ointment base of light mineral oil and white petrolatum. The structural formula is as follows: Molecular Weight 926.13 Molecular Formula C 47 H 75 NO 17\nClinical Pharmacology\nCLINICAL PHARMACOLOGY Nystatin is an antifungal antibiotic which is both fungistatic and fungicidal in vitro against a wide variety of yeasts and yeast-like fungi. It probably acts by binding to sterols in the cell membrane of the fungus with a resultant change in membrane permeability allowing leakage of intracellular components. Nystatin is a polyene antibiotic that is obtained from Streptomyces noursei , and is the first well tolerated antifungal antibiotic of dependable efficacy for the treatment of cutaneous, oral and",
+          "token_start": 280,
+          "token_end": 459,
+          "retrieval_score": 0.19306856393814087
+        },
+        {
+          "chunk_id": "chunk_0003",
+          "char_start": 1941,
+          "char_end": 2535,
+          "text": "antibiotic that is obtained from Streptomyces noursei , and is the first well tolerated antifungal antibiotic of dependable efficacy for the treatment of cutaneous, oral and intestinal infections caused by Candida [Monilia] albicans and other Candida species. It exhibits no appreciable activity against bacteria. Nystatin Ointment USP provides specific therapy for all localized forms of candidiasis. Symptomatic relief is rapid, often occurring within 24 to 72 hours after the initiation of treatment. Cure is effected both clinically and mycologically in most cases of localized candidiasis.",
+          "token_start": 419,
+          "token_end": 552,
+          "retrieval_score": 0.1915009319782257
+        }
+      ],
+      "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+      "generation_model": "google/flan-t5-small",
+      "policy_version": 2,
+      "answer": "CONTRAINDICATIONS Nystatin Ointment USP is contraindicated in patients with a history of hypersensitivity to any of its components.",
+      "status": "answered",
+      "answer_mode": "grounded_section_quote",
+      "extracted_span": "CONTRAINDICATIONS Nystatin Ointment USP is contraindicated in patients with a history of hypersensitivity to any of its components.",
+      "generation_attempted": true,
+      "generation_verified": false,
+      "question_coverage": 1.0,
+      "citations": [
+        {
+          "chunk_id": "section_contraindications",
+          "char_start": 693,
+          "char_end": 824,
+          "quote": "CONTRAINDICATIONS Nystatin Ointment USP is contraindicated in patients with a history of hypersensitivity to any of its components.",
+          "passage": "CONTRAINDICATIONS Nystatin Ointment USP is contraindicated in patients with a history of hypersensitivity to any of its components."
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "qa_0030",
+    "source_record_id": "c4299118-f831-4982-a864-b8cb9d4c363d",
+    "response": {
+      "question": "What does the document say about adverse reactions and side effects?",
+      "document_id": "a5d63d5991d0d3c0908fd36705c2df4ccc7f98cb942897c89bdda88a3a36e7f5",
+      "source_name": "[\"NYSTATIN\"]",
+      "retrieved_passages": [
+        {
+          "chunk_id": "section_adverse_reactions",
+          "char_start": 1029,
+          "char_end": 1290,
+          "text": "ADVERSE REACTIONS Nystatin Ointment USP is virtually non-toxic and nonsensitizing and is well tolerated by all age groups including debilitated infants, even on prolonged administration. If irritation on topical application should occur, discontinue medication.",
+          "retrieval_score": null,
+          "source_locator": "explicit_section_heading"
+        },
+        {
+          "chunk_id": "chunk_0001",
+          "char_start": 655,
+          "char_end": 1505,
+          "text": "means of treatment.\nContraindications\nCONTRAINDICATIONS Nystatin Ointment USP is contraindicated in patients with a history of hypersensitivity to any of its components.\nPrecautions\nPRECAUTIONS Should a reaction of hypersensitivity occur, the drug should be immediately withdrawn and appropriate measures taken. This preparation is not for ophthalmic use.\nAdverse Reactions\nADVERSE REACTIONS Nystatin Ointment USP is virtually non-toxic and nonsensitizing and is well tolerated by all age groups including debilitated infants, even on prolonged administration. If irritation on topical application should occur, discontinue medication.\nDescription\nDESCRIPTION Nystatin Ointment USP for topical use only, contains 100,000 USP Nystatin units per gram, in an ointment base of light mineral oil and white petrolatum. The structural formula is as follows:",
+          "token_start": 140,
+          "token_end": 320,
+          "retrieval_score": 0.3868107199668884
+        },
+        {
+          "chunk_id": "chunk_0000",
+          "char_start": 0,
+          "char_end": 824,
+          "text": "Indications And Usage\nINDICATIONS AND USAGE Nystatin Ointment USP is indicated in the treatment of cutaneous or mucocutaneous mycotic infections caused by Candida [Monilia] albicans and other Candida species.\nDosage And Administration\nDOSAGE AND ADMINISTRATION Nystatin Ointment USP should be applied liberally to affected areas twice a day or as indicated until healing is complete. Nystatin cream is usually preferred to nystatin ointment in candidiasis involving intertriginous areas; very moist lesions, however, are best treated with nystatin topical powder. This preparation does not stain skin or mucous membranes and provides a simple, convenient means of treatment.\nContraindications\nCONTRAINDICATIONS Nystatin Ointment USP is contraindicated in patients with a history of hypersensitivity to any of its components.",
+          "token_start": 0,
+          "token_end": 180,
+          "retrieval_score": 0.2453301101922989
+        },
+        {
+          "chunk_id": "chunk_0002",
+          "char_start": 1341,
+          "char_end": 2114,
+          "text": "topical use only, contains 100,000 USP Nystatin units per gram, in an ointment base of light mineral oil and white petrolatum. The structural formula is as follows: Molecular Weight 926.13 Molecular Formula C 47 H 75 NO 17\nClinical Pharmacology\nCLINICAL PHARMACOLOGY Nystatin is an antifungal antibiotic which is both fungistatic and fungicidal in vitro against a wide variety of yeasts and yeast-like fungi. It probably acts by binding to sterols in the cell membrane of the fungus with a resultant change in membrane permeability allowing leakage of intracellular components. Nystatin is a polyene antibiotic that is obtained from Streptomyces noursei , and is the first well tolerated antifungal antibiotic of dependable efficacy for the treatment of cutaneous, oral and",
+          "token_start": 280,
+          "token_end": 459,
+          "retrieval_score": 0.23734164237976074
+        },
+        {
+          "chunk_id": "chunk_0003",
+          "char_start": 1941,
+          "char_end": 2535,
+          "text": "antibiotic that is obtained from Streptomyces noursei , and is the first well tolerated antifungal antibiotic of dependable efficacy for the treatment of cutaneous, oral and intestinal infections caused by Candida [Monilia] albicans and other Candida species. It exhibits no appreciable activity against bacteria. Nystatin Ointment USP provides specific therapy for all localized forms of candidiasis. Symptomatic relief is rapid, often occurring within 24 to 72 hours after the initiation of treatment. Cure is effected both clinically and mycologically in most cases of localized candidiasis.",
+          "token_start": 419,
+          "token_end": 552,
+          "retrieval_score": 0.1939464658498764
+        }
+      ],
+      "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+      "generation_model": "google/flan-t5-small",
+      "policy_version": 2,
+      "answer": "ADVERSE REACTIONS Nystatin Ointment USP is virtually non-toxic and nonsensitizing and is well tolerated by all age groups including debilitated infants, even on prolonged administration. If irritation on topical application should occur, discontinue medication.",
+      "status": "answered",
+      "answer_mode": "grounded_section_quote",
+      "extracted_span": "ADVERSE REACTIONS Nystatin Ointment USP is virtually non-toxic and nonsensitizing and is well tolerated by all age groups including debilitated infants, even on prolonged administration. If irritation on topical application should occur, discontinue medication.",
+      "generation_attempted": true,
+      "generation_verified": false,
+      "question_coverage": 1.0,
+      "citations": [
+        {
+          "chunk_id": "section_adverse_reactions",
+          "char_start": 1029,
+          "char_end": 1290,
+          "quote": "ADVERSE REACTIONS Nystatin Ointment USP is virtually non-toxic and nonsensitizing and is well tolerated by all age groups including debilitated infants, even on prolonged administration. If irritation on topical application should occur, discontinue medication.",
+          "passage": "ADVERSE REACTIONS Nystatin Ointment USP is virtually non-toxic and nonsensitizing and is well tolerated by all age groups including debilitated infants, even on prolonged administration. If irritation on topical application should occur, discontinue medication."
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "qa_0031",
+    "source_record_id": "c4299118-f831-4982-a864-b8cb9d4c363d",
+    "response": {
+      "question": "According to the dosage directions, how often is this product used?",
+      "document_id": "a5d63d5991d0d3c0908fd36705c2df4ccc7f98cb942897c89bdda88a3a36e7f5",
+      "source_name": "[\"NYSTATIN\"]",
+      "retrieved_passages": [
+        {
+          "chunk_id": "chunk_0001",
+          "char_start": 655,
+          "char_end": 1505,
+          "text": "means of treatment.\nContraindications\nCONTRAINDICATIONS Nystatin Ointment USP is contraindicated in patients with a history of hypersensitivity to any of its components.\nPrecautions\nPRECAUTIONS Should a reaction of hypersensitivity occur, the drug should be immediately withdrawn and appropriate measures taken. This preparation is not for ophthalmic use.\nAdverse Reactions\nADVERSE REACTIONS Nystatin Ointment USP is virtually non-toxic and nonsensitizing and is well tolerated by all age groups including debilitated infants, even on prolonged administration. If irritation on topical application should occur, discontinue medication.\nDescription\nDESCRIPTION Nystatin Ointment USP for topical use only, contains 100,000 USP Nystatin units per gram, in an ointment base of light mineral oil and white petrolatum. The structural formula is as follows:",
+          "token_start": 140,
+          "token_end": 320,
+          "retrieval_score": 0.2889777421951294
+        },
+        {
+          "chunk_id": "chunk_0000",
+          "char_start": 0,
+          "char_end": 824,
+          "text": "Indications And Usage\nINDICATIONS AND USAGE Nystatin Ointment USP is indicated in the treatment of cutaneous or mucocutaneous mycotic infections caused by Candida [Monilia] albicans and other Candida species.\nDosage And Administration\nDOSAGE AND ADMINISTRATION Nystatin Ointment USP should be applied liberally to affected areas twice a day or as indicated until healing is complete. Nystatin cream is usually preferred to nystatin ointment in candidiasis involving intertriginous areas; very moist lesions, however, are best treated with nystatin topical powder. This preparation does not stain skin or mucous membranes and provides a simple, convenient means of treatment.\nContraindications\nCONTRAINDICATIONS Nystatin Ointment USP is contraindicated in patients with a history of hypersensitivity to any of its components.",
+          "token_start": 0,
+          "token_end": 180,
+          "retrieval_score": 0.28024208545684814
+        },
+        {
+          "chunk_id": "chunk_0002",
+          "char_start": 1341,
+          "char_end": 2114,
+          "text": "topical use only, contains 100,000 USP Nystatin units per gram, in an ointment base of light mineral oil and white petrolatum. The structural formula is as follows: Molecular Weight 926.13 Molecular Formula C 47 H 75 NO 17\nClinical Pharmacology\nCLINICAL PHARMACOLOGY Nystatin is an antifungal antibiotic which is both fungistatic and fungicidal in vitro against a wide variety of yeasts and yeast-like fungi. It probably acts by binding to sterols in the cell membrane of the fungus with a resultant change in membrane permeability allowing leakage of intracellular components. Nystatin is a polyene antibiotic that is obtained from Streptomyces noursei , and is the first well tolerated antifungal antibiotic of dependable efficacy for the treatment of cutaneous, oral and",
+          "token_start": 280,
+          "token_end": 459,
+          "retrieval_score": 0.2305995523929596
+        },
+        {
+          "chunk_id": "chunk_0003",
+          "char_start": 1941,
+          "char_end": 2535,
+          "text": "antibiotic that is obtained from Streptomyces noursei , and is the first well tolerated antifungal antibiotic of dependable efficacy for the treatment of cutaneous, oral and intestinal infections caused by Candida [Monilia] albicans and other Candida species. It exhibits no appreciable activity against bacteria. Nystatin Ointment USP provides specific therapy for all localized forms of candidiasis. Symptomatic relief is rapid, often occurring within 24 to 72 hours after the initiation of treatment. Cure is effected both clinically and mycologically in most cases of localized candidiasis.",
+          "token_start": 419,
+          "token_end": 552,
+          "retrieval_score": 0.1992487609386444
+        }
+      ],
+      "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+      "generation_model": "google/flan-t5-small",
+      "policy_version": 2,
+      "answer": "DOSAGE AND ADMINISTRATION Nystatin Ointment USP should be applied liberally to affected areas twice a day or as indicated until healing is complete.",
+      "status": "answered",
+      "answer_mode": "verified_llm_span",
+      "extracted_span": "twice a day",
+      "generation_verified": true,
+      "generation_attempted": true,
+      "question_coverage": 1.0,
+      "span_score": 0.9267616271972656,
+      "answer_margin": 8.763972282409668,
+      "citations": [
+        {
+          "chunk_id": "chunk_0000",
+          "char_start": 235,
+          "char_end": 383,
+          "quote": "DOSAGE AND ADMINISTRATION Nystatin Ointment USP should be applied liberally to affected areas twice a day or as indicated until healing is complete.",
+          "passage": "Indications And Usage\nINDICATIONS AND USAGE Nystatin Ointment USP is indicated in the treatment of cutaneous or mucocutaneous mycotic infections caused by Candida [Monilia] albicans and other Candida species.\nDosage And Administration\nDOSAGE AND ADMINISTRATION Nystatin Ointment USP should be applied liberally to affected areas twice a day or as indicated until healing is complete. Nystatin cream is usually preferred to nystatin ointment in candidiasis involving intertriginous areas; very moist lesions, however, are best treated with nystatin topical powder. This preparation does not stain skin or mucous membranes and provides a simple, convenient means of treatment.\nContraindications\nCONTRAINDICATIONS Nystatin Ointment USP is contraindicated in patients with a history of hypersensitivity to any of its components."
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "qa_0032",
+    "source_record_id": "c4299118-f831-4982-a864-b8cb9d4c363d",
+    "response": {
+      "question": "What is the retail price stated in this document?",
+      "document_id": "a5d63d5991d0d3c0908fd36705c2df4ccc7f98cb942897c89bdda88a3a36e7f5",
+      "source_name": "[\"NYSTATIN\"]",
+      "retrieved_passages": [
+        {
+          "chunk_id": "chunk_0002",
+          "char_start": 1341,
+          "char_end": 2114,
+          "text": "topical use only, contains 100,000 USP Nystatin units per gram, in an ointment base of light mineral oil and white petrolatum. The structural formula is as follows: Molecular Weight 926.13 Molecular Formula C 47 H 75 NO 17\nClinical Pharmacology\nCLINICAL PHARMACOLOGY Nystatin is an antifungal antibiotic which is both fungistatic and fungicidal in vitro against a wide variety of yeasts and yeast-like fungi. It probably acts by binding to sterols in the cell membrane of the fungus with a resultant change in membrane permeability allowing leakage of intracellular components. Nystatin is a polyene antibiotic that is obtained from Streptomyces noursei , and is the first well tolerated antifungal antibiotic of dependable efficacy for the treatment of cutaneous, oral and",
+          "token_start": 280,
+          "token_end": 459,
+          "retrieval_score": 0.10100647062063217
+        },
+        {
+          "chunk_id": "chunk_0001",
+          "char_start": 655,
+          "char_end": 1505,
+          "text": "means of treatment.\nContraindications\nCONTRAINDICATIONS Nystatin Ointment USP is contraindicated in patients with a history of hypersensitivity to any of its components.\nPrecautions\nPRECAUTIONS Should a reaction of hypersensitivity occur, the drug should be immediately withdrawn and appropriate measures taken. This preparation is not for ophthalmic use.\nAdverse Reactions\nADVERSE REACTIONS Nystatin Ointment USP is virtually non-toxic and nonsensitizing and is well tolerated by all age groups including debilitated infants, even on prolonged administration. If irritation on topical application should occur, discontinue medication.\nDescription\nDESCRIPTION Nystatin Ointment USP for topical use only, contains 100,000 USP Nystatin units per gram, in an ointment base of light mineral oil and white petrolatum. The structural formula is as follows:",
+          "token_start": 140,
+          "token_end": 320,
+          "retrieval_score": 0.08268971741199493
+        },
+        {
+          "chunk_id": "chunk_0000",
+          "char_start": 0,
+          "char_end": 824,
+          "text": "Indications And Usage\nINDICATIONS AND USAGE Nystatin Ointment USP is indicated in the treatment of cutaneous or mucocutaneous mycotic infections caused by Candida [Monilia] albicans and other Candida species.\nDosage And Administration\nDOSAGE AND ADMINISTRATION Nystatin Ointment USP should be applied liberally to affected areas twice a day or as indicated until healing is complete. Nystatin cream is usually preferred to nystatin ointment in candidiasis involving intertriginous areas; very moist lesions, however, are best treated with nystatin topical powder. This preparation does not stain skin or mucous membranes and provides a simple, convenient means of treatment.\nContraindications\nCONTRAINDICATIONS Nystatin Ointment USP is contraindicated in patients with a history of hypersensitivity to any of its components.",
+          "token_start": 0,
+          "token_end": 180,
+          "retrieval_score": 0.05504540354013443
+        },
+        {
+          "chunk_id": "chunk_0003",
+          "char_start": 1941,
+          "char_end": 2535,
+          "text": "antibiotic that is obtained from Streptomyces noursei , and is the first well tolerated antifungal antibiotic of dependable efficacy for the treatment of cutaneous, oral and intestinal infections caused by Candida [Monilia] albicans and other Candida species. It exhibits no appreciable activity against bacteria. Nystatin Ointment USP provides specific therapy for all localized forms of candidiasis. Symptomatic relief is rapid, often occurring within 24 to 72 hours after the initiation of treatment. Cure is effected both clinically and mycologically in most cases of localized candidiasis.",
+          "token_start": 419,
+          "token_end": 552,
+          "retrieval_score": 0.010130174458026886
+        }
+      ],
+      "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+      "generation_model": "google/flan-t5-small",
+      "policy_version": 2,
+      "answer": "I cannot find that in the document.",
+      "status": "not_found",
+      "answer_mode": "not_found",
+      "citations": [],
+      "question_coverage": 0.0
+    }
+  },
+  {
+    "case_id": "qa_0033",
+    "source_record_id": "c4299118-f831-4982-a864-b8cb9d4c363d",
+    "response": {
+      "question": "What is my prescribing doctor's telephone number?",
+      "document_id": "a5d63d5991d0d3c0908fd36705c2df4ccc7f98cb942897c89bdda88a3a36e7f5",
+      "source_name": "[\"NYSTATIN\"]",
+      "retrieved_passages": [
+        {
+          "chunk_id": "chunk_0002",
+          "char_start": 1341,
+          "char_end": 2114,
+          "text": "topical use only, contains 100,000 USP Nystatin units per gram, in an ointment base of light mineral oil and white petrolatum. The structural formula is as follows: Molecular Weight 926.13 Molecular Formula C 47 H 75 NO 17\nClinical Pharmacology\nCLINICAL PHARMACOLOGY Nystatin is an antifungal antibiotic which is both fungistatic and fungicidal in vitro against a wide variety of yeasts and yeast-like fungi. It probably acts by binding to sterols in the cell membrane of the fungus with a resultant change in membrane permeability allowing leakage of intracellular components. Nystatin is a polyene antibiotic that is obtained from Streptomyces noursei , and is the first well tolerated antifungal antibiotic of dependable efficacy for the treatment of cutaneous, oral and",
+          "token_start": 280,
+          "token_end": 459,
+          "retrieval_score": 0.24239438772201538
+        },
+        {
+          "chunk_id": "chunk_0001",
+          "char_start": 655,
+          "char_end": 1505,
+          "text": "means of treatment.\nContraindications\nCONTRAINDICATIONS Nystatin Ointment USP is contraindicated in patients with a history of hypersensitivity to any of its components.\nPrecautions\nPRECAUTIONS Should a reaction of hypersensitivity occur, the drug should be immediately withdrawn and appropriate measures taken. This preparation is not for ophthalmic use.\nAdverse Reactions\nADVERSE REACTIONS Nystatin Ointment USP is virtually non-toxic and nonsensitizing and is well tolerated by all age groups including debilitated infants, even on prolonged administration. If irritation on topical application should occur, discontinue medication.\nDescription\nDESCRIPTION Nystatin Ointment USP for topical use only, contains 100,000 USP Nystatin units per gram, in an ointment base of light mineral oil and white petrolatum. The structural formula is as follows:",
+          "token_start": 140,
+          "token_end": 320,
+          "retrieval_score": 0.21756066381931305
+        },
+        {
+          "chunk_id": "chunk_0003",
+          "char_start": 1941,
+          "char_end": 2535,
+          "text": "antibiotic that is obtained from Streptomyces noursei , and is the first well tolerated antifungal antibiotic of dependable efficacy for the treatment of cutaneous, oral and intestinal infections caused by Candida [Monilia] albicans and other Candida species. It exhibits no appreciable activity against bacteria. Nystatin Ointment USP provides specific therapy for all localized forms of candidiasis. Symptomatic relief is rapid, often occurring within 24 to 72 hours after the initiation of treatment. Cure is effected both clinically and mycologically in most cases of localized candidiasis.",
+          "token_start": 419,
+          "token_end": 552,
+          "retrieval_score": 0.19497260451316833
+        },
+        {
+          "chunk_id": "chunk_0000",
+          "char_start": 0,
+          "char_end": 824,
+          "text": "Indications And Usage\nINDICATIONS AND USAGE Nystatin Ointment USP is indicated in the treatment of cutaneous or mucocutaneous mycotic infections caused by Candida [Monilia] albicans and other Candida species.\nDosage And Administration\nDOSAGE AND ADMINISTRATION Nystatin Ointment USP should be applied liberally to affected areas twice a day or as indicated until healing is complete. Nystatin cream is usually preferred to nystatin ointment in candidiasis involving intertriginous areas; very moist lesions, however, are best treated with nystatin topical powder. This preparation does not stain skin or mucous membranes and provides a simple, convenient means of treatment.\nContraindications\nCONTRAINDICATIONS Nystatin Ointment USP is contraindicated in patients with a history of hypersensitivity to any of its components.",
+          "token_start": 0,
+          "token_end": 180,
+          "retrieval_score": 0.18723765015602112
+        }
+      ],
+      "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+      "generation_model": "google/flan-t5-small",
+      "policy_version": 2,
+      "answer": "I cannot find that in the document.",
+      "status": "not_found",
+      "answer_mode": "not_found",
+      "citations": [],
+      "question_coverage": 0.0
+    }
+  },
+  {
+    "case_id": "qa_0034",
+    "source_record_id": "c4299118-f831-4982-a864-b8cb9d4c363d",
+    "response": {
+      "question": "What is my insurance policy number?",
+      "document_id": "a5d63d5991d0d3c0908fd36705c2df4ccc7f98cb942897c89bdda88a3a36e7f5",
+      "source_name": "[\"NYSTATIN\"]",
+      "retrieved_passages": [
+        {
+          "chunk_id": "chunk_0002",
+          "char_start": 1341,
+          "char_end": 2114,
+          "text": "topical use only, contains 100,000 USP Nystatin units per gram, in an ointment base of light mineral oil and white petrolatum. The structural formula is as follows: Molecular Weight 926.13 Molecular Formula C 47 H 75 NO 17\nClinical Pharmacology\nCLINICAL PHARMACOLOGY Nystatin is an antifungal antibiotic which is both fungistatic and fungicidal in vitro against a wide variety of yeasts and yeast-like fungi. It probably acts by binding to sterols in the cell membrane of the fungus with a resultant change in membrane permeability allowing leakage of intracellular components. Nystatin is a polyene antibiotic that is obtained from Streptomyces noursei , and is the first well tolerated antifungal antibiotic of dependable efficacy for the treatment of cutaneous, oral and",
+          "token_start": 280,
+          "token_end": 459,
+          "retrieval_score": 0.10147599875926971
+        },
+        {
+          "chunk_id": "chunk_0000",
+          "char_start": 0,
+          "char_end": 824,
+          "text": "Indications And Usage\nINDICATIONS AND USAGE Nystatin Ointment USP is indicated in the treatment of cutaneous or mucocutaneous mycotic infections caused by Candida [Monilia] albicans and other Candida species.\nDosage And Administration\nDOSAGE AND ADMINISTRATION Nystatin Ointment USP should be applied liberally to affected areas twice a day or as indicated until healing is complete. Nystatin cream is usually preferred to nystatin ointment in candidiasis involving intertriginous areas; very moist lesions, however, are best treated with nystatin topical powder. This preparation does not stain skin or mucous membranes and provides a simple, convenient means of treatment.\nContraindications\nCONTRAINDICATIONS Nystatin Ointment USP is contraindicated in patients with a history of hypersensitivity to any of its components.",
+          "token_start": 0,
+          "token_end": 180,
+          "retrieval_score": 0.06896607577800751
+        },
+        {
+          "chunk_id": "chunk_0001",
+          "char_start": 655,
+          "char_end": 1505,
+          "text": "means of treatment.\nContraindications\nCONTRAINDICATIONS Nystatin Ointment USP is contraindicated in patients with a history of hypersensitivity to any of its components.\nPrecautions\nPRECAUTIONS Should a reaction of hypersensitivity occur, the drug should be immediately withdrawn and appropriate measures taken. This preparation is not for ophthalmic use.\nAdverse Reactions\nADVERSE REACTIONS Nystatin Ointment USP is virtually non-toxic and nonsensitizing and is well tolerated by all age groups including debilitated infants, even on prolonged administration. If irritation on topical application should occur, discontinue medication.\nDescription\nDESCRIPTION Nystatin Ointment USP for topical use only, contains 100,000 USP Nystatin units per gram, in an ointment base of light mineral oil and white petrolatum. The structural formula is as follows:",
+          "token_start": 140,
+          "token_end": 320,
+          "retrieval_score": 0.06747239083051682
+        },
+        {
+          "chunk_id": "chunk_0003",
+          "char_start": 1941,
+          "char_end": 2535,
+          "text": "antibiotic that is obtained from Streptomyces noursei , and is the first well tolerated antifungal antibiotic of dependable efficacy for the treatment of cutaneous, oral and intestinal infections caused by Candida [Monilia] albicans and other Candida species. It exhibits no appreciable activity against bacteria. Nystatin Ointment USP provides specific therapy for all localized forms of candidiasis. Symptomatic relief is rapid, often occurring within 24 to 72 hours after the initiation of treatment. Cure is effected both clinically and mycologically in most cases of localized candidiasis.",
+          "token_start": 419,
+          "token_end": 552,
+          "retrieval_score": 0.05418025329709053
+        }
+      ],
+      "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+      "generation_model": "google/flan-t5-small",
+      "policy_version": 2,
+      "answer": "I cannot find that in the document.",
+      "status": "not_found",
+      "answer_mode": "not_found",
+      "citations": [],
+      "question_coverage": 0.0
+    }
+  },
+  {
+    "case_id": "qa_0042",
+    "source_record_id": "18ea93be-6dd6-4eac-9555-3fea7765a46c",
+    "response": {
+      "question": "What does the document say about dosage and administration?",
+      "document_id": "2cea97e5930bd1c9915656873eac4a13f96e6173014c244d9bb31aacd2da7bf7",
+      "source_name": "[\"PINDOLOL\"]",
+      "retrieved_passages": [
+        {
+          "chunk_id": "section_dosage_and_administration",
+          "char_start": 254,
+          "char_end": 807,
+          "text": "DOSAGE AND ADMINISTRATION The dosage of pindolol tablets should be individualized. The recommended initial dose of pindolol tablets is 5 mg b.i.d. alone or in combination with other antihypertensive agents. An antihypertensive response usually occurs within the first week of treatment. Maximal response, however, may take as long as or occasionally longer than 2 weeks. If a satisfactory reduction in blood pressure does not occur within 3 to 4 weeks, the dose may be adjusted in increments of 10 mg/day at these intervals up to a maximum of 60 mg/day.",
+          "retrieval_score": null,
+          "source_locator": "explicit_section_heading"
+        },
+        {
+          "chunk_id": "chunk_0001",
+          "char_start": 628,
+          "char_end": 1418,
+          "text": "a satisfactory reduction in blood pressure does not occur within 3 to 4 weeks, the dose may be adjusted in increments of 10 mg/day at these intervals up to a maximum of 60 mg/day.\nContraindications\nCONTRAINDICATIONS Pindolol tablets are contraindicated in: 1) bronchial asthma; 2) overt cardiac failure; 3) cardiogenic shock; 4) second and third degree heart block; 5) severe bradycardia. (See WARNINGS .)\nWarnings\nWARNINGS Cardiac Failure Sympathetic stimulation may be a vital component supporting circulatory function in patients with congestive heart failure, and its inhibition by beta-blockade may precipitate more severe failure. Although beta-blockers should be avoided in overt congestive heart failure, if necessary, pindolol can be used with caution in patients with a history of",
+          "token_start": 140,
+          "token_end": 320,
+          "retrieval_score": 0.3350757956504822
+        },
+        {
+          "chunk_id": "chunk_0013",
+          "char_start": 8104,
+          "char_end": 8973,
+          "text": "104 weeks. There appeared to be an increase in prenatal mortality in males given 100 mg/kg but development of offspring was not impaired. In females administered pindolol prior to mating through day 21 of lactation, mating behavior was decreased at 100 mg/kg and 30 mg/kg. At these dosages there also was increased mortality of offspring. Prenatal mortality was increased at 10 mg/kg but there was not a clear dose-response relationship in this experiment. There was an increased resorption rate at 100 mg/kg observed in females necropsied on the 15th day of gestation. Pregnancy Teratogenic Effects Category B Studies in rats and rabbits exceeding 100 times the maximum recommended human doses, revealed no embryotoxicity or teratogenicity. Since there are no adequate and well controlled studies in pregnant women, and since animal reproduction studies are not always",
+          "token_start": 1806,
+          "token_end": 1986,
+          "retrieval_score": 0.32885822653770447
+        },
+        {
+          "chunk_id": "chunk_0023",
+          "char_start": 14220,
+          "char_end": 14833,
+          "text": "sympathomimetic activity is 1-(Indol-4-yloxy)-3-(isopropylamino)-2-propanol. C 14 H 20 N 2 O 2 M.W. 248.32 Pindolol, USP is a white to off-white, crystalline powder having a faint odor which is practically insoluble in water; slightly soluble in methanol; and very slightly soluble in chloroform. Each tablet for oral administration contains pindolol and the following inactive ingredients: corn starch, lactose monohydrate, pregelatinized corn starch, colloidal silicon dioxide, magnesium stearate, sodium starch glycolate and microcrystalline cellulose.\nClinical Pharmacology\nCLINICAL PHARMACOLOGY Pindolol is a",
+          "token_start": 3196,
+          "token_end": 3376,
+          "retrieval_score": 0.32407480478286743
+        },
+        {
+          "chunk_id": "chunk_0000",
+          "char_start": 0,
+          "char_end": 803,
+          "text": "Indications And Usage\nINDICATIONS AND USAGE Pindolol tablets are indicated in the management of hypertension. It may be used alone or concomitantly with other antihypertensive agents, particularly with a thiazide-type diuretic.\nDosage And Administration\nDOSAGE AND ADMINISTRATION The dosage of pindolol tablets should be individualized. The recommended initial dose of pindolol tablets is 5 mg b.i.d. alone or in combination with other antihypertensive agents. An antihypertensive response usually occurs within the first week of treatment. Maximal response, however, may take as long as or occasionally longer than 2 weeks. If a satisfactory reduction in blood pressure does not occur within 3 to 4 weeks, the dose may be adjusted in increments of 10 mg/day at these intervals up to a maximum of 60 mg/",
+          "token_start": 0,
+          "token_end": 180,
+          "retrieval_score": 0.32017701864242554
+        }
+      ],
+      "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+      "generation_model": "google/flan-t5-small",
+      "policy_version": 2,
+      "answer": "DOSAGE AND ADMINISTRATION The dosage of pindolol tablets should be individualized. The recommended initial dose of pindolol tablets is 5 mg b.i.d. alone or in combination with other antihypertensive agents. An antihypertensive response usually occurs within the first week of treatment. Maximal response, however, may take as long as or occasionally longer than 2 weeks. If a satisfactory reduction in blood pressure does not occur within 3 to 4 weeks, the dose may be adjusted in increments of 10 mg/day at these intervals up to a maximum of 60 mg/day.",
+      "status": "answered",
+      "answer_mode": "grounded_section_quote",
+      "extracted_span": "DOSAGE AND ADMINISTRATION The dosage of pindolol tablets should be individualized. The recommended initial dose of pindolol tablets is 5 mg b.i.d. alone or in combination with other antihypertensive agents. An antihypertensive response usually occurs within the first week of treatment. Maximal response, however, may take as long as or occasionally longer than 2 weeks. If a satisfactory reduction in blood pressure does not occur within 3 to 4 weeks, the dose may be adjusted in increments of 10 mg/day at these intervals up to a maximum of 60 mg/day.",
+      "generation_attempted": true,
+      "generation_verified": false,
+      "question_coverage": 1.0,
+      "citations": [
+        {
+          "chunk_id": "section_dosage_and_administration",
+          "char_start": 254,
+          "char_end": 807,
+          "quote": "DOSAGE AND ADMINISTRATION The dosage of pindolol tablets should be individualized. The recommended initial dose of pindolol tablets is 5 mg b.i.d. alone or in combination with other antihypertensive agents. An antihypertensive response usually occurs within the first week of treatment. Maximal response, however, may take as long as or occasionally longer than 2 weeks. If a satisfactory reduction in blood pressure does not occur within 3 to 4 weeks, the dose may be adjusted in increments of 10 mg/day at these intervals up to a maximum of 60 mg/day.",
+          "passage": "DOSAGE AND ADMINISTRATION The dosage of pindolol tablets should be individualized. The recommended initial dose of pindolol tablets is 5 mg b.i.d. alone or in combination with other antihypertensive agents. An antihypertensive response usually occurs within the first week of treatment. Maximal response, however, may take as long as or occasionally longer than 2 weeks. If a satisfactory reduction in blood pressure does not occur within 3 to 4 weeks, the dose may be adjusted in increments of 10 mg/day at these intervals up to a maximum of 60 mg/day."
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "qa_0043",
+    "source_record_id": "18ea93be-6dd6-4eac-9555-3fea7765a46c",
+    "response": {
+      "question": "What does the document say about contraindications?",
+      "document_id": "2cea97e5930bd1c9915656873eac4a13f96e6173014c244d9bb31aacd2da7bf7",
+      "source_name": "[\"PINDOLOL\"]",
+      "retrieved_passages": [
+        {
+          "chunk_id": "section_contraindications",
+          "char_start": 826,
+          "char_end": 1033,
+          "text": "CONTRAINDICATIONS Pindolol tablets are contraindicated in: 1) bronchial asthma; 2) overt cardiac failure; 3) cardiogenic shock; 4) second and third degree heart block; 5) severe bradycardia. (See WARNINGS .)",
+          "retrieval_score": null,
+          "source_locator": "explicit_section_heading"
+        },
+        {
+          "chunk_id": "chunk_0001",
+          "char_start": 628,
+          "char_end": 1418,
+          "text": "a satisfactory reduction in blood pressure does not occur within 3 to 4 weeks, the dose may be adjusted in increments of 10 mg/day at these intervals up to a maximum of 60 mg/day.\nContraindications\nCONTRAINDICATIONS Pindolol tablets are contraindicated in: 1) bronchial asthma; 2) overt cardiac failure; 3) cardiogenic shock; 4) second and third degree heart block; 5) severe bradycardia. (See WARNINGS .)\nWarnings\nWARNINGS Cardiac Failure Sympathetic stimulation may be a vital component supporting circulatory function in patients with congestive heart failure, and its inhibition by beta-blockade may precipitate more severe failure. Although beta-blockers should be avoided in overt congestive heart failure, if necessary, pindolol can be used with caution in patients with a history of",
+          "token_start": 140,
+          "token_end": 320,
+          "retrieval_score": 0.3719249367713928
+        },
+        {
+          "chunk_id": "chunk_0017",
+          "char_start": 10686,
+          "char_end": 11376,
+          "text": "10 Nervousness 7 3 5 Weakness 4 2 1 Autonomic Nervous System Paresthesia 3 1 6 Cardiovascular Dyspnea 5 4 6 Edema 6 3 1 Heart Failure <1 <1 0 Palpitations <1 1 0 Musculoskeletal Chest Pain 3 1 3 Joint Pain 7 4 4 Muscle Cramps 3 1 0 Muscle Pain 10 9 8 Gastrointestinal Abdominal Discomfort 4 4 5 Nausea 5 2 1 Skin Pruritus 1 <1 0 Rash <1 <1 1 The following selected (potentially important) adverse reactions were seen in 2% or fewer patients and their relationship to pindolol is uncertain. CENTRAL NERVOUS SYSTEM: anxiety, lethargy; AUTONOMIC NERVOUS SYSTEM: visual disturbances, hyperhidrosis; CARDIOVASCULAR: bradycardia, claudication, cold extremities, heart block, hypotension, syncope,",
+          "token_start": 2363,
+          "token_end": 2543,
+          "retrieval_score": 0.28563329577445984
+        },
+        {
+          "chunk_id": "chunk_0024",
+          "char_start": 14691,
+          "char_end": 15499,
+          "text": "dioxide, magnesium stearate, sodium starch glycolate and microcrystalline cellulose.\nClinical Pharmacology\nCLINICAL PHARMACOLOGY Pindolol is a nonselective beta-adrenergic antagonist (beta-blocker) which possesses intrinsic sympathomimetic activity (ISA) in therapeutic dosage ranges but does not possess quinidine-like membrane stabilizing activity.\nInformation For Patients\nInformation for Patients Patients, especially those with evidence of coronary artery insufficiency, should be warned against interruption or discontinuation of pindolol therapy without the physician's advice. Although cardiac failure rarely occurs in properly selected patients, patients being treated with beta-adrenergic blocking agents should be advised to consult the physician at the first sign or symptom of impending failure.",
+          "token_start": 3336,
+          "token_end": 3511,
+          "retrieval_score": 0.25792986154556274
+        },
+        {
+          "chunk_id": "chunk_0018",
+          "char_start": 11219,
+          "char_end": 11915,
+          "text": "AUTONOMIC NERVOUS SYSTEM: visual disturbances, hyperhidrosis; CARDIOVASCULAR: bradycardia, claudication, cold extremities, heart block, hypotension, syncope, tachycardia, weight gain; GASTROINTESTINAL: diarrhea, vomiting; RESPIRATORY: wheezing; UROGENITAL: impotence, pollakiuria; MISCELLANEOUS: eye discomfort or burning eyes.\nDrug Interactions\nDrug Interactions Catecholamine-depleting drugs (e.g., reserpine) may have an additive effect when given with beta-blocking agents. Patients receiving pindolol plus a catecholamine-depleting agent should, therefore, be closely observed for evidence of hypotension and/or marked bradycardia which may produce vertigo, syncope, or postural hypotension.",
+          "token_start": 2502,
+          "token_end": 2680,
+          "retrieval_score": 0.2578619718551636
+        }
+      ],
+      "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+      "generation_model": "google/flan-t5-small",
+      "policy_version": 2,
+      "answer": "CONTRAINDICATIONS Pindolol tablets are contraindicated in: 1) bronchial asthma; 2) overt cardiac failure; 3) cardiogenic shock; 4) second and third degree heart block; 5) severe bradycardia. (See WARNINGS .)",
+      "status": "answered",
+      "answer_mode": "grounded_section_quote",
+      "extracted_span": "CONTRAINDICATIONS Pindolol tablets are contraindicated in: 1) bronchial asthma; 2) overt cardiac failure; 3) cardiogenic shock; 4) second and third degree heart block; 5) severe bradycardia. (See WARNINGS .)",
+      "generation_attempted": true,
+      "generation_verified": false,
+      "question_coverage": 1.0,
+      "citations": [
+        {
+          "chunk_id": "section_contraindications",
+          "char_start": 826,
+          "char_end": 1033,
+          "quote": "CONTRAINDICATIONS Pindolol tablets are contraindicated in: 1) bronchial asthma; 2) overt cardiac failure; 3) cardiogenic shock; 4) second and third degree heart block; 5) severe bradycardia. (See WARNINGS .)",
+          "passage": "CONTRAINDICATIONS Pindolol tablets are contraindicated in: 1) bronchial asthma; 2) overt cardiac failure; 3) cardiogenic shock; 4) second and third degree heart block; 5) severe bradycardia. (See WARNINGS .)"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "qa_0044",
+    "source_record_id": "18ea93be-6dd6-4eac-9555-3fea7765a46c",
+    "response": {
+      "question": "What does the document say about drug interactions?",
+      "document_id": "2cea97e5930bd1c9915656873eac4a13f96e6173014c244d9bb31aacd2da7bf7",
+      "source_name": "[\"PINDOLOL\"]",
+      "retrieved_passages": [
+        {
+          "chunk_id": "section_drug_interactions",
+          "char_start": 11565,
+          "char_end": 12242,
+          "text": "Drug Interactions Catecholamine-depleting drugs (e.g., reserpine) may have an additive effect when given with beta-blocking agents. Patients receiving pindolol plus a catecholamine-depleting agent should, therefore, be closely observed for evidence of hypotension and/or marked bradycardia which may produce vertigo, syncope, or postural hypotension. Pindolol has been used with a variety of antihypertensive agents, including hydrochlorothiazide, hydralazine, and guanethidine without unexpected adverse interactions. Pindolol has been shown to increase serum thioridazine levels when both drugs are coadministered. Pindolol levels may also be increased with this combination.",
+          "retrieval_score": null,
+          "source_locator": "explicit_section_heading"
+        },
+        {
+          "chunk_id": "chunk_0018",
+          "char_start": 11219,
+          "char_end": 11915,
+          "text": "AUTONOMIC NERVOUS SYSTEM: visual disturbances, hyperhidrosis; CARDIOVASCULAR: bradycardia, claudication, cold extremities, heart block, hypotension, syncope, tachycardia, weight gain; GASTROINTESTINAL: diarrhea, vomiting; RESPIRATORY: wheezing; UROGENITAL: impotence, pollakiuria; MISCELLANEOUS: eye discomfort or burning eyes.\nDrug Interactions\nDrug Interactions Catecholamine-depleting drugs (e.g., reserpine) may have an additive effect when given with beta-blocking agents. Patients receiving pindolol plus a catecholamine-depleting agent should, therefore, be closely observed for evidence of hypotension and/or marked bradycardia which may produce vertigo, syncope, or postural hypotension.",
+          "token_start": 2502,
+          "token_end": 2680,
+          "retrieval_score": 0.3363766372203827
+        },
+        {
+          "chunk_id": "chunk_0016",
+          "char_start": 10154,
+          "char_end": 10827,
+          "text": "-related, which were reported in greater than 2% of pindolol patients and other selected important reactions. ADVERSE REACTIONS WHICH WERE VOLUNTEERED OR ELICITED (and at least possibly drug-related) Body System/ Adverse Reactions Pindolol (N=322)% Active Controls Active Controls: Patients received either propranolol, α-methyldopa or a diuretic (hydrochlorothiazide or chlorthalidone). (N=188)% Placebo (N=78)% Central Nervous System Bizarre or Many Dreams 5 0 6 Dizziness 9 11 1 Fatigue 8 4 4 Hallucinations <1 0 0 Insomnia 10 3 10 Nervousness 7 3 5 Weakness 4 2 1 Autonomic Nervous System Paresthesia 3 1 6 Cardiovascular Dyspnea 5 4 6 Edema 6 3 1 Heart Failure <1 <1 0",
+          "token_start": 2223,
+          "token_end": 2403,
+          "retrieval_score": 0.32011622190475464
+        },
+        {
+          "chunk_id": "chunk_0023",
+          "char_start": 14220,
+          "char_end": 14833,
+          "text": "sympathomimetic activity is 1-(Indol-4-yloxy)-3-(isopropylamino)-2-propanol. C 14 H 20 N 2 O 2 M.W. 248.32 Pindolol, USP is a white to off-white, crystalline powder having a faint odor which is practically insoluble in water; slightly soluble in methanol; and very slightly soluble in chloroform. Each tablet for oral administration contains pindolol and the following inactive ingredients: corn starch, lactose monohydrate, pregelatinized corn starch, colloidal silicon dioxide, magnesium stearate, sodium starch glycolate and microcrystalline cellulose.\nClinical Pharmacology\nCLINICAL PHARMACOLOGY Pindolol is a",
+          "token_start": 3196,
+          "token_end": 3376,
+          "retrieval_score": 0.30542290210723877
+        },
+        {
+          "chunk_id": "chunk_0022",
+          "char_start": 13660,
+          "char_end": 14303,
+          "text": "Bronchospasm: administer a beta 2 stimulating agent such as isoproterenol and/or a theophylline derivative. A case of an acute overdosage has been reported with an intake of 500 mg of pindolol by a hypertensive patient. Blood pressure increased and heart rate was 80 beats/min. Recovery was uneventful. In another case, 250 mg of pindolol was taken with 150 mg diazepam and 50 mg nitrazepam, producing coma and hypotension. The patient recovered in 24 hours.\nDescription\nDESCRIPTION Pindolol, a synthetic beta-adrenergic receptor blocking agent with intrinsic sympathomimetic activity is 1-(Indol-4-yloxy)-3-(isopropylamino)-2-propanol. C 14 H",
+          "token_start": 3056,
+          "token_end": 3236,
+          "retrieval_score": 0.2998575270175934
+        }
+      ],
+      "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+      "generation_model": "google/flan-t5-small",
+      "policy_version": 2,
+      "answer": "Drug Interactions Catecholamine-depleting drugs (e.g., reserpine) may have an additive effect when given with beta-blocking agents. Patients receiving pindolol plus a catecholamine-depleting agent should, therefore, be closely observed for evidence of hypotension and/or marked bradycardia which may produce vertigo, syncope, or postural hypotension. Pindolol has been used with a variety of antihypertensive agents, including hydrochlorothiazide, hydralazine, and guanethidine without unexpected adverse interactions. Pindolol has been shown to increase serum thioridazine levels when both drugs are coadministered. Pindolol levels may also be increased with this combination.",
+      "status": "answered",
+      "answer_mode": "grounded_section_quote",
+      "extracted_span": "Drug Interactions Catecholamine-depleting drugs (e.g., reserpine) may have an additive effect when given with beta-blocking agents. Patients receiving pindolol plus a catecholamine-depleting agent should, therefore, be closely observed for evidence of hypotension and/or marked bradycardia which may produce vertigo, syncope, or postural hypotension. Pindolol has been used with a variety of antihypertensive agents, including hydrochlorothiazide, hydralazine, and guanethidine without unexpected adverse interactions. Pindolol has been shown to increase serum thioridazine levels when both drugs are coadministered. Pindolol levels may also be increased with this combination.",
+      "generation_attempted": true,
+      "generation_verified": false,
+      "question_coverage": 1.0,
+      "citations": [
+        {
+          "chunk_id": "section_drug_interactions",
+          "char_start": 11565,
+          "char_end": 12242,
+          "quote": "Drug Interactions Catecholamine-depleting drugs (e.g., reserpine) may have an additive effect when given with beta-blocking agents. Patients receiving pindolol plus a catecholamine-depleting agent should, therefore, be closely observed for evidence of hypotension and/or marked bradycardia which may produce vertigo, syncope, or postural hypotension. Pindolol has been used with a variety of antihypertensive agents, including hydrochlorothiazide, hydralazine, and guanethidine without unexpected adverse interactions. Pindolol has been shown to increase serum thioridazine levels when both drugs are coadministered. Pindolol levels may also be increased with this combination.",
+          "passage": "Drug Interactions Catecholamine-depleting drugs (e.g., reserpine) may have an additive effect when given with beta-blocking agents. Patients receiving pindolol plus a catecholamine-depleting agent should, therefore, be closely observed for evidence of hypotension and/or marked bradycardia which may produce vertigo, syncope, or postural hypotension. Pindolol has been used with a variety of antihypertensive agents, including hydrochlorothiazide, hydralazine, and guanethidine without unexpected adverse interactions. Pindolol has been shown to increase serum thioridazine levels when both drugs are coadministered. Pindolol levels may also be increased with this combination."
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "qa_0045",
+    "source_record_id": "18ea93be-6dd6-4eac-9555-3fea7765a46c",
+    "response": {
+      "question": "What is the retail price stated in this document?",
+      "document_id": "2cea97e5930bd1c9915656873eac4a13f96e6173014c244d9bb31aacd2da7bf7",
+      "source_name": "[\"PINDOLOL\"]",
+      "retrieved_passages": [
+        {
+          "chunk_id": "chunk_0023",
+          "char_start": 14220,
+          "char_end": 14833,
+          "text": "sympathomimetic activity is 1-(Indol-4-yloxy)-3-(isopropylamino)-2-propanol. C 14 H 20 N 2 O 2 M.W. 248.32 Pindolol, USP is a white to off-white, crystalline powder having a faint odor which is practically insoluble in water; slightly soluble in methanol; and very slightly soluble in chloroform. Each tablet for oral administration contains pindolol and the following inactive ingredients: corn starch, lactose monohydrate, pregelatinized corn starch, colloidal silicon dioxide, magnesium stearate, sodium starch glycolate and microcrystalline cellulose.\nClinical Pharmacology\nCLINICAL PHARMACOLOGY Pindolol is a",
+          "token_start": 3196,
+          "token_end": 3376,
+          "retrieval_score": 0.10564874857664108
+        },
+        {
+          "chunk_id": "chunk_0013",
+          "char_start": 8104,
+          "char_end": 8973,
+          "text": "104 weeks. There appeared to be an increase in prenatal mortality in males given 100 mg/kg but development of offspring was not impaired. In females administered pindolol prior to mating through day 21 of lactation, mating behavior was decreased at 100 mg/kg and 30 mg/kg. At these dosages there also was increased mortality of offspring. Prenatal mortality was increased at 10 mg/kg but there was not a clear dose-response relationship in this experiment. There was an increased resorption rate at 100 mg/kg observed in females necropsied on the 15th day of gestation. Pregnancy Teratogenic Effects Category B Studies in rats and rabbits exceeding 100 times the maximum recommended human doses, revealed no embryotoxicity or teratogenicity. Since there are no adequate and well controlled studies in pregnant women, and since animal reproduction studies are not always",
+          "token_start": 1806,
+          "token_end": 1986,
+          "retrieval_score": 0.0583733506500721
+        },
+        {
+          "chunk_id": "chunk_0022",
+          "char_start": 13660,
+          "char_end": 14303,
+          "text": "Bronchospasm: administer a beta 2 stimulating agent such as isoproterenol and/or a theophylline derivative. A case of an acute overdosage has been reported with an intake of 500 mg of pindolol by a hypertensive patient. Blood pressure increased and heart rate was 80 beats/min. Recovery was uneventful. In another case, 250 mg of pindolol was taken with 150 mg diazepam and 50 mg nitrazepam, producing coma and hypotension. The patient recovered in 24 hours.\nDescription\nDESCRIPTION Pindolol, a synthetic beta-adrenergic receptor blocking agent with intrinsic sympathomimetic activity is 1-(Indol-4-yloxy)-3-(isopropylamino)-2-propanol. C 14 H",
+          "token_start": 3056,
+          "token_end": 3236,
+          "retrieval_score": 0.058144520968198776
+        },
+        {
+          "chunk_id": "chunk_0017",
+          "char_start": 10686,
+          "char_end": 11376,
+          "text": "10 Nervousness 7 3 5 Weakness 4 2 1 Autonomic Nervous System Paresthesia 3 1 6 Cardiovascular Dyspnea 5 4 6 Edema 6 3 1 Heart Failure <1 <1 0 Palpitations <1 1 0 Musculoskeletal Chest Pain 3 1 3 Joint Pain 7 4 4 Muscle Cramps 3 1 0 Muscle Pain 10 9 8 Gastrointestinal Abdominal Discomfort 4 4 5 Nausea 5 2 1 Skin Pruritus 1 <1 0 Rash <1 <1 1 The following selected (potentially important) adverse reactions were seen in 2% or fewer patients and their relationship to pindolol is uncertain. CENTRAL NERVOUS SYSTEM: anxiety, lethargy; AUTONOMIC NERVOUS SYSTEM: visual disturbances, hyperhidrosis; CARDIOVASCULAR: bradycardia, claudication, cold extremities, heart block, hypotension, syncope,",
+          "token_start": 2363,
+          "token_end": 2543,
+          "retrieval_score": 0.05328863114118576
+        }
+      ],
+      "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+      "generation_model": "google/flan-t5-small",
+      "policy_version": 2,
+      "answer": "I cannot find that in the document.",
+      "status": "not_found",
+      "answer_mode": "not_found",
+      "citations": [],
+      "question_coverage": 0.0
+    }
+  },
+  {
+    "case_id": "qa_0046",
+    "source_record_id": "18ea93be-6dd6-4eac-9555-3fea7765a46c",
+    "response": {
+      "question": "What is my prescribing doctor's telephone number?",
+      "document_id": "2cea97e5930bd1c9915656873eac4a13f96e6173014c244d9bb31aacd2da7bf7",
+      "source_name": "[\"PINDOLOL\"]",
+      "retrieved_passages": [
+        {
+          "chunk_id": "chunk_0002",
+          "char_start": 1232,
+          "char_end": 2016,
+          "text": "precipitate more severe failure. Although beta-blockers should be avoided in overt congestive heart failure, if necessary, pindolol can be used with caution in patients with a history of failure who are well-compensated, usually with digitalis and diuretics. Both digitalis glycosides and beta-blockers slow atrioventricular conduction and decrease heart rate. Concomitant use can increase risk of bradycardia. Beta-adrenergic blocking agents do not abolish the inotropic action of digitalis on heart muscle. In Patients Without A History of Cardiac Failure In patients with latent cardiac insufficiency, continued depression of the myocardium with beta-blocking agents over a period of time can in some cases lead to cardiac failure. At the first sign or symptom of impending cardiac",
+          "token_start": 277,
+          "token_end": 457,
+          "retrieval_score": 0.23942600190639496
+        },
+        {
+          "chunk_id": "chunk_0001",
+          "char_start": 628,
+          "char_end": 1418,
+          "text": "a satisfactory reduction in blood pressure does not occur within 3 to 4 weeks, the dose may be adjusted in increments of 10 mg/day at these intervals up to a maximum of 60 mg/day.\nContraindications\nCONTRAINDICATIONS Pindolol tablets are contraindicated in: 1) bronchial asthma; 2) overt cardiac failure; 3) cardiogenic shock; 4) second and third degree heart block; 5) severe bradycardia. (See WARNINGS .)\nWarnings\nWARNINGS Cardiac Failure Sympathetic stimulation may be a vital component supporting circulatory function in patients with congestive heart failure, and its inhibition by beta-blockade may precipitate more severe failure. Although beta-blockers should be avoided in overt congestive heart failure, if necessary, pindolol can be used with caution in patients with a history of",
+          "token_start": 140,
+          "token_end": 320,
+          "retrieval_score": 0.2345481812953949
+        },
+        {
+          "chunk_id": "chunk_0014",
+          "char_start": 8757,
+          "char_end": 9678,
+          "text": "times the maximum recommended human doses, revealed no embryotoxicity or teratogenicity. Since there are no adequate and well controlled studies in pregnant women, and since animal reproduction studies are not always predictive of human response, pindolol, as with any drug, should be employed during pregnancy only if the potential benefit justifies the potential risk to the fetus. Nursing Mothers Since pindolol is secreted in human milk, nursing should not be undertaken by mothers receiving the drug. Pediatric Use Safety and effectiveness in pediatric patients have not been established.\nAdverse Reactions\nADVERSE REACTIONS Most adverse reactions have been mild. The incidences listed in the following table are derived from 12-week comparative double-blind, parallel design trials in hypertensive patients given pindolol as monotherapy, given various active control drugs as monotherapy, or given placebo. Data for",
+          "token_start": 1946,
+          "token_end": 2123,
+          "retrieval_score": 0.23112031817436218
+        },
+        {
+          "chunk_id": "chunk_0016",
+          "char_start": 10154,
+          "char_end": 10827,
+          "text": "-related, which were reported in greater than 2% of pindolol patients and other selected important reactions. ADVERSE REACTIONS WHICH WERE VOLUNTEERED OR ELICITED (and at least possibly drug-related) Body System/ Adverse Reactions Pindolol (N=322)% Active Controls Active Controls: Patients received either propranolol, α-methyldopa or a diuretic (hydrochlorothiazide or chlorthalidone). (N=188)% Placebo (N=78)% Central Nervous System Bizarre or Many Dreams 5 0 6 Dizziness 9 11 1 Fatigue 8 4 4 Hallucinations <1 0 0 Insomnia 10 3 10 Nervousness 7 3 5 Weakness 4 2 1 Autonomic Nervous System Paresthesia 3 1 6 Cardiovascular Dyspnea 5 4 6 Edema 6 3 1 Heart Failure <1 <1 0",
+          "token_start": 2223,
+          "token_end": 2403,
+          "retrieval_score": 0.22830766439437866
+        }
+      ],
+      "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+      "generation_model": "google/flan-t5-small",
+      "policy_version": 2,
+      "answer": "I cannot find that in the document.",
+      "status": "not_found",
+      "answer_mode": "not_found",
+      "citations": [],
+      "question_coverage": 0.0
+    }
+  },
+  {
+    "case_id": "qa_0047",
+    "source_record_id": "18ea93be-6dd6-4eac-9555-3fea7765a46c",
+    "response": {
+      "question": "What is my insurance policy number?",
+      "document_id": "2cea97e5930bd1c9915656873eac4a13f96e6173014c244d9bb31aacd2da7bf7",
+      "source_name": "[\"PINDOLOL\"]",
+      "retrieved_passages": [
+        {
+          "chunk_id": "chunk_0002",
+          "char_start": 1232,
+          "char_end": 2016,
+          "text": "precipitate more severe failure. Although beta-blockers should be avoided in overt congestive heart failure, if necessary, pindolol can be used with caution in patients with a history of failure who are well-compensated, usually with digitalis and diuretics. Both digitalis glycosides and beta-blockers slow atrioventricular conduction and decrease heart rate. Concomitant use can increase risk of bradycardia. Beta-adrenergic blocking agents do not abolish the inotropic action of digitalis on heart muscle. In Patients Without A History of Cardiac Failure In patients with latent cardiac insufficiency, continued depression of the myocardium with beta-blocking agents over a period of time can in some cases lead to cardiac failure. At the first sign or symptom of impending cardiac",
+          "token_start": 277,
+          "token_end": 457,
+          "retrieval_score": 0.06948161125183105
+        },
+        {
+          "chunk_id": "chunk_0017",
+          "char_start": 10686,
+          "char_end": 11376,
+          "text": "10 Nervousness 7 3 5 Weakness 4 2 1 Autonomic Nervous System Paresthesia 3 1 6 Cardiovascular Dyspnea 5 4 6 Edema 6 3 1 Heart Failure <1 <1 0 Palpitations <1 1 0 Musculoskeletal Chest Pain 3 1 3 Joint Pain 7 4 4 Muscle Cramps 3 1 0 Muscle Pain 10 9 8 Gastrointestinal Abdominal Discomfort 4 4 5 Nausea 5 2 1 Skin Pruritus 1 <1 0 Rash <1 <1 1 The following selected (potentially important) adverse reactions were seen in 2% or fewer patients and their relationship to pindolol is uncertain. CENTRAL NERVOUS SYSTEM: anxiety, lethargy; AUTONOMIC NERVOUS SYSTEM: visual disturbances, hyperhidrosis; CARDIOVASCULAR: bradycardia, claudication, cold extremities, heart block, hypotension, syncope,",
+          "token_start": 2363,
+          "token_end": 2543,
+          "retrieval_score": 0.05607995018362999
+        },
+        {
+          "chunk_id": "chunk_0016",
+          "char_start": 10154,
+          "char_end": 10827,
+          "text": "-related, which were reported in greater than 2% of pindolol patients and other selected important reactions. ADVERSE REACTIONS WHICH WERE VOLUNTEERED OR ELICITED (and at least possibly drug-related) Body System/ Adverse Reactions Pindolol (N=322)% Active Controls Active Controls: Patients received either propranolol, α-methyldopa or a diuretic (hydrochlorothiazide or chlorthalidone). (N=188)% Placebo (N=78)% Central Nervous System Bizarre or Many Dreams 5 0 6 Dizziness 9 11 1 Fatigue 8 4 4 Hallucinations <1 0 0 Insomnia 10 3 10 Nervousness 7 3 5 Weakness 4 2 1 Autonomic Nervous System Paresthesia 3 1 6 Cardiovascular Dyspnea 5 4 6 Edema 6 3 1 Heart Failure <1 <1 0",
+          "token_start": 2223,
+          "token_end": 2403,
+          "retrieval_score": 0.0510818213224411
+        },
+        {
+          "chunk_id": "chunk_0021",
+          "char_start": 13088,
+          "char_end": 13820,
+          "text": "pharmacologic actions of pindolol, the following general measures should be employed as appropriate in addition to gastric lavage: Excessive Bradycardia: administer atropine; if there is no response to vagal blockade, administer isoproterenol cautiously. Cardiac Failure: digitalize the patient and/or administer diuretic. It has been reported that glucagon may be useful in this situation. Hypotension: administer vasopressors, e.g., epinephrine or norepinephrine, with serial monitoring of blood pressure. (There is evidence that epinephrine may be the drug of choice.) Bronchospasm: administer a beta 2 stimulating agent such as isoproterenol and/or a theophylline derivative. A case of an acute overdosage has been reported with",
+          "token_start": 2917,
+          "token_end": 3097,
+          "retrieval_score": 0.041990015655756
+        }
+      ],
+      "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+      "generation_model": "google/flan-t5-small",
+      "policy_version": 2,
+      "answer": "I cannot find that in the document.",
+      "status": "not_found",
+      "answer_mode": "not_found",
+      "citations": [],
+      "question_coverage": 0.0
+    }
+  }
+]

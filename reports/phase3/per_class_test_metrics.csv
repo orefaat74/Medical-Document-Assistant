@@ -1,0 +1,7 @@
+model,class_label,precision,recall,f1,support,groups
+text_cnn,antibacterial,0.9848484848484849,0.9420289855072463,0.9629629629629629,69,5
+text_cnn,anti_inflammatory_nsaid,1.0,1.0,1.0,64,2
+text_cnn,corticosteroid,0.9552238805970149,1.0,0.9770992366412213,64,2
+text_cnn,antifungal,0.9855072463768116,0.9855072463768116,0.9855072463768116,69,2
+text_cnn,acid_reducer,1.0,1.0,1.0,19,2
+text_cnn,antihypertensive,1.0,1.0,1.0,57,3

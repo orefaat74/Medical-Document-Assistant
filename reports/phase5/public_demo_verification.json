@@ -1,0 +1,12 @@
+{
+  "all_passed": true,
+  "url": "https://stories-acknowledged-cord-connector.trycloudflare.com",
+  "temporary": true,
+  "checks": [
+    "HTTPS frontend loaded",
+    "Streamlit websocket session connected",
+    "Real example classified",
+    "Source-quoted answer displayed",
+    "Missing-answer fallback displayed"
+  ]
+}

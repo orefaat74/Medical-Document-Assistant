@@ -1,0 +1,122 @@
+{
+  "created_at_utc": "2026-10-28T11:18:11+00:00",
+  "documents": 2471,
+  "classes": 6,
+  "class_balance": [
+    {
+      "class_label": "antibacterial",
+      "display_name": "Antibacterial",
+      "documents": 456,
+      "unique_ingredient_sets": 52,
+      "leakage_groups": 37,
+      "median_words": 5478.0,
+      "percent": 18.45
+    },
+    {
+      "class_label": "anti_inflammatory_nsaid",
+      "display_name": "Anti-inflammatory (NSAID)",
+      "documents": 470,
+      "unique_ingredient_sets": 34,
+      "leakage_groups": 15,
+      "median_words": 995.5,
+      "percent": 19.02
+    },
+    {
+      "class_label": "corticosteroid",
+      "display_name": "Corticosteroid",
+      "documents": 423,
+      "unique_ingredient_sets": 24,
+      "leakage_groups": 12,
+      "median_words": 1834.0,
+      "percent": 17.12
+    },
+    {
+      "class_label": "antifungal",
+      "display_name": "Antifungal",
+      "documents": 431,
+      "unique_ingredient_sets": 24,
+      "leakage_groups": 19,
+      "median_words": 1185.0,
+      "percent": 17.44
+    },
+    {
+      "class_label": "acid_reducer",
+      "display_name": "Acid reducer (PPI / H2 blocker)",
+      "documents": 311,
+      "unique_ingredient_sets": 9,
+      "leakage_groups": 7,
+      "median_words": 4662.0,
+      "percent": 12.59
+    },
+    {
+      "class_label": "antihypertensive",
+      "display_name": "Antihypertensive",
+      "documents": 380,
+      "unique_ingredient_sets": 32,
+      "leakage_groups": 19,
+      "median_words": 7261.5,
+      "percent": 15.38
+    }
+  ],
+  "unique_ingredient_sets": 175,
+  "leakage_groups": 105,
+  "groups_with_multiple_documents": 86,
+  "largest_group_documents": 772,
+  "class_imbalance_ratio": 1.511,
+  "word_count": {
+    "count": 2471.0,
+    "mean": 5669.161877782274,
+    "std": 5267.171879000606,
+    "min": 91.0,
+    "10%": 355.0,
+    "25%": 857.5,
+    "50%": 4467.0,
+    "75%": 8938.5,
+    "90%": 14049.0,
+    "95%": 16405.5,
+    "max": 22945.0
+  },
+  "character_count": {
+    "count": 2471.0,
+    "mean": 38789.85876163497,
+    "std": 35795.47321301971,
+    "min": 612.0,
+    "25%": 5138.5,
+    "50%": 30650.0,
+    "75%": 61277.0,
+    "max": 157951.0
+  },
+  "section_missingness": [
+    {
+      "field": "indications_text",
+      "missing_count": 2,
+      "missing_percent": 0.08
+    },
+    {
+      "field": "dosage_text",
+      "missing_count": 8,
+      "missing_percent": 0.32
+    },
+    {
+      "field": "warnings_text",
+      "missing_count": 7,
+      "missing_percent": 0.28
+    },
+    {
+      "field": "contraindications_text",
+      "missing_count": 116,
+      "missing_percent": 4.69
+    },
+    {
+      "field": "side_effects_text",
+      "missing_count": 688,
+      "missing_percent": 27.84
+    }
+  ],
+  "synthetic_documents": 0,
+  "source_retrieved_at_utc": "2026-10-28T11:05:52+00:00",
+  "api_last_updated": [
+    "2026-10-27"
+  ],
+  "dataset_validation_passed": true
+}

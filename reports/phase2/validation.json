@@ -1,0 +1,382 @@
+{
+  "created_at_utc": "2026-10-28T12:35:03+00:00",
+  "all_passed": true,
+  "checks": [
+    {
+      "name": "all_documents_accounted_for",
+      "passed": true,
+      "detail": "2,471 unique source records"
+    },
+    {
+      "name": "three_partitions",
+      "passed": true,
+      "detail": "Train, validation, and test are nonempty"
+    },
+    {
+      "name": "benchmark_groups_disjoint",
+      "passed": true,
+      "detail": "No benchmark group crosses a partition"
+    },
+    {
+      "name": "phase1_groups_preserved",
+      "passed": true,
+      "detail": "No approved Phase 1 ingredient component is fragmented"
+    },
+    {
+      "name": "all_classes_in_each_partition",
+      "passed": true,
+      "detail": "Every held-out partition contains all configured targets"
+    },
+    {
+      "name": "minimum_independent_class_groups",
+      "passed": true,
+      "detail": "Recorded per-class training/holdout constraints are satisfied"
+    },
+    {
+      "name": "source_and_rxnorm_ingredients_grouped",
+      "passed": true,
+      "detail": "Shared source names/UNIIs and unambiguous RxNorm IN relationships remain in one component"
+    },
+    {
+      "name": "audited_near_duplicates_grouped",
+      "passed": true,
+      "detail": "0 qualifying cross-ingredient text pairs"
+    },
+    {
+      "name": "training_fold_assignments",
+      "passed": true,
+      "detail": "One validation fold per training group"
+    },
+    {
+      "name": "holdout_rows_excluded_from_cv",
+      "passed": true,
+      "detail": "Validation/test rows are outside hyperparameter CV"
+    },
+    {
+      "name": "cv_fold_0_disjoint",
+      "passed": true,
+      "detail": "728 fit documents; 1034 validation documents"
+    },
+    {
+      "name": "cv_fold_0_all_classes",
+      "passed": true,
+      "detail": "All target classes in the fit and validation subset"
+    },
+    {
+      "name": "cv_fold_1_disjoint",
+      "passed": true,
+      "detail": "1362 fit documents; 400 validation documents"
+    },
+    {
+      "name": "cv_fold_1_all_classes",
+      "passed": true,
+      "detail": "All target classes in the fit and validation subset"
+    },
+    {
+      "name": "cv_fold_2_disjoint",
+      "passed": true,
+      "detail": "1434 fit documents; 328 validation documents"
+    },
+    {
+      "name": "cv_fold_2_all_classes",
+      "passed": true,
+      "detail": "All target classes in the fit and validation subset"
+    },
+    {
+      "name": "approved_input_checksum",
+      "passed": true,
+      "detail": "The benchmark uses the approved Phase 1 Parquet snapshot"
+    },
+    {
+      "name": "frozen_split_checksum",
+      "passed": true,
+      "detail": "Evaluation record assignments match both manifests"
+    },
+    {
+      "name": "rxnorm_reference_checksum",
+      "passed": true,
+      "detail": "Ingredient reference is frozen"
+    },
+    {
+      "name": "near_duplicate_audit_checksum",
+      "passed": true,
+      "detail": "Text-pair audit matches the split manifest"
+    },
+    {
+      "name": "run_configuration_checksum",
+      "passed": true,
+      "detail": "Recorded training parameters match the configuration"
+    },
+    {
+      "name": "baseline_selected_on_validation",
+      "passed": true,
+      "detail": "Validation macro F1, with the predefined CV/family tie-break"
+    },
+    {
+      "name": "selection_snapshot_contains_no_test_metrics",
+      "passed": true,
+      "detail": "The saved selection snapshot predates all test metrics"
+    },
+    {
+      "name": "selection_precedes_test_evaluation",
+      "passed": true,
+      "detail": "Selection was persisted before test prediction"
+    },
+    {
+      "name": "logistic_regression_artifact_checksum",
+      "passed": true,
+      "detail": "Saved classifier matches its manifest"
+    },
+    {
+      "name": "logistic_regression_standalone_text_pipeline",
+      "passed": true,
+      "detail": "A complete TF-IDF + classifier pipeline with no training-cache dependency"
+    },
+    {
+      "name": "logistic_regression_training_provenance",
+      "passed": true,
+      "detail": "Final refit uses train + validation only"
+    },
+    {
+      "name": "logistic_regression_train_validation_only_tfidf",
+      "passed": true,
+      "detail": "Vocabulary and IDF independently match a fit that excludes all test text"
+    },
+    {
+      "name": "logistic_regression_frozen_parameters",
+      "passed": true,
+      "detail": "Final model keeps the training-CV-selected hyperparameters"
+    },
+    {
+      "name": "logistic_regression_class_coverage",
+      "passed": true,
+      "detail": "Classifier supports all six recorded target labels"
+    },
+    {
+      "name": "linear_svm_artifact_checksum",
+      "passed": true,
+      "detail": "Saved classifier matches its manifest"
+    },
+    {
+      "name": "linear_svm_standalone_text_pipeline",
+      "passed": true,
+      "detail": "A complete TF-IDF + classifier pipeline with no training-cache dependency"
+    },
+    {
+      "name": "linear_svm_training_provenance",
+      "passed": true,
+      "detail": "Final refit uses train + validation only"
+    },
+    {
+      "name": "linear_svm_train_validation_only_tfidf",
+      "passed": true,
+      "detail": "Vocabulary and IDF independently match a fit that excludes all test text"
+    },
+    {
+      "name": "linear_svm_frozen_parameters",
+      "passed": true,
+      "detail": "Final model keeps the training-CV-selected hyperparameters"
+    },
+    {
+      "name": "linear_svm_class_coverage",
+      "passed": true,
+      "detail": "Classifier supports all six recorded target labels"
+    },
+    {
+      "name": "random_forest_artifact_checksum",
+      "passed": true,
+      "detail": "Saved classifier matches its manifest"
+    },
+    {
+      "name": "random_forest_standalone_text_pipeline",
+      "passed": true,
+      "detail": "A complete TF-IDF + classifier pipeline with no training-cache dependency"
+    },
+    {
+      "name": "random_forest_training_provenance",
+      "passed": true,
+      "detail": "Final refit uses train + validation only"
+    },
+    {
+      "name": "random_forest_train_validation_only_tfidf",
+      "passed": true,
+      "detail": "Vocabulary and IDF independently match a fit that excludes all test text"
+    },
+    {
+      "name": "random_forest_frozen_parameters",
+      "passed": true,
+      "detail": "Final model keeps the training-CV-selected hyperparameters"
+    },
+    {
+      "name": "random_forest_class_coverage",
+      "passed": true,
+      "detail": "Classifier supports all six recorded target labels"
+    },
+    {
+      "name": "logistic_regression_validation_prediction_coverage",
+      "passed": true,
+      "detail": "Every partition record has the correct source truth and group"
+    },
+    {
+      "name": "logistic_regression_validation_reported_metrics",
+      "passed": true,
+      "detail": "All reported metrics recomputed from saved predictions"
+    },
+    {
+      "name": "linear_svm_validation_prediction_coverage",
+      "passed": true,
+      "detail": "Every partition record has the correct source truth and group"
+    },
+    {
+      "name": "linear_svm_validation_reported_metrics",
+      "passed": true,
+      "detail": "All reported metrics recomputed from saved predictions"
+    },
+    {
+      "name": "random_forest_validation_prediction_coverage",
+      "passed": true,
+      "detail": "Every partition record has the correct source truth and group"
+    },
+    {
+      "name": "random_forest_validation_reported_metrics",
+      "passed": true,
+      "detail": "All reported metrics recomputed from saved predictions"
+    },
+    {
+      "name": "logistic_regression_test_prediction_coverage",
+      "passed": true,
+      "detail": "Every partition record has the correct source truth and group"
+    },
+    {
+      "name": "logistic_regression_test_reported_metrics",
+      "passed": true,
+      "detail": "All reported metrics recomputed from saved predictions"
+    },
+    {
+      "name": "logistic_regression_confusion_matrix",
+      "passed": true,
+      "detail": "All matrix entries and class supports match saved test predictions"
+    },
+    {
+      "name": "linear_svm_test_prediction_coverage",
+      "passed": true,
+      "detail": "Every partition record has the correct source truth and group"
+    },
+    {
+      "name": "linear_svm_test_reported_metrics",
+      "passed": true,
+      "detail": "All reported metrics recomputed from saved predictions"
+    },
+    {
+      "name": "linear_svm_confusion_matrix",
+      "passed": true,
+      "detail": "All matrix entries and class supports match saved test predictions"
+    },
+    {
+      "name": "random_forest_test_prediction_coverage",
+      "passed": true,
+      "detail": "Every partition record has the correct source truth and group"
+    },
+    {
+      "name": "random_forest_test_reported_metrics",
+      "passed": true,
+      "detail": "All reported metrics recomputed from saved predictions"
+    },
+    {
+      "name": "random_forest_confusion_matrix",
+      "passed": true,
+      "detail": "All matrix entries and class supports match saved test predictions"
+    },
+    {
+      "name": "benchmark_artifact_matches_selection",
+      "passed": true,
+      "detail": "The reusable benchmark is the pre-test-selected model"
+    },
+    {
+      "name": "benchmark_alias_predictions",
+      "passed": true,
+      "detail": "Benchmark alias and family artifact predict identically after loading"
+    },
+    {
+      "name": "output_checksum_confusion_matrix_linear_svm.csv",
+      "passed": true,
+      "detail": "CSV output matches the completed run"
+    },
+    {
+      "name": "output_checksum_confusion_matrix_logistic_regression.csv",
+      "passed": true,
+      "detail": "CSV output matches the completed run"
+    },
+    {
+      "name": "output_checksum_confusion_matrix_random_forest.csv",
+      "passed": true,
+      "detail": "CSV output matches the completed run"
+    },
+    {
+      "name": "output_checksum_cv_class_balance.csv",
+      "passed": true,
+      "detail": "CSV output matches the completed run"
+    },
+    {
+      "name": "output_checksum_cv_results.csv",
+      "passed": true,
+      "detail": "CSV output matches the completed run"
+    },
+    {
+      "name": "output_checksum_ingredient_inventory.csv",
+      "passed": true,
+      "detail": "CSV output matches the completed run"
+    },
+    {
+      "name": "output_checksum_model_comparison.csv",
+      "passed": true,
+      "detail": "CSV output matches the completed run"
+    },
+    {
+      "name": "output_checksum_near_duplicate_pairs.csv",
+      "passed": true,
+      "detail": "CSV output matches the completed run"
+    },
+    {
+      "name": "output_checksum_per_class_test_metrics.csv",
+      "passed": true,
+      "detail": "CSV output matches the completed run"
+    },
+    {
+      "name": "output_checksum_phase1_group_class_counts.csv",
+      "passed": true,
+      "detail": "CSV output matches the completed run"
+    },
+    {
+      "name": "output_checksum_predictions_test.csv",
+      "passed": true,
+      "detail": "CSV output matches the completed run"
+    },
+    {
+      "name": "output_checksum_predictions_validation.csv",
+      "passed": true,
+      "detail": "CSV output matches the completed run"
+    },
+    {
+      "name": "output_checksum_rxnorm_matches.csv",
+      "passed": true,
+      "detail": "CSV output matches the completed run"
+    },
+    {
+      "name": "output_checksum_split_class_balance.csv",
+      "passed": true,
+      "detail": "CSV output matches the completed run"
+    },
+    {
+      "name": "output_checksum_test_errors.csv",
+      "passed": true,
+      "detail": "CSV output matches the completed run"
+    },
+    {
+      "name": "output_checksum_top_features.csv",
+      "passed": true,
+      "detail": "CSV output matches the completed run"
+    }
+  ],
+  "selected_model": "random_forest"
+}

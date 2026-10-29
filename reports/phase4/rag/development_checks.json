@@ -1,0 +1,623 @@
+[
+  {
+    "question": "How long can this product take for full effect?",
+    "document_id": "6bf7825537c9facfb3f13e840006ae7d88b569711f156c01fc71762a03ceead3",
+    "source_name": "development esomeprazole leaflet",
+    "retrieved_passages": [
+      {
+        "chunk_id": "chunk_0005",
+        "char_start": 3134,
+        "char_end": 3527,
+        "text": "use and ask a doctor if • your heartburn continues or worsens • you need to take this product for more than 14 days • you need to take more than 1 course of treatment every 4 months • you get diarrhea • you develop a rash or joint pain\nPregnancy Or Breast Feeding\nIf pregnant or breast-feeding, ask a health professional before use.\nKeep Out Of Reach Of Children\nKeep out of reach of children.",
+        "token_start": 700,
+        "token_end": 785,
+        "retrieval_score": 0.48201215267181396
+      },
+      {
+        "chunk_id": "chunk_0000",
+        "char_start": 0,
+        "char_end": 798,
+        "text": "Indications And Usage\nUses • treats frequent heartburn (occurs 2 or more days a week) • not intended for immediate relief of heartburn; this drug may take 1 to 4 days for full effect\nPurpose\nPurpose Acid reducer\nDosage And Administration\nDirections • adults 18 years of age and older • this product is to be used once a day (every 24 hours), every day for 14 days • may take 1 to 4 days for full effect 14-Day Course of Treatment • swallow 1 capsule with a glass of water before eating in the morning • take every day for 14 days • do not take more than 1 capsule a day • swallow whole. Do not crush or chew capsules. • do not use for more than 14 days unless directed by your doctor Repeated 14-Day Courses (if needed) • you may repeat a 14-day course every 4 months • do not take for more than 14",
+        "token_start": 0,
+        "token_end": 180,
+        "retrieval_score": 0.4614405930042267
+      },
+      {
+        "chunk_id": "chunk_0004",
+        "char_start": 2505,
+        "char_end": 3315,
+        "text": "need to take more than 1 course of treatment every 4 months • you get diarrhea • you develop a rash or joint pain If pregnant or breast-feeding, ask a health professional before use. Keep out of reach of children.\nAsk Doctor\nAsk a doctor before use if you have • had heartburn over 3 months. This may be a sign of a more serious condition. • frequent wheezing, particularly with heartburn • unexplained weight loss • nausea or vomiting • stomach pain\nAsk Doctor Or Pharmacist\nAsk a doctor or pharmacist before use if you are • taking a prescription drug. Acid reducers may interact with certain prescription drugs.\nStop Use\nStop use and ask a doctor if • your heartburn continues or worsens • you need to take this product for more than 14 days • you need to take more than 1 course of treatment every 4 months",
+        "token_start": 560,
+        "token_end": 740,
+        "retrieval_score": 0.3841240108013153
+      },
+      {
+        "chunk_id": "chunk_0001",
+        "char_start": 627,
+        "char_end": 1446,
+        "text": "use for more than 14 days unless directed by your doctor Repeated 14-Day Courses (if needed) • you may repeat a 14-day course every 4 months • do not take for more than 14 days or more often than every 4 months unless directed by a doctor • children under 18 years of age: ask a doctor before use. Heartburn in children may sometimes be caused by a serious condition.\nDo Not Use\nDo not use if you have: • trouble or pain swallowing food, vomiting with blood, or bloody or black stools • heartburn with lightheadedness, sweating or dizziness • chest pain or shoulder pain with shortness of breath; sweating; pain spreading to arms, neck or shoulders; or lightheadedness • frequent chest pain These may be signs of a serious condition. See your doctor.\nWarnings\nWarnings Allergy alert: • Do not use if you are allergic to",
+        "token_start": 140,
+        "token_end": 320,
+        "retrieval_score": 0.3610140383243561
+      }
+    ],
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "generation_model": "google/flan-t5-small",
+    "answer": "may take 1 to 4 days for full effect 14-Day Course of Treatment",
+    "status": "answered",
+    "answer_mode": "verified_llm_span",
+    "extracted_span": "1 to 4 days",
+    "generation_verified": true,
+    "generation_attempted": true,
+    "question_coverage": 1.0,
+    "span_score": 0.6018447279930115,
+    "answer_margin": 9.582603454589844,
+    "citations": [
+      {
+        "chunk_id": "chunk_0000",
+        "char_start": 366,
+        "char_end": 429,
+        "quote": "may take 1 to 4 days for full effect 14-Day Course of Treatment",
+        "passage": "Indications And Usage\nUses • treats frequent heartburn (occurs 2 or more days a week) • not intended for immediate relief of heartburn; this drug may take 1 to 4 days for full effect\nPurpose\nPurpose Acid reducer\nDosage And Administration\nDirections • adults 18 years of age and older • this product is to be used once a day (every 24 hours), every day for 14 days • may take 1 to 4 days for full effect 14-Day Course of Treatment • swallow 1 capsule with a glass of water before eating in the morning • take every day for 14 days • do not take more than 1 capsule a day • swallow whole. Do not crush or chew capsules. • do not use for more than 14 days unless directed by your doctor Repeated 14-Day Courses (if needed) • you may repeat a 14-day course every 4 months • do not take for more than 14"
+      }
+    ],
+    "development_candidate_diagnostics": [
+      {
+        "span": "1 to 4 days",
+        "span_score": 0.6018447279930115,
+        "answer_margin": 9.582603454589844,
+        "retrieval_score": 0.4614405930042267
+      },
+      {
+        "span": "more than 14 days",
+        "span_score": 0.38234347105026245,
+        "answer_margin": 3.844621181488037,
+        "retrieval_score": 0.3610140383243561
+      },
+      {
+        "span": "more than 14 days",
+        "span_score": 0.3309444189071655,
+        "answer_margin": 1.5994930267333984,
+        "retrieval_score": 0.48201215267181396
+      },
+      {
+        "span": "more than 14 days",
+        "span_score": 0.0886785089969635,
+        "answer_margin": -0.9069089889526367,
+        "retrieval_score": 0.3841240108013153
+      }
+    ]
+  },
+  {
+    "question": "How often should an adult take this product?",
+    "document_id": "6bf7825537c9facfb3f13e840006ae7d88b569711f156c01fc71762a03ceead3",
+    "source_name": "development esomeprazole leaflet",
+    "retrieved_passages": [
+      {
+        "chunk_id": "chunk_0000",
+        "char_start": 0,
+        "char_end": 798,
+        "text": "Indications And Usage\nUses • treats frequent heartburn (occurs 2 or more days a week) • not intended for immediate relief of heartburn; this drug may take 1 to 4 days for full effect\nPurpose\nPurpose Acid reducer\nDosage And Administration\nDirections • adults 18 years of age and older • this product is to be used once a day (every 24 hours), every day for 14 days • may take 1 to 4 days for full effect 14-Day Course of Treatment • swallow 1 capsule with a glass of water before eating in the morning • take every day for 14 days • do not take more than 1 capsule a day • swallow whole. Do not crush or chew capsules. • do not use for more than 14 days unless directed by your doctor Repeated 14-Day Courses (if needed) • you may repeat a 14-day course every 4 months • do not take for more than 14",
+        "token_start": 0,
+        "token_end": 180,
+        "retrieval_score": 0.5731385946273804
+      },
+      {
+        "chunk_id": "chunk_0001",
+        "char_start": 627,
+        "char_end": 1446,
+        "text": "use for more than 14 days unless directed by your doctor Repeated 14-Day Courses (if needed) • you may repeat a 14-day course every 4 months • do not take for more than 14 days or more often than every 4 months unless directed by a doctor • children under 18 years of age: ask a doctor before use. Heartburn in children may sometimes be caused by a serious condition.\nDo Not Use\nDo not use if you have: • trouble or pain swallowing food, vomiting with blood, or bloody or black stools • heartburn with lightheadedness, sweating or dizziness • chest pain or shoulder pain with shortness of breath; sweating; pain spreading to arms, neck or shoulders; or lightheadedness • frequent chest pain These may be signs of a serious condition. See your doctor.\nWarnings\nWarnings Allergy alert: • Do not use if you are allergic to",
+        "token_start": 140,
+        "token_end": 320,
+        "retrieval_score": 0.5624986290931702
+      },
+      {
+        "chunk_id": "chunk_0005",
+        "char_start": 3134,
+        "char_end": 3527,
+        "text": "use and ask a doctor if • your heartburn continues or worsens • you need to take this product for more than 14 days • you need to take more than 1 course of treatment every 4 months • you get diarrhea • you develop a rash or joint pain\nPregnancy Or Breast Feeding\nIf pregnant or breast-feeding, ask a health professional before use.\nKeep Out Of Reach Of Children\nKeep out of reach of children.",
+        "token_start": 700,
+        "token_end": 785,
+        "retrieval_score": 0.5486595630645752
+      },
+      {
+        "chunk_id": "chunk_0004",
+        "char_start": 2505,
+        "char_end": 3315,
+        "text": "need to take more than 1 course of treatment every 4 months • you get diarrhea • you develop a rash or joint pain If pregnant or breast-feeding, ask a health professional before use. Keep out of reach of children.\nAsk Doctor\nAsk a doctor before use if you have • had heartburn over 3 months. This may be a sign of a more serious condition. • frequent wheezing, particularly with heartburn • unexplained weight loss • nausea or vomiting • stomach pain\nAsk Doctor Or Pharmacist\nAsk a doctor or pharmacist before use if you are • taking a prescription drug. Acid reducers may interact with certain prescription drugs.\nStop Use\nStop use and ask a doctor if • your heartburn continues or worsens • you need to take this product for more than 14 days • you need to take more than 1 course of treatment every 4 months",
+        "token_start": 560,
+        "token_end": 740,
+        "retrieval_score": 0.4463035464286804
+      }
+    ],
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "generation_model": "google/flan-t5-small",
+    "answer": "this product is to be used once a day (every 24 hours), every day for 14 days",
+    "status": "answered",
+    "answer_mode": "grounded_extractive_quote",
+    "extracted_span": "once a day",
+    "generation_verified": false,
+    "generation_attempted": true,
+    "question_coverage": 1.0,
+    "span_score": 0.2920989990234375,
+    "answer_margin": 9.140115737915039,
+    "citations": [
+      {
+        "chunk_id": "chunk_0000",
+        "char_start": 286,
+        "char_end": 363,
+        "quote": "this product is to be used once a day (every 24 hours), every day for 14 days",
+        "passage": "Indications And Usage\nUses • treats frequent heartburn (occurs 2 or more days a week) • not intended for immediate relief of heartburn; this drug may take 1 to 4 days for full effect\nPurpose\nPurpose Acid reducer\nDosage And Administration\nDirections • adults 18 years of age and older • this product is to be used once a day (every 24 hours), every day for 14 days • may take 1 to 4 days for full effect 14-Day Course of Treatment • swallow 1 capsule with a glass of water before eating in the morning • take every day for 14 days • do not take more than 1 capsule a day • swallow whole. Do not crush or chew capsules. • do not use for more than 14 days unless directed by your doctor Repeated 14-Day Courses (if needed) • you may repeat a 14-day course every 4 months • do not take for more than 14"
+      }
+    ],
+    "development_candidate_diagnostics": [
+      {
+        "span": "once a day",
+        "span_score": 0.2920989990234375,
+        "answer_margin": 9.140115737915039,
+        "retrieval_score": 0.5731385946273804
+      },
+      {
+        "span": "more than 14 days",
+        "span_score": 0.5455264449119568,
+        "answer_margin": 3.6185808181762695,
+        "retrieval_score": 0.5486595630645752
+      },
+      {
+        "span": "more than 14 days",
+        "span_score": 0.16014710068702698,
+        "answer_margin": 0.6605620384216309,
+        "retrieval_score": 0.4463035464286804
+      },
+      {
+        "span": "more than 14 days",
+        "span_score": 0.06849054247140884,
+        "answer_margin": -0.21242094039916992,
+        "retrieval_score": 0.5624986290931702
+      }
+    ]
+  },
+  {
+    "question": "How long is one course of treatment?",
+    "document_id": "6bf7825537c9facfb3f13e840006ae7d88b569711f156c01fc71762a03ceead3",
+    "source_name": "development esomeprazole leaflet",
+    "retrieved_passages": [
+      {
+        "chunk_id": "section_dosage_and_administration",
+        "char_start": 238,
+        "char_end": 994,
+        "text": "Directions • adults 18 years of age and older • this product is to be used once a day (every 24 hours), every day for 14 days • may take 1 to 4 days for full effect 14-Day Course of Treatment • swallow 1 capsule with a glass of water before eating in the morning • take every day for 14 days • do not take more than 1 capsule a day • swallow whole. Do not crush or chew capsules. • do not use for more than 14 days unless directed by your doctor Repeated 14-Day Courses (if needed) • you may repeat a 14-day course every 4 months • do not take for more than 14 days or more often than every 4 months unless directed by a doctor • children under 18 years of age: ask a doctor before use. Heartburn in children may sometimes be caused by a serious condition.",
+        "retrieval_score": null,
+        "source_locator": "explicit_section_heading"
+      },
+      {
+        "chunk_id": "chunk_0000",
+        "char_start": 0,
+        "char_end": 798,
+        "text": "Indications And Usage\nUses • treats frequent heartburn (occurs 2 or more days a week) • not intended for immediate relief of heartburn; this drug may take 1 to 4 days for full effect\nPurpose\nPurpose Acid reducer\nDosage And Administration\nDirections • adults 18 years of age and older • this product is to be used once a day (every 24 hours), every day for 14 days • may take 1 to 4 days for full effect 14-Day Course of Treatment • swallow 1 capsule with a glass of water before eating in the morning • take every day for 14 days • do not take more than 1 capsule a day • swallow whole. Do not crush or chew capsules. • do not use for more than 14 days unless directed by your doctor Repeated 14-Day Courses (if needed) • you may repeat a 14-day course every 4 months • do not take for more than 14",
+        "token_start": 0,
+        "token_end": 180,
+        "retrieval_score": 0.43040046095848083
+      },
+      {
+        "chunk_id": "chunk_0005",
+        "char_start": 3134,
+        "char_end": 3527,
+        "text": "use and ask a doctor if • your heartburn continues or worsens • you need to take this product for more than 14 days • you need to take more than 1 course of treatment every 4 months • you get diarrhea • you develop a rash or joint pain\nPregnancy Or Breast Feeding\nIf pregnant or breast-feeding, ask a health professional before use.\nKeep Out Of Reach Of Children\nKeep out of reach of children.",
+        "token_start": 700,
+        "token_end": 785,
+        "retrieval_score": 0.3952582776546478
+      },
+      {
+        "chunk_id": "chunk_0004",
+        "char_start": 2505,
+        "char_end": 3315,
+        "text": "need to take more than 1 course of treatment every 4 months • you get diarrhea • you develop a rash or joint pain If pregnant or breast-feeding, ask a health professional before use. Keep out of reach of children.\nAsk Doctor\nAsk a doctor before use if you have • had heartburn over 3 months. This may be a sign of a more serious condition. • frequent wheezing, particularly with heartburn • unexplained weight loss • nausea or vomiting • stomach pain\nAsk Doctor Or Pharmacist\nAsk a doctor or pharmacist before use if you are • taking a prescription drug. Acid reducers may interact with certain prescription drugs.\nStop Use\nStop use and ask a doctor if • your heartburn continues or worsens • you need to take this product for more than 14 days • you need to take more than 1 course of treatment every 4 months",
+        "token_start": 560,
+        "token_end": 740,
+        "retrieval_score": 0.30183202028274536
+      },
+      {
+        "chunk_id": "chunk_0001",
+        "char_start": 627,
+        "char_end": 1446,
+        "text": "use for more than 14 days unless directed by your doctor Repeated 14-Day Courses (if needed) • you may repeat a 14-day course every 4 months • do not take for more than 14 days or more often than every 4 months unless directed by a doctor • children under 18 years of age: ask a doctor before use. Heartburn in children may sometimes be caused by a serious condition.\nDo Not Use\nDo not use if you have: • trouble or pain swallowing food, vomiting with blood, or bloody or black stools • heartburn with lightheadedness, sweating or dizziness • chest pain or shoulder pain with shortness of breath; sweating; pain spreading to arms, neck or shoulders; or lightheadedness • frequent chest pain These may be signs of a serious condition. See your doctor.\nWarnings\nWarnings Allergy alert: • Do not use if you are allergic to",
+        "token_start": 140,
+        "token_end": 320,
+        "retrieval_score": 0.2633017897605896
+      }
+    ],
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "generation_model": "google/flan-t5-small",
+    "answer": "Directions • adults 18 years of age and older • this product is to be used once a day (every 24 hours), every day for 14 days • may take 1 to 4 days for full effect 14-Day Course of Treatment • swallow 1 capsule with a glass of water before eating in the morning • take every day for 14 days • do not take more than 1 capsule a day • swallow whole. Do not crush or chew capsules. • do not use for more than 14 days unless directed by your doctor Repeated 14-Day Courses (if needed) • you may repeat a 14-day course every 4 months • do not take for more than 14 days or more often than every 4 months unless directed by a doctor • children under 18 years of age: ask a doctor before use. Heartburn in children may sometimes be caused by a serious condition.",
+    "status": "answered",
+    "answer_mode": "grounded_section_quote",
+    "extracted_span": "Directions • adults 18 years of age and older • this product is to be used once a day (every 24 hours), every day for 14 days • may take 1 to 4 days for full effect 14-Day Course of Treatment • swallow 1 capsule with a glass of water before eating in the morning • take every day for 14 days • do not take more than 1 capsule a day • swallow whole. Do not crush or chew capsules. • do not use for more than 14 days unless directed by your doctor Repeated 14-Day Courses (if needed) • you may repeat a 14-day course every 4 months • do not take for more than 14 days or more often than every 4 months unless directed by a doctor • children under 18 years of age: ask a doctor before use. Heartburn in children may sometimes be caused by a serious condition.",
+    "generation_attempted": true,
+    "generation_verified": false,
+    "question_coverage": 1.0,
+    "citations": [
+      {
+        "chunk_id": "section_dosage_and_administration",
+        "char_start": 238,
+        "char_end": 994,
+        "quote": "Directions • adults 18 years of age and older • this product is to be used once a day (every 24 hours), every day for 14 days • may take 1 to 4 days for full effect 14-Day Course of Treatment • swallow 1 capsule with a glass of water before eating in the morning • take every day for 14 days • do not take more than 1 capsule a day • swallow whole. Do not crush or chew capsules. • do not use for more than 14 days unless directed by your doctor Repeated 14-Day Courses (if needed) • you may repeat a 14-day course every 4 months • do not take for more than 14 days or more often than every 4 months unless directed by a doctor • children under 18 years of age: ask a doctor before use. Heartburn in children may sometimes be caused by a serious condition.",
+        "passage": "Directions • adults 18 years of age and older • this product is to be used once a day (every 24 hours), every day for 14 days • may take 1 to 4 days for full effect 14-Day Course of Treatment • swallow 1 capsule with a glass of water before eating in the morning • take every day for 14 days • do not take more than 1 capsule a day • swallow whole. Do not crush or chew capsules. • do not use for more than 14 days unless directed by your doctor Repeated 14-Day Courses (if needed) • you may repeat a 14-day course every 4 months • do not take for more than 14 days or more often than every 4 months unless directed by a doctor • children under 18 years of age: ask a doctor before use. Heartburn in children may sometimes be caused by a serious condition."
+      }
+    ],
+    "development_candidate_diagnostics": [
+      {
+        "span": "every 4 months",
+        "span_score": 0.4024856984615326,
+        "answer_margin": 3.62404203414917,
+        "retrieval_score": 0.3952582776546478
+      },
+      {
+        "span": "every 4 months",
+        "span_score": 0.4215611517429352,
+        "answer_margin": 3.1051082611083984,
+        "retrieval_score": 0.30183202028274536
+      },
+      {
+        "span": "more than 14 days unless directed by your doctor Repeated 14-Day Courses (if needed) • you may repeat a 14-day course every 4 months",
+        "span_score": 0.06453689932823181,
+        "answer_margin": 1.032780647277832,
+        "retrieval_score": 0.2633017897605896
+      },
+      {
+        "span": "14-Day",
+        "span_score": 0.06499530375003815,
+        "answer_margin": -0.1196279525756836,
+        "retrieval_score": null
+      },
+      {
+        "span": "14-Day",
+        "span_score": 0.04435628652572632,
+        "answer_margin": -1.454881191253662,
+        "retrieval_score": 0.43040046095848083
+      }
+    ]
+  },
+  {
+    "question": "How should the capsule be swallowed?",
+    "document_id": "6bf7825537c9facfb3f13e840006ae7d88b569711f156c01fc71762a03ceead3",
+    "source_name": "development esomeprazole leaflet",
+    "retrieved_passages": [
+      {
+        "chunk_id": "chunk_0000",
+        "char_start": 0,
+        "char_end": 798,
+        "text": "Indications And Usage\nUses • treats frequent heartburn (occurs 2 or more days a week) • not intended for immediate relief of heartburn; this drug may take 1 to 4 days for full effect\nPurpose\nPurpose Acid reducer\nDosage And Administration\nDirections • adults 18 years of age and older • this product is to be used once a day (every 24 hours), every day for 14 days • may take 1 to 4 days for full effect 14-Day Course of Treatment • swallow 1 capsule with a glass of water before eating in the morning • take every day for 14 days • do not take more than 1 capsule a day • swallow whole. Do not crush or chew capsules. • do not use for more than 14 days unless directed by your doctor Repeated 14-Day Courses (if needed) • you may repeat a 14-day course every 4 months • do not take for more than 14",
+        "token_start": 0,
+        "token_end": 180,
+        "retrieval_score": 0.438957154750824
+      },
+      {
+        "chunk_id": "chunk_0001",
+        "char_start": 627,
+        "char_end": 1446,
+        "text": "use for more than 14 days unless directed by your doctor Repeated 14-Day Courses (if needed) • you may repeat a 14-day course every 4 months • do not take for more than 14 days or more often than every 4 months unless directed by a doctor • children under 18 years of age: ask a doctor before use. Heartburn in children may sometimes be caused by a serious condition.\nDo Not Use\nDo not use if you have: • trouble or pain swallowing food, vomiting with blood, or bloody or black stools • heartburn with lightheadedness, sweating or dizziness • chest pain or shoulder pain with shortness of breath; sweating; pain spreading to arms, neck or shoulders; or lightheadedness • frequent chest pain These may be signs of a serious condition. See your doctor.\nWarnings\nWarnings Allergy alert: • Do not use if you are allergic to",
+        "token_start": 140,
+        "token_end": 320,
+        "retrieval_score": 0.27826809883117676
+      },
+      {
+        "chunk_id": "chunk_0005",
+        "char_start": 3134,
+        "char_end": 3527,
+        "text": "use and ask a doctor if • your heartburn continues or worsens • you need to take this product for more than 14 days • you need to take more than 1 course of treatment every 4 months • you get diarrhea • you develop a rash or joint pain\nPregnancy Or Breast Feeding\nIf pregnant or breast-feeding, ask a health professional before use.\nKeep Out Of Reach Of Children\nKeep out of reach of children.",
+        "token_start": 700,
+        "token_end": 785,
+        "retrieval_score": 0.26776763796806335
+      },
+      {
+        "chunk_id": "chunk_0003",
+        "char_start": 1874,
+        "char_end": 2687,
+        "text": "spreading to arms, neck or shoulders; or lightheadedness • frequent chest pain These may be signs of a serious condition. See your doctor. Ask a doctor before use if you have • had heartburn over 3 months. This may be a sign of a more serious condition. • frequent wheezing, particularly with heartburn • unexplained weight loss • nausea or vomiting • stomach pain Ask a doctor or pharmacist before use if you are • taking a prescription drug. Acid reducers may interact with certain prescription drugs. Stop use and ask a doctor if • your heartburn continues or worsens • you need to take this product for more than 14 days • you need to take more than 1 course of treatment every 4 months • you get diarrhea • you develop a rash or joint pain If pregnant or breast-feeding, ask a health professional before use.",
+        "token_start": 420,
+        "token_end": 600,
+        "retrieval_score": 0.22441138327121735
+      }
+    ],
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "generation_model": "google/flan-t5-small",
+    "answer": "swallow 1 capsule with a glass of water before eating in the morning",
+    "status": "answered",
+    "answer_mode": "grounded_extractive_quote",
+    "extracted_span": "with a glass of water",
+    "generation_verified": false,
+    "generation_attempted": true,
+    "question_coverage": 1.0,
+    "span_score": 0.32952266931533813,
+    "answer_margin": 7.980700969696045,
+    "citations": [
+      {
+        "chunk_id": "chunk_0000",
+        "char_start": 432,
+        "char_end": 500,
+        "quote": "swallow 1 capsule with a glass of water before eating in the morning",
+        "passage": "Indications And Usage\nUses • treats frequent heartburn (occurs 2 or more days a week) • not intended for immediate relief of heartburn; this drug may take 1 to 4 days for full effect\nPurpose\nPurpose Acid reducer\nDosage And Administration\nDirections • adults 18 years of age and older • this product is to be used once a day (every 24 hours), every day for 14 days • may take 1 to 4 days for full effect 14-Day Course of Treatment • swallow 1 capsule with a glass of water before eating in the morning • take every day for 14 days • do not take more than 1 capsule a day • swallow whole. Do not crush or chew capsules. • do not use for more than 14 days unless directed by your doctor Repeated 14-Day Courses (if needed) • you may repeat a 14-day course every 4 months • do not take for more than 14"
+      }
+    ],
+    "development_candidate_diagnostics": [
+      {
+        "span": "with a glass of water",
+        "span_score": 0.32952266931533813,
+        "answer_margin": 7.980700969696045,
+        "retrieval_score": 0.438957154750824
+      },
+      {
+        "span": "food",
+        "span_score": 0.00028033010312356055,
+        "answer_margin": -8.072639465332031,
+        "retrieval_score": 0.27826809883117676
+      },
+      {
+        "span": "Keep Out Of Reach Of Children\nKeep out of reach of children",
+        "span_score": 0.00012010934005957097,
+        "answer_margin": -8.95577621459961,
+        "retrieval_score": 0.26776763796806335
+      },
+      {
+        "span": "Acid reducers may interact with certain prescription drugs",
+        "span_score": 5.275308922136901e-06,
+        "answer_margin": -12.128303527832031,
+        "retrieval_score": 0.22441138327121735
+      }
+    ]
+  },
+  {
+    "question": "What does the document say about pregnancy or breast-feeding?",
+    "document_id": "6bf7825537c9facfb3f13e840006ae7d88b569711f156c01fc71762a03ceead3",
+    "source_name": "development esomeprazole leaflet",
+    "retrieved_passages": [
+      {
+        "chunk_id": "section_pregnancy_or_breast_feeding",
+        "char_start": 3398,
+        "char_end": 3466,
+        "text": "If pregnant or breast-feeding, ask a health professional before use.",
+        "retrieval_score": null,
+        "source_locator": "explicit_section_heading"
+      },
+      {
+        "chunk_id": "chunk_0005",
+        "char_start": 3134,
+        "char_end": 3527,
+        "text": "use and ask a doctor if • your heartburn continues or worsens • you need to take this product for more than 14 days • you need to take more than 1 course of treatment every 4 months • you get diarrhea • you develop a rash or joint pain\nPregnancy Or Breast Feeding\nIf pregnant or breast-feeding, ask a health professional before use.\nKeep Out Of Reach Of Children\nKeep out of reach of children.",
+        "token_start": 700,
+        "token_end": 785,
+        "retrieval_score": 0.15955963730812073
+      },
+      {
+        "chunk_id": "chunk_0003",
+        "char_start": 1874,
+        "char_end": 2687,
+        "text": "spreading to arms, neck or shoulders; or lightheadedness • frequent chest pain These may be signs of a serious condition. See your doctor. Ask a doctor before use if you have • had heartburn over 3 months. This may be a sign of a more serious condition. • frequent wheezing, particularly with heartburn • unexplained weight loss • nausea or vomiting • stomach pain Ask a doctor or pharmacist before use if you are • taking a prescription drug. Acid reducers may interact with certain prescription drugs. Stop use and ask a doctor if • your heartburn continues or worsens • you need to take this product for more than 14 days • you need to take more than 1 course of treatment every 4 months • you get diarrhea • you develop a rash or joint pain If pregnant or breast-feeding, ask a health professional before use.",
+        "token_start": 420,
+        "token_end": 600,
+        "retrieval_score": 0.08418761193752289
+      },
+      {
+        "chunk_id": "chunk_0004",
+        "char_start": 2505,
+        "char_end": 3315,
+        "text": "need to take more than 1 course of treatment every 4 months • you get diarrhea • you develop a rash or joint pain If pregnant or breast-feeding, ask a health professional before use. Keep out of reach of children.\nAsk Doctor\nAsk a doctor before use if you have • had heartburn over 3 months. This may be a sign of a more serious condition. • frequent wheezing, particularly with heartburn • unexplained weight loss • nausea or vomiting • stomach pain\nAsk Doctor Or Pharmacist\nAsk a doctor or pharmacist before use if you are • taking a prescription drug. Acid reducers may interact with certain prescription drugs.\nStop Use\nStop use and ask a doctor if • your heartburn continues or worsens • you need to take this product for more than 14 days • you need to take more than 1 course of treatment every 4 months",
+        "token_start": 560,
+        "token_end": 740,
+        "retrieval_score": 0.05530128628015518
+      },
+      {
+        "chunk_id": "chunk_0000",
+        "char_start": 0,
+        "char_end": 798,
+        "text": "Indications And Usage\nUses • treats frequent heartburn (occurs 2 or more days a week) • not intended for immediate relief of heartburn; this drug may take 1 to 4 days for full effect\nPurpose\nPurpose Acid reducer\nDosage And Administration\nDirections • adults 18 years of age and older • this product is to be used once a day (every 24 hours), every day for 14 days • may take 1 to 4 days for full effect 14-Day Course of Treatment • swallow 1 capsule with a glass of water before eating in the morning • take every day for 14 days • do not take more than 1 capsule a day • swallow whole. Do not crush or chew capsules. • do not use for more than 14 days unless directed by your doctor Repeated 14-Day Courses (if needed) • you may repeat a 14-day course every 4 months • do not take for more than 14",
+        "token_start": 0,
+        "token_end": 180,
+        "retrieval_score": 0.054458849132061005
+      }
+    ],
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "generation_model": "google/flan-t5-small",
+    "answer": "If pregnant or breast-feeding, ask a health professional before use.",
+    "status": "answered",
+    "answer_mode": "grounded_section_quote",
+    "extracted_span": "If pregnant or breast-feeding, ask a health professional before use.",
+    "generation_attempted": true,
+    "generation_verified": false,
+    "question_coverage": 1.0,
+    "citations": [
+      {
+        "chunk_id": "section_pregnancy_or_breast_feeding",
+        "char_start": 3398,
+        "char_end": 3466,
+        "quote": "If pregnant or breast-feeding, ask a health professional before use.",
+        "passage": "If pregnant or breast-feeding, ask a health professional before use."
+      }
+    ],
+    "development_candidate_diagnostics": [
+      {
+        "span": "ask a health professional before use",
+        "span_score": 0.28234705328941345,
+        "answer_margin": 1.736353874206543,
+        "retrieval_score": null
+      },
+      {
+        "span": "you develop a rash or joint pain",
+        "span_score": 0.15790961682796478,
+        "answer_margin": 0.911435604095459,
+        "retrieval_score": 0.15955963730812073
+      },
+      {
+        "span": "you develop a rash or joint pain",
+        "span_score": 0.2742420434951782,
+        "answer_margin": 0.8919229507446289,
+        "retrieval_score": 0.05530128628015518
+      },
+      {
+        "span": "you develop a rash or joint pain",
+        "span_score": 0.07718846201896667,
+        "answer_margin": -1.7213516235351562,
+        "retrieval_score": 0.08418761193752289
+      },
+      {
+        "span": "14-Day Course of Treatment",
+        "span_score": 6.821074975960073e-07,
+        "answer_margin": -14.183948516845703,
+        "retrieval_score": 0.054458849132061005
+      }
+    ]
+  },
+  {
+    "question": "What is the price of the product?",
+    "document_id": "6bf7825537c9facfb3f13e840006ae7d88b569711f156c01fc71762a03ceead3",
+    "source_name": "development esomeprazole leaflet",
+    "retrieved_passages": [
+      {
+        "chunk_id": "chunk_0000",
+        "char_start": 0,
+        "char_end": 798,
+        "text": "Indications And Usage\nUses • treats frequent heartburn (occurs 2 or more days a week) • not intended for immediate relief of heartburn; this drug may take 1 to 4 days for full effect\nPurpose\nPurpose Acid reducer\nDosage And Administration\nDirections • adults 18 years of age and older • this product is to be used once a day (every 24 hours), every day for 14 days • may take 1 to 4 days for full effect 14-Day Course of Treatment • swallow 1 capsule with a glass of water before eating in the morning • take every day for 14 days • do not take more than 1 capsule a day • swallow whole. Do not crush or chew capsules. • do not use for more than 14 days unless directed by your doctor Repeated 14-Day Courses (if needed) • you may repeat a 14-day course every 4 months • do not take for more than 14",
+        "token_start": 0,
+        "token_end": 180,
+        "retrieval_score": 0.11920012533664703
+      },
+      {
+        "chunk_id": "chunk_0002",
+        "char_start": 1263,
+        "char_end": 2054,
+        "text": "or shoulders; or lightheadedness • frequent chest pain These may be signs of a serious condition. See your doctor.\nWarnings\nWarnings Allergy alert: • Do not use if you are allergic to esomeprazole. • Esomeprazole may cause severe skin reactions. Symptoms may include: • skin reddening • blisters • rash If an allergic reaction occurs, stop use and seek medical help right away. Do not use if you have: • trouble or pain swallowing food, vomiting with blood, or bloody or black stools • heartburn with lightheadedness, sweating or dizziness • chest pain or shoulder pain with shortness of breath; sweating; pain spreading to arms, neck or shoulders; or lightheadedness • frequent chest pain These may be signs of a serious condition. See your doctor. Ask a doctor before use if you have • had",
+        "token_start": 280,
+        "token_end": 460,
+        "retrieval_score": 0.06071440503001213
+      },
+      {
+        "chunk_id": "chunk_0001",
+        "char_start": 627,
+        "char_end": 1446,
+        "text": "use for more than 14 days unless directed by your doctor Repeated 14-Day Courses (if needed) • you may repeat a 14-day course every 4 months • do not take for more than 14 days or more often than every 4 months unless directed by a doctor • children under 18 years of age: ask a doctor before use. Heartburn in children may sometimes be caused by a serious condition.\nDo Not Use\nDo not use if you have: • trouble or pain swallowing food, vomiting with blood, or bloody or black stools • heartburn with lightheadedness, sweating or dizziness • chest pain or shoulder pain with shortness of breath; sweating; pain spreading to arms, neck or shoulders; or lightheadedness • frequent chest pain These may be signs of a serious condition. See your doctor.\nWarnings\nWarnings Allergy alert: • Do not use if you are allergic to",
+        "token_start": 140,
+        "token_end": 320,
+        "retrieval_score": 0.05874994397163391
+      },
+      {
+        "chunk_id": "chunk_0004",
+        "char_start": 2505,
+        "char_end": 3315,
+        "text": "need to take more than 1 course of treatment every 4 months • you get diarrhea • you develop a rash or joint pain If pregnant or breast-feeding, ask a health professional before use. Keep out of reach of children.\nAsk Doctor\nAsk a doctor before use if you have • had heartburn over 3 months. This may be a sign of a more serious condition. • frequent wheezing, particularly with heartburn • unexplained weight loss • nausea or vomiting • stomach pain\nAsk Doctor Or Pharmacist\nAsk a doctor or pharmacist before use if you are • taking a prescription drug. Acid reducers may interact with certain prescription drugs.\nStop Use\nStop use and ask a doctor if • your heartburn continues or worsens • you need to take this product for more than 14 days • you need to take more than 1 course of treatment every 4 months",
+        "token_start": 560,
+        "token_end": 740,
+        "retrieval_score": 0.04564891383051872
+      }
+    ],
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "generation_model": "google/flan-t5-small",
+    "answer": "I cannot find that in the document.",
+    "status": "not_found",
+    "answer_mode": "not_found",
+    "citations": [],
+    "question_coverage": 0.0,
+    "development_candidate_diagnostics": [
+      {
+        "span": "esomeprazole",
+        "span_score": 2.8687258236459456e-05,
+        "answer_margin": -10.43405818939209,
+        "retrieval_score": 0.06071440503001213
+      },
+      {
+        "span": "14 days",
+        "span_score": 7.489269592042547e-06,
+        "answer_margin": -11.760608673095703,
+        "retrieval_score": 0.11920012533664703
+      },
+      {
+        "span": "Acid reducers may interact with certain prescription drugs.\nStop Use\nStop use and ask a doctor if • your heartburn continues or worsens • you need to take this product for more than 14 days •",
+        "span_score": 4.0870368138712365e-06,
+        "answer_margin": -12.375,
+        "retrieval_score": 0.04564891383051872
+      },
+      {
+        "span": "use for more than 14 days unless directed by your doctor Repeated 14-Day Courses (if needed) • you may repeat a 14-day course every 4 months • do not take for more than 14 days or more often than every 4 months",
+        "span_score": 1.5260235386449494e-06,
+        "answer_margin": -13.373226165771484,
+        "retrieval_score": 0.05874994397163391
+      }
+    ]
+  },
+  {
+    "question": "What is the expiration date?",
+    "document_id": "6bf7825537c9facfb3f13e840006ae7d88b569711f156c01fc71762a03ceead3",
+    "source_name": "development esomeprazole leaflet",
+    "retrieved_passages": [
+      {
+        "chunk_id": "chunk_0000",
+        "char_start": 0,
+        "char_end": 798,
+        "text": "Indications And Usage\nUses • treats frequent heartburn (occurs 2 or more days a week) • not intended for immediate relief of heartburn; this drug may take 1 to 4 days for full effect\nPurpose\nPurpose Acid reducer\nDosage And Administration\nDirections • adults 18 years of age and older • this product is to be used once a day (every 24 hours), every day for 14 days • may take 1 to 4 days for full effect 14-Day Course of Treatment • swallow 1 capsule with a glass of water before eating in the morning • take every day for 14 days • do not take more than 1 capsule a day • swallow whole. Do not crush or chew capsules. • do not use for more than 14 days unless directed by your doctor Repeated 14-Day Courses (if needed) • you may repeat a 14-day course every 4 months • do not take for more than 14",
+        "token_start": 0,
+        "token_end": 180,
+        "retrieval_score": 0.2655055522918701
+      },
+      {
+        "chunk_id": "chunk_0001",
+        "char_start": 627,
+        "char_end": 1446,
+        "text": "use for more than 14 days unless directed by your doctor Repeated 14-Day Courses (if needed) • you may repeat a 14-day course every 4 months • do not take for more than 14 days or more often than every 4 months unless directed by a doctor • children under 18 years of age: ask a doctor before use. Heartburn in children may sometimes be caused by a serious condition.\nDo Not Use\nDo not use if you have: • trouble or pain swallowing food, vomiting with blood, or bloody or black stools • heartburn with lightheadedness, sweating or dizziness • chest pain or shoulder pain with shortness of breath; sweating; pain spreading to arms, neck or shoulders; or lightheadedness • frequent chest pain These may be signs of a serious condition. See your doctor.\nWarnings\nWarnings Allergy alert: • Do not use if you are allergic to",
+        "token_start": 140,
+        "token_end": 320,
+        "retrieval_score": 0.2374088615179062
+      },
+      {
+        "chunk_id": "chunk_0005",
+        "char_start": 3134,
+        "char_end": 3527,
+        "text": "use and ask a doctor if • your heartburn continues or worsens • you need to take this product for more than 14 days • you need to take more than 1 course of treatment every 4 months • you get diarrhea • you develop a rash or joint pain\nPregnancy Or Breast Feeding\nIf pregnant or breast-feeding, ask a health professional before use.\nKeep Out Of Reach Of Children\nKeep out of reach of children.",
+        "token_start": 700,
+        "token_end": 785,
+        "retrieval_score": 0.2077355980873108
+      },
+      {
+        "chunk_id": "chunk_0004",
+        "char_start": 2505,
+        "char_end": 3315,
+        "text": "need to take more than 1 course of treatment every 4 months • you get diarrhea • you develop a rash or joint pain If pregnant or breast-feeding, ask a health professional before use. Keep out of reach of children.\nAsk Doctor\nAsk a doctor before use if you have • had heartburn over 3 months. This may be a sign of a more serious condition. • frequent wheezing, particularly with heartburn • unexplained weight loss • nausea or vomiting • stomach pain\nAsk Doctor Or Pharmacist\nAsk a doctor or pharmacist before use if you are • taking a prescription drug. Acid reducers may interact with certain prescription drugs.\nStop Use\nStop use and ask a doctor if • your heartburn continues or worsens • you need to take this product for more than 14 days • you need to take more than 1 course of treatment every 4 months",
+        "token_start": 560,
+        "token_end": 740,
+        "retrieval_score": 0.14807671308517456
+      }
+    ],
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "generation_model": "google/flan-t5-small",
+    "answer": "I cannot find that in the document.",
+    "status": "not_found",
+    "answer_mode": "not_found",
+    "citations": [],
+    "question_coverage": 0.0,
+    "development_candidate_diagnostics": [
+      {
+        "span": "14 days",
+        "span_score": 0.04313750937581062,
+        "answer_margin": -1.6975078582763672,
+        "retrieval_score": 0.2374088615179062
+      },
+      {
+        "span": "14 days",
+        "span_score": 0.009182059206068516,
+        "answer_margin": -4.3768792152404785,
+        "retrieval_score": 0.2077355980873108
+      },
+      {
+        "span": "14 days",
+        "span_score": 0.0048097954131662846,
+        "answer_margin": -4.674642086029053,
+        "retrieval_score": 0.2655055522918701
+      },
+      {
+        "span": "14 days",
+        "span_score": 0.00010745498730102554,
+        "answer_margin": -9.063423156738281,
+        "retrieval_score": 0.14807671308517456
+      }
+    ]
+  }
+]

@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "config_sha256": "43d5606c80a45f9faf1f35baba04d827df005f1c80ea0aa72066242a74dee8ba",
+  "provenance": {
+    "dataset_sha256": "3eadaed552f771aae883df674eed9efc38f0cebf86c355041e3bda350e85f23c",
+    "split_sha256": "9b41f3cf3e5539efa8905b0db37f45ff0abd03b62bd1adf65d05e54630fb389c",
+    "config_sha256": "43d5606c80a45f9faf1f35baba04d827df005f1c80ea0aa72066242a74dee8ba",
+    "tuning_vocabulary_sha256": "262995de6a29fecd38f35decb6e4ec3de13cb6cb9ea031b15defbac6abf6749f"
+  },
+  "trials": [
+    {
+      "trial_id": "trial_01",
+      "trial_index": 1,
+      "parameters": {
+        "learning_rate": 0.001,
+        "batch_size": 16,
+        "dropout": 0.2
+      }
+    },
+    {
+      "trial_id": "trial_02",
+      "trial_index": 2,
+      "parameters": {
+        "learning_rate": 0.001,
+        "batch_size": 16,
+        "dropout": 0.5
+      }
+    },
+    {
+      "trial_id": "trial_03",
+      "trial_index": 3,
+      "parameters": {
+        "learning_rate": 0.001,
+        "batch_size": 32,
+        "dropout": 0.2
+      }
+    },
+    {
+      "trial_id": "trial_04",
+      "trial_index": 4,
+      "parameters": {
+        "learning_rate": 0.001,
+        "batch_size": 32,
+        "dropout": 0.5
+      }
+    },
+    {
+      "trial_id": "trial_05",
+      "trial_index": 5,
+      "parameters": {
+        "learning_rate": 0.003,
+        "batch_size": 16,
+        "dropout": 0.2
+      }
+    },
+    {
+      "trial_id": "trial_06",
+      "trial_index": 6,
+      "parameters": {
+        "learning_rate": 0.003,
+        "batch_size": 16,
+        "dropout": 0.5
+      }
+    },
+    {
+      "trial_id": "trial_07",
+      "trial_index": 7,
+      "parameters": {
+        "learning_rate": 0.003,
+        "batch_size": 32,
+        "dropout": 0.2
+      }
+    },
+    {
+      "trial_id": "trial_08",
+      "trial_index": 8,
+      "parameters": {
+        "learning_rate": 0.003,
+        "batch_size": 32,
+        "dropout": 0.5
+      }
+    }
+  ]
+}

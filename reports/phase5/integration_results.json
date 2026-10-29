@@ -1,0 +1,77 @@
+{
+  "all_passed": true,
+  "api_url": "http://127.0.0.1:8000",
+  "frontend_url": "http://127.0.0.1:8501",
+  "checks": [
+    {
+      "name": "api_health",
+      "passed": true,
+      "details": "5.59 ms"
+    },
+    {
+      "name": "real_classifier",
+      "passed": true,
+      "details": "8.48 ms; text_cnn"
+    },
+    {
+      "name": "source_section_extraction",
+      "passed": true,
+      "details": "18.88 ms"
+    },
+    {
+      "name": "paste_document",
+      "passed": true,
+      "details": "8.54 ms"
+    },
+    {
+      "name": "real_grounded_answer",
+      "passed": true,
+      "details": "360.14 ms; verified_llm_span"
+    },
+    {
+      "name": "real_missing_answer",
+      "passed": true,
+      "details": "26.07 ms"
+    },
+    {
+      "name": "text_pdf_upload",
+      "passed": true,
+      "details": "15.58 ms"
+    },
+    {
+      "name": "docx_upload",
+      "passed": true,
+      "details": "18.81 ms"
+    },
+    {
+      "name": "cleared_document_isolation",
+      "passed": true,
+      "details": "Cleared IDs cannot query another stored document"
+    },
+    {
+      "name": "browser_example_results",
+      "passed": true,
+      "details": "Upload/example results rendered with category and source sections"
+    },
+    {
+      "name": "browser_grounded_chat",
+      "passed": true,
+      "details": "Question, source quotation, and citation expander rendered"
+    },
+    {
+      "name": "browser_missing_answer",
+      "passed": true,
+      "details": "Missing-answer fallback displayed"
+    },
+    {
+      "name": "browser_clear_document",
+      "passed": true,
+      "details": "Document and conversation reset"
+    },
+    {
+      "name": "browser_pdf_upload",
+      "passed": true,
+      "details": "PDF upload through Streamlit and FastAPI completed"
+    }
+  ]
+}

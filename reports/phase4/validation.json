@@ -1,0 +1,276 @@
+{
+  "created_at_utc": "2026-10-28T16:41:02+00:00",
+  "checks": [
+    {
+      "name": "same_frozen_corpus_and_split",
+      "passed": true,
+      "detail": "All five classifier families use the same source records and group-separated partitions"
+    },
+    {
+      "name": "phase4_configuration_checksum",
+      "passed": true,
+      "detail": "BERT/QA settings match the experiment"
+    },
+    {
+      "name": "phase3_comparison_preserved",
+      "passed": true,
+      "detail": "Earlier model results retain their recorded provenance"
+    },
+    {
+      "name": "bert_pinned_revision",
+      "passed": true,
+      "detail": "Immutable public model revision"
+    },
+    {
+      "name": "bert_asset_hashes",
+      "passed": true,
+      "detail": "Local model/tokenizer assets match their manifest"
+    },
+    {
+      "name": "embedding_pinned_revision",
+      "passed": true,
+      "detail": "Immutable public model revision"
+    },
+    {
+      "name": "embedding_asset_hashes",
+      "passed": true,
+      "detail": "Local model/tokenizer assets match their manifest"
+    },
+    {
+      "name": "qa_pinned_revision",
+      "passed": true,
+      "detail": "Immutable public model revision"
+    },
+    {
+      "name": "qa_asset_hashes",
+      "passed": true,
+      "detail": "Local model/tokenizer assets match their manifest"
+    },
+    {
+      "name": "generation_pinned_revision",
+      "passed": true,
+      "detail": "Immutable public model revision"
+    },
+    {
+      "name": "generation_asset_hashes",
+      "passed": true,
+      "detail": "Local model/tokenizer assets match their manifest"
+    },
+    {
+      "name": "bert_validation_selection",
+      "passed": true,
+      "detail": "Learning rate and epoch count selected using validation only"
+    },
+    {
+      "name": "bert_selection_before_test",
+      "passed": true,
+      "detail": "The test inference follows selection and fixed-epoch refit"
+    },
+    {
+      "name": "bert_01_best_epoch",
+      "passed": true,
+      "detail": "Best validation checkpoint matches the learning history"
+    },
+    {
+      "name": "bert_01_checkpoint_hash",
+      "passed": true,
+      "detail": "Frozen best trial weights"
+    },
+    {
+      "name": "bert_02_best_epoch",
+      "passed": true,
+      "detail": "Best validation checkpoint matches the learning history"
+    },
+    {
+      "name": "bert_02_checkpoint_hash",
+      "passed": true,
+      "detail": "Frozen best trial weights"
+    },
+    {
+      "name": "bert_fixed_epoch_refit",
+      "passed": true,
+      "detail": "Final fit epoch count fixed before test"
+    },
+    {
+      "name": "bert_final_checkpoint_hash",
+      "passed": true,
+      "detail": "Final model weights match the manifest"
+    },
+    {
+      "name": "bert_real_encoder_architecture",
+      "passed": true,
+      "detail": "Four-layer Google BERT-mini with all six target classes"
+    },
+    {
+      "name": "bert_final_fit_provenance",
+      "passed": true,
+      "detail": "Final classifier excludes test fitting"
+    },
+    {
+      "name": "bert_finite_state",
+      "passed": true,
+      "detail": "All saved trainable weights are finite"
+    },
+    {
+      "name": "validation_bert_source_coverage",
+      "passed": true,
+      "detail": "Every held-out record retains the correct source target"
+    },
+    {
+      "name": "validation_bert_metrics",
+      "passed": true,
+      "detail": "Reported classifier metrics recomputed"
+    },
+    {
+      "name": "test_bert_source_coverage",
+      "passed": true,
+      "detail": "Every held-out record retains the correct source target"
+    },
+    {
+      "name": "test_bert_metrics",
+      "passed": true,
+      "detail": "Reported classifier metrics recomputed"
+    },
+    {
+      "name": "bert_test_confusion_matrix",
+      "passed": true,
+      "detail": "All class supports/counts match predictions"
+    },
+    {
+      "name": "bert_bounded_wordpiece_context",
+      "passed": true,
+      "detail": "Pretrained tokenizer and declared contiguous-window budget"
+    },
+    {
+      "name": "bert_output_bert_01_history.csv",
+      "passed": true,
+      "detail": "Frozen classifier CSV output"
+    },
+    {
+      "name": "bert_output_bert_02_history.csv",
+      "passed": true,
+      "detail": "Frozen classifier CSV output"
+    },
+    {
+      "name": "bert_output_confusion_matrix.csv",
+      "passed": true,
+      "detail": "Frozen classifier CSV output"
+    },
+    {
+      "name": "bert_output_model_comparison.csv",
+      "passed": true,
+      "detail": "Frozen classifier CSV output"
+    },
+    {
+      "name": "bert_output_per_class_test_metrics.csv",
+      "passed": true,
+      "detail": "Frozen classifier CSV output"
+    },
+    {
+      "name": "bert_output_predictions_test.csv",
+      "passed": true,
+      "detail": "Frozen classifier CSV output"
+    },
+    {
+      "name": "bert_output_predictions_validation.csv",
+      "passed": true,
+      "detail": "Frozen classifier CSV output"
+    },
+    {
+      "name": "bert_output_refit_history.csv",
+      "passed": true,
+      "detail": "Frozen classifier CSV output"
+    },
+    {
+      "name": "bert_output_test_errors.csv",
+      "passed": true,
+      "detail": "Frozen classifier CSV output"
+    },
+    {
+      "name": "bert_output_token_coverage.csv",
+      "passed": true,
+      "detail": "Frozen classifier CSV output"
+    },
+    {
+      "name": "bert_output_trial_comparison.csv",
+      "passed": true,
+      "detail": "Frozen classifier CSV output"
+    },
+    {
+      "name": "qa_document_group_isolation",
+      "passed": true,
+      "detail": "QA evaluation uses different source ingredient components"
+    },
+    {
+      "name": "qa_real_source_documents",
+      "passed": true,
+      "detail": "QA documents are exact cleaned openFDA texts"
+    },
+    {
+      "name": "qa_answers_are_source_quotes",
+      "passed": true,
+      "detail": "Positive reference answers contain no invented medical text"
+    },
+    {
+      "name": "qa_recorded_policy",
+      "passed": true,
+      "detail": "Versioned source-grounding policy and QA corpus"
+    },
+    {
+      "name": "qa_initial_evaluation_preserved",
+      "passed": true,
+      "detail": "Initial evaluation retained before the general frequency-answer guard correction"
+    },
+    {
+      "name": "calibration_qa_case_coverage",
+      "passed": true,
+      "detail": "All source-linked QA cases are evaluated"
+    },
+    {
+      "name": "calibration_qa_source_grounding",
+      "passed": true,
+      "detail": "Every returned answer/citation is an exact source quotation; rejected generation is not exposed"
+    },
+    {
+      "name": "calibration_qa_missing_fallback",
+      "passed": true,
+      "detail": "Missing responses use the required phrase with empty citations"
+    },
+    {
+      "name": "calibration_qa_vector_indexes",
+      "passed": true,
+      "detail": "Normalized MiniLM embeddings in independent FAISS indexes"
+    },
+    {
+      "name": "calibration_qa_metric_consistency",
+      "passed": true,
+      "detail": "Reported QA counts/answerability match saved case rows"
+    },
+    {
+      "name": "evaluation_qa_case_coverage",
+      "passed": true,
+      "detail": "All source-linked QA cases are evaluated"
+    },
+    {
+      "name": "evaluation_qa_source_grounding",
+      "passed": true,
+      "detail": "Every returned answer/citation is an exact source quotation; rejected generation is not exposed"
+    },
+    {
+      "name": "evaluation_qa_missing_fallback",
+      "passed": true,
+      "detail": "Missing responses use the required phrase with empty citations"
+    },
+    {
+      "name": "evaluation_qa_vector_indexes",
+      "passed": true,
+      "detail": "Normalized MiniLM embeddings in independent FAISS indexes"
+    },
+    {
+      "name": "evaluation_qa_metric_consistency",
+      "passed": true,
+      "detail": "Reported QA counts/answerability match saved case rows"
+    }
+  ],
+  "all_passed": true
+}

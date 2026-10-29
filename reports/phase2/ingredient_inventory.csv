@@ -1,0 +1,260 @@
+substance_name,documents,phase1_groups,class_labels
+ACETAMINOPHEN,44,1,anti_inflammatory_nsaid
+ACETIC ACID,2,1,anti_inflammatory_nsaid
+ACTIVATED CHARCOAL,2,1,anti_inflammatory_nsaid
+AMIKACIN,1,1,antibacterial
+AMLODIPINE,2,1,antihypertensive
+AMLODIPINE BESYLATE,10,1,antihypertensive
+AMOXICILLIN,1,1,antibacterial
+AMPHOTERICIN B,4,1,antifungal
+ANHYDROUS CITRIC ACID,3,1,anti_inflammatory_nsaid
+ANIDULAFUNGIN,2,1,antifungal
+ARABICA COFFEE BEAN,2,1,anti_inflammatory_nsaid
+ARSENIC TRIOXIDE,4,1,"anti_inflammatory_nsaid, antibacterial"
+ASPERGILLUS FLAVUS,3,1,antibacterial
+ASPERGILLUS FUMIGATUS,1,1,antibacterial
+ASPERGILLUS NIDULANS,1,1,antibacterial
+ASPERGILLUS NIGER VAR. NIGER,3,1,antibacterial
+ASPIRIN,137,1,anti_inflammatory_nsaid
+ATENOLOL,29,1,antihypertensive
+AUREOBASIDIUM PULLULANS VAR. PULLUTANS,2,1,antibacterial
+AVIBACTAM,1,1,antibacterial
+AZTREONAM,2,1,antibacterial
+BACITRACIN ZINC,4,1,antibacterial
+BENZOIC ACID,2,1,anti_inflammatory_nsaid
+BENZOYL PEROXIDE,1,1,antibacterial
+BENZYL ALCOHOL,2,1,anti_inflammatory_nsaid
+BESIFLOXACIN,3,1,antibacterial
+BETAMETHASONE DIPROPIONATE,12,1,antifungal
+BISMUTH SUBCITRATE POTASSIUM,5,1,antibacterial
+BLACK COHOSH,1,1,anti_inflammatory_nsaid
+BLASTOCYSTIS HOMINIS,1,1,antibacterial
+BORIC ACID,2,1,anti_inflammatory_nsaid
+BOS TAURUS LYMPH VESSEL,2,1,antibacterial
+BOS TAURUS SPLEEN,2,1,antibacterial
+BUDESONIDE,21,1,corticosteroid
+BUPIVACAINE,1,1,anti_inflammatory_nsaid
+BUTALBITAL,3,1,anti_inflammatory_nsaid
+CAFFEINE,39,1,anti_inflammatory_nsaid
+CALCIUM CARBONATE,8,1,acid_reducer
+CAMPSIS RADICANS FLOWER,1,1,antibacterial
+CANDIDA ALBICANS,3,1,antibacterial
+CANDIDA PARAPSILOSIS,1,1,antibacterial
+CANDIDA TORRESII,1,1,antibacterial
+CANDIDA TROPICALIS,2,1,antibacterial
+CAPTOPRIL,11,1,antihypertensive
+CARBO ANIMALIS,1,1,antibacterial
+CARBON DISULFIDE,1,1,anti_inflammatory_nsaid
+CARVEDILOL,55,1,antihypertensive
+CEFDINIR,20,1,antibacterial
+CEFPROZIL,5,1,antibacterial
+CELECOXIB,37,1,anti_inflammatory_nsaid
+CHAETOMIUM GLOBOSUM,1,1,antibacterial
+CHLAMYDIA TRACHOMATIS,1,1,antibacterial
+CHLORINE,2,1,anti_inflammatory_nsaid
+CHLORPHENIRAMINE MALEATE,7,1,anti_inflammatory_nsaid
+CHLORTHALIDONE,4,1,antihypertensive
+CIMETIDINE,7,1,acid_reducer
+CINCHONA OFFICINALIS BARK,1,1,anti_inflammatory_nsaid
+CIPROFLOXACIN,3,1,antibacterial
+CIPROFLOXACIN HYDROCHLORIDE,9,1,corticosteroid
+CLADOSPORIUM SPHAEROSPERMUM,2,1,antibacterial
+CLARITHROMYCIN,20,1,antibacterial
+CLEVIDIPINE,1,1,antihypertensive
+CLINDAMYCIN,2,1,antibacterial
+CLIOQUINOL,1,1,corticosteroid
+CLOFAZIMINE,1,1,antibacterial
+CLOTRIMAZOLE,169,1,antifungal
+COCHLIOBOLUS SPICIFER,1,1,antibacterial
+CODEINE PHOSPHATE,1,1,anti_inflammatory_nsaid
+COLCHICUM AUTUMNALE BULB,2,1,antibacterial
+CORTICOTROPIN,2,1,anti_inflammatory_nsaid
+CORTISONE ACETATE,2,1,anti_inflammatory_nsaid
+DAPTOMYCIN,28,1,antibacterial
+DEFLAZACORT,11,1,corticosteroid
+DESONIDE,9,1,corticosteroid
+DESOXIMETASONE,10,1,corticosteroid
+DEXAMETHASONE,39,1,corticosteroid
+DEXLANSOPRAZOLE,10,1,acid_reducer
+DEXTROMETHORPHAN HYDROBROMIDE,2,1,anti_inflammatory_nsaid
+DIFLUNISAL,1,1,anti_inflammatory_nsaid
+DIPHENHYDRAMINE CITRATE,8,1,anti_inflammatory_nsaid
+DIPHENHYDRAMINE HYDROCHLORIDE,5,1,anti_inflammatory_nsaid
+DIPYRIDAMOLE,2,1,anti_inflammatory_nsaid
+DOXYCYCLINE,36,1,antibacterial
+DOXYCYCLINE HYCLATE,1,1,antibacterial
+ECHINACEA ANGUSTIFOLIA WHOLE,1,1,antibacterial
+EFINACONAZOLE,1,1,antifungal
+ERYTHROMYCIN,13,1,antibacterial
+ESOMEPRAZOLE,9,1,acid_reducer
+ESOMEPRAZOLE MAGNESIUM,2,1,anti_inflammatory_nsaid
+ESOMEPRAZOLE MAGNESIUM TRIHYDRATE,3,1,anti_inflammatory_nsaid
+ESTRONE,2,1,anti_inflammatory_nsaid
+ETODOLAC,15,1,anti_inflammatory_nsaid
+EUGENOL,2,1,anti_inflammatory_nsaid
+EUROTIUM HERBARIORUM,1,1,antibacterial
+FAMOTIDINE,115,1,acid_reducer
+FELODIPINE,14,1,antihypertensive
+FERULA ASSA-FOETIDA RESIN,1,1,antibacterial
+FEXINIDAZOLE,1,1,antibacterial
+FIDAXOMICIN,3,1,antibacterial
+FINAFLOXACIN,1,1,antibacterial
+FLUCONAZOLE,53,1,antifungal
+FLUCYTOSINE,6,1,antifungal
+FLUOCINOLONE ACETONIDE,20,1,corticosteroid
+FLUOCINONIDE,10,1,corticosteroid
+FLUOROMETHOLONE,2,1,corticosteroid
+FORMALDEHYDE SOLUTION,1,1,anti_inflammatory_nsaid
+FORMOTEROL FUMARATE,3,1,corticosteroid
+GATIFLOXACIN ANHYDROUS,2,1,antibacterial
+GEOTRICHUM CANDIDUM,2,1,antibacterial
+GIBBERELLA FUJIKUROI,1,1,antibacterial
+GLYCERIN,2,1,anti_inflammatory_nsaid
+GOLD,1,1,antibacterial
+GRAPHITE,1,1,anti_inflammatory_nsaid
+HALCINONIDE,2,1,corticosteroid
+HANDROANTHUS IMPETIGINOSUS BARK,2,1,antibacterial
+HELMINTHOSPORIUM CARBONUM TOXIN I,1,1,antibacterial
+HISTOPLASMA CAPSULATUM,1,1,antibacterial
+HYDROCHLOROTHIAZIDE,43,1,antihypertensive
+HYDROCORTISONE,178,1,corticosteroid
+HYDROCORTISONE ACETATE,1,1,corticosteroid
+HYSSOPUS OFFICINALIS WHOLE,2,1,antibacterial
+IBUPROFEN,190,1,anti_inflammatory_nsaid
+INDAPAMIDE,1,1,antihypertensive
+INDOMETHACIN,13,1,anti_inflammatory_nsaid
+INSULIN HUMAN,2,1,anti_inflammatory_nsaid
+IRBESARTAN,43,1,antihypertensive
+ISONIAZID,11,1,antibacterial
+ISOPROPYL PALMITATE,2,1,anti_inflammatory_nsaid
+ISRADIPINE,1,1,antihypertensive
+ITRACONAZOLE,11,1,antifungal
+KEROSENE,2,1,anti_inflammatory_nsaid
+KETOCONAZOLE,45,1,antifungal
+KETOPROFEN,2,1,anti_inflammatory_nsaid
+KETOROLAC,1,1,anti_inflammatory_nsaid
+LABETALOL,6,1,antihypertensive
+"LACTIC ACID, DL-",4,1,"anti_inflammatory_nsaid, antibacterial"
+LANSOPRAZOLE,50,1,acid_reducer
+LEAD,2,1,anti_inflammatory_nsaid
+LEVOFLOXACIN,31,1,antibacterial
+LINEZOLID,23,1,antibacterial
+LITHIUM CARBONATE,2,1,anti_inflammatory_nsaid
+LOTEPREDNOL ETABONATE,3,1,antibacterial
+LYCOPERDON UTRIFORME FRUITING BODY,1,1,anti_inflammatory_nsaid
+LYCOPODIUM CLAVATUM SPORE,1,1,anti_inflammatory_nsaid
+MAGNESIUM HYDROXIDE,8,1,acid_reducer
+MEFENAMIC ACID,2,1,anti_inflammatory_nsaid
+MELOXICAM,30,1,anti_inflammatory_nsaid
+MERCURIC CHLORIDE,1,1,antibacterial
+MEROPENEM ANHYDROUS,1,1,antibacterial
+METHYLPREDNISOLONE,14,1,corticosteroid
+METRONIDAZOLE,72,1,antibacterial
+MICAFUNGIN,3,1,antifungal
+MICONAZOLE,3,1,antifungal
+MICONAZOLE NITRATE,1,1,corticosteroid
+MUCOR PLUMBEUS,1,1,antibacterial
+MUCOR RACEMOSUS,2,1,antibacterial
+MUPIROCIN,15,1,antibacterial
+NABUMETONE,5,1,anti_inflammatory_nsaid
+NADOLOL,17,1,antihypertensive
+NAPROXEN,27,1,anti_inflammatory_nsaid
+NATAMYCIN,2,1,antifungal
+NEBIVOLOL,7,1,antihypertensive
+NEOMYCIN SULFATE,15,1,"antibacterial, corticosteroid"
+NEPAFENAC,2,1,anti_inflammatory_nsaid
+NICARDIPINE,1,1,antihypertensive
+NICARDIPINE HYDROCHLORIDE,1,1,antihypertensive
+NIFEDIPINE,42,1,antihypertensive
+NIMODIPINE,4,1,antihypertensive
+NISOLDIPINE,2,1,antihypertensive
+NITRIC ACID,2,1,anti_inflammatory_nsaid
+NITROFURANTOIN,32,1,antibacterial
+NITROFURANTOIN MONOHYDRATE,18,1,antibacterial
+NITROGLYCERIN,2,1,anti_inflammatory_nsaid
+NIZATIDINE,2,1,acid_reducer
+NYSTATIN,45,1,antifungal
+OFLOXACIN,24,1,antibacterial
+OMADACYCLINE,1,1,antibacterial
+OMEPRAZOLE,118,1,acid_reducer
+OMEPRAZOLE MAGNESIUM,1,1,antibacterial
+OTESECONAZOLE,1,1,antifungal
+OXAPROZIN,1,1,anti_inflammatory_nsaid
+"OYSTER SHELL CALCIUM CARBONATE, CRUDE",1,1,anti_inflammatory_nsaid
+PENICILLIN G,5,1,antibacterial
+PETROLATUM,2,1,anti_inflammatory_nsaid
+PHENYLBUTAZONE,2,1,anti_inflammatory_nsaid
+PHENYLEPHRINE,1,1,anti_inflammatory_nsaid
+PHENYLEPHRINE BITARTRATE,6,1,anti_inflammatory_nsaid
+PHOSPHORIC ACID,2,1,anti_inflammatory_nsaid
+PHOSPHORUS,2,1,anti_inflammatory_nsaid
+PHYTOLACCA AMERICANA ROOT,2,1,anti_inflammatory_nsaid
+PINDOLOL,7,1,antihypertensive
+PIROXICAM,5,1,anti_inflammatory_nsaid
+PLEOSPORA HERBARUM,3,1,antibacterial
+POLYMYXIN B,4,1,antibacterial
+POLYMYXIN B SULFATE,11,1,"antibacterial, corticosteroid"
+POSACONAZOLE,27,1,antifungal
+POTASSIUM CARBONATE,1,1,anti_inflammatory_nsaid
+POTASSIUM IODIDE,1,1,antibacterial
+POTASSIUM SORBATE,2,1,anti_inflammatory_nsaid
+PREDNISOLONE,4,1,corticosteroid
+PREDNISONE,54,1,corticosteroid
+PSEUDOEPHEDRINE HYDROCHLORIDE,4,1,anti_inflammatory_nsaid
+PYRAZINAMIDE,3,1,antibacterial
+QUININE SULFATE,1,1,anti_inflammatory_nsaid
+RAMIPRIL,13,1,antihypertensive
+RESORCINOL,2,1,anti_inflammatory_nsaid
+REZAFUNGIN,1,1,antifungal
+RHIZOPUS STOLONIFER,2,1,antibacterial
+RHODOTORULA RUBRA,3,1,antibacterial
+RIFABUTIN,6,1,antibacterial
+RIFAMPIN,7,1,antibacterial
+RIFAPENTINE,2,1,antibacterial
+RIFAXIMIN,2,1,antibacterial
+SACCHAROMYCES CEREVISIAE,1,1,antibacterial
+SACUBITRIL,29,1,antihypertensive
+SALICYLIC ACID,4,1,"anti_inflammatory_nsaid, antifungal, corticosteroid"
+SECNIDAZOLE,1,1,antibacterial
+SILVER SULFADIAZINE,8,1,antibacterial
+SODIUM BICARBONATE,15,1,"acid_reducer, anti_inflammatory_nsaid"
+SODIUM BORATE,2,1,antibacterial
+SODIUM SALICYLATE,1,1,anti_inflammatory_nsaid
+SORBITOL,2,1,anti_inflammatory_nsaid
+SPARSENTAN,1,1,antihypertensive
+STACHYBOTRYS CHARTARUM,1,1,antibacterial
+STEARYL ALCOHOL,2,1,anti_inflammatory_nsaid
+STRYCHNOS NUX-VOMICA SEED,2,1,anti_inflammatory_nsaid
+SULFACETAMIDE,1,1,antibacterial
+SULFAMETHOXAZOLE,34,1,antibacterial
+SULFUR,3,1,"anti_inflammatory_nsaid, antibacterial, corticosteroid"
+SULINDAC,2,1,anti_inflammatory_nsaid
+SUS SCROFA ADRENAL GLAND,1,1,antibacterial
+TARAXACUM OFFICINALE,2,1,anti_inflammatory_nsaid
+TAVABOROLE,5,1,antifungal
+TELMISARTAN,32,1,antihypertensive
+TERBINAFINE,2,1,antifungal
+TERCONAZOLE,7,1,antifungal
+TETRACYCLINE HYDROCHLORIDE,5,1,antibacterial
+THYROID,2,1,anti_inflammatory_nsaid
+"THYROID, UNSPECIFIED",1,1,antibacterial
+TIGECYCLINE,7,1,antibacterial
+TIMOLOL ANHYDROUS,1,1,antihypertensive
+TINIDAZOLE,5,1,antibacterial
+TIOCONAZOLE,3,1,antifungal
+TOBRAMYCIN,18,1,antibacterial
+TRANDOLAPRIL,6,1,antihypertensive
+TREPONEMIC SKIN CANKER HUMAN,1,1,antibacterial
+TRIAMCINOLONE ACETONIDE,49,1,corticosteroid
+TRICHOPHYTON RUBRUM,1,1,antibacterial
+TRICHOPHYTON TONSURANS,1,1,antibacterial
+TRIMETHOPRIM,35,1,antibacterial
+TURPENTINE OIL,1,1,anti_inflammatory_nsaid
+UNDECYLENIC ACID,1,1,antifungal
+VALSARTAN,86,1,antihypertensive
+VANCOMYCIN,1,1,antibacterial
+VERAPAMIL HYDROCHLORIDE,1,1,antihypertensive
+VORICONAZOLE,42,1,antifungal
+XYLITOL,2,1,anti_inflammatory_nsaid
+"YEAST, UNSPECIFIED",1,1,antibacterial
+ZINC,1,1,antibacterial

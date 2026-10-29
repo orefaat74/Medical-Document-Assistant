@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "per_class": 600,
+  "page_size": 100,
+  "min_document_words": 80,
+  "classes": [
+    {
+      "label": "antibacterial",
+      "display_name": "Antibacterial",
+      "epc_terms": [
+        "Aminoglycoside Antibacterial [EPC]",
+        "Amphenicol-class Antibacterial [EPC]",
+        "Antimycobacterial [EPC]",
+        "Cephalosporin Antibacterial [EPC]",
+        "Dihydrofolate Reductase Inhibitor Antibacterial [EPC]",
+        "Fluoroquinolone Antibacterial [EPC]",
+        "Glycopeptide Antibacterial [EPC]",
+        "Lincosamide Antibacterial [EPC]",
+        "Lipopeptide Antibacterial [EPC]",
+        "Macrolide Antibacterial [EPC]",
+        "Macrolide Antimicrobial [EPC]",
+        "Monobactam Antibacterial [EPC]",
+        "Nitrofuran Antibacterial [EPC]",
+        "Nitroimidazole Antimicrobial [EPC]",
+        "Oxazolidinone Antibacterial [EPC]",
+        "Penem Antibacterial [EPC]",
+        "Penicillin-class Antibacterial [EPC]",
+        "Polymyxin-class Antibacterial [EPC]",
+        "Quinolone Antimicrobial [EPC]",
+        "Rifamycin Antibacterial [EPC]",
+        "Rifamycin Antimycobacterial [EPC]",
+        "RNA Synthetase Inhibitor Antibacterial [EPC]",
+        "Sulfonamide Antibacterial [EPC]",
+        "Sulfonamide Antimicrobial [EPC]",
+        "Tetracycline-class Antibacterial [EPC]",
+        "Tetracycline-class Antimicrobial [EPC]",
+        "Tetracycline-class Drug [EPC]"
+      ]
+    },
+    {
+      "label": "anti_inflammatory_nsaid",
+      "display_name": "Anti-inflammatory (NSAID)",
+      "epc_terms": ["Nonsteroidal Anti-inflammatory Drug [EPC]"]
+    },
+    {
+      "label": "corticosteroid",
+      "display_name": "Corticosteroid",
+      "epc_terms": ["Corticosteroid [EPC]"]
+    },
+    {
+      "label": "antifungal",
+      "display_name": "Antifungal",
+      "epc_terms": [
+        "Allylamine Antifungal [EPC]",
+        "Azole Antifungal [EPC]",
+        "Echinocandin Antifungal [EPC]",
+        "Lipid-based Polyene Antifungal [EPC]",
+        "Nucleoside Analog Antifungal [EPC]",
+        "Oxaborole Antifungal [EPC]",
+        "Polyene Antifungal [EPC]",
+        "Polyene Antimicrobial [EPC]"
+      ]
+    },
+    {
+      "label": "acid_reducer",
+      "display_name": "Acid reducer (PPI / H2 blocker)",
+      "epc_terms": [
+        "Histamine-2 Receptor Antagonist [EPC]",
+        "Proton Pump Inhibitor [EPC]"
+      ]
+    },
+    {
+      "label": "antihypertensive",
+      "display_name": "Antihypertensive",
+      "epc_terms": [
+        "Angiotensin 2 Receptor Blocker [EPC]",
+        "Angiotensin Converting Enzyme Inhibitor [EPC]",
+        "beta-Adrenergic Blocker [EPC]",
+        "Calcium Channel Blocker [EPC]",
+        "Dihydropyridine Calcium Channel Blocker [EPC]"
+      ]
+    }
+  ]
+}

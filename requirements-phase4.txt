@@ -1,0 +1,8 @@
+-c requirements-phase3.txt
+transformers==4.51.3
+sentence-transformers==3.4.1
+huggingface-hub==0.33.5
+faiss-cpu==1.11.0
+sentencepiece==0.2.0
+safetensors==0.5.3
+protobuf==5.29.5

@@ -1,0 +1,157 @@
+{
+  "source": "openFDA drug label API",
+  "endpoint": "https://api.fda.gov/drug/label.json",
+  "retrieved_at_utc": "2026-10-28T11:05:52+00:00",
+  "is_synthetic": false,
+  "language_scope": "English-first US human prescription and OTC labels",
+  "collection_settings": {
+    "per_class": 600,
+    "page_size": 100,
+    "sort": "effective_time:desc",
+    "classes": [
+      {
+        "label": "antibacterial",
+        "display_name": "Antibacterial",
+        "epc_terms": [
+          "Aminoglycoside Antibacterial [EPC]",
+          "Amphenicol-class Antibacterial [EPC]",
+          "Antimycobacterial [EPC]",
+          "Cephalosporin Antibacterial [EPC]",
+          "Dihydrofolate Reductase Inhibitor Antibacterial [EPC]",
+          "Fluoroquinolone Antibacterial [EPC]",
+          "Glycopeptide Antibacterial [EPC]",
+          "Lincosamide Antibacterial [EPC]",
+          "Lipopeptide Antibacterial [EPC]",
+          "Macrolide Antibacterial [EPC]",
+          "Macrolide Antimicrobial [EPC]",
+          "Monobactam Antibacterial [EPC]",
+          "Nitrofuran Antibacterial [EPC]",
+          "Nitroimidazole Antimicrobial [EPC]",
+          "Oxazolidinone Antibacterial [EPC]",
+          "Penem Antibacterial [EPC]",
+          "Penicillin-class Antibacterial [EPC]",
+          "Polymyxin-class Antibacterial [EPC]",
+          "Quinolone Antimicrobial [EPC]",
+          "Rifamycin Antibacterial [EPC]",
+          "Rifamycin Antimycobacterial [EPC]",
+          "RNA Synthetase Inhibitor Antibacterial [EPC]",
+          "Sulfonamide Antibacterial [EPC]",
+          "Sulfonamide Antimicrobial [EPC]",
+          "Tetracycline-class Antibacterial [EPC]",
+          "Tetracycline-class Antimicrobial [EPC]",
+          "Tetracycline-class Drug [EPC]"
+        ]
+      },
+      {
+        "label": "anti_inflammatory_nsaid",
+        "display_name": "Anti-inflammatory (NSAID)",
+        "epc_terms": [
+          "Nonsteroidal Anti-inflammatory Drug [EPC]"
+        ]
+      },
+      {
+        "label": "corticosteroid",
+        "display_name": "Corticosteroid",
+        "epc_terms": [
+          "Corticosteroid [EPC]"
+        ]
+      },
+      {
+        "label": "antifungal",
+        "display_name": "Antifungal",
+        "epc_terms": [
+          "Allylamine Antifungal [EPC]",
+          "Azole Antifungal [EPC]",
+          "Echinocandin Antifungal [EPC]",
+          "Lipid-based Polyene Antifungal [EPC]",
+          "Nucleoside Analog Antifungal [EPC]",
+          "Oxaborole Antifungal [EPC]",
+          "Polyene Antifungal [EPC]",
+          "Polyene Antimicrobial [EPC]"
+        ]
+      },
+      {
+        "label": "acid_reducer",
+        "display_name": "Acid reducer (PPI / H2 blocker)",
+        "epc_terms": [
+          "Histamine-2 Receptor Antagonist [EPC]",
+          "Proton Pump Inhibitor [EPC]"
+        ]
+      },
+      {
+        "label": "antihypertensive",
+        "display_name": "Antihypertensive",
+        "epc_terms": [
+          "Angiotensin 2 Receptor Blocker [EPC]",
+          "Angiotensin Converting Enzyme Inhibitor [EPC]",
+          "beta-Adrenergic Blocker [EPC]",
+          "Calcium Channel Blocker [EPC]",
+          "Dihydropyridine Calcium Channel Blocker [EPC]"
+        ]
+      }
+    ]
+  },
+  "queries": [
+    {
+      "class_label": "antibacterial",
+      "search": "(openfda.pharm_class_epc.exact:\"Aminoglycoside Antibacterial [EPC]\" OR openfda.pharm_class_epc.exact:\"Amphenicol-class Antibacterial [EPC]\" OR openfda.pharm_class_epc.exact:\"Antimycobacterial [EPC]\" OR openfda.pharm_class_epc.exact:\"Cephalosporin Antibacterial [EPC]\" OR openfda.pharm_class_epc.exact:\"Dihydrofolate Reductase Inhibitor Antibacterial [EPC]\" OR openfda.pharm_class_epc.exact:\"Fluoroquinolone Antibacterial [EPC]\" OR openfda.pharm_class_epc.exact:\"Glycopeptide Antibacterial [EPC]\" OR openfda.pharm_class_epc.exact:\"Lincosamide Antibacterial [EPC]\" OR openfda.pharm_class_epc.exact:\"Lipopeptide Antibacterial [EPC]\" OR openfda.pharm_class_epc.exact:\"Macrolide Antibacterial [EPC]\" OR openfda.pharm_class_epc.exact:\"Macrolide Antimicrobial [EPC]\" OR openfda.pharm_class_epc.exact:\"Monobactam Antibacterial [EPC]\" OR openfda.pharm_class_epc.exact:\"Nitrofuran Antibacterial [EPC]\" OR openfda.pharm_class_epc.exact:\"Nitroimidazole Antimicrobial [EPC]\" OR openfda.pharm_class_epc.exact:\"Oxazolidinone Antibacterial [EPC]\" OR openfda.pharm_class_epc.exact:\"Penem Antibacterial [EPC]\" OR openfda.pharm_class_epc.exact:\"Penicillin-class Antibacterial [EPC]\" OR openfda.pharm_class_epc.exact:\"Polymyxin-class Antibacterial [EPC]\" OR openfda.pharm_class_epc.exact:\"Quinolone Antimicrobial [EPC]\" OR openfda.pharm_class_epc.exact:\"Rifamycin Antibacterial [EPC]\" OR openfda.pharm_class_epc.exact:\"Rifamycin Antimycobacterial [EPC]\" OR openfda.pharm_class_epc.exact:\"RNA Synthetase Inhibitor Antibacterial [EPC]\" OR openfda.pharm_class_epc.exact:\"Sulfonamide Antibacterial [EPC]\" OR openfda.pharm_class_epc.exact:\"Sulfonamide Antimicrobial [EPC]\" OR openfda.pharm_class_epc.exact:\"Tetracycline-class Antibacterial [EPC]\" OR openfda.pharm_class_epc.exact:\"Tetracycline-class Antimicrobial [EPC]\" OR openfda.pharm_class_epc.exact:\"Tetracycline-class Drug [EPC]\") AND (openfda.product_type.exact:\"HUMAN PRESCRIPTION DRUG\" OR openfda.product_type.exact:\"HUMAN OTC DRUG\")",
+      "available_records": 1061,
+      "retrieved_records": 600,
+      "api_last_updated": [
+        "2026-10-27"
+      ]
+    },
+    {
+      "class_label": "anti_inflammatory_nsaid",
+      "search": "(openfda.pharm_class_epc.exact:\"Nonsteroidal Anti-inflammatory Drug [EPC]\") AND (openfda.product_type.exact:\"HUMAN PRESCRIPTION DRUG\" OR openfda.product_type.exact:\"HUMAN OTC DRUG\")",
+      "available_records": 2448,
+      "retrieved_records": 600,
+      "api_last_updated": [
+        "2026-10-27"
+      ]
+    },
+    {
+      "class_label": "corticosteroid",
+      "search": "(openfda.pharm_class_epc.exact:\"Corticosteroid [EPC]\") AND (openfda.product_type.exact:\"HUMAN PRESCRIPTION DRUG\" OR openfda.product_type.exact:\"HUMAN OTC DRUG\")",
+      "available_records": 1413,
+      "retrieved_records": 600,
+      "api_last_updated": [
+        "2026-10-27"
+      ]
+    },
+    {
+      "class_label": "antifungal",
+      "search": "(openfda.pharm_class_epc.exact:\"Allylamine Antifungal [EPC]\" OR openfda.pharm_class_epc.exact:\"Azole Antifungal [EPC]\" OR openfda.pharm_class_epc.exact:\"Echinocandin Antifungal [EPC]\" OR openfda.pharm_class_epc.exact:\"Lipid-based Polyene Antifungal [EPC]\" OR openfda.pharm_class_epc.exact:\"Nucleoside Analog Antifungal [EPC]\" OR openfda.pharm_class_epc.exact:\"Oxaborole Antifungal [EPC]\" OR openfda.pharm_class_epc.exact:\"Polyene Antifungal [EPC]\" OR openfda.pharm_class_epc.exact:\"Polyene Antimicrobial [EPC]\") AND (openfda.product_type.exact:\"HUMAN PRESCRIPTION DRUG\" OR openfda.product_type.exact:\"HUMAN OTC DRUG\")",
+      "available_records": 685,
+      "retrieved_records": 600,
+      "api_last_updated": [
+        "2026-10-27"
+      ]
+    },
+    {
+      "class_label": "acid_reducer",
+      "search": "(openfda.pharm_class_epc.exact:\"Histamine-2 Receptor Antagonist [EPC]\" OR openfda.pharm_class_epc.exact:\"Proton Pump Inhibitor [EPC]\") AND (openfda.product_type.exact:\"HUMAN PRESCRIPTION DRUG\" OR openfda.product_type.exact:\"HUMAN OTC DRUG\")",
+      "available_records": 790,
+      "retrieved_records": 600,
+      "api_last_updated": [
+        "2026-10-27"
+      ]
+    },
+    {
+      "class_label": "antihypertensive",
+      "search": "(openfda.pharm_class_epc.exact:\"Angiotensin 2 Receptor Blocker [EPC]\" OR openfda.pharm_class_epc.exact:\"Angiotensin Converting Enzyme Inhibitor [EPC]\" OR openfda.pharm_class_epc.exact:\"beta-Adrenergic Blocker [EPC]\" OR openfda.pharm_class_epc.exact:\"Calcium Channel Blocker [EPC]\" OR openfda.pharm_class_epc.exact:\"Dihydropyridine Calcium Channel Blocker [EPC]\") AND (openfda.product_type.exact:\"HUMAN PRESCRIPTION DRUG\" OR openfda.product_type.exact:\"HUMAN OTC DRUG\")",
+      "available_records": 730,
+      "retrieved_records": 600,
+      "api_last_updated": [
+        "2026-10-27"
+      ]
+    }
+  ],
+  "terms_url": "https://open.fda.gov/terms/",
+  "documentation_url": "https://open.fda.gov/apis/drug/label/",
+  "attribution": "Data provided by the U.S. Food and Drug Administration (https://open.fda.gov).",
+  "unique_raw_records": 3572,
+  "completed_at_utc": "2026-10-28T11:06:54+00:00",
+  "raw_sha256": "c6f63aa8762421da0f287d4d6afda4da178577579aa75c72b2edade5732b9bc2",
+  "raw_file": "openfda_labels.jsonl.gz"
+}

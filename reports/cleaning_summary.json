@@ -1,0 +1,257 @@
+{
+  "created_at_utc": "2026-10-28T11:17:58+00:00",
+  "schema_version": 1,
+  "raw_sha256": "c6f63aa8762421da0f287d4d6afda4da178577579aa75c72b2edade5732b9bc2",
+  "cleaning_config": {
+    "schema_version": 1,
+    "per_class": 600,
+    "page_size": 100,
+    "min_document_words": 80,
+    "classes": [
+      {
+        "label": "antibacterial",
+        "display_name": "Antibacterial",
+        "epc_terms": [
+          "Aminoglycoside Antibacterial [EPC]",
+          "Amphenicol-class Antibacterial [EPC]",
+          "Antimycobacterial [EPC]",
+          "Cephalosporin Antibacterial [EPC]",
+          "Dihydrofolate Reductase Inhibitor Antibacterial [EPC]",
+          "Fluoroquinolone Antibacterial [EPC]",
+          "Glycopeptide Antibacterial [EPC]",
+          "Lincosamide Antibacterial [EPC]",
+          "Lipopeptide Antibacterial [EPC]",
+          "Macrolide Antibacterial [EPC]",
+          "Macrolide Antimicrobial [EPC]",
+          "Monobactam Antibacterial [EPC]",
+          "Nitrofuran Antibacterial [EPC]",
+          "Nitroimidazole Antimicrobial [EPC]",
+          "Oxazolidinone Antibacterial [EPC]",
+          "Penem Antibacterial [EPC]",
+          "Penicillin-class Antibacterial [EPC]",
+          "Polymyxin-class Antibacterial [EPC]",
+          "Quinolone Antimicrobial [EPC]",
+          "Rifamycin Antibacterial [EPC]",
+          "Rifamycin Antimycobacterial [EPC]",
+          "RNA Synthetase Inhibitor Antibacterial [EPC]",
+          "Sulfonamide Antibacterial [EPC]",
+          "Sulfonamide Antimicrobial [EPC]",
+          "Tetracycline-class Antibacterial [EPC]",
+          "Tetracycline-class Antimicrobial [EPC]",
+          "Tetracycline-class Drug [EPC]"
+        ]
+      },
+      {
+        "label": "anti_inflammatory_nsaid",
+        "display_name": "Anti-inflammatory (NSAID)",
+        "epc_terms": [
+          "Nonsteroidal Anti-inflammatory Drug [EPC]"
+        ]
+      },
+      {
+        "label": "corticosteroid",
+        "display_name": "Corticosteroid",
+        "epc_terms": [
+          "Corticosteroid [EPC]"
+        ]
+      },
+      {
+        "label": "antifungal",
+        "display_name": "Antifungal",
+        "epc_terms": [
+          "Allylamine Antifungal [EPC]",
+          "Azole Antifungal [EPC]",
+          "Echinocandin Antifungal [EPC]",
+          "Lipid-based Polyene Antifungal [EPC]",
+          "Nucleoside Analog Antifungal [EPC]",
+          "Oxaborole Antifungal [EPC]",
+          "Polyene Antifungal [EPC]",
+          "Polyene Antimicrobial [EPC]"
+        ]
+      },
+      {
+        "label": "acid_reducer",
+        "display_name": "Acid reducer (PPI / H2 blocker)",
+        "epc_terms": [
+          "Histamine-2 Receptor Antagonist [EPC]",
+          "Proton Pump Inhibitor [EPC]"
+        ]
+      },
+      {
+        "label": "antihypertensive",
+        "display_name": "Antihypertensive",
+        "epc_terms": [
+          "Angiotensin 2 Receptor Blocker [EPC]",
+          "Angiotensin Converting Enzyme Inhibitor [EPC]",
+          "beta-Adrenergic Blocker [EPC]",
+          "Calcium Channel Blocker [EPC]",
+          "Dihydropyridine Calcium Channel Blocker [EPC]"
+        ]
+      }
+    ]
+  },
+  "raw_records": 3572,
+  "clean_records": 2471,
+  "excluded_records": 1101,
+  "exclusion_reasons": {
+    "ambiguous_target_classes": 58,
+    "duplicate_normalized_text": 1017,
+    "short_or_empty_document": 26
+  },
+  "missing_source_fields": {
+    "adverse_reactions": {
+      "count": 1086,
+      "percent": 30.4
+    },
+    "ask_doctor": {
+      "count": 2811,
+      "percent": 78.7
+    },
+    "ask_doctor_or_pharmacist": {
+      "count": 2934,
+      "percent": 82.14
+    },
+    "boxed_warning": {
+      "count": 2854,
+      "percent": 79.9
+    },
+    "clinical_pharmacology": {
+      "count": 1137,
+      "percent": 31.83
+    },
+    "contraindications": {
+      "count": 1078,
+      "percent": 30.18
+    },
+    "description": {
+      "count": 1073,
+      "percent": 30.04
+    },
+    "do_not_use": {
+      "count": 2652,
+      "percent": 74.24
+    },
+    "dosage_and_administration": {
+      "count": 31,
+      "percent": 0.87
+    },
+    "dosage_forms_and_strengths": {
+      "count": 2442,
+      "percent": 68.37
+    },
+    "drug_interactions": {
+      "count": 1782,
+      "percent": 49.89
+    },
+    "general_precautions": {
+      "count": 2675,
+      "percent": 74.89
+    },
+    "geriatric_use": {
+      "count": 1964,
+      "percent": 54.98
+    },
+    "indications_and_usage": {
+      "count": 23,
+      "percent": 0.64
+    },
+    "information_for_patients": {
+      "count": 1673,
+      "percent": 46.84
+    },
+    "instructions_for_use": {
+      "count": 3487,
+      "percent": 97.62
+    },
+    "keep_out_of_reach_of_children": {
+      "count": 2521,
+      "percent": 70.58
+    },
+    "mechanism_of_action": {
+      "count": 2395,
+      "percent": 67.05
+    },
+    "nursing_mothers": {
+      "count": 2330,
+      "percent": 65.23
+    },
+    "openfda.generic_name": {
+      "count": 0,
+      "percent": 0.0
+    },
+    "openfda.pharm_class_epc": {
+      "count": 0,
+      "percent": 0.0
+    },
+    "openfda.substance_name": {
+      "count": 0,
+      "percent": 0.0
+    },
+    "openfda.unii": {
+      "count": 0,
+      "percent": 0.0
+    },
+    "overdosage": {
+      "count": 1496,
+      "percent": 41.88
+    },
+    "patient_medication_information": {
+      "count": 3540,
+      "percent": 99.1
+    },
+    "pediatric_use": {
+      "count": 1588,
+      "percent": 44.46
+    },
+    "precautions": {
+      "count": 2228,
+      "percent": 62.37
+    },
+    "pregnancy": {
+      "count": 1599,
+      "percent": 44.76
+    },
+    "pregnancy_or_breast_feeding": {
+      "count": 2872,
+      "percent": 80.4
+    },
+    "purpose": {
+      "count": 2520,
+      "percent": 70.55
+    },
+    "spl_medguide": {
+      "count": 3111,
+      "percent": 87.09
+    },
+    "stop_use": {
+      "count": 2617,
+      "percent": 73.26
+    },
+    "use_in_specific_populations": {
+      "count": 2437,
+      "percent": 68.23
+    },
+    "warnings": {
+      "count": 1431,
+      "percent": 40.06
+    },
+    "warnings_and_cautions": {
+      "count": 2438,
+      "percent": 68.25
+    },
+    "when_using": {
+      "count": 3093,
+      "percent": 86.59
+    }
+  },
+  "outputs": {
+    "medicine_labels.parquet": {
+      "sha256": "3eadaed552f771aae883df674eed9efc38f0cebf86c355041e3bda350e85f23c",
+      "bytes": 33237048
+    },
+    "medicine_labels.csv.gz": {
+      "sha256": "73b40e18f714c778b895d68f59dd58f8a9cd200163ed35383610ec544c85e8fe",
+      "bytes": 54629866
+    }
+  }
+}

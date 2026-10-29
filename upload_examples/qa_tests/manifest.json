@@ -1,0 +1,25 @@
+{
+  "purpose": "Large fictional QA upload tests; excluded from training",
+  "documents": [
+    {
+      "source_fixture": "tests/fixtures/qa/long_patient_leaflet.txt",
+      "txt": "upload_examples/qa_tests/long_patient_leaflet.txt",
+      "docx": "upload_examples/qa_tests/long_patient_leaflet.docx",
+      "words": 2052,
+      "characters": 13437,
+      "docx_sha256": "7c2a65bab1baa39e551b89ec15d700eed43d842b2da83acaa817d280e8bbfe35",
+      "is_fictional_test_data": true,
+      "used_for_training": false
+    },
+    {
+      "source_fixture": "tests/fixtures/qa/long_uncertain_leaflet.txt",
+      "txt": "upload_examples/qa_tests/long_uncertain_leaflet.txt",
+      "docx": "upload_examples/qa_tests/long_uncertain_leaflet.docx",
+      "words": 1048,
+      "characters": 6894,
+      "docx_sha256": "21bc444d08b93b4022f8a6434d0fee3bfc9d9d25fc830a21572748d4f2b0abac",
+      "is_fictional_test_data": true,
+      "used_for_training": false
+    }
+  ]
+}

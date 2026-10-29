@@ -1,0 +1,86 @@
+{
+  "created_at_utc": "2026-10-28T12:32:36+00:00",
+  "all_passed": true,
+  "checks": [
+    {
+      "name": "all_documents_accounted_for",
+      "passed": true,
+      "detail": "2,471 unique source records"
+    },
+    {
+      "name": "three_partitions",
+      "passed": true,
+      "detail": "Train, validation, and test are nonempty"
+    },
+    {
+      "name": "benchmark_groups_disjoint",
+      "passed": true,
+      "detail": "No benchmark group crosses a partition"
+    },
+    {
+      "name": "phase1_groups_preserved",
+      "passed": true,
+      "detail": "No approved Phase 1 ingredient component is fragmented"
+    },
+    {
+      "name": "all_classes_in_each_partition",
+      "passed": true,
+      "detail": "Every held-out partition contains all configured targets"
+    },
+    {
+      "name": "minimum_independent_class_groups",
+      "passed": true,
+      "detail": "Recorded per-class training/holdout constraints are satisfied"
+    },
+    {
+      "name": "source_and_rxnorm_ingredients_grouped",
+      "passed": true,
+      "detail": "Shared source names/UNIIs and unambiguous RxNorm IN relationships remain in one component"
+    },
+    {
+      "name": "audited_near_duplicates_grouped",
+      "passed": true,
+      "detail": "0 qualifying cross-ingredient text pairs"
+    },
+    {
+      "name": "training_fold_assignments",
+      "passed": true,
+      "detail": "One validation fold per training group"
+    },
+    {
+      "name": "holdout_rows_excluded_from_cv",
+      "passed": true,
+      "detail": "Validation/test rows are outside hyperparameter CV"
+    },
+    {
+      "name": "cv_fold_0_disjoint",
+      "passed": true,
+      "detail": "728 fit documents; 1034 validation documents"
+    },
+    {
+      "name": "cv_fold_0_all_classes",
+      "passed": true,
+      "detail": "All target classes in the fit and validation subset"
+    },
+    {
+      "name": "cv_fold_1_disjoint",
+      "passed": true,
+      "detail": "1362 fit documents; 400 validation documents"
+    },
+    {
+      "name": "cv_fold_1_all_classes",
+      "passed": true,
+      "detail": "All target classes in the fit and validation subset"
+    },
+    {
+      "name": "cv_fold_2_disjoint",
+      "passed": true,
+      "detail": "1434 fit documents; 328 validation documents"
+    },
+    {
+      "name": "cv_fold_2_all_classes",
+      "passed": true,
+      "detail": "All target classes in the fit and validation subset"
+    }
+  ]
+}

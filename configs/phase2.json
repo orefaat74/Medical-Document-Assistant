@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "random_state": 42,
+  "split_fractions": {"train": 0.7, "validation": 0.15, "test": 0.15},
+  "cv_folds": 3,
+  "maximum_minimum_holdout_groups_per_class": 2,
+  "split_solver_time_limit_seconds": 20,
+  "class_group_balance_weight": 0.25,
+  "minimum_holdout_size_multiplier": 0.5,
+  "maximum_holdout_size_multiplier": 1.5,
+  "rxnorm_workers": 4,
+  "near_duplicate_audit": {
+    "similarity_threshold": 0.985,
+    "minimum_word_count_ratio": 0.9,
+    "ngram_size": 5,
+    "hash_features": 1048576,
+    "chunk_size": 128
+  },
+  "tfidf": {
+    "ngram_range": [1, 2],
+    "min_df": 2,
+    "max_df": 0.99,
+    "max_features": 30000,
+    "sublinear_tf": true,
+    "lowercase": true
+  },
+  "training": {
+    "cv_jobs": 1,
+    "estimator_jobs": 4,
+    "blas_threads": 4,
+    "logistic_max_iter": 2000,
+    "svm_max_iter": 10000,
+    "forest_estimators": 200
+  },
+  "parameter_grids": {
+    "logistic_regression": {"classifier__C": [0.5, 2.0, 8.0]},
+    "linear_svm": {"classifier__C": [0.25, 1.0, 4.0]},
+    "random_forest": {
+      "classifier__max_depth": [40, null],
+      "classifier__min_samples_leaf": [1, 2]
+    }
+  }
+}

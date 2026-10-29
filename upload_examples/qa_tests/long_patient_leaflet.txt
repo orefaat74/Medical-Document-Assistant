@@ -1,0 +1,100 @@
+Lumenol — fictional leaflet for question-answering software tests
+Every product name, dose, study, and price in this file is fictional test data. This file is excluded from classifier training.
+
+Description
+Lumenol is a fictional product used to exercise the document reader and question-answering interface. Its imagined carton has an amber stripe and a blue rectangular label. These details are document-reading distractors, not medicine instructions.
+The carton contains a printed guide, a folded information sheet, and a small reference card. A reader can encounter repeated product names in those materials without finding a different product or a new instruction.
+This document deliberately includes extensive background text before its important sections. Relevant facts must be found even when they appear near the end of a long section rather than in its first retrieval chunk.
+The fictional packaging archive lists presentations marked 5 mg, 20 mg, and 100 mg. Packaging strengths are not dosing instructions. The actual directions for this test product appear only in the Dosage and Administration section.
+An archive identifier such as 2026-04-18 records a mock document revision. It is not a treatment duration, frequency, dose, expiration date, or price, and should not be returned as one of those answers.
+The amber stripe remains the same across imagined packaging revisions. Changes in printing can affect a photograph of the carton while leaving the written patient instructions identical.
+The reference card explains how to recognize a section heading and how to compare it with a printed leaflet. It describes typography, paragraph spacing, line breaks, and the order of information on a page.
+Some passages discuss tables and numbered headings. A paragraph may mention a table without containing a patient dose. A number beside a table name must not be mistaken for a number of tablets.
+The software test checks that the uploaded document is the sole source of an answer. A statement about another product in an unrelated appendix cannot establish directions for this fictional product.
+The document is long enough to span many retrieval windows. Its Description section intentionally contains more prose than is needed for a short question about pregnancy, breastfeeding, or dosage.
+Each section has its own role. Description explains the imagined presentation; Dosage gives fictional directions; Pregnancy states a condition; Nursing Mothers gives a restriction; Storage records packaging conditions.
+The test uses full sentences so that answer extraction can retain meaningful boundaries. Decimal points in quantities and prices are intentional and should not be treated as the end of a sentence.
+Page layout can vary when this text is converted to a DOCX or PDF. The canonical extracted words and their source offsets should remain stable enough to verify each displayed quotation.
+An answer should not repeat the description of the carton when a user asks how often to take the fictional product. The useful information is a frequency in the directions, with its stated age conditions.
+If a user asks about a personal insurance number, a telephone number, or a batch-specific expiration date, this file does not supply those facts. The system must distinguish missing information from a negative instruction.
+The file does include a fictional retail price. A question about price therefore has a source answer here, while the same question can correctly have no answer in an ordinary medicine label.
+The glossary discusses document words rather than making medical recommendations. Words such as label, carton, panel, section, revision, and heading describe the information container rather than a dose.
+The imagined blue rectangular label is always a printing detail. It is not a reported side effect, a contraindication, or an indication for treatment, even if its wording resembles a sentence in another test file.
+The source contains both adult directions and a statement about children. An answer for children must preserve that distinction and must not substitute an adult dose when a child dose is not established.
+The document's invented research notes serve as distractors. Absence of an observed effect in an animal record does not state that use in pregnant people is safe or universally permitted.
+The important pregnancy condition is placed after several research paragraphs. A system that truncates the section at a fixed character count will miss it, which this long fixture is intended to detect.
+The user may ask a complete sentence, a one-word section name, or an informal question with contractions. These forms should identify the same source topic without changing the source's answer.
+For example, the phrase I am pregnant and the contraction I'm pregnant identify the same question topic. The contraction is part of the question and is not an extra medicine name or document keyword.
+The file does not provide instructions for amoxicillin. Amoxicillin is mentioned in this description solely as an unrelated named-subject distractor. That mention cannot justify a generic pregnancy answer about amoxicillin.
+The file does not list an individual's doctor or medical history. It describes a fictional document rather than a particular patient. General directions must retain the source's conditions instead of becoming a personal clearance.
+The fictional product was chosen so that test numbers cannot be mistaken for validated directions for a real drug. Its name should remain associated with the source file and the relevant quotations.
+The final answer should usually contain one to three useful source statements. A user who explicitly requests a full source section may receive that section, while ordinary short questions should receive a focused answer.
+Original source context remains useful for auditing. It can be displayed in an expandable evidence area instead of filling the main conversation with several pages of text.
+The software should keep decimal quantities, units, negation, age limits, and conditional language intact. Removing those details can change the meaning even if the remaining words still appear in the source.
+This concludes the descriptive background. The next sections contain the fictional directions and restrictions against which the automated assertions are written.
+
+Indications And Usage
+Lumenol is used for the fictional treatment of amber-indicator symptoms in this software fixture.
+The indication statement is a document fact for testing category-independent question answering, not a recommendation to use a real medicine.
+
+Dosage And Administration
+The following background explains the layout of the fictional directions. It does not supply an amount or an interval. Actual patient-group instructions appear after these explanatory paragraphs.
+Printed directions can be separated from descriptions of packaging. A reader should find the direction sentence instead of choosing an attractive number from the descriptive introduction.
+The imagined reference card has a heading for the reader and a heading for the reviewer. Those headings concern document navigation and do not designate different groups of patients.
+Several paragraphs are included here to check that an important instruction can be found far beyond the first eighteen hundred characters. A fixed excerpt limit is not a sufficient search of a long source section.
+The reference layout allows a printed statement to wrap onto several lines. A quantity, its unit, its interval, and its age condition remain parts of the same direction even when the page layout changes.
+An instruction may state a limit in the same sentence as a regular amount. The answer should retain that limit rather than presenting the amount without its qualifying condition.
+A separate statement can explain that directions for one age group have not been established. That statement is meaningful information and should not cause the system to guess an amount from another group.
+The fictional booklet describes the difference between starting directions and later adjustment history. A short request for an amount should prioritize an instruction, not an observation about how long a response took.
+The document-reader test also distinguishes a treatment course from a dosing interval. An interval says how often something occurs; a course states how long the overall fictional instruction continues.
+The layout notes do not authorize changing a dose, splitting a tablet, crushing it, or applying it differently. Permission or a restriction must come from the corresponding source statement.
+Long sections can contain repeated ordinary words such as instructions, source, reading, and paragraph. Repetition alone does not make a sentence the best answer to a specific question.
+The meaningful instructions begin below. Their age labels and semicolon-separated limits are intentionally part of the same source sentence so that they can be retained in a concise quotation.
+For adults 18 years and older, take one 5 mg tablet by mouth twice daily with food; do not exceed 10 mg in 24 hours.
+For children under 18 years, dosing has not been established; do not use the adult dosage instructions for a child.
+Continue the fictional treatment course for 7 days only, unless the prescriber gives different instructions.
+Do not crush or chew the tablets; swallow them whole with water.
+
+Pregnancy
+The next paragraphs are fictional research background that must not be mistaken for permission to use the product during pregnancy. The actual condition for use appears after the background.
+An invented archive records observations in laboratory animals. The archive discusses research methods, sample handling, and the organization of a report rather than a recommendation for pregnant people.
+One mock study describes rats and rabbits in separate observation groups. The absence of a recorded effect in that fictional animal table does not establish a definite safety conclusion for human pregnancy.
+A second invented report discusses how labels summarize an animal study. It explains that a category heading and an animal observation are not interchangeable with a directive about using a product.
+The research appendix uses descriptive language such as group, sample, observation, report, and archive. These words make the section longer but do not provide a yes-or-no answer by themselves.
+The fictional research narrative intentionally appears before the practical pregnancy condition. The answer should prioritize that condition rather than printing every research paragraph.
+A report can contain a discussion of an animal observation without containing adequate controlled human studies. The system should preserve that uncertainty and avoid treating missing human evidence as an affirmative finding.
+The imagined reviewers checked paragraph ordering and citation locations. Their mock review concerns the structure of this test file and should not be treated as medical verification of any product.
+The text mentions rats, rabbits, animals, and study archives as deliberate retrieval distractors. Those words are related to pregnancy research but are not the important condition a reader asks about.
+This paragraph continues the research background so that the decisive instruction falls beyond a short source excerpt. The entire section must be searched before concluding that the answer is absent.
+The next paragraph still describes the mock study archive. The archive has a table of observations and a document index, neither of which contains a patient's prescribing history or a permission statement.
+A final background note explains that a label condition may depend on benefit and risk. The actual wording below states the fictional condition and must remain attached to any concise answer about use.
+There are no adequate controlled human studies of Lumenol use in pregnant women.
+Lumenol should be used during pregnancy only if the potential benefit justifies the potential risk to the fetus.
+
+Nursing Mothers
+Lumenol is secreted in human milk in this fictional test document.
+Nursing should not be undertaken by mothers receiving Lumenol.
+
+Warnings
+Do not use Lumenol if you are allergic to an ingredient listed in this fictional leaflet.
+Stop use and contact the prescriber if a severe reaction occurs.
+Do not substitute the fictional instructions in this test file for a real product's leaflet.
+The amber printing stripe and blue carton label are packaging descriptions, not instructions or reported reactions.
+
+Adverse Reactions
+Reported side effects in this fictional document include dizziness, nausea, and fatigue.
+The source does not give a numerical probability for those effects.
+
+Drug Interactions
+Do not combine Lumenol with the fictional product Azurex unless the prescriber specifically instructs you to do so.
+The document does not supply an interaction assessment for other named medicines.
+
+Storage And Handling
+Store at 20 to 25 degrees Celsius in the original container; keep the container tightly closed and protect it from moisture.
+
+Retail Price
+$24.95 per bottle is the fictional retail price stated for this software test.
+
+Information For Patients
+Keep the original leaflet with the fictional carton so that its source wording remains available for review.
+The document contains no personal insurance policy number, prescriber's telephone number, or batch-specific expiration date.

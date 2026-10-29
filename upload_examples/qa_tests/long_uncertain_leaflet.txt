@@ -1,0 +1,50 @@
+Solara — fictional document for negative and uncertain QA software tests
+This is invented test text, excluded from training. It is not labeling for a real medicine.
+
+Description
+Solara is a fictional product described in a long software fixture. The imagined carton has a white panel, a gray divider, and a green heading. Those colors describe printing and are not clinical findings.
+This file contains a description of mock archives, layout procedures, and research notes before the pregnancy information. A question-answering system should find the relevant information despite the surrounding prose.
+The first archive contains fictional carton drawings and folded-page diagrams. The drawings help a reader identify a source heading but do not provide a dose, price, interaction assessment, or personal medical detail.
+The second archive records the placement of paragraphs in a booklet. A change to paragraph ordering is a document revision, not a change in the fictional product's effect or a clinical safety conclusion.
+The third archive contains notes about a source reader. Its purpose is to check that quoted character ranges identify the displayed words exactly. A citation should not point into a different document.
+Several descriptive sentences contain dates and sample identifiers. An archive date is not an expiration date. A sample number is not a number of tablets, and a mock observation count is not a dosing interval.
+The fictional label uses complete sentences and ordinary headings. These features let the test distinguish meaningful source boundaries from decimal points, abbreviations, and punctuation within a number.
+The source has deliberately narrow coverage. It does not provide an individual prescription, a personal insurance number, or a list of every possible interaction. Absence of a fact should remain distinct from an explicit prohibition.
+The reader may ask an informal sentence about being pregnant, a one-word topic such as pregnancy, or a request for a complete source section. Each style should preserve the document's actual level of certainty.
+The short answer should not print all of this description. Source context can remain available for inspection while the main response focuses on the requested topic and its supporting statements.
+When the question asks whether something is permitted, the answer must not convert an animal observation into a human permission statement. Research background alone does not establish a definite yes.
+The document describes a mock observation of a green printed marker. The marker's appearance does not indicate a side effect, a treatment benefit, or a contraindication, even if a model recognizes those familiar words nearby.
+The file is intentionally different from the long Lumenol fixture. An answer generated for one fictional product must not reuse another product's dose, price, pregnancy condition, or breastfeeding restriction.
+Source isolation is checked by uploading both documents and asking similar questions. Shared words such as medicine, pregnancy, and dosage should not cause evidence from one upload to leak into the other.
+The document-reader test also checks whether the end of a long paragraph remains indexed. The relevant source is not limited to the first page, the first sentence, or the first eighteen hundred characters.
+This concludes the descriptive background. The following research section supplies uncertainty rather than a definitive permission or prohibition for pregnant people.
+
+Pregnancy
+The invented research archive contains animal observations, study procedures, and explanatory notes. These paragraphs are context for the software test and must not be treated as a clearance for use during human pregnancy.
+A mock record reports no observed teratogenic effects in rats. That statement describes an invented animal observation only and does not say that use in pregnant people is safe.
+Another mock record discusses rabbits and the placement of their observation table in a report. The report is fictional and is not a source of validated medical instructions.
+The archive has several explanatory paragraphs because retrieval must handle a long pregnancy section. A user should receive the useful uncertainty statement rather than every line of study background.
+The first review note concerns labels on a sample box. Its references to an animal group identify a research record, not an instruction to take a product while pregnant.
+The second review note concerns the numbering of archive pages. The number beside a table is an organizational identifier and does not determine a dose or a frequency.
+The third review note explains how a narrative was arranged around a fictional figure. It does not report controlled human data and does not recommend use during pregnancy.
+The fourth review note distinguishes an animal finding from a statement about a human population. The system should preserve that distinction in its response to a yes-or-no question.
+The fifth review note explains why an answer should include source evidence. Evidence must refer to this uploaded file and not to a different product with clearer directions.
+The sixth review note concerns the source's paragraph boundaries. It does not establish safety, permission, or a restriction; it provides document background and makes the section longer.
+The seventh review note describes how the research archive stores mock observations. A description of an archive is not a conclusion about how a patient should use a medicine.
+The eighth review note ensures that the decisive sentence appears after substantial background. A fixed short excerpt would omit the information that matters to the user's question.
+The ninth review note repeats the distinction between a report's existence and the certainty of its contents. A model should not use a confident answer style merely because many paragraphs discuss the topic.
+The tenth review note explains that a topic can be present while its practical yes-or-no answer remains uncertain. The system should report the uncertainty instead of claiming the topic is missing.
+No adequate controlled human studies of Solara use in pregnant women are available.
+Safety during human pregnancy has not been established.
+
+Dosage And Administration
+The software fixture intentionally supplies no dose or frequency for Solara.
+Packaging examples such as a 50 mg printed strength belong to the fictional carton illustration, not to dosing instructions.
+No dosing regimen has been established in this fictional document.
+
+Adverse Reactions
+The document does not list a confirmed adverse reaction profile.
+
+Information For Patients
+No retail price, personal insurance policy number, prescribing doctor's telephone number, or expiration date is stated.
+Consult the original source for additional details; this fictional software fixture deliberately leaves those details absent.

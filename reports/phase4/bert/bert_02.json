@@ -1,0 +1,35 @@
+{
+  "trial_id": "bert_02",
+  "learning_rate": 0.0001,
+  "batch_size": 8,
+  "dropout": 0.1,
+  "selection_partition": "validation",
+  "validation_metrics": {
+    "accuracy": 0.9945504087193461,
+    "macro_precision": 0.9945222701149424,
+    "macro_recall": 0.994202460173422,
+    "macro_f1": 0.9943391745699165,
+    "group_balanced_accuracy": 0.9968253968253968,
+    "group_balanced_macro_precision": 0.9959407956562597,
+    "group_balanced_macro_recall": 0.9968253968253968,
+    "group_balanced_macro_f1": 0.9963687537882736,
+    "weighted_f1": 0.9945490796433596,
+    "loss": 0.029756983742117882
+  },
+  "best_epoch": 5,
+  "epochs_run": 6,
+  "training_seconds": 1310.5438608000113,
+  "checkpoint_path": "models/phase4/bert/bert_02.pt",
+  "checkpoint_sha256": "1ed0dea908cc9fb2093adc14904d67d162bc45a8d45eeea7657c273ec56fdbba",
+  "history_sha256": "db166049d72c4620d5bb4d03217e04b4cc379cfd14b9d12f02ce2bc9a1352133",
+  "provenance": {
+    "dataset_sha256": "3eadaed552f771aae883df674eed9efc38f0cebf86c355041e3bda350e85f23c",
+    "split_sha256": "9b41f3cf3e5539efa8905b0db37f45ff0abd03b62bd1adf65d05e54630fb389c",
+    "config_sha256": "836f33773a8422834379a00d6dc18fed24f5e98dc5b5d99caa06e6b88e224096",
+    "pretrained": {
+      "repo": "google/bert_uncased_L-4_H-256_A-4",
+      "revision": "387825ce42dbb39b87911cdf8e383ee3b25184f8",
+      "license": "apache-2.0"
+    }
+  }
+}

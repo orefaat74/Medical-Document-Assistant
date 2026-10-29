@@ -1,0 +1,132 @@
+{
+  "source": "Real openFDA medicine labels from the frozen project corpus",
+  "dataset_sha256": "3eadaed552f771aae883df674eed9efc38f0cebf86c355041e3bda350e85f23c",
+  "medical_text_is_synthetic": false,
+  "formats": [
+    "pdf",
+    "docx",
+    "txt"
+  ],
+  "samples": [
+    {
+      "name": "Esomeprazole",
+      "source_generic_name": "ESOMEPRAZOLE MAGNESIUM DIHYDRATE",
+      "source_record_id": "2425f611-2717-4486-aff3-82190c0b0d96",
+      "source_category": "acid_reducer",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=29eb7b87-59a4-4d27-ad53-789da7fec427",
+      "is_synthetic": false,
+      "characters": 3536,
+      "words": 646,
+      "files": {
+        "txt": "txt/01_Esomeprazole.txt",
+        "docx": "docx/01_Esomeprazole.docx",
+        "pdf": "pdf/01_Esomeprazole.pdf"
+      },
+      "sha256": {
+        "txt": "21a1ed29df35d3243f9e2ccefc130033c92f155e1a01bbcfed179f9a3c335dcd",
+        "docx": "00ca82862e9824a72f09f8d9213c9927288cbaa507e2310102d1fd5568a37d57",
+        "pdf": "5c67c72e302cc73ab3572d38edd1644d1da59f5033c242abc7ca8e2286b72452"
+      }
+    },
+    {
+      "name": "Aspirin",
+      "source_generic_name": "ASPIRIN",
+      "source_record_id": "5a14c6a7-a60c-f811-e063-6294a90a1213",
+      "source_category": "anti_inflammatory_nsaid",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ac94cce3-9a39-41de-bb8b-10a5e5b8e83b",
+      "is_synthetic": false,
+      "characters": 2483,
+      "words": 433,
+      "files": {
+        "txt": "txt/02_Aspirin.txt",
+        "docx": "docx/02_Aspirin.docx",
+        "pdf": "pdf/02_Aspirin.pdf"
+      },
+      "sha256": {
+        "txt": "19dd8fdcf99037e7bf0bf19bce79d36b550b0191b216738e2383b6743f0cecdf",
+        "docx": "a0438ff18ba2c34b42c059c07ca4e9be113a6c20025690db6c0fbfb8ee11e1b3",
+        "pdf": "bacbab4e1a159cb65acbfac433cfbe033294ae62017d440f08a56aade32c5fa2"
+      }
+    },
+    {
+      "name": "Nystatin",
+      "source_generic_name": "NYSTATIN",
+      "source_record_id": "c4299118-f831-4982-a864-b8cb9d4c363d",
+      "source_category": "antifungal",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=72dc2b60-29a4-48a8-848a-1a5086cfdd58",
+      "is_synthetic": false,
+      "characters": 2541,
+      "words": 361,
+      "files": {
+        "txt": "txt/03_Nystatin.txt",
+        "docx": "docx/03_Nystatin.docx",
+        "pdf": "pdf/03_Nystatin.pdf"
+      },
+      "sha256": {
+        "txt": "756e48fddb1e697a6c236561dc38a6cc6e55704637a11750ec03b1cb3a9834d3",
+        "docx": "52085f38d21b5b796792571efe7ba30f5f86d943efe7bd798ac108608bb75701",
+        "pdf": "73bfac390e8d1f14fc288d183b2cac5737b3555186a0ac927d1b034069ea1490"
+      }
+    },
+    {
+      "name": "Erythromycin",
+      "source_generic_name": "ERYTHROMYCIN",
+      "source_record_id": "4d3a76a9-7324-9988-e063-6394a90a2801",
+      "source_category": "antibacterial",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9ac4dcd2-8cac-404d-b651-da74062d30ed",
+      "is_synthetic": false,
+      "characters": 4565,
+      "words": 597,
+      "files": {
+        "txt": "txt/04_Erythromycin.txt",
+        "docx": "docx/04_Erythromycin.docx",
+        "pdf": "pdf/04_Erythromycin.pdf"
+      },
+      "sha256": {
+        "txt": "b6bedf017a74055187e6da7ff7ed8b81d0dc0744731b02663355996448037f87",
+        "docx": "27a166aa1a2c4b34729b632199c4ad6b1dde747abff80db8c128453f6153bb86",
+        "pdf": "b366ed16b74e259aab35fac02ddb9e0bbf398050efed4568543d17650070fd08"
+      }
+    },
+    {
+      "name": "Desoximetasone",
+      "source_generic_name": "DESOXIMETASONE",
+      "source_record_id": "513a7c3c-05ee-9414-e063-6394a90a3500",
+      "source_category": "corticosteroid",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c84c7168-3d46-4e05-a25c-3d594ff94268",
+      "is_synthetic": false,
+      "characters": 2966,
+      "words": 374,
+      "files": {
+        "txt": "txt/05_Desoximetasone.txt",
+        "docx": "docx/05_Desoximetasone.docx",
+        "pdf": "pdf/05_Desoximetasone.pdf"
+      },
+      "sha256": {
+        "txt": "47339106df4d3c880c9dbb9639cac56891e69d5b3725dc61331523aaa472193a",
+        "docx": "453f4b822ea1cde30f5c9475992cffea4cb7e310d6ea3fb00f4ef28413089070",
+        "pdf": "f4e48d21bc81695a623cedc9b17317d7ca1f9fef488f6987938f15578f92e6f5"
+      }
+    },
+    {
+      "name": "Pindolol",
+      "source_generic_name": "PINDOLOL",
+      "source_record_id": "18ea93be-6dd6-4eac-9555-3fea7765a46c",
+      "source_category": "antihypertensive",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8498aead-0aef-4cd8-a191-05cae57a55e5",
+      "is_synthetic": false,
+      "characters": 15512,
+      "words": 2176,
+      "files": {
+        "txt": "txt/06_Pindolol.txt",
+        "docx": "docx/06_Pindolol.docx",
+        "pdf": "pdf/06_Pindolol.pdf"
+      },
+      "sha256": {
+        "txt": "0ce87f55615221264582c97db014d2d725122547fbd5dea4319ff811fa037ecd",
+        "docx": "1e915c83a500199022ba1bdbbb85eb14e5b67eb64964ee37d997bc9a72bcf510",
+        "pdf": "bec8d99f3398682d07b65c5e44bb9c46fd75bf2086db9a1cc87b792d084556d1"
+      }
+    }
+  ]
+}

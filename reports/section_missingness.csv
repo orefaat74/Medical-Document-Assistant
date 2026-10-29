@@ -1,0 +1,6 @@
+field,missing_count,missing_percent
+indications_text,2,0.08
+dosage_text,8,0.32
+warnings_text,7,0.28
+contraindications_text,116,4.69
+side_effects_text,688,27.84

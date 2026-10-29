@@ -1,0 +1,7 @@
+class_label,display_name,documents,unique_ingredient_sets,leakage_groups,median_words,percent
+antibacterial,Antibacterial,456,52,37,5478.0,18.45
+anti_inflammatory_nsaid,Anti-inflammatory (NSAID),470,34,15,995.5,19.02
+corticosteroid,Corticosteroid,423,24,12,1834.0,17.12
+antifungal,Antifungal,431,24,19,1185.0,17.44
+acid_reducer,Acid reducer (PPI / H2 blocker),311,9,7,4662.0,12.59
+antihypertensive,Antihypertensive,380,32,19,7261.5,15.38

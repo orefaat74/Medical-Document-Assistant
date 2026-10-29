@@ -1,0 +1,36 @@
+{
+  "trial_id": "trial_01",
+  "trial_index": 1,
+  "parameters": {
+    "learning_rate": 0.001,
+    "batch_size": 16,
+    "dropout": 0.2
+  },
+  "selection_partition": "validation",
+  "best_epoch": 19,
+  "epochs_run": 24,
+  "stopped_early": false,
+  "validation_metrics": {
+    "accuracy": 0.9754768392370572,
+    "macro_precision": 0.9770868041553462,
+    "macro_recall": 0.975922880116959,
+    "macro_f1": 0.9760467593477725,
+    "group_balanced_accuracy": 0.9386542877108917,
+    "group_balanced_macro_precision": 0.9551809444995252,
+    "group_balanced_macro_recall": 0.9386542877108913,
+    "group_balanced_macro_f1": 0.9401935631965301,
+    "weighted_f1": 0.9752199609073602,
+    "loss": 0.09093822538852692
+  },
+  "training_seconds": 170.68429840001045,
+  "checkpoint_path": "models/phase3/trials/trial_01.pt",
+  "history_path": "reports/phase3/trial_01_history.csv",
+  "checkpoint_sha256": "bde68870e65c66e18fe58a4e62227ad054ade4fa6c4c6d91b4a8cc4c273f6f09",
+  "history_sha256": "155f558b3941b2c76ffb2d00d881b680d0cafaaa7dc25a43ac0cb11bc0458126",
+  "provenance": {
+    "dataset_sha256": "3eadaed552f771aae883df674eed9efc38f0cebf86c355041e3bda350e85f23c",
+    "split_sha256": "9b41f3cf3e5539efa8905b0db37f45ff0abd03b62bd1adf65d05e54630fb389c",
+    "config_sha256": "43d5606c80a45f9faf1f35baba04d827df005f1c80ea0aa72066242a74dee8ba",
+    "tuning_vocabulary_sha256": "262995de6a29fecd38f35decb6e4ec3de13cb6cb9ea031b15defbac6abf6749f"
+  }
+}

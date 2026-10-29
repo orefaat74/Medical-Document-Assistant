@@ -1,0 +1,17 @@
+2026-10-28 18:38:17,585 INFO Using frozen Phase 2 split: 2471 documents, 100 groups
+2026-10-28 18:38:17,704 INFO Using pinned local bert model: google/bert_uncased_L-4_H-256_A-4
+2026-10-28 18:41:35,327 INFO bert_01 epoch 1: training loss 0.6192; validation macro F1 0.9133
+2026-10-28 18:44:21,647 INFO bert_01 epoch 2: training loss 0.0494; validation macro F1 0.9809
+2026-10-28 18:47:26,401 INFO bert_01 epoch 3: training loss 0.0136; validation macro F1 0.9944
+2026-10-28 18:50:14,466 INFO bert_01 epoch 4: training loss 0.0069; validation macro F1 0.9781
+2026-10-28 18:52:38,474 INFO bert_01 epoch 5: training loss 0.0047; validation macro F1 0.9779
+2026-10-28 18:54:43,556 INFO bert_02 epoch 1: training loss 0.4409; validation macro F1 0.9733
+2026-10-28 18:58:09,944 INFO bert_02 epoch 2: training loss 0.0296; validation macro F1 0.9510
+2026-10-28 19:02:25,949 INFO bert_02 epoch 3: training loss 0.0198; validation macro F1 0.9855
+2026-10-28 19:06:45,362 INFO bert_02 epoch 4: training loss 0.0057; validation macro F1 0.9891
+2026-10-28 19:11:08,819 INFO bert_02 epoch 5: training loss 0.0035; validation macro F1 0.9943
+2026-10-28 19:14:29,146 INFO bert_02 epoch 6: training loss 0.0014; validation macro F1 0.9916
+2026-10-28 19:18:24,614 INFO BERT final refit epoch 1 / 3: loss 0.5238
+2026-10-28 19:21:54,037 INFO BERT final refit epoch 2 / 3: loss 0.0385
+2026-10-28 19:25:36,136 INFO BERT final refit epoch 3 / 3: loss 0.0100
+2026-10-28 19:26:00,027 INFO Fine-tuned BERT test accuracy 0.9532; macro F1 0.9597

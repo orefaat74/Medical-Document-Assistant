@@ -1,0 +1,16 @@
+{
+  "project_phase": 5,
+  "status": "complete_for_selected_handoff",
+  "deployment_selection": "temporary_demo_and_persistent_deployment_handoff",
+  "repository_selection": "source_package",
+  "public_demo_url": "https://stories-acknowledged-cord-connector.trycloudflare.com",
+  "public_demo_is_temporary": true,
+  "persistent_hosting_published": false,
+  "github_repository_published": false,
+  "software_tests_passed": 80,
+  "local_api_browser_checks_passed": 14,
+  "container_api_checks_passed": 9,
+  "public_browser_checks_passed": 5,
+  "model_default": "text_cnn",
+  "evaluated_language": "en"
+}

@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "default_classifier": "text_cnn",
+  "cpu_threads": 4,
+  "maximum_upload_bytes": 10485760,
+  "maximum_document_characters": 200000,
+  "maximum_pdf_pages": 50,
+  "maximum_question_characters": 1000,
+  "maximum_documents": 100,
+  "document_ttl_seconds": 3600,
+  "conversation_context_turns": 12,
+  "supported_file_types": [".txt", ".md", ".html", ".htm", ".pdf", ".docx"]
+}

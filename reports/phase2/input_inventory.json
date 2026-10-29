@@ -1,0 +1,34 @@
+{
+  "dataset_sha256": "3eadaed552f771aae883df674eed9efc38f0cebf86c355041e3bda350e85f23c",
+  "documents": 2471,
+  "phase1_groups": 105,
+  "substance_names": 259,
+  "class_documents": {
+    "acid_reducer": 311,
+    "anti_inflammatory_nsaid": 470,
+    "antibacterial": 456,
+    "antifungal": 431,
+    "antihypertensive": 380,
+    "corticosteroid": 423
+  },
+  "class_group_counts": {
+    "acid_reducer": 7,
+    "anti_inflammatory_nsaid": 15,
+    "antibacterial": 37,
+    "antifungal": 19,
+    "antihypertensive": 19,
+    "corticosteroid": 12
+  },
+  "largest_group": [
+    {
+      "leakage_group_id": "group_053492e48466b25a",
+      "acid_reducer": 118,
+      "anti_inflammatory_nsaid": 327,
+      "antibacterial": 45,
+      "antifungal": 45,
+      "antihypertensive": 0,
+      "corticosteroid": 237,
+      "documents": 772
+    }
+  ]
+}

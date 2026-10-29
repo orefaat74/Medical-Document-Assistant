@@ -1,0 +1,260 @@
+source_name,status,ingredient_rxcui,ingredient_name
+ACETAMINOPHEN,matched,161,acetaminophen
+ACETIC ACID,matched,168,acetic acid
+ACTIVATED CHARCOAL,matched,272,activated charcoal
+AMIKACIN,matched,641,amikacin
+AMLODIPINE,matched,17767,amlodipine
+AMLODIPINE BESYLATE,matched,17767,amlodipine
+AMOXICILLIN,matched,723,amoxicillin
+AMPHOTERICIN B,matched,732,amphotericin B
+ANHYDROUS CITRIC ACID,matched,21183,citric acid
+ANIDULAFUNGIN,matched,341018,anidulafungin
+ARABICA COFFEE BEAN,ambiguous_name,,
+ARSENIC TRIOXIDE,matched,18330,arsenic trioxide
+ASPERGILLUS FLAVUS,matched,999384,Aspergillus flavus allergenic extract
+ASPERGILLUS FUMIGATUS,ambiguous_name,,
+ASPERGILLUS NIDULANS,matched,1368357,Aspergillus nidulans allergenic extract
+ASPERGILLUS NIGER VAR. NIGER,matched,854082,Aspergillus niger var. niger extract
+ASPIRIN,matched,1191,aspirin
+ATENOLOL,matched,1202,atenolol
+AUREOBASIDIUM PULLULANS VAR. PULLUTANS,matched,852102,Aureobasidium pullulans var. pullutans allergenic extract
+AVIBACTAM,matched,1603834,avibactam
+AZTREONAM,matched,1272,aztreonam
+BACITRACIN ZINC,matched,1291,bacitracin
+BENZOIC ACID,matched,70589,benzoate
+BENZOYL PEROXIDE,matched,1418,benzoyl peroxide
+BENZYL ALCOHOL,matched,1426,benzyl alcohol
+BESIFLOXACIN,matched,819911,besifloxacin
+BETAMETHASONE DIPROPIONATE,matched,1514,betamethasone
+BISMUTH SUBCITRATE POTASSIUM,matched,47181,bismuth subcitrate
+BLACK COHOSH,matched,236665,black cohosh extract
+BLASTOCYSTIS HOMINIS,matched,1599565,Blastocystis hominis
+BORIC ACID,matched,1700,boric acid
+BOS TAURUS LYMPH VESSEL,matched,1544137,Bos taurus lymph vessel preparation
+BOS TAURUS SPLEEN,matched,1310295,Bos taurus spleen preparation
+BUDESONIDE,matched,19831,budesonide
+BUPIVACAINE,matched,1815,bupivacaine
+BUTALBITAL,matched,19860,butalbital
+CAFFEINE,matched,1886,caffeine
+CALCIUM CARBONATE,matched,1897,calcium carbonate
+CAMPSIS RADICANS FLOWER,matched,2534455,Campsis radicans flower extract
+CANDIDA ALBICANS,ambiguous_name,,
+CANDIDA PARAPSILOSIS,matched,1310914,Candida parapsilosis
+CANDIDA TORRESII,matched,1343912,Candida torresii
+CANDIDA TROPICALIS,matched,967033,Candida tropicalis allergenic extract
+CAPTOPRIL,matched,1998,captopril
+CARBO ANIMALIS,matched,1326501,Carbo animalis preparation
+CARBON DISULFIDE,matched,1311478,carbon disulfide
+CARVEDILOL,matched,20352,carvedilol
+CEFDINIR,matched,25037,cefdinir
+CEFPROZIL,matched,19552,cefprozil
+CELECOXIB,matched,140587,celecoxib
+CHAETOMIUM GLOBOSUM,matched,466197,Chaetomium globosum allergenic extract
+CHLAMYDIA TRACHOMATIS,matched,1318474,Chlamydia trachomatis
+CHLORINE,matched,1310122,chlorine
+CHLORPHENIRAMINE MALEATE,matched,2400,chlorpheniramine
+CHLORTHALIDONE,matched,2409,chlorthalidone
+CIMETIDINE,matched,2541,cimetidine
+CINCHONA OFFICINALIS BARK,matched,1309771,Cinchona officinalis bark extract
+CIPROFLOXACIN,matched,2551,ciprofloxacin
+CIPROFLOXACIN HYDROCHLORIDE,matched,2551,ciprofloxacin
+CLADOSPORIUM SPHAEROSPERMUM,matched,867202,cladosporium sphaerospermum allergenic extract
+CLARITHROMYCIN,matched,21212,clarithromycin
+CLEVIDIPINE,matched,233603,clevidipine
+CLINDAMYCIN,matched,2582,clindamycin
+CLIOQUINOL,matched,5942,clioquinol
+CLOFAZIMINE,matched,2592,clofazimine
+CLOTRIMAZOLE,matched,2623,clotrimazole
+COCHLIOBOLUS SPICIFER,matched,995699,cochliobolus spicifer allergenic extract
+CODEINE PHOSPHATE,matched,2670,codeine
+COLCHICUM AUTUMNALE BULB,matched,1355184,Colchicum autumnale bulb extract
+CORTICOTROPIN,matched,376,corticotropin
+CORTISONE ACETATE,matched,2878,cortisone
+DAPTOMYCIN,matched,22299,daptomycin
+DEFLAZACORT,matched,22396,deflazacort
+DESONIDE,matched,3254,desonide
+DESOXIMETASONE,matched,3255,desoximetasone
+DEXAMETHASONE,matched,3264,dexamethasone
+DEXLANSOPRAZOLE,matched,816346,dexlansoprazole
+DEXTROMETHORPHAN HYDROBROMIDE,matched,3289,dextromethorphan
+DIFLUNISAL,matched,3393,diflunisal
+DIPHENHYDRAMINE CITRATE,matched,3498,diphenhydramine
+DIPHENHYDRAMINE HYDROCHLORIDE,matched,3498,diphenhydramine
+DIPYRIDAMOLE,matched,3521,dipyridamole
+DOXYCYCLINE,matched,3640,doxycycline
+DOXYCYCLINE HYCLATE,matched,3640,doxycycline
+ECHINACEA ANGUSTIFOLIA WHOLE,matched,236121,Echinacea angustifolia extract
+EFINACONAZOLE,matched,1539753,efinaconazole
+ERYTHROMYCIN,matched,4053,erythromycin
+ESOMEPRAZOLE,matched,283742,esomeprazole
+ESOMEPRAZOLE MAGNESIUM,matched,283742,esomeprazole
+ESOMEPRAZOLE MAGNESIUM TRIHYDRATE,matched,283742,esomeprazole
+ESTRONE,matched,4103,estrone
+ETODOLAC,matched,24605,etodolac
+EUGENOL,matched,4186,eugenol
+EUROTIUM HERBARIORUM,matched,999450,Eurotium herbariorum allergenic extract
+FAMOTIDINE,matched,4278,famotidine
+FELODIPINE,matched,4316,felodipine
+FERULA ASSA-FOETIDA RESIN,matched,319779,asafetida extract
+FEXINIDAZOLE,matched,2564146,fexinidazole
+FIDAXOMICIN,matched,1111103,fidaxomicin
+FINAFLOXACIN,matched,1598641,finafloxacin
+FLUCONAZOLE,matched,4450,fluconazole
+FLUCYTOSINE,matched,4451,flucytosine
+FLUOCINOLONE ACETONIDE,matched,25126,fluocinolone
+FLUOCINONIDE,matched,4462,fluocinonide
+FLUOROMETHOLONE,matched,4491,fluorometholone
+FORMALDEHYDE SOLUTION,ambiguous_name,,
+FORMOTEROL FUMARATE,matched,25255,formoterol
+GATIFLOXACIN ANHYDROUS,matched,228476,gatifloxacin
+GEOTRICHUM CANDIDUM,matched,999463,Geotrichum candidum allergenic extract
+GIBBERELLA FUJIKUROI,ambiguous_name,,
+GLYCERIN,matched,4910,glycerin
+GOLD,matched,1311190,gold
+GRAPHITE,matched,90249,natural graphite
+HALCINONIDE,matched,5084,halcinonide
+HANDROANTHUS IMPETIGINOSUS BARK,matched,1310167,Tabebuia impetiginosa bark extract
+HELMINTHOSPORIUM CARBONUM TOXIN I,not_found,,
+HISTOPLASMA CAPSULATUM,not_found,,
+HYDROCHLOROTHIAZIDE,matched,5487,hydrochlorothiazide
+HYDROCORTISONE,matched,5492,hydrocortisone
+HYDROCORTISONE ACETATE,matched,5492,hydrocortisone
+HYSSOPUS OFFICINALIS WHOLE,matched,1482787,Hyssopus officinalis whole extract
+IBUPROFEN,matched,5640,ibuprofen
+INDAPAMIDE,matched,5764,indapamide
+INDOMETHACIN,matched,5781,indomethacin
+INSULIN HUMAN,matched,253182,"insulin, regular, human"
+IRBESARTAN,matched,83818,irbesartan
+ISONIAZID,matched,6038,isoniazid
+ISOPROPYL PALMITATE,matched,1311179,isopropyl palmitate
+ISRADIPINE,matched,33910,isradipine
+ITRACONAZOLE,matched,28031,itraconazole
+KEROSENE,matched,1311375,kerosene
+KETOCONAZOLE,matched,6135,ketoconazole
+KETOPROFEN,matched,6142,ketoprofen
+KETOROLAC,matched,35827,ketorolac
+LABETALOL,matched,6185,labetalol
+"LACTIC ACID, DL-",matched,1314409,DL-lactic acid
+LANSOPRAZOLE,matched,17128,lansoprazole
+LEAD,matched,6260,lead
+LEVOFLOXACIN,matched,82122,levofloxacin
+LINEZOLID,matched,190376,linezolid
+LITHIUM CARBONATE,matched,42351,lithium carbonate
+LOTEPREDNOL ETABONATE,matched,52177,loteprednol etabonate
+LYCOPERDON UTRIFORME FRUITING BODY,matched,1314926,Lycoperdon utriforme fruiting body extract
+LYCOPODIUM CLAVATUM SPORE,matched,1311057,Lycopodium clavatum spore extract
+MAGNESIUM HYDROXIDE,matched,6581,magnesium hydroxide
+MEFENAMIC ACID,matched,257844,mefenamate
+MELOXICAM,matched,41493,meloxicam
+MERCURIC CHLORIDE,matched,1311634,mercuric chloride
+MEROPENEM ANHYDROUS,matched,29561,meropenem
+METHYLPREDNISOLONE,matched,6902,methylprednisolone
+METRONIDAZOLE,matched,6922,metronidazole
+MICAFUNGIN,matched,325887,micafungin
+MICONAZOLE,matched,6932,miconazole
+MICONAZOLE NITRATE,matched,6932,miconazole
+MUCOR PLUMBEUS,matched,314415,Mucor plumbeus allergenic extract
+MUCOR RACEMOSUS,matched,852687,Mucor racemosus allergenic extract
+MUPIROCIN,matched,42372,mupirocin
+NABUMETONE,matched,31448,nabumetone
+NADOLOL,matched,7226,nadolol
+NAPROXEN,matched,7258,naproxen
+NATAMYCIN,matched,7268,natamycin
+NEBIVOLOL,matched,31555,nebivolol
+NEOMYCIN SULFATE,matched,7299,neomycin
+NEPAFENAC,matched,298665,nepafenac
+NICARDIPINE,matched,7396,nicardipine
+NICARDIPINE HYDROCHLORIDE,matched,7396,nicardipine
+NIFEDIPINE,matched,7417,nifedipine
+NIMODIPINE,matched,7426,nimodipine
+NISOLDIPINE,matched,7435,nisoldipine
+NITRIC ACID,matched,1311391,nitric acid
+NITROFURANTOIN,matched,7454,nitrofurantoin
+NITROFURANTOIN MONOHYDRATE,matched,7454,nitrofurantoin
+NITROGLYCERIN,matched,4917,nitroglycerin
+NIZATIDINE,matched,42319,nizatidine
+NYSTATIN,matched,7597,nystatin
+OFLOXACIN,matched,7623,ofloxacin
+OMADACYCLINE,matched,2059269,omadacycline
+OMEPRAZOLE,matched,7646,omeprazole
+OMEPRAZOLE MAGNESIUM,matched,7646,omeprazole
+OTESECONAZOLE,matched,2602577,oteseconazole
+OXAPROZIN,matched,32613,oxaprozin
+"OYSTER SHELL CALCIUM CARBONATE, CRUDE",matched,1311062,oyster shell calcium carbonate preparation
+PENICILLIN G,matched,7980,penicillin G
+PETROLATUM,matched,8091,petrolatum
+PHENYLBUTAZONE,matched,8160,phenylbutazone
+PHENYLEPHRINE,matched,8163,phenylephrine
+PHENYLEPHRINE BITARTRATE,matched,8163,phenylephrine
+PHOSPHORIC ACID,matched,8259,phosphoric acid
+PHOSPHORUS,matched,8263,phosphorus
+PHYTOLACCA AMERICANA ROOT,matched,1309711,Phytolacca americana root extract
+PINDOLOL,matched,8332,pindolol
+PIROXICAM,matched,8356,piroxicam
+PLEOSPORA HERBARUM,matched,971198,Pleospora herbarum allergenic extract
+POLYMYXIN B,matched,8536,polymyxin B
+POLYMYXIN B SULFATE,matched,8536,polymyxin B
+POSACONAZOLE,matched,282446,posaconazole
+POTASSIUM CARBONATE,matched,34300,potassium carbonate
+POTASSIUM IODIDE,matched,8597,potassium iodide
+POTASSIUM SORBATE,matched,8606,potassium sorbate
+PREDNISOLONE,matched,8638,prednisolone
+PREDNISONE,matched,8640,prednisone
+PSEUDOEPHEDRINE HYDROCHLORIDE,matched,8896,pseudoephedrine
+PYRAZINAMIDE,matched,8987,pyrazinamide
+QUININE SULFATE,matched,9071,quinine
+RAMIPRIL,matched,35296,ramipril
+RESORCINOL,matched,35382,resorcinol
+REZAFUNGIN,matched,2639155,rezafungin
+RHIZOPUS STOLONIFER,matched,967721,Rhizopus stolonifer allergenic extract
+RHODOTORULA RUBRA,matched,867321,Rhodotorula rubra allergenic extract
+RIFABUTIN,matched,55672,rifabutin
+RIFAMPIN,matched,9384,rifampin
+RIFAPENTINE,matched,35617,rifapentine
+RIFAXIMIN,matched,35619,rifaximin
+SACCHAROMYCES CEREVISIAE,ambiguous_name,,
+SACUBITRIL,matched,1656328,sacubitril
+SALICYLIC ACID,matched,9525,salicylic acid
+SECNIDAZOLE,matched,36314,secnidazole
+SILVER SULFADIAZINE,matched,9793,silver sulfadiazine
+SODIUM BICARBONATE,matched,36676,sodium bicarbonate
+SODIUM BORATE,matched,1700,boric acid
+SODIUM SALICYLATE,matched,9525,salicylic acid
+SORBITOL,matched,9945,sorbitol
+SPARSENTAN,matched,2630535,sparsentan
+STACHYBOTRYS CHARTARUM,matched,968123,Stachybotrys chartarum allergenic extract
+STEARYL ALCOHOL,matched,37071,stearyl alcohol
+STRYCHNOS NUX-VOMICA SEED,matched,1309678,Strychnos nux-vomica seed extract
+SULFACETAMIDE,matched,10169,sulfacetamide
+SULFAMETHOXAZOLE,matched,10180,sulfamethoxazole
+SULFUR,matched,10223,sulfur
+SULINDAC,matched,10237,sulindac
+SUS SCROFA ADRENAL GLAND,matched,1311235,Sus scrofa adrenal gland preparation
+TARAXACUM OFFICINALE,matched,124150,dandelion extract
+TAVABOROLE,matched,1543173,tavaborole
+TELMISARTAN,matched,73494,telmisartan
+TERBINAFINE,matched,37801,terbinafine
+TERCONAZOLE,matched,37806,terconazole
+TETRACYCLINE HYDROCHLORIDE,matched,10395,tetracycline
+THYROID,matched,10572,thyroid (USP)
+"THYROID, UNSPECIFIED",matched,10572,thyroid (USP)
+TIGECYCLINE,matched,384455,tigecycline
+TIMOLOL ANHYDROUS,matched,10600,timolol
+TINIDAZOLE,matched,10612,tinidazole
+TIOCONAZOLE,matched,38298,tioconazole
+TOBRAMYCIN,matched,10627,tobramycin
+TRANDOLAPRIL,matched,38454,trandolapril
+TREPONEMIC SKIN CANKER HUMAN,matched,1367174,"treponemic skin canker preparation, human"
+TRIAMCINOLONE ACETONIDE,matched,10759,triamcinolone
+TRICHOPHYTON RUBRUM,matched,968413,Trichophyton rubrum allergenic extract
+TRICHOPHYTON TONSURANS,matched,1098619,Trichophyton tonsurans allergenic extract
+TRIMETHOPRIM,matched,10829,trimethoprim
+TURPENTINE OIL,matched,10938,turpentine
+UNDECYLENIC ACID,matched,314881,undecylenate
+VALSARTAN,matched,69749,valsartan
+VANCOMYCIN,matched,11124,vancomycin
+VERAPAMIL HYDROCHLORIDE,matched,11170,verapamil
+VORICONAZOLE,matched,121243,voriconazole
+XYLITOL,matched,11377,xylitol
+"YEAST, UNSPECIFIED",matched,214355,Candida albicans allergenic extract
+ZINC,matched,11416,zinc

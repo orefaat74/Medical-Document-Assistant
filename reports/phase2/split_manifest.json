@@ -1,0 +1,202 @@
+{
+  "created_at_utc": "2026-10-28T12:08:37+00:00",
+  "schema_version": 1,
+  "dataset_sha256": "3eadaed552f771aae883df674eed9efc38f0cebf86c355041e3bda350e85f23c",
+  "documents": 2471,
+  "class_labels": [
+    "antibacterial",
+    "anti_inflammatory_nsaid",
+    "corticosteroid",
+    "antifungal",
+    "acid_reducer",
+    "antihypertensive"
+  ],
+  "split_config": {
+    "random_state": 42,
+    "split_fractions": {
+      "train": 0.7,
+      "validation": 0.15,
+      "test": 0.15
+    },
+    "cv_folds": 3,
+    "maximum_minimum_holdout_groups_per_class": 2,
+    "split_solver_time_limit_seconds": 20,
+    "class_group_balance_weight": 0.25,
+    "minimum_holdout_size_multiplier": 0.5,
+    "maximum_holdout_size_multiplier": 1.5,
+    "near_duplicate_audit": {
+      "similarity_threshold": 0.985,
+      "minimum_word_count_ratio": 0.9,
+      "ngram_size": 5,
+      "hash_features": 1048576,
+      "chunk_size": 128
+    }
+  },
+  "split_sha256": "9b41f3cf3e5539efa8905b0db37f45ff0abd03b62bd1adf65d05e54630fb389c",
+  "reference_sha256": "8f5d8d81ff05b4a42d9850ac0bf7d7ea32a2af490a70c4379fa591eaab1ac51a",
+  "near_duplicate_pairs_sha256": "365386b925fef7a5902587af7c92453b82d8320d563c1fa193a821bfc2811a1a",
+  "grouping_audit": {
+    "phase1_groups": 105,
+    "groups_after_rxnorm": 100,
+    "rxnorm_version": "05-Oct-2026",
+    "rxnorm_names_matched": 251,
+    "rxnorm_names_total": 259,
+    "benchmark_groups": 100,
+    "near_duplicate_pairs": 0,
+    "similarity_threshold": 0.985
+  },
+  "split_balance": [
+    {
+      "split": "test",
+      "class_label": "acid_reducer",
+      "documents": 19,
+      "groups": 2
+    },
+    {
+      "split": "test",
+      "class_label": "anti_inflammatory_nsaid",
+      "documents": 64,
+      "groups": 2
+    },
+    {
+      "split": "test",
+      "class_label": "antibacterial",
+      "documents": 69,
+      "groups": 5
+    },
+    {
+      "split": "test",
+      "class_label": "antifungal",
+      "documents": 69,
+      "groups": 2
+    },
+    {
+      "split": "test",
+      "class_label": "antihypertensive",
+      "documents": 57,
+      "groups": 3
+    },
+    {
+      "split": "test",
+      "class_label": "corticosteroid",
+      "documents": 64,
+      "groups": 2
+    },
+    {
+      "split": "train",
+      "class_label": "acid_reducer",
+      "documents": 235,
+      "groups": 3
+    },
+    {
+      "split": "train",
+      "class_label": "anti_inflammatory_nsaid",
+      "documents": 348,
+      "groups": 9
+    },
+    {
+      "split": "train",
+      "class_label": "antibacterial",
+      "documents": 319,
+      "groups": 25
+    },
+    {
+      "split": "train",
+      "class_label": "antifungal",
+      "documents": 298,
+      "groups": 13
+    },
+    {
+      "split": "train",
+      "class_label": "antihypertensive",
+      "documents": 266,
+      "groups": 13
+    },
+    {
+      "split": "train",
+      "class_label": "corticosteroid",
+      "documents": 296,
+      "groups": 8
+    },
+    {
+      "split": "validation",
+      "class_label": "acid_reducer",
+      "documents": 57,
+      "groups": 2
+    },
+    {
+      "split": "validation",
+      "class_label": "anti_inflammatory_nsaid",
+      "documents": 58,
+      "groups": 3
+    },
+    {
+      "split": "validation",
+      "class_label": "antibacterial",
+      "documents": 68,
+      "groups": 5
+    },
+    {
+      "split": "validation",
+      "class_label": "antifungal",
+      "documents": 64,
+      "groups": 3
+    },
+    {
+      "split": "validation",
+      "class_label": "antihypertensive",
+      "documents": 57,
+      "groups": 3
+    },
+    {
+      "split": "validation",
+      "class_label": "corticosteroid",
+      "documents": 63,
+      "groups": 2
+    }
+  ],
+  "minimum_groups_per_class": {
+    "train": {
+      "antibacterial": 17,
+      "anti_inflammatory_nsaid": 7,
+      "corticosteroid": 6,
+      "antifungal": 9,
+      "acid_reducer": 3,
+      "antihypertensive": 9
+    },
+    "validation": {
+      "antibacterial": 2,
+      "anti_inflammatory_nsaid": 2,
+      "corticosteroid": 2,
+      "antifungal": 2,
+      "acid_reducer": 2,
+      "antihypertensive": 2
+    },
+    "test": {
+      "antibacterial": 2,
+      "anti_inflammatory_nsaid": 2,
+      "corticosteroid": 2,
+      "antifungal": 2,
+      "acid_reducer": 2,
+      "antihypertensive": 2
+    }
+  },
+  "split_solver": {
+    "method": "SciPy/HiGHS mixed-integer whole-group allocation",
+    "random_state": 42,
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "objective": 0.09638383091257248,
+    "mip_gap": 0.009600916548879665,
+    "time_limit_seconds": 20
+  },
+  "cv_solver": {
+    "method": "SciPy/HiGHS mixed-integer whole-group allocation",
+    "random_state": 43,
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "objective": 0.8615650679537779,
+    "mip_gap": 0.009811915410903533,
+    "time_limit_seconds": 20
+  }
+}

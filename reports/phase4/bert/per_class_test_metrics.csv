@@ -1,0 +1,7 @@
+model,class_label,precision,recall,f1,support,groups
+bert_mini,antibacterial,1.0,0.855072463768116,0.921875,69,5
+bert_mini,anti_inflammatory_nsaid,1.0,0.921875,0.959349593495935,64,2
+bert_mini,corticosteroid,0.8533333333333334,1.0,0.920863309352518,64,2
+bert_mini,antifungal,0.9324324324324325,1.0,0.965034965034965,69,2
+bert_mini,acid_reducer,1.0,1.0,1.0,19,2
+bert_mini,antihypertensive,1.0,0.9824561403508771,0.9911504424778761,57,3

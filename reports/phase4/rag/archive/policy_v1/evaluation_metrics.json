@@ -1,0 +1,20 @@
+{
+  "partition": "evaluation",
+  "cases": 20,
+  "source_documents": 3,
+  "answerable_cases": 11,
+  "missing_answer_cases": 9,
+  "answerability_accuracy": 1.0,
+  "answer_precision": 1.0,
+  "answer_recall": 1.0,
+  "answerability_f1": 1.0,
+  "correct_fallback_rate": 1.0,
+  "false_answers_to_missing_questions": 0,
+  "source_support_rate": 1.0,
+  "positive_reference_evidence_coverage": 0.9090909090909091,
+  "positive_exact_match": 0.9090909090909091,
+  "positive_token_f1": 0.9090909090909091,
+  "generation_verified_answers": 0,
+  "created_at_utc": "2026-10-28T16:21:21+00:00",
+  "config_sha256": "836f33773a8422834379a00d6dc18fed24f5e98dc5b5d99caa06e6b88e224096"
+}

@@ -1,0 +1,482 @@
+{
+  "created_at_utc": "2026-10-28T14:50:44+00:00",
+  "all_passed": true,
+  "checks": [
+    {
+      "name": "all_documents_accounted_for",
+      "passed": true,
+      "detail": "2,471 unique source records"
+    },
+    {
+      "name": "three_partitions",
+      "passed": true,
+      "detail": "Train, validation, and test are nonempty"
+    },
+    {
+      "name": "benchmark_groups_disjoint",
+      "passed": true,
+      "detail": "No benchmark group crosses a partition"
+    },
+    {
+      "name": "phase1_groups_preserved",
+      "passed": true,
+      "detail": "No approved Phase 1 ingredient component is fragmented"
+    },
+    {
+      "name": "all_classes_in_each_partition",
+      "passed": true,
+      "detail": "Every held-out partition contains all configured targets"
+    },
+    {
+      "name": "minimum_independent_class_groups",
+      "passed": true,
+      "detail": "Recorded per-class training/holdout constraints are satisfied"
+    },
+    {
+      "name": "source_and_rxnorm_ingredients_grouped",
+      "passed": true,
+      "detail": "Shared source names/UNIIs and unambiguous RxNorm IN relationships remain in one component"
+    },
+    {
+      "name": "audited_near_duplicates_grouped",
+      "passed": true,
+      "detail": "0 qualifying cross-ingredient text pairs"
+    },
+    {
+      "name": "training_fold_assignments",
+      "passed": true,
+      "detail": "One validation fold per training group"
+    },
+    {
+      "name": "holdout_rows_excluded_from_cv",
+      "passed": true,
+      "detail": "Validation/test rows are outside hyperparameter CV"
+    },
+    {
+      "name": "cv_fold_0_disjoint",
+      "passed": true,
+      "detail": "728 fit documents; 1034 validation documents"
+    },
+    {
+      "name": "cv_fold_0_all_classes",
+      "passed": true,
+      "detail": "All target classes in the fit and validation subset"
+    },
+    {
+      "name": "cv_fold_1_disjoint",
+      "passed": true,
+      "detail": "1362 fit documents; 400 validation documents"
+    },
+    {
+      "name": "cv_fold_1_all_classes",
+      "passed": true,
+      "detail": "All target classes in the fit and validation subset"
+    },
+    {
+      "name": "cv_fold_2_disjoint",
+      "passed": true,
+      "detail": "1434 fit documents; 328 validation documents"
+    },
+    {
+      "name": "cv_fold_2_all_classes",
+      "passed": true,
+      "detail": "All target classes in the fit and validation subset"
+    },
+    {
+      "name": "phase3_config_checksum",
+      "passed": true,
+      "detail": "Recorded neural settings match the configuration"
+    },
+    {
+      "name": "same_dataset_and_split_as_baselines",
+      "passed": true,
+      "detail": "Identical source documents and record-level evaluation assignments"
+    },
+    {
+      "name": "baseline_manifest_preserved",
+      "passed": true,
+      "detail": "Classical comparison is the recorded Phase 2 experiment"
+    },
+    {
+      "name": "tuning_vocabulary_training_only",
+      "passed": true,
+      "detail": "Recomputed word counts/indices using training text only"
+    },
+    {
+      "name": "refit_vocabulary_excludes_test",
+      "passed": true,
+      "detail": "Recomputed final vocabulary using train + validation only"
+    },
+    {
+      "name": "selection_validation_only",
+      "passed": true,
+      "detail": "Validation macro F1, lower validation loss, then fixed trial order"
+    },
+    {
+      "name": "selection_precedes_test",
+      "passed": true,
+      "detail": "Hyperparameters/epoch count persisted before test evaluation"
+    },
+    {
+      "name": "selection_has_no_test_metrics",
+      "passed": true,
+      "detail": "Tuning records contain only validation selection results"
+    },
+    {
+      "name": "all_planned_trials_completed",
+      "passed": true,
+      "detail": "8 fixed learning-rate/batch-size/dropout combinations"
+    },
+    {
+      "name": "trial_01_plan_parameters",
+      "passed": true,
+      "detail": "Candidate matches the pre-training grid"
+    },
+    {
+      "name": "trial_01_checkpoint_history_hashes",
+      "passed": true,
+      "detail": "Best checkpoint and full learning history are frozen"
+    },
+    {
+      "name": "trial_01_best_epoch",
+      "passed": true,
+      "detail": "Checkpoint corresponds to the best validation epoch"
+    },
+    {
+      "name": "trial_01_bounded_training",
+      "passed": true,
+      "detail": "Recorded epochs respect the configured limit"
+    },
+    {
+      "name": "trial_02_plan_parameters",
+      "passed": true,
+      "detail": "Candidate matches the pre-training grid"
+    },
+    {
+      "name": "trial_02_checkpoint_history_hashes",
+      "passed": true,
+      "detail": "Best checkpoint and full learning history are frozen"
+    },
+    {
+      "name": "trial_02_best_epoch",
+      "passed": true,
+      "detail": "Checkpoint corresponds to the best validation epoch"
+    },
+    {
+      "name": "trial_02_bounded_training",
+      "passed": true,
+      "detail": "Recorded epochs respect the configured limit"
+    },
+    {
+      "name": "trial_03_plan_parameters",
+      "passed": true,
+      "detail": "Candidate matches the pre-training grid"
+    },
+    {
+      "name": "trial_03_checkpoint_history_hashes",
+      "passed": true,
+      "detail": "Best checkpoint and full learning history are frozen"
+    },
+    {
+      "name": "trial_03_best_epoch",
+      "passed": true,
+      "detail": "Checkpoint corresponds to the best validation epoch"
+    },
+    {
+      "name": "trial_03_bounded_training",
+      "passed": true,
+      "detail": "Recorded epochs respect the configured limit"
+    },
+    {
+      "name": "trial_04_plan_parameters",
+      "passed": true,
+      "detail": "Candidate matches the pre-training grid"
+    },
+    {
+      "name": "trial_04_checkpoint_history_hashes",
+      "passed": true,
+      "detail": "Best checkpoint and full learning history are frozen"
+    },
+    {
+      "name": "trial_04_best_epoch",
+      "passed": true,
+      "detail": "Checkpoint corresponds to the best validation epoch"
+    },
+    {
+      "name": "trial_04_bounded_training",
+      "passed": true,
+      "detail": "Recorded epochs respect the configured limit"
+    },
+    {
+      "name": "trial_05_plan_parameters",
+      "passed": true,
+      "detail": "Candidate matches the pre-training grid"
+    },
+    {
+      "name": "trial_05_checkpoint_history_hashes",
+      "passed": true,
+      "detail": "Best checkpoint and full learning history are frozen"
+    },
+    {
+      "name": "trial_05_best_epoch",
+      "passed": true,
+      "detail": "Checkpoint corresponds to the best validation epoch"
+    },
+    {
+      "name": "trial_05_bounded_training",
+      "passed": true,
+      "detail": "Recorded epochs respect the configured limit"
+    },
+    {
+      "name": "trial_06_plan_parameters",
+      "passed": true,
+      "detail": "Candidate matches the pre-training grid"
+    },
+    {
+      "name": "trial_06_checkpoint_history_hashes",
+      "passed": true,
+      "detail": "Best checkpoint and full learning history are frozen"
+    },
+    {
+      "name": "trial_06_best_epoch",
+      "passed": true,
+      "detail": "Checkpoint corresponds to the best validation epoch"
+    },
+    {
+      "name": "trial_06_bounded_training",
+      "passed": true,
+      "detail": "Recorded epochs respect the configured limit"
+    },
+    {
+      "name": "trial_07_plan_parameters",
+      "passed": true,
+      "detail": "Candidate matches the pre-training grid"
+    },
+    {
+      "name": "trial_07_checkpoint_history_hashes",
+      "passed": true,
+      "detail": "Best checkpoint and full learning history are frozen"
+    },
+    {
+      "name": "trial_07_best_epoch",
+      "passed": true,
+      "detail": "Checkpoint corresponds to the best validation epoch"
+    },
+    {
+      "name": "trial_07_bounded_training",
+      "passed": true,
+      "detail": "Recorded epochs respect the configured limit"
+    },
+    {
+      "name": "trial_08_plan_parameters",
+      "passed": true,
+      "detail": "Candidate matches the pre-training grid"
+    },
+    {
+      "name": "trial_08_checkpoint_history_hashes",
+      "passed": true,
+      "detail": "Best checkpoint and full learning history are frozen"
+    },
+    {
+      "name": "trial_08_best_epoch",
+      "passed": true,
+      "detail": "Checkpoint corresponds to the best validation epoch"
+    },
+    {
+      "name": "trial_08_bounded_training",
+      "passed": true,
+      "detail": "Recorded epochs respect the configured limit"
+    },
+    {
+      "name": "fixed_selected_epoch_refit",
+      "passed": true,
+      "detail": "Final train/validation refit uses a preselected epoch count without holdout monitoring"
+    },
+    {
+      "name": "final_checkpoint_checksum",
+      "passed": true,
+      "detail": "Standalone neural state/vocabulary checkpoint matches the manifest"
+    },
+    {
+      "name": "final_checkpoint_provenance",
+      "passed": true,
+      "detail": "Same benchmark data; final fit excludes test labels/text"
+    },
+    {
+      "name": "checkpoint_vocabulary_matches_refit",
+      "passed": true,
+      "detail": "Saved token indices match the final vocabulary file"
+    },
+    {
+      "name": "classifier_and_embedding_dimensions",
+      "passed": true,
+      "detail": "Vocabulary rows and label indices match the model architecture"
+    },
+    {
+      "name": "finite_state_and_zero_padding_row",
+      "passed": true,
+      "detail": "Finite learned tensors with PAD embedding fixed at zero"
+    },
+    {
+      "name": "checkpoint_padding_invariance",
+      "passed": true,
+      "detail": "Adding all-padding chunks does not change inference logits"
+    },
+    {
+      "name": "encoding_coverage_records",
+      "passed": true,
+      "detail": "Text-coverage diagnostics account for every corpus document"
+    },
+    {
+      "name": "bounded_contiguous_encoding",
+      "passed": true,
+      "detail": "Sampled tokens fit the documented context budget; coverage/unknown ratios are valid"
+    },
+    {
+      "name": "validation_source_record_coverage",
+      "passed": true,
+      "detail": "Each source holdout record has the recorded target label"
+    },
+    {
+      "name": "validation_logit_prediction_consistency",
+      "passed": true,
+      "detail": "Saved finite logits reproduce the class predictions"
+    },
+    {
+      "name": "validation_metrics_recomputed",
+      "passed": true,
+      "detail": "All document and group-balanced metrics match saved predictions"
+    },
+    {
+      "name": "validation_weighted_loss_recomputed",
+      "passed": true,
+      "detail": "Class-weighted CE recomputed with fit-partition weights"
+    },
+    {
+      "name": "test_source_record_coverage",
+      "passed": true,
+      "detail": "Each source holdout record has the recorded target label"
+    },
+    {
+      "name": "test_logit_prediction_consistency",
+      "passed": true,
+      "detail": "Saved finite logits reproduce the class predictions"
+    },
+    {
+      "name": "test_metrics_recomputed",
+      "passed": true,
+      "detail": "All document and group-balanced metrics match saved predictions"
+    },
+    {
+      "name": "test_weighted_loss_recomputed",
+      "passed": true,
+      "detail": "Class-weighted CE recomputed with fit-partition weights"
+    },
+    {
+      "name": "test_confusion_matrix",
+      "passed": true,
+      "detail": "Counts/supports match test predictions"
+    },
+    {
+      "name": "classical_comparison_preserved",
+      "passed": true,
+      "detail": "All three classical scores are copied from the frozen Phase 2 run"
+    },
+    {
+      "name": "output_checksum_confusion_matrix.csv",
+      "passed": true,
+      "detail": "Recorded experiment CSV is unchanged"
+    },
+    {
+      "name": "output_checksum_model_comparison.csv",
+      "passed": true,
+      "detail": "Recorded experiment CSV is unchanged"
+    },
+    {
+      "name": "output_checksum_per_class_test_metrics.csv",
+      "passed": true,
+      "detail": "Recorded experiment CSV is unchanged"
+    },
+    {
+      "name": "output_checksum_predictions_test.csv",
+      "passed": true,
+      "detail": "Recorded experiment CSV is unchanged"
+    },
+    {
+      "name": "output_checksum_predictions_validation.csv",
+      "passed": true,
+      "detail": "Recorded experiment CSV is unchanged"
+    },
+    {
+      "name": "output_checksum_refit_history.csv",
+      "passed": true,
+      "detail": "Recorded experiment CSV is unchanged"
+    },
+    {
+      "name": "output_checksum_test_errors.csv",
+      "passed": true,
+      "detail": "Recorded experiment CSV is unchanged"
+    },
+    {
+      "name": "output_checksum_token_coverage.csv",
+      "passed": true,
+      "detail": "Recorded experiment CSV is unchanged"
+    },
+    {
+      "name": "output_checksum_training_embedding_projection.csv",
+      "passed": true,
+      "detail": "Recorded experiment CSV is unchanged"
+    },
+    {
+      "name": "output_checksum_trial_01_history.csv",
+      "passed": true,
+      "detail": "Recorded experiment CSV is unchanged"
+    },
+    {
+      "name": "output_checksum_trial_02_history.csv",
+      "passed": true,
+      "detail": "Recorded experiment CSV is unchanged"
+    },
+    {
+      "name": "output_checksum_trial_03_history.csv",
+      "passed": true,
+      "detail": "Recorded experiment CSV is unchanged"
+    },
+    {
+      "name": "output_checksum_trial_04_history.csv",
+      "passed": true,
+      "detail": "Recorded experiment CSV is unchanged"
+    },
+    {
+      "name": "output_checksum_trial_05_history.csv",
+      "passed": true,
+      "detail": "Recorded experiment CSV is unchanged"
+    },
+    {
+      "name": "output_checksum_trial_06_history.csv",
+      "passed": true,
+      "detail": "Recorded experiment CSV is unchanged"
+    },
+    {
+      "name": "output_checksum_trial_07_history.csv",
+      "passed": true,
+      "detail": "Recorded experiment CSV is unchanged"
+    },
+    {
+      "name": "output_checksum_trial_08_history.csv",
+      "passed": true,
+      "detail": "Recorded experiment CSV is unchanged"
+    },
+    {
+      "name": "output_checksum_trial_comparison.csv",
+      "passed": true,
+      "detail": "Recorded experiment CSV is unchanged"
+    },
+    {
+      "name": "output_checksum_tuning_token_coverage.csv",
+      "passed": true,
+      "detail": "Recorded experiment CSV is unchanged"
+    }
+  ],
+  "selected_trial": "trial_08"
+}

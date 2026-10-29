@@ -1,0 +1,41 @@
+{
+  "config_sha256": "836f33773a8422834379a00d6dc18fed24f5e98dc5b5d99caa06e6b88e224096",
+  "qa_cases_sha256": "8e4f3640fa89feb6cb7a2d1b0f2526c42a026ac829ee2a4e6a727efcfd0d7f35",
+  "settings": {
+    "chunk_tokens": 180,
+    "overlap_tokens": 40,
+    "top_k": 4,
+    "embedding_batch_size": 16,
+    "qa_max_length": 384,
+    "maximum_answer_tokens": 48,
+    "minimum_retrieval_score": 0.2,
+    "minimum_span_score": 0.03,
+    "minimum_answer_margin": 2.0,
+    "minimum_question_coverage": 0.6,
+    "generator_max_input_tokens": 512,
+    "generator_max_new_tokens": 64
+  },
+  "models": {
+    "bert": {
+      "repo": "google/bert_uncased_L-4_H-256_A-4",
+      "revision": "387825ce42dbb39b87911cdf8e383ee3b25184f8",
+      "license": "apache-2.0"
+    },
+    "embedding": {
+      "repo": "sentence-transformers/all-MiniLM-L6-v2",
+      "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+      "license": "apache-2.0"
+    },
+    "qa": {
+      "repo": "deepset/minilm-uncased-squad2",
+      "revision": "934656cdda79824eabf503ed56e15c01ddbdbe3f",
+      "license": "cc-by-4.0"
+    },
+    "generation": {
+      "repo": "google/flan-t5-small",
+      "revision": "0fc9ddf78a1e988dac52e2dac162b0ede4fd74ab",
+      "license": "apache-2.0"
+    }
+  },
+  "partition": "evaluation"
+}

@@ -1,0 +1,26 @@
+{
+  "provenance": {
+    "dataset_sha256": "3eadaed552f771aae883df674eed9efc38f0cebf86c355041e3bda350e85f23c",
+    "split_sha256": "9b41f3cf3e5539efa8905b0db37f45ff0abd03b62bd1adf65d05e54630fb389c",
+    "config_sha256": "836f33773a8422834379a00d6dc18fed24f5e98dc5b5d99caa06e6b88e224096",
+    "pretrained": {
+      "repo": "google/bert_uncased_L-4_H-256_A-4",
+      "revision": "387825ce42dbb39b87911cdf8e383ee3b25184f8",
+      "license": "apache-2.0"
+    }
+  },
+  "trials": [
+    {
+      "trial_id": "bert_01",
+      "learning_rate": 5e-05,
+      "batch_size": 8,
+      "dropout": 0.1
+    },
+    {
+      "trial_id": "bert_02",
+      "learning_rate": 0.0001,
+      "batch_size": 8,
+      "dropout": 0.1
+    }
+  ]
+}

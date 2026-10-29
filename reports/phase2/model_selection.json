@@ -1,0 +1,63 @@
+{
+  "selected_at_utc": "2026-10-28T12:34:34+00:00",
+  "selected_model": "random_forest",
+  "selection_metric": "validation macro F1",
+  "tie_break": "training CV macro F1, then Logistic Regression / Linear SVM / Random Forest order",
+  "test_used_for_selection": false,
+  "validation_results": [
+    {
+      "model": "logistic_regression",
+      "display_name": "Logistic Regression",
+      "selection_partition": "validation",
+      "best_parameters": "{\"classifier__C\": 8.0}",
+      "search_seconds": 42.718906099995365,
+      "cv_macro_f1_mean": 0.64924089936587,
+      "cv_macro_f1_std": 0.07034713011209393,
+      "validation_accuracy": 0.8555858310626703,
+      "validation_macro_precision": 0.9269972451790633,
+      "validation_macro_recall": 0.8619791666666666,
+      "validation_macro_f1": 0.8354850088183422,
+      "validation_group_balanced_accuracy": 0.9444444444444444,
+      "validation_group_balanced_macro_precision": 0.972222222222222,
+      "validation_group_balanced_macro_recall": 0.9444444444444443,
+      "validation_group_balanced_macro_f1": 0.9515151515151513,
+      "validation_weighted_f1": 0.8248080388679844
+    },
+    {
+      "model": "linear_svm",
+      "display_name": "Linear SVM",
+      "selection_partition": "validation",
+      "best_parameters": "{\"classifier__C\": 4.0}",
+      "search_seconds": 30.599417299992638,
+      "cv_macro_f1_mean": 0.7472368232015608,
+      "cv_macro_f1_std": 0.15465155550771284,
+      "validation_accuracy": 0.8692098092643051,
+      "validation_macro_precision": 0.9310344827586207,
+      "validation_macro_recall": 0.875,
+      "validation_macro_f1": 0.8565217391304346,
+      "validation_group_balanced_accuracy": 0.949685534591195,
+      "validation_group_balanced_macro_precision": 0.9744408945686898,
+      "validation_group_balanced_macro_recall": 0.949685534591195,
+      "validation_group_balanced_macro_f1": 0.9565295399205432,
+      "validation_weighted_f1": 0.8470323421395569
+    },
+    {
+      "model": "random_forest",
+      "display_name": "Random Forest",
+      "selection_partition": "validation",
+      "best_parameters": "{\"classifier__max_depth\": 40, \"classifier__min_samples_leaf\": 2}",
+      "search_seconds": 38.59601890001795,
+      "cv_macro_f1_mean": 0.7436140104462159,
+      "cv_macro_f1_std": 0.13439633272472543,
+      "validation_accuracy": 0.8746594005449592,
+      "validation_macro_precision": 0.9193722943722943,
+      "validation_macro_recall": 0.8795687134502924,
+      "validation_macro_f1": 0.8671357819613633,
+      "validation_group_balanced_accuracy": 0.9261006289308177,
+      "validation_group_balanced_macro_precision": 0.9450543376750105,
+      "validation_group_balanced_macro_recall": 0.9261006289308176,
+      "validation_group_balanced_macro_f1": 0.9329711453001903,
+      "validation_weighted_f1": 0.8586576634751655
+    }
+  ]
+}

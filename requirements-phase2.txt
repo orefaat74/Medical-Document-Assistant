@@ -1,0 +1,7 @@
+# Initial Phase 2 environment; compatible with the Phase 1 constraints.
+-c requirements-phase1.txt
+scikit-learn==1.7.2
+scipy==1.15.3
+joblib==1.6.0
+threadpoolctl==3.7.0
+cloudpickle==3.1.2

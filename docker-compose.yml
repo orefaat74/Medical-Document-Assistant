@@ -1,0 +1,15 @@
+services:
+  medical-assistant:
+    build: .
+    image: medical-doc-assistant:capstone
+    ports:
+      - "7860:7860"
+      - "127.0.0.1:8001:8000"
+    environment:
+      MEDICAL_STORAGE_ROOT: /app/.runtime
+    volumes:
+      - medical-runtime:/app/.runtime
+    restart: unless-stopped
+
+volumes:
+  medical-runtime:
