@@ -41,8 +41,14 @@ image, persistent Hugging Face deployment script, and source package.
 .\.venv\Scripts\python.exe scripts/run_app.py
 
 # Container launch:
+git lfs install
+git lfs pull
+python scripts/verify_runtime_artifacts.py
 docker compose up --build -d
 ```
+
+Fresh clones need the trained Git LFS objects before Docker can build. If Docker
+reports a missing `models/...` path, follow [`docs/model_artifacts.md`](docs/model_artifacts.md).
 
 ### Capstone deliverables
 

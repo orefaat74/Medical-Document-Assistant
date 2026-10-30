@@ -16,6 +16,9 @@ data/processed/*.parquet
 data/processed/*.csv.gz
 models/**/*.joblib
 models/**/*.pt
+!models/phase2/*.joblib
+!models/phase3/text_cnn.pt
+!models/phase4/bert/model.pt
 models/phase4/pretrained/
 data/indexes/
 .runtime/

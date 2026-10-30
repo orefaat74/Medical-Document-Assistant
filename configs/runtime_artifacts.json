@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "distribution": "Git LFS",
+  "artifacts": [
+    {
+      "path": "models/phase2/benchmark.joblib",
+      "bytes": 1326304,
+      "sha256": "c45bca84ded91cdd228e55373dee9f2c0fa0702ea0efb01eab5b679e3104bf8b"
+    },
+    {
+      "path": "models/phase2/logistic_regression.joblib",
+      "bytes": 1644708,
+      "sha256": "6f1cc54a95348a1acba27a158d7c64df2d6a987fccd150922b7b3fde844710cb"
+    },
+    {
+      "path": "models/phase2/linear_svm.joblib",
+      "bytes": 1646571,
+      "sha256": "96d932c32d2d61adbac57880b1d7c2ccc0479720b8db559eab031741a07cd956"
+    },
+    {
+      "path": "models/phase2/random_forest.joblib",
+      "bytes": 1326304,
+      "sha256": "c45bca84ded91cdd228e55373dee9f2c0fa0702ea0efb01eab5b679e3104bf8b"
+    },
+    {
+      "path": "models/phase3/text_cnn.pt",
+      "bytes": 5646661,
+      "sha256": "83408843eeb3e326066da9f7c44c854670647a58717f20ba705a72609e94b53f"
+    },
+    {
+      "path": "models/phase4/bert/model.pt",
+      "bytes": 44458971,
+      "sha256": "de10aac672aa4a824b9e660d2be8a2fd22c134ea8cb95c9eb1a070fd45f368d3"
+    }
+  ]
+}

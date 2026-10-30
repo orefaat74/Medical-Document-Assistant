@@ -15,12 +15,13 @@ COPY src ./src
 COPY configs ./configs
 COPY scripts ./scripts
 COPY streamlit_app.py ./streamlit_app.py
-COPY models/phase2 ./models/phase2
-COPY models/phase3/text_cnn.pt ./models/phase3/text_cnn.pt
-COPY models/phase4/bert/model.pt ./models/phase4/bert/model.pt
-COPY models/phase4/bert/tokenizer ./models/phase4/bert/tokenizer
+COPY models ./models
 COPY reports/phase4/bert/model_comparison.csv ./reports/phase4/bert/model_comparison.csv
 COPY data/examples ./data/examples
+
+# COPY the models root first so a clone without LFS objects reaches this readable
+# preflight error instead of failing at an opaque individual COPY instruction.
+RUN python scripts/verify_runtime_artifacts.py
 
 RUN python -m pip install --upgrade pip \
     && python -m pip install torch==2.8.0+cpu --index-url https://download.pytorch.org/whl/cpu --extra-index-url https://pypi.org/simple \
